@@ -3,7 +3,7 @@ Rhenium [XRH]
 
 [![Build Status](https://travis-ci.org/Rhenium-Project/Rhenium.svg?branch=master)](https://travis-ci.org/Rhenium-Project/Rhenium) [![GitHub version](https://badge.fury.io/gh/Rhenium-Project%2FRhenium.svg)](https://badge.fury.io/gh/Rhenium-Project%2FRhenium)
 
-The rhenium network is an open source, primarily proof of stake (POS) cryptocurrency with a focus on decentralization, privacy, speed, sustainability and the community.
+The rhenium network is an open source, primarily proof of stake (POS) cryptocurrency with a focus on decentralization, privacy, speed, sustainability, masternodes and the community.
 
 More information at [Rhenium.org](http://www.Rhenium.org)
 
