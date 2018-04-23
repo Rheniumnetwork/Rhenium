@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Rhenium_bg.qm</file>
+        <file alias="ca">locale/Rhenium_ca.qm</file>
+        <file alias="cs">locale/Rhenium_cs.qm</file>
+        <file alias="da">locale/Rhenium_da.qm</file>
+        <file alias="de">locale/Rhenium_de.qm</file>
+        <file alias="en">locale/Rhenium_en.qm</file>
+        <file alias="en_US">locale/Rhenium_en_US.qm</file>
+        <file alias="es">locale/Rhenium_es.qm</file>
+        <file alias="fi">locale/Rhenium_fi.qm</file>
+        <file alias="fr_FR">locale/Rhenium_fr_FR.qm</file>
+        <file alias="it">locale/Rhenium_it.qm</file>
+        <file alias="ja">locale/Rhenium_ja.qm</file>
+        <file alias="ko_KR">locale/Rhenium_ko_KR.qm</file>
+        <file alias="nl">locale/Rhenium_nl.qm</file>
+        <file alias="pl">locale/Rhenium_pl.qm</file>
+        <file alias="pt">locale/Rhenium_pt.qm</file>
+        <file alias="pt_BR">locale/Rhenium_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Rhenium_ro_RO.qm</file>
+        <file alias="ru">locale/Rhenium_ru.qm</file>
+        <file alias="sk">locale/Rhenium_sk.qm</file>
+        <file alias="sv">locale/Rhenium_sv.qm</file>
+        <file alias="uk">locale/Rhenium_uk.qm</file>
+        <file alias="zh_CN">locale/Rhenium_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Rhenium_zh_TW.qm</file>
+    </qresource>
+</RCC>
