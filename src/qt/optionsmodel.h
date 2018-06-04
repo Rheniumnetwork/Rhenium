@@ -43,8 +43,12 @@ public:
         ThreadsScriptVerif,  // int
         DatabaseCache,       // int
         SpendZeroConfChange, // bool
+<<<<<<< HEAD
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
+=======
+        CoinMixingRounds,   // int
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         AnonymizeRheniumAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
@@ -90,8 +94,12 @@ private:
 
 signals:
     void displayUnitChanged(int unit);
+<<<<<<< HEAD
     void zeromintPercentageChanged(int);
     void preferredDenomChanged(int);
+=======
+    void coinmixingRoundsChanged(int);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void anonymizeRheniumAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };

@@ -1,6 +1,9 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +15,10 @@
 #include "tinyformat.h"
 #include "uint256.h"
 #include "util.h"
+<<<<<<< HEAD
 #include "libzerocoin/Denominations.h"
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <vector>
 
@@ -173,6 +179,7 @@ public:
     unsigned int nTime;
     unsigned int nBits;
     unsigned int nNonce;
+<<<<<<< HEAD
     uint256 nAccumulatorCheckpoint;
 
     //! (memory only) Sequential id assigned to distinguish order in which blocks are received.
@@ -182,6 +189,12 @@ public:
     std::map<libzerocoin::CoinDenomination, int64_t> mapZerocoinSupply;
     std::vector<libzerocoin::CoinDenomination> vMintDenominationsInBlock;
     
+=======
+
+    //! (memory only) Sequential id assigned to distinguish order in which blocks are received.
+    uint32_t nSequenceId;
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void SetNull()
     {
         phashBlock = NULL;
@@ -210,12 +223,15 @@ public:
         nTime = 0;
         nBits = 0;
         nNonce = 0;
+<<<<<<< HEAD
         nAccumulatorCheckpoint = 0;
         // Start supply of each denomination with 0s
         for (auto& denom : libzerocoin::zerocoinDenomList) {
             mapZerocoinSupply.insert(make_pair(denom, 0));
         }
         vMintDenominationsInBlock.clear();
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     CBlockIndex()
@@ -232,8 +248,11 @@ public:
         nTime = block.nTime;
         nBits = block.nBits;
         nNonce = block.nNonce;
+<<<<<<< HEAD
         if(block.nVersion > 3)
             nAccumulatorCheckpoint = block.nAccumulatorCheckpoint;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
         //Proof of Stake
         bnChainTrust = uint256();
@@ -253,7 +272,10 @@ public:
             nStakeTime = 0;
         }
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     CDiskBlockPos GetBlockPos() const
     {
@@ -285,6 +307,7 @@ public:
         block.nTime = nTime;
         block.nBits = nBits;
         block.nNonce = nNonce;
+<<<<<<< HEAD
         block.nAccumulatorCheckpoint = nAccumulatorCheckpoint;
         return block;
     }
@@ -303,6 +326,11 @@ public:
         return std::find(vMintDenominationsInBlock.begin(), vMintDenominationsInBlock.end(), denom) != vMintDenominationsInBlock.end();
     }
 
+=======
+        return block;
+    }
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     uint256 GetBlockHash() const
     {
         return *phashBlock;
@@ -477,12 +505,15 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
+<<<<<<< HEAD
         if(this->nVersion > 3) {
             READWRITE(nAccumulatorCheckpoint);
             READWRITE(mapZerocoinSupply);
             READWRITE(vMintDenominationsInBlock);
         }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     uint256 GetBlockHash() const
@@ -494,7 +525,10 @@ public:
         block.nTime = nTime;
         block.nBits = nBits;
         block.nNonce = nNonce;
+<<<<<<< HEAD
         block.nAccumulatorCheckpoint = nAccumulatorCheckpoint;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         return block.GetHash();
     }
 

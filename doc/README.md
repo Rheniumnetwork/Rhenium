@@ -3,7 +3,11 @@ Rhenium Core
 
 Setup
 ---------------------
+<<<<<<< HEAD
 [Rhenium Core](http://Rheniumcoin.com) is the original Rhenium client and it builds the backbone of the network. However, it downloads and stores the entire history of Rhenium transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+=======
+[Rhenium Core](http://Rhenium.org/wallet) is the original Rhenium client and it builds the backbone of the network. However, it downloads and stores the entire history of Rhenium transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Running
 ---------------------
@@ -28,8 +32,13 @@ Drag Rhenium-Qt to your applications folder, and then run Rhenium-Qt.
 
 * See the documentation at the [Rhenium Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
+<<<<<<< HEAD
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [Rhenium Forum](http://Rheniumcoin.com/).
 * Join one of our Discord groups [Rhenium Discord Groups](https://discord.gg/YcnvMqt).
+=======
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Rhenium Forum](http://forum.Rhenium.org/).
+* Join one of our Slack groups [Rhenium Slack Groups](https://Rhenium.org/slack-logins/).
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Building
 ---------------------
@@ -41,7 +50,11 @@ The following are developer notes on how to build Rhenium on your native platfor
 
 Development
 ---------------------
+<<<<<<< HEAD
 The Rhenium repo's [root README](https://github.com/eastcoastcrypto/Rhenium/blob/master/README.md) contains relevant information on the development process and automated testing.
+=======
+The Rhenium repo's [root README](https://github.com/Rhenium-Project/Rhenium/blob/master/README.md) contains relevant information on the development process and automated testing.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +68,13 @@ The Rhenium repo's [root README](https://github.com/eastcoastcrypto/Rhenium/blob
 
 ### Resources
 
+<<<<<<< HEAD
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) .
 * Join the [Rhenium-Dev] Discord groups [Rhenium Discord Groups](https://discord.gg/YcnvMqt).
+=======
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Rhenium](http://forum.Rhenium.org/) forum.
+* Join the [Rhenium-Dev](https://Rhenium-dev.slack.com/) Slack group ([Sign-Up](https://Rhenium-dev.herokuapp.com/)).
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

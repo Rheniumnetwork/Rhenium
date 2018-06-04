@@ -490,7 +490,11 @@
         <translation>&amp;Informação</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
+=======
+        <source>Show diagnostic information</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Mostrar informação de diagnóstico</translation>
     </message>
     <message>
@@ -813,6 +817,13 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (OBF compatível: %2 / Ativado: %3)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Network Alert</source>
         <translation>Alerta de rede</translation>
     </message>
@@ -952,6 +963,13 @@ MultiSend: %1</translation>
         <translation>Favor alterar para o "Modo de lista" para usar esta função.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
+        <translation>Input não-anonimizado selecionado. &lt;b&gt;Ofuscação será desabilitada.&lt;/b&gt;&lt;br&gt;&lt;br&gt; Se você ainda quiser usar a Ofuscação, favor desmarcar todos os inputs não anônimos primeiro e então marque a opção de Ofuscação novamente.</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>mais alto</translation>
     </message>
@@ -972,6 +990,13 @@ MultiSend: %1</translation>
         <translation>pode variar entre +/-%1 duff(s) por input</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>médio</translation>
     </message>
@@ -1013,7 +1038,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
+<<<<<<< HEAD
         <translation>Isto significa que uma taxa de pelo meRhenium %1 por kB é obrigatória.</translation>
+=======
+        <translation>Isto significa que uma taxa de pelo menos %1 por kB é obrigatória.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -1088,7 +1117,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
+<<<<<<< HEAD
         <translation>O endereço informado "%1" já está Rhenium seus contatos.</translation>
+=======
+        <translation>O endereço informado "%1" já está nos seus contatos.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1181,7 +1214,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Rhenium Core will download and store a copy of the Rhenium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+<<<<<<< HEAD
         <translation>Rhenium Core vai baixar e armazenar uma cópia da blockchain Rhenium. Pelo meRhenium %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+=======
+        <translation>Rhenium Core vai baixar e armazenar uma cópia da blockchain Rhenium. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1426,9 +1463,15 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
+=======
+    <name>CoinMixingConfig</name>
+    <message>
+        <source>Configure CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Configurar Ofuscação</translation>
     </message>
     <message>
@@ -1476,6 +1519,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>0.1 XRH por 10000 XRH que deixar anônima.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
@@ -1489,6 +1533,21 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+=======
+        <source>CoinMixing Configuration</source>
+        <translation>Configuração de ofuscação</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Rhenium's.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Rhenium's.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Rhenium's.</translation>
     </message>
 </context>
@@ -1570,6 +1629,21 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Iniciar Rhenium ao logar no sistema</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Esta configuração determina a quantidade de masternodes individuais em que um input será feito anônimo. &lt;br/&gt;Mais rodadas de anonimidade darão um grau maior de privacidade, mas também custarão mais em taxas. </translation>
+    </message>
+    <message>
+        <source>CoinMixing rounds to use</source>
+        <translation>Rodadas de ofuscação para usar</translation>
+    </message>
+    <message>
+        <source>Amount of Rhenium to keep anonymized</source>
+        <translation>Quantidade de Rhenium a manter anônima</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable coin &amp;control features</source>
         <translation>Habilitar &amp;funcções de controle de moeda</translation>
     </message>
@@ -1727,6 +1801,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Imaturo:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Fundos</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Rhenium após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
@@ -1755,6 +1836,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Disponível:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions</source>
         <translation>Transações recentes</translation>
     </message>
@@ -1822,12 +1904,69 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     <message>
         <source>0</source>
         <translation>0</translation>
+=======
+        <source>Status:</source>
+        <translation>Situação:</translation>
+    </message>
+    <message>
+        <source>CoinMixing Balance:</source>
+        <translation>Saldo ofuscado:</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 XRH / 0 Rodadas</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Ativado/Desativado</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a CoinMixing request.</source>
+        <translation>Tente encaminhar uma requisição manualmente de Ofuscação.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Reinicia o presente estado de ofuscação (pode interromper a Ofuscação se estiver em processo de Embaralhamento, o que pode lhe custar dinheiro!)</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Ofuscação</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Conclusão:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Quantia e Rodadas:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Transações recentes</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Iniciar/Parar embaralhamento</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Última mensagem)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Tente embaralhar</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Reset</source>
         <translation>Reinicia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation>Quantidade:</translation>
     </message>
@@ -1917,6 +2056,125 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
+=======
+        <source>out of sync</source>
+        <translation>fora de sincronia</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Desativado</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Nenhum input detectado</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Progresso geral</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Denominado</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonimizado</translation>
+    </message>
+    <message>
+        <source>Last CoinMixing message:
+</source>
+        <translation>Última mensagem de ofuscação:
+</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully reset.</source>
+        <translation>Ofuscação foi reiniciada com sucesso.</translation>
+    </message>
+    <message>
+        <source>CoinMixing requires at least %1 to use.</source>
+        <translation>Ofuscação requer pelo menos %1 para usar.</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
+        <translation>A carteira está travada e o usuário recusou o destravamento. Desabilitando a Ofuscação.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Foram encontrados inputos suficientes para anonimizar %1</translation>
+    </message>
+    <message>
+        <source>Start CoinMixing</source>
+        <translation>Iniciar ofuscação</translation>
+    </message>
+    <message>
+        <source>Stop CoinMixing</source>
+        <translation>Parar ofuscação</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Embaralhado</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Ativado</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>Payment request error</source>
+        <translation>Erro na requisição de pagamento</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Pagamento solicitado pela URL é inválido: %1</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Carteira de pagamento inválida %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Requisição de pagamento rejeitada</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Requisição de pagamento expirou.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>A requisição de pagamento não está iniciada.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Reembolso de %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Erro ao comunicar com %1: %2</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Erro na requisição de rede</translation>
+    </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Version</source>
+        <translation>Versão</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Tempo de resposta</translation>
+    </message>
+</context>
+<context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2229,7 +2487,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>&amp;Label:</source>
+<<<<<<< HEAD
         <translation>&amp;Rótulo:</translation>
+=======
+        <translation>Rótu&amp;lo:</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Amount:</source>
@@ -2373,6 +2635,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Funções do Controle de Moedas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>automatically selected</source>
+        <translation>selecionado automaticamente</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>Fundos insuficientes!</translation>
     </message>
@@ -2445,12 +2714,23 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Minimizar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>CoinMixing</source>
+        <translation>Ofuscação</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>por kilobyte</translation>
     </message>
     <message>
         <source>total at least</source>
+<<<<<<< HEAD
         <translation>total pelo meRhenium</translation>
+=======
+        <translation>total pelo menos</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Custom:</source>
@@ -2466,11 +2746,19 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>If the custom fee is set to 1000 uXRHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXRHs in fee,&lt;br /&gt;while "at least" pays 1000 uXRHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+<<<<<<< HEAD
         <translation>Se a taxa padrão estiver definida para 1000 uXRHs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uXRHs em taxa,&lt;br /&gt; pagará pelo meRhenium 1000 uXRHs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Rhenium transactions than the network can process.</source>
         <translation>Pagar a taxa mínima é aceitável desde que existe meRhenium volume de transações que espaço Rhenium blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Rhenium do que a rede pode processar.</translation>
+=======
+        <translation>Se a taxa padrão estiver definida para 1000 uXRHs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uXRHs em taxa,&lt;br /&gt; pagará pelo menos 1000 uXRHs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Rhenium transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Rhenium do que a rede pode processar.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>normal</source>
@@ -3121,7 +3409,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Recebido de</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received via Obfuscation</source>
+=======
+        <source>Received via CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Recebido com Ofuscação</translation>
     </message>
     <message>
@@ -3401,6 +3693,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -3408,16 +3701,29 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
         <translation>Desabilitar todas as funcionalidades específicas Rhenium (Masternodes, Ofuscação, RhenFAST, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
+=======
+        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas Rhenium (Masternodes, Ofuscação, RhenFAST, Budgeting) (0-1, padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated coinmixing for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Permitir o uso de ofuscação automática para fundos armazenados nesta carteira (0-1, padrão: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Erro: Argumento não suportado -socks encontrado. Definir a versão SOCKS não é mais possível, somente proxies SOCKS5 são suportados.</translation>
     </message>
@@ -3455,7 +3761,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>RhenFAST requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+<<<<<<< HEAD
         <translation>RhenFAST requer inputs com pelo meRhenium 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
+=======
+        <translation>RhenFAST requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 XRH.</source>
@@ -3638,7 +3948,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>erro: Carteira travada, não foi possível criar a transação!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: You already have pending entries in the Obfuscation pool</source>
+=======
+        <source>Error: You already have pending entries in the CoinMixing pool</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Erro: Você já possui entradas pendentes na pool de Ofuscação</translation>
     </message>
     <message>
@@ -3702,6 +4016,17 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Fundos insuficientes.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Inválido -onion endereço: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inválido -proxy endereço: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
         <translation>Quantia inválida para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -3715,7 +4040,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+<<<<<<< HEAD
         <translation>Quantia inválida para -paytxfee=&lt;amount&gt;: '%s' (deve ser pelo meRhenium %s)</translation>
+=======
+        <translation>Quantia inválida para -paytxfee=&lt;amount&gt;: '%s' (deve ser pelo menos %s)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
@@ -3746,11 +4075,23 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last Obfuscation was too recent.</source>
         <translation>Última ofuscação foi muito recente.</translation>
     </message>
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
+=======
+        <source>Keep N XRH anonymized (default: %u)</source>
+        <translation>Manter N XRH anônimo (padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Last CoinMixing was too recent.</source>
+        <translation>Última ofuscação foi muito recente.</translation>
+    </message>
+    <message>
+        <source>Last successful CoinMixing action was too recent.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Última ação de ofuscação com sucesso foi muito recente.</translation>
     </message>
     <message>
@@ -3791,7 +4132,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+<<<<<<< HEAD
         <translation>Manter pelo meRhenium &lt;n&gt; conexões aos pares (padrão: %u)</translation>
+=======
+        <translation>Manter pelo menos &lt;n&gt; conexões aos pares (padrão: %u)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Masternode options:</source>
@@ -3842,6 +4187,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Número de backups automáticos da carteira (padrão: 10)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation is idle.</source>
         <translation>Ofuscação está ociosa.</translation>
     </message>
@@ -3851,6 +4197,21 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
+=======
+        <source>CoinMixing is idle.</source>
+        <translation>Ofuscação está ociosa.</translation>
+    </message>
+    <message>
+        <source>CoinMixing options:</source>
+        <translation>Opções de ofuscação:</translation>
+    </message>
+    <message>
+        <source>CoinMixing request complete:</source>
+        <translation>Requisição de ofuscação completa:</translation>
+    </message>
+    <message>
+        <source>CoinMixing request incomplete:</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Requisição de ofuscação incompleta:</translation>
     </message>
     <message>
@@ -4062,7 +4423,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
+=======
+        <source>Value more than CoinMixing pool maximum allows.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
     </message>
     <message>

@@ -5,10 +5,14 @@
 #ifndef BITCOIN_QT_PAYMENTREQUESTPLUS_H
 #define BITCOIN_QT_PAYMENTREQUESTPLUS_H
 
+<<<<<<< HEAD
 #pragma GCC diagRheniumtic push
 #pragma GCC diagRheniumtic ignored "-Wdeprecated-declarations"
 #include "paymentrequest.pb.h"
 #pragma GCC diagRheniumtic pop
+=======
+#include "paymentrequest.pb.h"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include "base58.h"
 

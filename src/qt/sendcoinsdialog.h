@@ -53,9 +53,13 @@ public slots:
     void accept();
     SendCoinsEntry* addEntry();
     void updateTabsAndLabels();
+<<<<<<< HEAD
     void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
                     const CAmount& zerocoinBalance, const CAmount& unconfirmedZerocoinBalance, const CAmount& immatureZerocoinBalance,
                     const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
+=======
+    void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance, const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 private:
     Ui::SendCoinsDialog* ui;

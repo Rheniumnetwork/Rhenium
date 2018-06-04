@@ -1,6 +1,10 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -570,6 +574,7 @@ int main(int argc, char* argv[])
     initTranslations(qtTranslatorBase, qtTranslator, translatorBase, translator);
     uiInterface.Translate.connect(Translate);
 
+<<<<<<< HEAD
 #ifdef Q_OS_MAC
 #if __clang_major__ < 4
     QString s = QSysInfo::kernelVersion();
@@ -582,6 +587,8 @@ int main(int argc, char* argv[])
 #endif
 #endif
     
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     // Show help message immediately after parsing command-line options (for "-lang") and setting locale,
     // but before showing splash screen.
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
@@ -607,7 +614,11 @@ int main(int argc, char* argv[])
     } catch (std::exception& e) {
         QMessageBox::critical(0, QObject::tr("Rhenium Core"),
             QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
+<<<<<<< HEAD
         return 0;
+=======
+        return false;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     /// 7. Determine network (and switch to network specific options)
@@ -639,7 +650,11 @@ int main(int argc, char* argv[])
     if (!masternodeConfig.read(strErr)) {
         QMessageBox::critical(0, QObject::tr("Rhenium Core"),
             QObject::tr("Error reading masternode configuration file: %1").arg(strErr.c_str()));
+<<<<<<< HEAD
         return 0;
+=======
+        return false;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     /// 8. URI IPC sending

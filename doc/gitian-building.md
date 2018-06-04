@@ -281,7 +281,11 @@ Clone the git repositories for Rhenium and gitian and then checkout the Rhenium 
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
+<<<<<<< HEAD
 git clone https://github.com/eastcoastcrypto/Rhenium.git
+=======
+git clone https://github.com/Rhenium-crypto/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 cd Rhenium
 git checkout v${VERSION}
 cd ..
@@ -350,7 +354,11 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
+<<<<<<< HEAD
     From https://github.com/eastcoastcrypto/Rhenium
+=======
+    From https://github.com/Rhenium-crypto/Rhenium
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -377,7 +385,11 @@ and inputs.
 
 For example:
 ```bash
+<<<<<<< HEAD
 URL=https://github.com/eastcoastcrypto/Rhenium.git
+=======
+URL=https://github.com/crowning-/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
 ./bin/gbuild --commit Rhenium=${COMMIT} --url Rhenium=${URL} ../Rhenium/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit Rhenium=${COMMIT} --url Rhenium=${URL} ../Rhenium/contrib/gitian-descriptors/gitian-win.yml
@@ -408,6 +420,10 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
+<<<<<<< HEAD
 [eastcoastcrypto/gitian.sigs](https://github.com/eastcoastcrypto/gitian.sigs/) repository, or if that's not possible to create a pull
+=======
+[Rhenium/gitian.sigs](https://github.com/Rhenium-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 request.
 There will be an official announcement when this repository is online.

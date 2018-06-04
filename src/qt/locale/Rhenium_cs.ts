@@ -193,7 +193,11 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+<<<<<<< HEAD
         <translation>DŮLEŽITÉ: Každá předešlá zaloha, kterou jste provedli, by měla být nahrazena nově vygenerovanou, šifrovavou zálohou soboru Vaší peněženky. Z bezpečRheniumtních důvodů budou všechny předešlé zálohy nezašifrované peněženky nepoužitelné, jakmile začnete používat nově zašifrovanou peněženku.</translation>
+=======
+        <translation>DŮLEŽITÉ: Každá předešlá zaloha, kterou jste provedli, by měla být nahrazena nově vygenerovanou, šifrovavou zálohou soboru Vaší peněženky. Z bezpečnostních důvodů budou všechny předešlé zálohy nezašifrované peněženky nepoužitelné, jakmile začnete používat nově zašifrovanou peněženku.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -443,7 +447,11 @@
     </message>
     <message>
         <source>&amp;Options...</source>
+<<<<<<< HEAD
         <translation>&amp;MožRheniumti...</translation>
+=======
+        <translation>&amp;Možnosti...</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -502,8 +510,13 @@
         <translation>&amp;Informace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Zobrazit diagRheniumtická data</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Zobrazit diagnostická data</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -535,7 +548,11 @@
     </message>
     <message>
         <source>Show wallet repair options</source>
+<<<<<<< HEAD
         <translation>Zobrazit možRheniumti opravy peněženky</translation>
+=======
+        <translation>Zobrazit možnosti opravy peněženky</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Open configuration file</source>
@@ -571,7 +588,11 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>MožRheniumti příkazové řádky</translation>
+=======
+        <translation>Možnosti příkazové řádky</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -627,7 +648,11 @@
     </message>
     <message>
         <source>Modify configuration options for Rhenium</source>
+<<<<<<< HEAD
         <translation>Upravit možRheniumti konfigurace pro Rhenium</translation>
+=======
+        <translation>Upravit možnosti konfigurace pro Rhenium</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Sign messages with your Rhenium addresses to prove you own them</source>
@@ -963,6 +988,13 @@ MultiSend: %1</translation>
         <translation>středně vysoký</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>střední</translation>
     </message>
@@ -1121,7 +1153,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
+<<<<<<< HEAD
         <translation>MožRheniumti příkazové řádky</translation>
+=======
+        <translation>Možnosti příkazové řádky</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Usage:</source>
@@ -1129,7 +1165,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>command-line options</source>
+<<<<<<< HEAD
         <translation>možRheniumti příkazové řádky</translation>
+=======
+        <translation>možnosti příkazové řádky</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1416,9 +1456,15 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
+=======
+    <name>CoinMixingConfig</name>
+    <message>
+        <source>Configure CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Konfigurace obfuskace</translation>
     </message>
     <message>
@@ -1447,7 +1493,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 XRH to anonymize 10000 XRH</source>
+<<<<<<< HEAD
         <translation>Tato možRheniumt je nejrychleší a bude stát zhruba ~0.025 XRH pro anonymizaci 10000 XRH</translation>
+=======
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 XRH pro anonymizaci 10000 XRH</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1458,7 +1508,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>0.1 XRH za 10000 XRH anonymizujete.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
+=======
+        <source>CoinMixing Configuration</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Konfigurace obufuskace</translation>
     </message>
     </context>
@@ -1485,7 +1539,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
+<<<<<<< HEAD
         <translation>MožRheniumti</translation>
+=======
+        <translation>Možnosti</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Main</source>
@@ -1528,6 +1586,13 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Spusti Rhenium při přihlášení do systému</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount of Rhenium to keep anonymized</source>
+        <translation>Počet Rhenium pro anonymní držení</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Show Masternodes Tab</source>
         <translation>Zobrazit záložku Masternodů</translation>
     </message>
@@ -1607,6 +1672,13 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Zpracovávané:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Balance</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Total:</source>
         <translation>Celkem:</translation>
     </message>
@@ -1618,6 +1690,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <source>Spendable:</source>
         <translation>Disponibilní:</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>PaymentServer</name>
@@ -1716,6 +1789,95 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat hodnotu</translation>
     </message>
     </context>
+=======
+    <message>
+        <source>Status:</source>
+        <translation>Stav:</translation>
+    </message>
+    <message>
+        <source>CoinMixing Balance:</source>
+        <translation>Obfuskační Balance:</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 XRH / 0 Kol</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Zapnuté/Vypnuté</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Obfuskace</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Spustit/Zastavit Míchání</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Vypnuto</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Nedetekovány žádné vstupy</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Celkový postup</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonymizováno</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully reset.</source>
+        <translation>Obfuskace byla úspěšně resetována</translation>
+    </message>
+    <message>
+        <source>Start CoinMixing</source>
+        <translation>Spustit Obfuskaci</translation>
+    </message>
+    <message>
+        <source>Stop CoinMixing</source>
+        <translation>Zastavit Obfuskaci</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Zapnuto</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nevalidní adresa pro platbu %1</translation>
+    </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Version</source>
+        <translation>Verze</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Čas pingnutí</translation>
+    </message>
+</context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>QObject</name>
     <message>
@@ -2017,6 +2179,17 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Inputs...</source>
+        <translation>Vstupy...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automaticky vybráno</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>Nedostatek prostředků!</translation>
     </message>
@@ -2073,6 +2246,13 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Minimalizovat</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>CoinMixing</source>
+        <translation>Obfuskace</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>za kilobyte</translation>
     </message>
@@ -2369,6 +2549,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -2376,6 +2557,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>
@@ -2387,7 +2570,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>RhenFAST options:</source>
+<<<<<<< HEAD
         <translation>SwiftTx možRheniumti:</translation>
+=======
+        <translation>SwiftTx možnosti:</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -2479,7 +2666,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
+<<<<<<< HEAD
         <translation>MožRheniumti peněženky:</translation>
+=======
+        <translation>Možnosti peněženky:</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet window title</source>

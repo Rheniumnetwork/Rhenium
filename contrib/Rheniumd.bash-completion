@@ -126,7 +126,11 @@ _Rheniumd() {
 
             # Prevent space if an argument is desired
             if [[ $COMPREPLY == *= ]]; then
+<<<<<<< HEAD
                 compopt -o Rheniumpace
+=======
+                compopt -o nospace
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             fi
             return 0
             ;;

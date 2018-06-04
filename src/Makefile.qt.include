@@ -13,7 +13,10 @@ QT_TS = \
   qt/locale/Rhenium_es.ts \
   qt/locale/Rhenium_fi.ts \
   qt/locale/Rhenium_fr_FR.ts \
+<<<<<<< HEAD
   qt/locale/Rhenium_hr.ts \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/locale/Rhenium_it.ts \
   qt/locale/Rhenium_ja.ts \
   qt/locale/Rhenium_ko_KR.ts \
@@ -25,7 +28,10 @@ QT_TS = \
   qt/locale/Rhenium_ru.ts \
   qt/locale/Rhenium_sk.ts \
   qt/locale/Rhenium_sv.ts \
+<<<<<<< HEAD
   qt/locale/Rhenium_tr.ts \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/locale/Rhenium_uk.ts \
   qt/locale/Rhenium_zh_CN.ts \
   qt/locale/Rhenium_zh_TW.ts
@@ -36,25 +42,39 @@ QT_FORMS_UI = \
   qt/forms/bip38tooldialog.ui \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
+<<<<<<< HEAD
   qt/forms/obfuscationconfig.ui \
+=======
+  qt/forms/coinmixingconfig.ui \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/forms/editaddressdialog.ui \
   qt/forms/helpmessagedialog.ui \
   qt/forms/intro.ui \
   qt/forms/masternodelist.ui \
   qt/forms/multisenddialog.ui \
+<<<<<<< HEAD
   qt/forms/multisigdialog.ui\
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/forms/openuridialog.ui \
   qt/forms/optionsdialog.ui \
   qt/forms/overviewpage.ui \
   qt/forms/receivecoinsdialog.ui \
+<<<<<<< HEAD
   qt/forms/privacydialog.ui \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/forms/receiverequestdialog.ui \
   qt/forms/rpcconsole.ui \
   qt/forms/sendcoinsdialog.ui \
   qt/forms/sendcoinsentry.ui \
   qt/forms/signverifymessagedialog.ui \
+<<<<<<< HEAD
   qt/forms/transactiondescdialog.ui \
   qt/forms/zRheniumcontroldialog.ui
+=======
+  qt/forms/transactiondescdialog.ui
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -70,7 +90,11 @@ QT_MOC_CPP = \
   qt/moc_coincontroldialog.cpp \
   qt/moc_coincontroltreewidget.cpp \
   qt/moc_csvmodelwriter.cpp \
+<<<<<<< HEAD
   qt/moc_obfuscationconfig.cpp \
+=======
+  qt/moc_coinmixingconfig.cpp \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/moc_editaddressdialog.cpp \
   qt/moc_guiutil.cpp \
   qt/moc_intro.cpp \
@@ -78,7 +102,10 @@ QT_MOC_CPP = \
   qt/moc_macnotificationhandler.cpp \
   qt/moc_masternodelist.cpp \
   qt/moc_multisenddialog.cpp \
+<<<<<<< HEAD
   qt/moc_multisigdialog.cpp\
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/moc_notificator.cpp \
   qt/moc_openuridialog.cpp \
   qt/moc_optionsdialog.cpp \
@@ -89,7 +116,10 @@ QT_MOC_CPP = \
   qt/moc_qvalidatedlineedit.cpp \
   qt/moc_qvaluecombobox.cpp \
   qt/moc_receivecoinsdialog.cpp \
+<<<<<<< HEAD
   qt/moc_privacydialog.cpp \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/moc_receiverequestdialog.cpp \
   qt/moc_recentrequeststablemodel.cpp \
   qt/moc_rpcconsole.cpp \
@@ -106,8 +136,12 @@ QT_MOC_CPP = \
   qt/moc_utilitydialog.cpp \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
+<<<<<<< HEAD
   qt/moc_walletview.cpp \
   qt/moc_zRheniumcontroldialog.cpp
+=======
+  qt/moc_walletview.cpp
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
@@ -143,7 +177,11 @@ BITCOIN_QT_H = \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
   qt/csvmodelwriter.h \
+<<<<<<< HEAD
   qt/obfuscationconfig.h \
+=======
+  qt/coinmixingconfig.h \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/editaddressdialog.h \
   qt/guiconstants.h \
   qt/guiutil.h \
@@ -152,7 +190,10 @@ BITCOIN_QT_H = \
   qt/macnotificationhandler.h \
   qt/masternodelist.h \
   qt/multisenddialog.h \
+<<<<<<< HEAD
   qt/multisigdialog.h\
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/networkstyle.h \
   qt/notificator.h \
   qt/openuridialog.h \
@@ -166,7 +207,10 @@ BITCOIN_QT_H = \
   qt/qvalidatedlineedit.h \
   qt/qvaluecombobox.h \
   qt/receivecoinsdialog.h \
+<<<<<<< HEAD
   qt/privacydialog.h \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/receiverequestdialog.h \
   qt/recentrequeststablemodel.h \
   qt/rpcconsole.h \
@@ -186,8 +230,12 @@ BITCOIN_QT_H = \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
   qt/walletview.h \
+<<<<<<< HEAD
   qt/winshutdownmonitor.h \
   qt/zRheniumcontroldialog.h
+=======
+  qt/winshutdownmonitor.h
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 RES_ICONS = \
   qt/res/icons/add.png \
@@ -227,7 +275,10 @@ RES_ICONS = \
   qt/res/icons/qrcode.png \
   qt/res/icons/quit.png \
   qt/res/icons/receive.png \
+<<<<<<< HEAD
   qt/res/icons/privacy.png \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/res/icons/remove.png \
   qt/res/icons/send.png \
   qt/res/icons/staking_active.png \
@@ -282,17 +333,27 @@ BITCOIN_QT_CPP += \
   qt/blockexplorer.cpp \
   qt/coincontroldialog.cpp \
   qt/coincontroltreewidget.cpp \
+<<<<<<< HEAD
   qt/obfuscationconfig.cpp \
   qt/editaddressdialog.cpp \
   qt/masternodelist.cpp \
   qt/multisenddialog.cpp \
   qt/multisigdialog.cpp\
+=======
+  qt/coinmixingconfig.cpp \
+  qt/editaddressdialog.cpp \
+  qt/masternodelist.cpp \
+  qt/multisenddialog.cpp \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/openuridialog.cpp \
   qt/overviewpage.cpp \
   qt/paymentrequestplus.cpp \
   qt/paymentserver.cpp \
   qt/receivecoinsdialog.cpp \
+<<<<<<< HEAD
   qt/privacydialog.cpp \
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   qt/receiverequestdialog.cpp \
   qt/recentrequeststablemodel.cpp \
   qt/sendcoinsdialog.cpp \
@@ -307,8 +368,12 @@ BITCOIN_QT_CPP += \
   qt/walletframe.cpp \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
+<<<<<<< HEAD
   qt/walletview.cpp \
   qt/zRheniumcontroldialog.cpp
+=======
+  qt/walletview.cpp
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 endif
 
@@ -377,9 +442,14 @@ endif
 if ENABLE_ZMQ
 qt_Rhenium_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
+<<<<<<< HEAD
 qt_Rhenium_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+=======
+qt_Rhenium_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+  $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1)
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 qt_Rhenium_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 qt_Rhenium_qt_LIBTOOLFLAGS = --tag CXX
 
@@ -393,7 +463,11 @@ qt/Rheniumstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOUR
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
 translate: qt/Rheniumstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+<<<<<<< HEAD
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
+=======
+	@test -n $(LUPDATE) || echo "XRHdate is required for updating translations"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/Rhenium_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)

@@ -1,5 +1,9 @@
 // Copyright (c) 2014-2015 The Dash Developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -156,11 +160,19 @@ Value preparebudget(const Array& params, bool fHelp)
     if (pwalletMain->IsLocked())
         throw JSONRPCError(RPC_WALLET_UNLOCK_NEEDED, "Error: Please enter the wallet passphrase with walletpassphrase first.");
 
+<<<<<<< HEAD
     std::string strProposalName = SanitizeString(params[0].get_str());
     if (strProposalName.size() > 20)
         throw runtime_error("Invalid proposal name, limit of 20 characters.");
 
     std::string strURL = SanitizeString(params[1].get_str());
+=======
+    std::string strProposalName = params[0].get_str();
+    if (strProposalName.size() > 20)
+        throw runtime_error("Invalid proposal name, limit of 20 characters.");
+
+    std::string strURL = params[1].get_str();
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (strURL.size() > 64)
         throw runtime_error("Invalid url, limit of 64 characters.");
 
@@ -168,8 +180,13 @@ Value preparebudget(const Array& params, bool fHelp)
     if (nPaymentCount < 1)
         throw runtime_error("Invalid payment count, must be more than zero.");
 
+<<<<<<< HEAD
     // Start must be in the next budget cycle
     if (pindexPrev != NULL) nBlockMin = pindexPrev->nHeight - pindexPrev->nHeight % GetBudgetPaymentCycleBlocks() + GetBudgetPaymentCycleBlocks();
+=======
+    //set block min
+    if (pindexPrev != NULL) nBlockMin = pindexPrev->nHeight - GetBudgetPaymentCycleBlocks() * (nPaymentCount + 1);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     int nBlockStart = params[3].get_int();
     if (nBlockStart % GetBudgetPaymentCycleBlocks() != 0) {
@@ -177,7 +194,11 @@ Value preparebudget(const Array& params, bool fHelp)
         throw runtime_error(strprintf("Invalid block start - must be a budget cycle block. Next valid block: %d", nNext));
     }
 
+<<<<<<< HEAD
     int nBlockEnd = nBlockStart + GetBudgetPaymentCycleBlocks() * nPaymentCount; // End must be AFTER current cycle
+=======
+    int nBlockEnd = nBlockStart + GetBudgetPaymentCycleBlocks() * nPaymentCount;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     if (nBlockStart < nBlockMin)
         throw runtime_error("Invalid block start, must be more than current height.");
@@ -250,11 +271,19 @@ Value submitbudget(const Array& params, bool fHelp)
     // Check these inputs the same way we check the vote commands:
     // **********************************************************
 
+<<<<<<< HEAD
     std::string strProposalName = SanitizeString(params[0].get_str());
     if (strProposalName.size() > 20)
         throw runtime_error("Invalid proposal name, limit of 20 characters.");
 
     std::string strURL = SanitizeString(params[1].get_str());
+=======
+    std::string strProposalName = params[0].get_str();
+    if (strProposalName.size() > 20)
+        throw runtime_error("Invalid proposal name, limit of 20 characters.");
+
+    std::string strURL = params[1].get_str();
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (strURL.size() > 64)
         throw runtime_error("Invalid url, limit of 64 characters.");
 
@@ -262,8 +291,13 @@ Value submitbudget(const Array& params, bool fHelp)
     if (nPaymentCount < 1)
         throw runtime_error("Invalid payment count, must be more than zero.");
 
+<<<<<<< HEAD
     // Start must be in the next budget cycle
     if (pindexPrev != NULL) nBlockMin = pindexPrev->nHeight - pindexPrev->nHeight % GetBudgetPaymentCycleBlocks() + GetBudgetPaymentCycleBlocks();
+=======
+    //set block min
+    if (pindexPrev != NULL) nBlockMin = pindexPrev->nHeight - GetBudgetPaymentCycleBlocks() * (nPaymentCount + 1);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     int nBlockStart = params[3].get_int();
     if (nBlockStart % GetBudgetPaymentCycleBlocks() != 0) {
@@ -271,7 +305,11 @@ Value submitbudget(const Array& params, bool fHelp)
         throw runtime_error(strprintf("Invalid block start - must be a budget cycle block. Next valid block: %d", nNext));
     }
 
+<<<<<<< HEAD
     int nBlockEnd = nBlockStart + (GetBudgetPaymentCycleBlocks() * nPaymentCount); // End must be AFTER current cycle
+=======
+    int nBlockEnd = nBlockStart + (GetBudgetPaymentCycleBlocks() * nPaymentCount);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     if (nBlockStart < nBlockMin)
         throw runtime_error("Invalid block start, must be more than current height.");
@@ -598,7 +636,11 @@ Value getbudgetvotes(const Array& params, bool fHelp)
             "\nExamples:\n" +
             HelpExampleCli("getbudgetvotes", "\"test-proposal\"") + HelpExampleRpc("getbudgetvotes", "\"test-proposal\""));
 
+<<<<<<< HEAD
     std::string strProposalName = SanitizeString(params[0].get_str());
+=======
+    std::string strProposalName = params[0].get_str();
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     Array ret;
 
@@ -744,7 +786,11 @@ Value getbudgetinfo(const Array& params, bool fHelp)
 
     std::string strShow = "valid";
     if (params.size() == 1) {
+<<<<<<< HEAD
         std::string strProposalName = SanitizeString(params[0].get_str());
+=======
+        std::string strProposalName = params[0].get_str();
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         CBudgetProposal* pbudgetProposal = budget.FindProposal(strProposalName);
         if (pbudgetProposal == NULL) throw runtime_error("Unknown proposal name");
         Object bObj;
@@ -1019,4 +1065,8 @@ Value checkbudgets(const Array& params, bool fHelp)
     budget.CheckAndRemove();
 
     return Value::null;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

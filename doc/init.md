@@ -89,7 +89,11 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy Rheniumd.init to /etc/init.d/Rheniumd. Test by running "service Rheniumd start".
 
 Using this script, you can adjust the path and flags to the Rheniumd program by
+<<<<<<< HEAD
 setting the XRHD and FLAGS environment variables in the file
+=======
+setting the RheniumD and FLAGS environment variables in the file
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /etc/sysconfig/Rheniumd. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

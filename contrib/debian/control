@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Source: Rhenium
+=======
+Source: pivx
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -22,6 +26,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
+<<<<<<< HEAD
 Homepage: http://www.Rhenium.org
 Vcs-Git: git://github.com/Rheniumproject/Rhenium.git
 Vcs-Browser: http://github.com/Rheniumproject/Rhenium
@@ -31,6 +36,17 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
  Rhenium is a free open source peer-to-peer electronic cash system that
+=======
+Homepage: http://www.pivx.org
+Vcs-Git: git://github.com/PIVX-Project/PIVX.git
+Vcs-Browser: http://github.com/PIVX-Project/PIVX
+
+Package: pivxd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Pivx is a free open source peer-to-peer electronic cash system that
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -39,6 +55,7 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
+<<<<<<< HEAD
  This package provides the daemon, Rheniumd, and the CLI tool
  Rhenium-cli to interact with the daemon.
 
@@ -47,6 +64,16 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
  Rhenium is a free open source peer-to-peer electronic cash system that
+=======
+ This package provides the daemon, pivxd, and the CLI tool
+ pivx-cli to interact with the daemon.
+
+Package: pivx-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Pivx is a free open source peer-to-peer electronic cash system that
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +82,8 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
+<<<<<<< HEAD
  This package provides Rhenium-Qt, a GUI for Rhenium based on Qt.
+=======
+ This package provides Pivx-Qt, a GUI for Pivx based on Qt.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

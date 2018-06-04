@@ -1,6 +1,10 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,30 +46,52 @@ QString TransactionDesc::FormatTxStatus(const CWalletTx& wtx)
                 if (nDepth < 0)
                     return tr("conflicted");
                 else if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
+<<<<<<< HEAD
                     return tr("%1/offline (verified via SwiftX)").arg(nDepth);
                 else if (nDepth < 6)
                     return tr("%1/confirmed (verified via SwiftX)").arg(nDepth);
                 else
                     return tr("%1 confirmations (verified via SwiftX)").arg(nDepth);
+=======
+                    return tr("%1/offline (verified via rhenfast)").arg(nDepth);
+                else if (nDepth < 6)
+                    return tr("%1/confirmed (verified via rhenfast)").arg(nDepth);
+                else
+                    return tr("%1 confirmations (verified via rhenfast)").arg(nDepth);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             } else {
                 if (!wtx.IsTransactionLockTimedOut()) {
                     int nDepth = wtx.GetDepthInMainChain();
                     if (nDepth < 0)
                         return tr("conflicted");
                     else if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
+<<<<<<< HEAD
                         return tr("%1/offline (SwiftX verification in progress - %2 of %3 signatures)").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
                     else if (nDepth < 6)
                         return tr("%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
                     else
                         return tr("%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
+=======
+                        return tr("%1/offline (RhenFAST verification in progress - %2 of %3 signatures)").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
+                    else if (nDepth < 6)
+                        return tr("%1/confirmed (RhenFAST verification in progress - %2 of %3 signatures )").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
+                    else
+                        return tr("%1 confirmations (RhenFAST verification in progress - %2 of %3 signatures)").arg(nDepth).arg(signatures).arg(RHENFAST_SIGNATURES_TOTAL);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 } else {
                     int nDepth = wtx.GetDepthInMainChain();
                     if (nDepth < 0)
                         return tr("conflicted");
                     else if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
+<<<<<<< HEAD
                         return tr("%1/offline (SwiftX verification failed)").arg(nDepth);
                     else if (nDepth < 6)
                         return tr("%1/confirmed (SwiftX verification failed)").arg(nDepth);
+=======
+                        return tr("%1/offline (RhenFAST verification failed)").arg(nDepth);
+                    else if (nDepth < 6)
+                        return tr("%1/confirmed (RhenFAST verification failed)").arg(nDepth);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                     else
                         return tr("%1 confirmations").arg(nDepth);
                 }

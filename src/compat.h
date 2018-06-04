@@ -72,9 +72,15 @@ typedef u_int SOCKET;
 #define MAX_PATH 1024
 #endif
 
+<<<<<<< HEAD
 // As Solaris does not have the MSG_XRHIGNAL flag for send(2) syscall, it is defined as 0
 #if !defined(HAVE_MSG_XRHIGNAL) && !defined(MSG_XRHIGNAL)
 #define MSG_XRHIGNAL 0
+=======
+// As Solaris does not have the MSG_NOSIGNAL flag for send(2) syscall, it is defined as 0
+#if !defined(HAVE_MSG_NOSIGNAL) && !defined(MSG_NOSIGNAL)
+#define MSG_NOSIGNAL 0
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
 
 #ifndef WIN32

@@ -50,7 +50,11 @@ BOOST_AUTO_TEST_CASE(boolarg)
     BOOST_CHECK(GetBoolArg("-foo", false));
     BOOST_CHECK(GetBoolArg("-foo", true));
 
+<<<<<<< HEAD
     // New 0.6 feature: auto-map -Rheniumomething to !-something:
+=======
+    // New 0.6 feature: auto-map -nosomething to !-something:
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     ResetArgs("-nofoo");
     BOOST_CHECK(!GetBoolArg("-foo", false));
     BOOST_CHECK(!GetBoolArg("-foo", true));

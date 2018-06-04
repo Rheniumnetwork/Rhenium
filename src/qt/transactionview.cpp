@@ -87,19 +87,29 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     typeWidget->addItem(tr("Received with"), TransactionFilterProxy::TYPE(TransactionRecord::RecvWithAddress) | TransactionFilterProxy::TYPE(TransactionRecord::RecvFromOther));
     typeWidget->addItem(tr("Sent to"), TransactionFilterProxy::TYPE(TransactionRecord::SendToAddress) | TransactionFilterProxy::TYPE(TransactionRecord::SendToOther));
     typeWidget->addItem(tr("Obfuscated"), TransactionFilterProxy::TYPE(TransactionRecord::Obfuscated));
+<<<<<<< HEAD
     typeWidget->addItem(tr("Obfuscation Make Collateral Inputs"), TransactionFilterProxy::TYPE(TransactionRecord::ObfuscationMakeCollaterals));
     typeWidget->addItem(tr("Obfuscation Create Denominations"), TransactionFilterProxy::TYPE(TransactionRecord::ObfuscationCreateDenominations));
     typeWidget->addItem(tr("Obfuscation Denominate"), TransactionFilterProxy::TYPE(TransactionRecord::ObfuscationDenominate));
     typeWidget->addItem(tr("Obfuscation Collateral Payment"), TransactionFilterProxy::TYPE(TransactionRecord::ObfuscationCollateralPayment));
+=======
+    typeWidget->addItem(tr("CoinMixing Make Collateral Inputs"), TransactionFilterProxy::TYPE(TransactionRecord::CoinMixingMakeCollaterals));
+    typeWidget->addItem(tr("CoinMixing Create Denominations"), TransactionFilterProxy::TYPE(TransactionRecord::CoinMixingCreateDenominations));
+    typeWidget->addItem(tr("CoinMixing Denominate"), TransactionFilterProxy::TYPE(TransactionRecord::CoinMixingDenominate));
+    typeWidget->addItem(tr("CoinMixing Collateral Payment"), TransactionFilterProxy::TYPE(TransactionRecord::CoinMixingCollateralPayment));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     typeWidget->addItem(tr("To yourself"), TransactionFilterProxy::TYPE(TransactionRecord::SendToSelf));
     typeWidget->addItem(tr("Mined"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
     typeWidget->addItem(tr("Minted"), TransactionFilterProxy::TYPE(TransactionRecord::StakeMint));
     typeWidget->addItem(tr("Masternode Reward"), TransactionFilterProxy::TYPE(TransactionRecord::MNReward));
+<<<<<<< HEAD
     typeWidget->addItem(tr("Received Rhenium from zRhenium"), TransactionFilterProxy::TYPE(TransactionRecord::RecvFromZerocoinSpend));
     typeWidget->addItem(tr("Zerocoin Mint"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinMint));
     typeWidget->addItem(tr("Zerocoin Spend"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend));
     typeWidget->addItem(tr("Zerocoin Spend, Change in zRhenium"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend_Change_zRhenium));
     typeWidget->addItem(tr("Zerocoin Spend to Self"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend_FromMe));
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     typeWidget->addItem(tr("Other"), TransactionFilterProxy::TYPE(TransactionRecord::Other));
     typeWidget->setCurrentIndex(settings.value("transactionType").toInt());
 
@@ -332,6 +342,7 @@ void TransactionView::changedAmount(const QString& amount)
         return;
     CAmount amount_parsed = 0;
 
+<<<<<<< HEAD
     if (model) {
         // Replace "," by "." so BitcoinUnits::parse will not fail for users entering "," as decimal separator
         QString newAmount = amount;
@@ -342,6 +353,16 @@ void TransactionView::changedAmount(const QString& amount)
         } else {
             transactionProxyModel->setMinAmount(0);
         }
+=======
+    // Replace "," by "." so BitcoinUnits::parse will not fail for users entering "," as decimal separator
+    QString newAmount = amount;
+    newAmount.replace(QString(","), QString("."));
+
+    if (BitcoinUnits::parse(model->getOptionsModel()->getDisplayUnit(), newAmount, &amount_parsed)) {
+        transactionProxyModel->setMinAmount(amount_parsed);
+    } else {
+        transactionProxyModel->setMinAmount(0);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 }
 
@@ -356,6 +377,7 @@ void TransactionView::exportClicked()
         return;
 
     CSVModelWriter writer(filename);
+<<<<<<< HEAD
     bool fExport = false;
 
     if (model) {
@@ -381,6 +403,27 @@ void TransactionView::exportClicked()
     else {
         emit message(tr("Exporting Failed"), tr("There was an error trying to save the transaction history to %1.").arg(filename),
                      CClientUIInterface::MSG_ERROR);
+=======
+
+    // name, column, role
+    writer.setModel(transactionProxyModel);
+    writer.addColumn(tr("Confirmed"), 0, TransactionTableModel::ConfirmedRole);
+    if (model && model->haveWatchOnly())
+        writer.addColumn(tr("Watch-only"), TransactionTableModel::Watchonly);
+    writer.addColumn(tr("Date"), 0, TransactionTableModel::DateRole);
+    writer.addColumn(tr("Type"), TransactionTableModel::Type, Qt::EditRole);
+    writer.addColumn(tr("Label"), 0, TransactionTableModel::LabelRole);
+    writer.addColumn(tr("Address"), 0, TransactionTableModel::AddressRole);
+    writer.addColumn(BitcoinUnits::getAmountColumnTitle(model->getOptionsModel()->getDisplayUnit()), 0, TransactionTableModel::FormattedAmountRole);
+    writer.addColumn(tr("ID"), 0, TransactionTableModel::TxIDRole);
+
+    if (!writer.write()) {
+        emit message(tr("Exporting Failed"), tr("There was an error trying to save the transaction history to %1.").arg(filename),
+            CClientUIInterface::MSG_ERROR);
+    } else {
+        emit message(tr("Exporting Successful"), tr("The transaction history was successfully saved to %1.").arg(filename),
+            CClientUIInterface::MSG_INFORMATION);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 }
 

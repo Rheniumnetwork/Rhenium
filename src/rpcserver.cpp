@@ -1,8 +1,12 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -136,6 +140,7 @@ vector<unsigned char> ParseHexO(const Object& o, string strKey)
     return ParseHexV(find_value(o, strKey), strKey);
 }
 
+<<<<<<< HEAD
 int ParseInt(const Object& o, string strKey)
 {
     const Value& v = find_value(o, strKey);
@@ -154,6 +159,8 @@ bool ParseBool(const Object& o, string strKey)
     return v.get_bool();
 }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 /**
  * Note: This interface may still be subject to change.
@@ -347,7 +354,11 @@ static const CRPCCommand vRPCCommands[] =
         {"Rhenium", "spork", &spork, true, true, false},
         {"Rhenium", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
+<<<<<<< HEAD
         {"Rhenium", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+=======
+        {"Rhenium", "coinmixing", &coinmixing, false, false, true}, /* not threadSafe because of SendMoney */
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -397,6 +408,7 @@ static const CRPCCommand vRPCCommands[] =
         {"wallet", "walletlock", &walletlock, true, false, true},
         {"wallet", "walletpassphrasechange", &walletpassphrasechange, true, false, true},
         {"wallet", "walletpassphrase", &walletpassphrase, true, false, true},
+<<<<<<< HEAD
 
         {"zerocoin", "getzerocoinbalance", &getzerocoinbalance, false, false, true},
         {"zerocoin", "listmintedzerocoins", &listmintedzerocoins, false, false, true},
@@ -411,6 +423,8 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false, false, true},
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false, false, true}
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif // ENABLE_WALLET
 };
 
@@ -1093,7 +1107,14 @@ std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
+<<<<<<< HEAD
            methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:6110/\n";
 }
 
 const CRPCTable tableRPC;
+=======
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/\n";
+}
+
+const CRPCTable tableRPC;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

@@ -43,6 +43,10 @@ const std::string CLIENT_NAME("Rhenium Core");
 #endif
 
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
+<<<<<<< HEAD
+=======
+#define GIT_ARCHIVE 1
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifdef GIT_ARCHIVE
 #define GIT_COMMIT_ID "cbcb549"
 #define GIT_COMMIT_DATE "Tue, 9 Feb 2016 16:54:57 -0500"

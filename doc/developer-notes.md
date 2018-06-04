@@ -418,7 +418,11 @@ Git and github tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
+<<<<<<< HEAD
                 url = git@github.com:eastcoastcrypto/Rhenium.git
+=======
+                url = git@github.com:Rhenium-Project/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,

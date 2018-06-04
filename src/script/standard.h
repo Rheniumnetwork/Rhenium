@@ -63,7 +63,10 @@ enum txnouttype
     TX_SCRIPTHASH,
     TX_MULTISIG,
     TX_NULL_DATA,
+<<<<<<< HEAD
     TX_ZEROCOINMINT,
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 };
 
 class CNoDestination {

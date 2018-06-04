@@ -7,7 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>576</width>
+<<<<<<< HEAD
     <height>442</height>
+=======
+    <height>417</height>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
    </rect>
   </property>
   <property name="windowTitle">
@@ -118,7 +122,11 @@
         </layout>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_2">
+=======
+        <spacer name="verticalSpacer_Main">
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -131,6 +139,7 @@
         </spacer>
        </item>
        <item>
+<<<<<<< HEAD
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QLabel" name="percentage_label">
@@ -139,22 +148,45 @@
            </property>
            <property name="text">
             <string>Percentage of autominted zXRH</string>
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout_4_Main">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="toolTip">
+            <string>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</string>
+           </property>
+           <property name="text">
+            <string>CoinMixing rounds to use</string>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            </property>
           </widget>
          </item>
          <item>
+<<<<<<< HEAD
           <widget class="QSpinBox" name="zeromintPercentage">
            <property name="minimum">
             <number>10</number>
            </property>
            <property name="maximum">
             <number>100</number>
+=======
+          <widget class="QSpinBox" name="coinmixingRounds">
+           <property name="minimum">
+            <number>2</number>
+           </property>
+           <property name="maximum">
+            <number>8</number>
+           </property>
+           <property name="value">
+            <number>4</number>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            </property>
           </widget>
          </item>
         </layout>
        </item>
        <item>
+<<<<<<< HEAD
         <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
          <property name="sizeConstraint">
           <enum>QLayout::SetFixedSize</enum>
@@ -172,10 +204,33 @@
            </property>
            <property name="text">
             <string>Preferred Automint zXRH Denomination</string>
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="toolTip">
+            <string>This amount acts as a threshold to turn off CoinMixing once it's reached.</string>
+           </property>
+           <property name="statusTip">
+            <string notr="true"/>
+           </property>
+           <property name="whatsThis">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleName">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleDescription">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Amount of Rhenium to keep anonymized</string>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            </property>
           </widget>
          </item>
          <item>
+<<<<<<< HEAD
           <widget class="QComboBox" name="preferredDenom">
            <property name="maximumSize">
             <size>
@@ -191,6 +246,20 @@
            </property>
            <property name="maxCount">
             <number>9</number>
+=======
+          <widget class="QSpinBox" name="anonymizeRhenium">
+           <property name="minimum">
+            <number>100</number>
+           </property>
+           <property name="maximum">
+            <number>100000</number>
+           </property>
+           <property name="singleStep">
+            <number>100</number>
+           </property>
+           <property name="value">
+            <number>1000</number>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            </property>
           </widget>
          </item>

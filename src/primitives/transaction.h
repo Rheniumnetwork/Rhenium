@@ -1,6 +1,9 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,8 +15,11 @@
 #include "serialize.h"
 #include "uint256.h"
 
+<<<<<<< HEAD
 #include <list>
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 class CTransaction;
 
 /** An outpoint - a combination of a transaction hash and an index n into its vout */
@@ -171,11 +177,14 @@ public:
         return (nValue < 3*minRelayTxFee.GetFee(nSize));
     }
 
+<<<<<<< HEAD
     bool IsZerocoinMint() const
     {
         return !scriptPubKey.empty() && scriptPubKey.IsZerocoinMint();
     }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     friend bool operator==(const CTxOut& a, const CTxOut& b)
     {
         return (a.nValue       == b.nValue &&
@@ -257,6 +266,7 @@ public:
     // Compute modified tx size for priority calculation (optionally given tx size)
     unsigned int CalculateModifiedSize(unsigned int nTxSize=0) const;
 
+<<<<<<< HEAD
     bool IsZerocoinSpend() const
     {
         return (vin.size() > 0 && vin[0].prevout.IsNull() && vin[0].scriptSig[0] == OP_ZEROCOINSPEND);
@@ -286,6 +296,11 @@ public:
     bool IsCoinBase() const
     {
         return (vin.size() == 1 && vin[0].prevout.IsNull() && !ContainsZerocoins());
+=======
+    bool IsCoinBase() const
+    {
+        return (vin.size() == 1 && vin[0].prevout.IsNull());
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     bool IsCoinStake() const

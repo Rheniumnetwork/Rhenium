@@ -7,7 +7,11 @@ architectures:
 packages:
 - "faketime"
 remotes:
+<<<<<<< HEAD
 - "url": "https://github.com/Rheniumproject/Rhenium-detached-sigs.git"
+=======
+- "url": "https://github.com/Rhenium-project/Rhenium-detached-sigs.git"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   "dir": "signature"
 files:
 - "Rhenium-osx-unsigned.tar.gz"

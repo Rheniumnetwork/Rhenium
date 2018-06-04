@@ -1,11 +1,19 @@
 ---
+<<<<<<< HEAD
 name: "Rhenium-win-1.2"
+=======
+name: "Rhenium-win-2.3"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 enable_cache: true
 suites:
 - "trusty"
 architectures:
 - "amd64"
+<<<<<<< HEAD
 packages:
+=======
+packages: 
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 - "curl"
 - "g++"
 - "git-core"
@@ -22,12 +30,20 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
+<<<<<<< HEAD
 - "url": "https://github.com/eastcoastcrypto/Rhenium"
+=======
+- "url": "https://github.com/Rhenium-project/Rhenium.git"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   "dir": "Rhenium"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
+<<<<<<< HEAD
   HOSTS="i686-w64-mingw32 x86_64-w64-mingw32"
+=======
+  HOSTS="x86_64-w64-mingw32 i686-w64-mingw32"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests"
   FAKETIME_HOST_PROGS="g++ ar ranlib nm windres strip objcopy"
   FAKETIME_PROGS="date makensis zip"
@@ -147,6 +163,7 @@ script: |
     make install DESTDIR=${INSTALLPATH}
     cp -f Rhenium-*setup*.exe $OUTDIR/
     cd installed
+<<<<<<< HEAD
     # mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/ # temporarily disabled for Zerocoin
     # find . -name "lib*.la" -delete            # temporarily disabled for Zerocoin
     # find . -name "lib*.a" -delete             # temporarily disabled for Zerocoin
@@ -157,6 +174,17 @@ script: |
     find ${DISTNAME} -name "*.dbg"  -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}-debug.zip
     cd ../../
     rm -rf distsrc-${i}
+=======
+    mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/
+    find . -name "lib*.la" -delete
+    find . -name "lib*.a" -delete
+    rm -rf ${DISTNAME}/lib/pkgconfig
+    find ${DISTNAME}/bin -type f -executable -exec ${i}-objcopy --only-keep-debug {} {}.dbg \; -exec ${i}-strip -s {} \; -exec ${i}-objcopy --add-gnu-debuglink={}.dbg {} \;
+    find ${DISTNAME}/lib -type f -exec ${i}-objcopy --only-keep-debug {} {}.dbg \; -exec ${i}-strip -s {} \; -exec ${i}-objcopy --add-gnu-debuglink={}.dbg {} \;
+    find ${DISTNAME} -not -name "*.dbg"  -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}.zip
+    find ${DISTNAME} -name "*.dbg"  -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}-debug.zip
+    cd ../../
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   done
   cd $OUTDIR
   rename 's/-setup\.exe$/-setup-unsigned.exe/' *-setup.exe

@@ -1,8 +1,15 @@
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifndef MASTERNODE_SYNC_H
 #define MASTERNODE_SYNC_H
 

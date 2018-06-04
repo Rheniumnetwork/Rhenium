@@ -272,7 +272,11 @@
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
+<<<<<<< HEAD
         <translation>Podany adres nie odRheniumi się do klucza</translation>
+=======
+        <translation>Podany adres nie odnosi się do klucza</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -426,8 +430,13 @@
         <translation>&amp;Informacje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Pokaż informacje diagRheniumtyczne</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Pokaż informacje diagnostyczne</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -519,7 +528,11 @@
     </message>
     <message>
         <source>Rhenium Core</source>
+<<<<<<< HEAD
         <translation>&amp;Rdzeń Rhenium</translation>
+=======
+        <translation>&amp;Rdzeń bitcoin</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Send coins to a Rhenium address</source>
@@ -583,7 +596,11 @@
     </message>
     <message>
         <source>Open a Rhenium: URI or payment request</source>
+<<<<<<< HEAD
         <translation>OtwórzXRHX: URI i żądanie zapłaty</translation>
+=======
+        <translation>Otwórz Rhenium: URI i żądanie zapłaty</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -847,6 +864,13 @@ MultiWysyłlka: %1</translation>
         <translation>Średnio-wysoki</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>średni</translation>
     </message>
@@ -913,7 +937,11 @@ MultiWysyłlka: %1</translation>
     <name>HelpMessageDialog</name>
     <message>
         <source>Rhenium Core</source>
+<<<<<<< HEAD
         <translation>&amp;Rdzeń Rhenium</translation>
+=======
+        <translation>&amp;Rdzeń bitcoin</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
@@ -928,7 +956,11 @@ MultiWysyłlka: %1</translation>
     </message>
     <message>
         <source>Rhenium Core</source>
+<<<<<<< HEAD
         <translation>&amp;Rdzeń Rhenium</translation>
+=======
+        <translation>&amp;Rdzeń bitcoin</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Error</source>
@@ -991,7 +1023,11 @@ MultiWysyłlka: %1</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
+<<<<<<< HEAD
         <translation>Status będzie uaktualniany automatycznie (w sekundach)</translation>
+=======
+        <translation>Status będzie uaktualniany automatycznie w sekundach</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>0</source>
@@ -1128,7 +1164,11 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Basic Privacy</source>
         <translation>Podstawowa prywatność</translation>
@@ -1196,6 +1236,13 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Uruchom Rhenium podczas logowania do systemu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Amount of Rhenium to keep anonymized</source>
+        <translation>Liczba Rhenium do anonimizacji</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>Czy pokazać cechy kontroli monety czy nie</translation>
     </message>
@@ -1337,6 +1384,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
         <translation>Niedojrzały</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Balans</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Total:</source>
         <translation>Całość:</translation>
     </message>
@@ -1357,6 +1411,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
         <translation>Możliwy do wysłania:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions</source>
         <translation>Ostatnie transakcje</translation>
     </message>
@@ -1396,12 +1451,45 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     <message>
         <source>0</source>
         <translation>0</translation>
+=======
+        <source>Status:</source>
+        <translation>Status:</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 OIVX / 0 Rund</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Włączony/Wyłączony</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Ukończono:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Liczba i rundy:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Ostatnie transakcje</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Wypróbuj MIX</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Reset</source>
         <translation>Resetuj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount:</source>
         <translation>Liczba:</translation>
     </message>
@@ -1454,6 +1542,54 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
         <translation>Kopiuj liczbę</translation>
     </message>
     </context>
+=======
+        <source>out of sync</source>
+        <translation>Brak synchronizacji</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Wyłączony</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Zanonimizowany</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Włączony</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>Payment request error</source>
+        <translation>BŁĄD żądania płatności</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Żadanie płatności straciło ważność</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Żądanie płatności nie zainicjowane</translation>
+    </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Version</source>
+        <translation>Wersja</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Czas Pingu</translation>
+    </message>
+</context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>QObject</name>
     <message>
@@ -1676,7 +1812,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     </message>
     <message>
         <source>Ping Time</source>
+<<<<<<< HEAD
         <translation>Czas PinguCzas pingu</translation>
+=======
+        <translation>Czas Pingu</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
@@ -1921,7 +2061,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
+<<<<<<< HEAD
         <translation>Podany adres nie odRheniumi się do klucza</translation>
+=======
+        <translation>Podany adres nie odnosi się do klucza</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -1936,7 +2080,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     <name>SplashScreen</name>
     <message>
         <source>Rhenium Core</source>
+<<<<<<< HEAD
         <translation>&amp;Rdzeń Rhenium</translation>
+=======
+        <translation>&amp;Rdzeń bitcoin</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
@@ -2027,6 +2175,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -2034,6 +2183,8 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations </transla
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>

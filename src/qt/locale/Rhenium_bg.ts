@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Десен клик, за промяна на адрес или етикет.</translation>
+=======
+        <translation>Десен клик, за промяна на адрес или етикет</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Create a new address</source>
@@ -116,10 +120,13 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>Поле за парола</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter passphrase</source>
         <translation>Въведете парола</translation>
     </message>
@@ -132,10 +139,13 @@
         <translation>Повторете новата парола</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
         <translation>Служи за изключване на възможността пари да бъдат превеждани, когато акаунта на операционната система е компрометиран. Не предоставя съществено ниво на сигурност.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>For anonymization and staking only</source>
         <translation>Само за анонимизация и стейкване</translation>
     </message>
@@ -145,7 +155,11 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
+<<<<<<< HEAD
         <translation>Шифрирай портфейла</translation>
+=======
+        <translation>Криптиране на портфейла</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
@@ -173,6 +187,7 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
+<<<<<<< HEAD
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
@@ -202,6 +217,37 @@
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Шифрирането на портфейла се провали, поради вътрешна грешка. Вашият портфейл не беше шифриран.</translation>
+=======
+        <translation>Потвърдете криптирането на портфейла</translation>
+    </message>
+    <message>
+        <source>Rhenium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XRHs from being stolen by malware infecting your computer.</source>
+        <translation>Rhenium сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия Rhenium от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Сигурни ли сте, че искате да криптирате вашия портфейл?</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XRH&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ XRH&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Портфейла е криптиран</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖНО: Всички резервни копия, които сте били направили на вашия портфейл трябва да бъдат заменени с новогенерирания, криптиран портфейл. От съображения за сигурност, предишни резервни копия на некриптирания портфейл ще станат безполезни веднага, щом за почнете да използвате новия, криптиран портфейл.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Криптирането на портфейла беше неуспешно</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Криптирането на портфейла се провали, поради вътрешна грешка. Вашият портфейл не беше криптиран.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -236,11 +282,19 @@
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
+<<<<<<< HEAD
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
         <source>Enter a Rhenium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Въведете Rhenium адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+=======
+        <translation>&amp;BIP 38 криптиране</translation>
+    </message>
+    <message>
+        <source>Enter a Rhenium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Rhenium адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Address:</source>
@@ -272,6 +326,7 @@
     </message>
     <message>
         <source>Encrypted Key:</source>
+<<<<<<< HEAD
         <translation>Шифриран ключ:</translation>
     </message>
     <message>
@@ -4519,5 +4574,224 @@ Please be patient...</source>
         <source>failed to validate zerocoin</source>
         <translation>провал при валидирането на Zerocoin</translation>
     </message>
+=======
+        <translation>Криптиращ ключ:</translation>
+    </message>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Отключи портфейла</translation>
+    </message>
+    </context>
+<context>
+    <name>BlockExplorer</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>MasternodeList</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    </context>
+<context>
+    <name>MultiSendDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Алт+А</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation>Адрес:</translation>
+    </message>
+    </context>
+<context>
+    <name>CoinMixingConfig</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(без етикет)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Изберете предишноизползван адрес</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Алт+А</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Постави адреса от буфера</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Алт+П</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>The Rhenium address to sign the message with</source>
+        <translation>Rhenium адреса, с който да подпишете съобщението</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Изберете предишноизползван адрес</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Алт+А</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Постави адреса от буфера</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Алт+П</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Файлове разделени чрез запетая (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Етикет</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Експортирането провалено</translation>
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Експортиране</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Експортиране информацията от сегашния таб във файл</translation>
+    </message>
+    </context>
+<context>
+    <name>Rhenium-core</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 </TS>

@@ -133,10 +133,14 @@ public:
     CAmount getBalance(const CCoinControl* coinControl = NULL) const;
     CAmount getUnconfirmedBalance() const;
     CAmount getImmatureBalance() const;
+<<<<<<< HEAD
     CAmount getLockedBalance() const;
     CAmount getZerocoinBalance() const;
     CAmount getUnconfirmedZerocoinBalance() const;
     CAmount getImmatureZerocoinBalance() const;
+=======
+    CAmount getAnonymizedBalance() const;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool haveWatchOnly() const;
     CAmount getWatchBalance() const;
     CAmount getWatchUnconfirmedBalance() const;
@@ -146,7 +150,10 @@ public:
     bool setAddressBook(const CTxDestination& address, const string& strName, const string& strPurpose);
     void encryptKey(const CKey key, const std::string& pwd, const std::string& slt, std::vector<unsigned char>& crypted);
     void decryptKey(const std::vector<unsigned char>& crypted, const std::string& slt, const std::string& pwd, CKey& key);
+<<<<<<< HEAD
     void emitBalanceChanged(); // Force update of UI-elements even when no values have changed
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // Check address for validity
     bool validateAddress(const QString& address);
@@ -177,7 +184,11 @@ public:
     class UnlockContext
     {
     public:
+<<<<<<< HEAD
         UnlockContext(bool valid, bool relock);
+=======
+        UnlockContext(WalletModel* wallet, bool valid, bool relock);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         ~UnlockContext();
 
         bool isValid() const { return valid; }
@@ -191,6 +202,10 @@ public:
         }
 
     private:
+<<<<<<< HEAD
+=======
+        WalletModel* wallet;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         bool valid;
         mutable bool relock; // mutable, as it can be set to false by copying
 
@@ -210,15 +225,21 @@ public:
     void unlockCoin(COutPoint& output);
     void listLockedCoins(std::vector<COutPoint>& vOutpts);
 
+<<<<<<< HEAD
     void listZerocoinMints(std::list<CZerocoinMint>& listMints, bool fUnusedOnly = false, bool fMaturedOnly = false, bool fUpdateStatus = false);
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void loadReceiveRequests(std::vector<std::string>& vReceiveRequests);
     bool saveReceiveRequest(const std::string& sAddress, const int64_t nId, const std::string& sRequest);
 
 private:
     CWallet* wallet;
     bool fHaveWatchOnly;
+<<<<<<< HEAD
     bool fHaveMultiSig;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool fForceCheckBalanceChanged;
 
     // Wallet has an options model for wallet-specific options
@@ -233,16 +254,24 @@ private:
     CAmount cachedBalance;
     CAmount cachedUnconfirmedBalance;
     CAmount cachedImmatureBalance;
+<<<<<<< HEAD
     CAmount cachedZerocoinBalance;
     CAmount cachedUnconfirmedZerocoinBalance;
     CAmount cachedImmatureZerocoinBalance;
+=======
+    CAmount cachedAnonymizedBalance;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount cachedWatchOnlyBalance;
     CAmount cachedWatchUnconfBalance;
     CAmount cachedWatchImmatureBalance;
     EncryptionStatus cachedEncryptionStatus;
     int cachedNumBlocks;
     int cachedTxLocks;
+<<<<<<< HEAD
     int cachedZeromintPercentage;
+=======
+    int cachedCoinMixingRounds;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     QTimer* pollTimer;
 
@@ -252,9 +281,13 @@ private:
 
 signals:
     // Signal that balance in wallet changed
+<<<<<<< HEAD
     void balanceChanged(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
                         const CAmount& zerocoinBalance, const CAmount& unconfirmedZerocoinBalance, const CAmount& immatureZerocoinBalance, 
                         const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
+=======
+    void balanceChanged(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance, const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // Encryption status of wallet changed
     void encryptionStatusChanged(int status);
@@ -276,8 +309,11 @@ signals:
     // Watch-only address added
     void notifyWatchonlyChanged(bool fHaveWatchonly);
 
+<<<<<<< HEAD
     // MultiSig address added
     void notifyMultiSigChanged(bool fHaveMultiSig);
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 public slots:
     /* Wallet status might have changed */
     void updateStatus();
@@ -285,12 +321,17 @@ public slots:
     void updateTransaction();
     /* New, updated or removed address book entry */
     void updateAddressBook(const QString& address, const QString& label, bool isMine, const QString& purpose, int status);
+<<<<<<< HEAD
     /* Zerocoin update */
     void updateAddressBook(const QString &pubCoin, const QString &isUsed, int status);
     /* Watch-only added */
     void updateWatchOnlyFlag(bool fHaveWatchonly);
     /* MultiSig added */
     void updateMultiSigFlag(bool fHaveMultiSig);
+=======
+    /* Watch-only added */
+    void updateWatchOnlyFlag(bool fHaveWatchonly);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /* Current, immature or unconfirmed balance might have changed - emit 'balanceChanged' if so */
     void pollBalanceChanged();
 };

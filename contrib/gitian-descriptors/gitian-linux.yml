@@ -1,11 +1,19 @@
 ---
+<<<<<<< HEAD
 name: "Rhenium-linux-1.2"
+=======
+name: "Rhenium-linux-2.3"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 enable_cache: true
 suites:
 - "trusty"
 architectures:
 - "amd64"
+<<<<<<< HEAD
 packages:
+=======
+packages: 
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 - "curl"
 - "g++-aarch64-linux-gnu"
 - "g++-4.8-aarch64-linux-gnu"
@@ -29,13 +37,21 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
+<<<<<<< HEAD
 - "url": "https://github.com/eastcoastcrypto/Rhenium"
+=======
+- "url": "https://github.com/Rhenium-project/Rhenium.git"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   "dir": "Rhenium"
 files: []
 script: |
 
   WRAP_DIR=$HOME/wrapped
+<<<<<<< HEAD
   HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf"
+=======
+  HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf aarch64-linux-gnu"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports --disable-bench --disable-gui-tests"
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="date ar ranlib nm"
@@ -164,7 +180,11 @@ script: |
     find . -name "lib*.a" -delete
     rm -rf ${DISTNAME}/lib/pkgconfig
     find ${DISTNAME}/bin -type f -executable -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
+<<<<<<< HEAD
     # find ${DISTNAME}/lib -type f -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
+=======
+    find ${DISTNAME}/lib -type f -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     find ${DISTNAME} -not -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ${OUTDIR}/${DISTNAME}-${i}.tar.gz
     find ${DISTNAME} -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ${OUTDIR}/${DISTNAME}-${i}-debug.tar.gz
     cd ../../

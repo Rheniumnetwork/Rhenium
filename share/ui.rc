@@ -5,7 +5,11 @@ bitcoin               ICON    "pixmaps/bitcoin.ico"
 check                 ICON    "pixmaps/check.ico"
 send16                BITMAP  "pixmaps/send16.bmp"
 send16mask            BITMAP  "pixmaps/send16mask.bmp"
+<<<<<<< HEAD
 send16maskRheniumhadow    BITMAP  "pixmaps/send16maskRheniumhadow.bmp"
+=======
+send16masknoshadow    BITMAP  "pixmaps/send16masknoshadow.bmp"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 send20                BITMAP  "pixmaps/send20.bmp"
 send20mask            BITMAP  "pixmaps/send20mask.bmp"
 addressbook16         BITMAP  "pixmaps/addressbook16.bmp"

@@ -1,8 +1,12 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Rhenium developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,14 +61,20 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"version\": xxxxx,           (numeric) the server version\n"
             "  \"protocolversion\": xxxxx,   (numeric) the protocol version\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
+<<<<<<< HEAD
             "  \"balance\": xxxxxxx,         (numeric) the total Rhenium balance of the wallet (excluding zerocoins)\n"
             "  \"zerocoinbalance\": xxxxxxx, (numeric) the total zerocoin balance of the wallet\n"
+=======
+            "  \"balance\": xxxxxxx,         (numeric) the total Rhenium balance of the wallet\n"
+            "  \"coinmixing_balance\": xxxxxx, (numeric) the anonymized Rhenium balance of the wallet\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "  \"blocks\": xxxxxx,           (numeric) the current number of blocks processed in the server\n"
             "  \"timeoffset\": xxxxx,        (numeric) the time offset\n"
             "  \"connections\": xxxxx,       (numeric) the number of connections\n"
             "  \"proxy\": \"host:port\",     (string, optional) the proxy used by the server\n"
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
+<<<<<<< HEAD
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
             "  \"zXRHsupply\" :\n"
             "  {\n"
@@ -78,6 +88,9 @@ Value getinfo(const Array& params, bool fHelp)
             "     \"5000\" : n,         (numeric) supply of 5000 zXRH denomination\n"
             "     \"total\" : n,        (numeric) The total supply of all zXRH denominations\n"
             "  }\n"
+=======
+			"  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,      (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
@@ -99,12 +112,18 @@ Value getinfo(const Array& params, bool fHelp)
     if (pwalletMain) {
         obj.push_back(Pair("walletversion", pwalletMain->GetVersion()));
         obj.push_back(Pair("balance", ValueFromAmount(pwalletMain->GetBalance())));
+<<<<<<< HEAD
         obj.push_back(Pair("zerocoinbalance", ValueFromAmount(pwalletMain->GetZerocoinBalance(true))));
+=======
+        if (!fLiteMode)
+            obj.push_back(Pair("coinmixing_balance", ValueFromAmount(pwalletMain->GetAnonymizedBalance())));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 #endif
     obj.push_back(Pair("blocks", (int)chainActive.Height()));
     obj.push_back(Pair("timeoffset", GetTimeOffset()));
     obj.push_back(Pair("connections", (int)vNodes.size()));
+<<<<<<< HEAD
     obj.push_back(Pair("proxy", (proxy.IsValid() ? proxy.proxy.ToStringIPPort() : string())));
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
@@ -116,6 +135,11 @@ Value getinfo(const Array& params, bool fHelp)
     zRheniumObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
     obj.emplace_back(Pair("zXRHsupply", zRheniumObj));
     
+=======
+    obj.push_back(Pair("proxy", (proxy.IsValid() ? proxy.ToStringIPPort() : string())));
+    obj.push_back(Pair("difficulty", (double)GetDifficulty()));
+    obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifdef ENABLE_WALLET
     if (pwalletMain) {
         obj.push_back(Pair("keypoololdest", pwalletMain->GetOldestKeyPoolTime()));
@@ -285,6 +309,10 @@ Value spork(const Array& params, bool fHelp)
 
         //broadcast new spork
         if (sporkManager.UpdateSpork(nSporkID, nValue)) {
+<<<<<<< HEAD
+=======
+            ExecuteSpork(nSporkID, nValue);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             return "success";
         } else {
             return "failure";
@@ -549,4 +577,8 @@ Value getstakingstatus(const Array& params, bool fHelp)
 
     return obj;
 }
+<<<<<<< HEAD
 #endif // ENABLE_WALLET
+=======
+#endif // ENABLE_WALLET
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

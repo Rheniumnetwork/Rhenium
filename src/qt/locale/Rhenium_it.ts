@@ -502,8 +502,13 @@
         <translation>&amp;Informazioni</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Visualizza informazioni di diagRheniumtica</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Visualizza informazioni di diagnostica</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -839,8 +844,18 @@ MultiSend: %1</translation>
         <translation>Prego selezionare "Modalità lista" per utilizzare questa funzione</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>yes</source>
         <translation>si</translation>
+=======
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>si
+</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>no</source>
@@ -950,7 +965,11 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -960,6 +979,13 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>OverviewPage</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>PaymentServer</name>
@@ -968,6 +994,7 @@ MultiSend: %1</translation>
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>Quantity:</source>
@@ -1015,6 +1042,8 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1311,9 +1340,12 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>

@@ -1,6 +1,10 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -37,8 +41,12 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightTextBtc = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
     QString copyrightTextDash = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Dash Core developers"));
+<<<<<<< HEAD
     QString copyrightTextPIVX = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The PIVX Core developers"));
     QString copyrightTextRhenium = QChar(0xA9) + QString(" 2017-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Rhenium Core developers"));
+=======
+    QString copyrightTextRhenium = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Rhenium Core developers"));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     QString titleAddText = networkStyle->getTitleAddText();
 
     QString font = QApplication::font().toString();
@@ -70,8 +78,12 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     pixPaint.setFont(QFont(font, 10 * fontFactor));
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace, copyrightTextBtc);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 12, copyrightTextDash);
+<<<<<<< HEAD
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 24, copyrightTextPIVX);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 36, copyrightTextRhenium);
+=======
+    pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 24, copyrightTextRhenium);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // draw additional text if special network
     if (!titleAddText.isEmpty()) {

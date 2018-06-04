@@ -1,8 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,7 +29,11 @@
  *
  * \section intro_sec Introduction
  *
+<<<<<<< HEAD
  * This is the developer documentation of the reference client for an experimental new digital currency called Rhenium (http://www.Rhenium.io),
+=======
+ * This is the developer documentation of the reference client for an experimental new digital currency called Rhenium (http://www.Rhenium.org),
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * which enables instant payments to anyone, anywhere in the world. Rhenium uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *

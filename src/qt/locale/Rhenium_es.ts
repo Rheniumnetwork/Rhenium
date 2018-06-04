@@ -3,11 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Click derecho para editar dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
         <translation>Crear nueva dirección</translation>
+=======
+        <translation>Click derecho para editar la dirección o etiqueta</translation>
+    </message>
+    <message>
+        <source>Create a new address</source>
+        <translation>Crear una nueva dirección</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;New</source>
@@ -55,6 +63,7 @@
     </message>
     <message>
         <source>Sending addresses</source>
+<<<<<<< HEAD
         <translation>Direcciones de envío</translation>
     </message>
     <message>
@@ -64,6 +73,17 @@
     <message>
         <source>These are your Rhenium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Estas son sus direcciones Rhenium para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+=======
+        <translation>Enviando direcciones</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Recibiendo direcciones</translation>
+    </message>
+    <message>
+        <source>These are your Rhenium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Rhenium para realizar pagos. Siempre verifique la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>These are your Rhenium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -75,7 +95,11 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
+<<<<<<< HEAD
         <translation>Copiar etiqueta</translation>
+=======
+        <translation>Copiar y Etiquetar</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -95,7 +119,11 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
+<<<<<<< HEAD
         <translation>Ha habido un error intentando guardar la lista de direcciones %1. Por favor inténtelo de nuevo.</translation>
+=======
+        <translation>Hubo un error intentando guardar la lista de direcciones %1. Por favor intente nuevamente</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -137,7 +165,11 @@
     </message>
     <message>
         <source>For anonymization and staking only</source>
+<<<<<<< HEAD
         <translation>Desbloquear solo para anonimización y staking</translation>
+=======
+        <translation>Para anonimización y staking solamente</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -145,6 +177,7 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
+<<<<<<< HEAD
         <translation>Cifrar monedero</translation>
     </message>
     <message>
@@ -162,6 +195,25 @@
     <message>
         <source>Decrypt wallet</source>
         <translation>Descifrar monedero</translation>
+=======
+        <translation>Encriptar la Wallet</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Esta operación requiere su contraseña para desbloquear la Wallet</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Desbloquear wallet</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Esta operación requiere su contraseña para desbloquear la Wallet</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Desencriptar Wallet</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Change passphrase</source>
@@ -169,6 +221,7 @@
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
+<<<<<<< HEAD
         <translation>Ingrese la antigua y la nueva contraseña para el monedero</translation>
     </message>
     <message>
@@ -218,6 +271,57 @@
     <message>
         <source>Wallet decryption failed</source>
         <translation>Descifrado del monedero fallido</translation>
+=======
+        <translation>Ingrese la antigua y nueva contraseña para la Wallet</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirmar la encriptación de la Wallet</translation>
+    </message>
+    <message>
+        <source>Rhenium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XRHs from being stolen by malware infecting your computer.</source>
+        <translation>Rhenium se cerrará ahora para finalizar el proceso de encriptación. Recuerde que encriptar su Wallet no previene completamente que tus XRHs sean robados mediante malware infectando su ordenador.</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>¿Esta seguro de que desea encriptar tu Wallet?</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XRH&lt;/b&gt;!</source>
+        <translation>Atención: Si encripta su Wallet y pierde su contraseña, perderá &lt;b&gt; TODOS SUS XRH&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Wallet encriptada</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>IMPORTANTE: Cualquier backup anterior que haya realizado de su Wallet debe ser reemplazado por el nuevo archivo de Wallet encriptado. Por razones de seguridad, las copias anteriores de seguridad de la Wallet sin encriptar pasaran a ser obsoletas tan pronto empiece a utilizar la nueva Wallet encriptada.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>La encriptación de la Wallet ha fallado</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>La encriptación de la wallet ha fallado debido a un error interno. Tu wallet no ha sido encriptada.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Las contraseñas suministradas no coinciden.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Fallo en el desbloqueo de la wallet</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>La contraseña introducida para la desencriptación de la wallet es incorrecta.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Fallo en la desencriptación de la wallet</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
@@ -225,7 +329,11 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
+<<<<<<< HEAD
         <translation>Aviso: La tecla Mayúsculas está encendida!</translation>
+=======
+        <translation>Atención: La tecla Mayúsculas está encendida!</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -236,11 +344,19 @@
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
+<<<<<<< HEAD
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
         <source>Enter a Rhenium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Introduzca la dirección Rhenium que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+=======
+        <translation>&amp;Encriptación BIP 38</translation>
+    </message>
+    <message>
+        <source>Enter a Rhenium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección Rhenium que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Address:</source>
@@ -248,11 +364,19 @@
     </message>
     <message>
         <source>The Rhenium address to sign the message with</source>
+<<<<<<< HEAD
         <translation>La dirección Rhenium con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
         <translation>Escoja una dirección usada previamente</translation>
+=======
+        <translation>La dirección Rhenium con la que firmar el mensaje</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Escoge una dirección usada previamente</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+A</source>
@@ -260,7 +384,11 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
+<<<<<<< HEAD
         <translation>Pegar dirección desde el portapapeles</translation>
+=======
+        <translation>Pegar dirección desde el clipboard</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+P</source>
@@ -272,6 +400,7 @@
     </message>
     <message>
         <source>Encrypted Key:</source>
+<<<<<<< HEAD
         <translation>Clave cifrada:</translation>
     </message>
     <message>
@@ -289,6 +418,25 @@
     <message>
         <source>Reset all sign message fields</source>
         <translation>Limpiar todos los campos de firma de mensaje</translation>
+=======
+        <translation>Clave Encriptada:</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Copiar la firma actual al clipboard del sistema</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Rhenium address</source>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección Rhenium</translation>
+    </message>
+    <message>
+        <source>Encrypt &amp;Key</source>
+        <translation>Encriptar &amp; Clave</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Resetear todos los campos de firma de mensaje</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -296,6 +444,7 @@
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
+<<<<<<< HEAD
         <translation>&amp;Descifrado BIP 38</translation>
     </message>
     <message>
@@ -329,6 +478,41 @@
     <message>
         <source>Click "Decrypt Key" to compute key</source>
         <translation>Haga clic en "Descifrar clave" para generar la clave</translation>
+=======
+        <translation>&amp;Desencriptación BIP 38</translation>
+    </message>
+    <message>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <translation>Introducir la clave encriptada privada BIP 38. Introducir la contraseña en la caja central. Pulsar en Desencriptar Clave para computar la clave privada. Después de que la clave sea desencriptada, pulsando en 'Importar Dirección' añadirá esta clave privada a la wallet.</translation>
+    </message>
+    <message>
+        <source>The Rhenium address the message was signed with</source>
+        <translation>La dirección Rhenium con la que el mensaje fue firmado</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección Rhenium especificada</translation>
+    </message>
+    <message>
+        <source>Decrypt &amp;Key</source>
+        <translation>Desencriptar &amp; Clave</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Resetear todos los campos de verificación de mensaje</translation>
+    </message>
+    <message>
+        <source>Decrypted Key:</source>
+        <translation>Clave desencriptada</translation>
+    </message>
+    <message>
+        <source>Import Address</source>
+        <translation>Importar Dirección</translation>
+    </message>
+    <message>
+        <source>Click "Decrypt Key" to compute key</source>
+        <translation>Clickar "Desencriptar Clave" para computar la clave</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
@@ -344,6 +528,7 @@
     </message>
     <message>
         <source>Please check the address and try again.</source>
+<<<<<<< HEAD
         <translation>Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
@@ -353,6 +538,17 @@
     <message>
         <source>Wallet unlock was cancelled.</source>
         <translation>El desbloqueo del monedero fue cancelado.</translation>
+=======
+        <translation>Por favor comprobar la dirección y probar de nuevo.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>La dirección introducido no se refiere a ninguna clave.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>El desbloqueo de la wallet fue cancelado.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -360,6 +556,7 @@
     </message>
     <message>
         <source>Failed to decrypt.</source>
+<<<<<<< HEAD
         <translation>Falló el descifrado</translation>
     </message>
     <message>
@@ -377,6 +574,25 @@
     <message>
         <source>Please wait while key is imported</source>
         <translation>Por favor espere mientras la clave es importada</translation>
+=======
+        <translation>Fallo en la desencriptación</translation>
+    </message>
+    <message>
+        <source>Please check the key and passphrase and try again.</source>
+        <translation>Por favor comprobar la clave y la contraseña y probar de nuevo.</translation>
+    </message>
+    <message>
+        <source>Data Not Valid.</source>
+        <translation>Datos No Válidos.</translation>
+    </message>
+    <message>
+        <source>Please try again.</source>
+        <translation>Por favor intentar de nuevo.</translation>
+    </message>
+    <message>
+        <source>Please wait while key is imported</source>
+        <translation>Por favor esperar mientras se importa la clave</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
@@ -483,7 +699,11 @@
     </message>
     <message>
         <source>Unlock wallet</source>
+<<<<<<< HEAD
         <translation>Desbloquear monedero</translation>
+=======
+        <translation>Desbloquear wallet</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
@@ -502,7 +722,11 @@
         <translation>&amp;Información</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
+=======
+        <source>Show diagnostic information</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Mostrar información de diagnóstico</translation>
     </message>
     <message>
@@ -575,7 +799,11 @@
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
+<<<<<<< HEAD
         <translation><numerusform>Procesado %n bloque del historial de transacciones.</numerusform><numerusform>Procesados %n bloques del historial de transacciones.</numerusform></translation>
+=======
+        <translation><numerusform>Procesados %n bloque del histórico de transacciones.</numerusform><numerusform>Procesados %n bloques del histórico de transacciones.</numerusform></translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -614,6 +842,7 @@
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Privacy</source>
         <translation>&amp;Privacidad</translation>
     </message>
@@ -622,6 +851,8 @@
         <translation>Privacidad con zXRH y Ofuscación</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation>Nodos &amp;Maestros</translation>
     </message>
@@ -833,6 +1064,7 @@ MultiEnvío: %1</translation>
         <translation>Explorador de Cadena de Bloques</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Back</source>
         <translation>Atrás</translation>
     </message>
@@ -841,6 +1073,8 @@ MultiEnvío: %1</translation>
         <translation>Adelante</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation>Dirección / Bloque / Transacción</translation>
     </message>
@@ -860,8 +1094,13 @@ MultiEnvío: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
+<<<<<<< HEAD
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Desconocido: %5)</translation>
+=======
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (Ofuscación compatible: %2 / Activado: %3)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Network Alert</source>
@@ -939,6 +1178,13 @@ MultiEnvío: %1</translation>
         <translation>Recibido con dirección</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>DS Rounds</source>
+        <translation>Rondas DS:</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
@@ -1011,6 +1257,13 @@ MultiEnvío: %1</translation>
         <translation>Por favor cambie a "Modo de Lista" para utilizar esta función.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
+        <translation>Has seleccionado una entrada que no ha sido anonimizada. &lt;b&gt;La Ofuscación será deshabilitada.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Si todavía quiere utilizar la Ofuscación, por favor primero deseleccione todas las entrada no anonimizadas y entonces marque la casilla de Ofuscación de nuevo.</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>la más alta</translation>
     </message>
@@ -1031,6 +1284,13 @@ MultiEnvío: %1</translation>
         <translation>Puede variar +/- %1 duff(s) por entrada.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>media</translation>
     </message>
@@ -1072,7 +1332,11 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
+<<<<<<< HEAD
         <translation>Esto significa que se requiere una comisión de al meRhenium %1 por kB.</translation>
+=======
+        <translation>Esto significa que se requiere una comisión de al menos %1 por kB.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -1252,7 +1516,11 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Rhenium Core will download and store a copy of the Rhenium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+<<<<<<< HEAD
         <translation>Rhenium Core descargará y guardará una copia de la cadena de bloques Rhenium. Por lo meRhenium %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+=======
+        <translation>Rhenium Core descargará y guardará una copia de la cadena de bloques Rhenium. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1412,7 +1680,11 @@ MultiSend will not be activated unless you have clicked Activate</source>
         <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones Rhenium después de su maduración.
 Para Añadir: introduzca porcentaje a enviar y las direcciones Rhenium a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
+<<<<<<< HEAD
 MultiEnvío no se activará a meRhenium que haga usted click en Activar</translation>
+=======
+MultiEnvío no se activará a menos que haga usted click en Activar</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
@@ -1526,9 +1798,15 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
+=======
+    <name>CoinMixingConfig</name>
+    <message>
+        <source>Configure CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Configurar Ofuscación</translation>
     </message>
     <message>
@@ -1576,6 +1854,7 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>0.1 XRH por 10000 XRH que anonimizas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
@@ -1589,6 +1868,21 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+=======
+        <source>CoinMixing Configuration</source>
+        <translation>Configuración de Ofuscación</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de Rhenium.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de Rhenium.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de Rhenium.</translation>
     </message>
 </context>
@@ -1647,7 +1941,11 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
+<<<<<<< HEAD
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al meRhenium una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
+=======
+        <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Automatically open the Rhenium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1678,6 +1976,25 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Arrancar Rhenium al inicio del sistema</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Esta configuración determina la cantidad máxima de nodos maestros individuales a través de los cuales una entrada se anonimizará.&lt;br/&gt;Más rondas de anonimización ofrecen un mayor grado de privacidad, pero también cuesta más en comisiones.</translation>
+    </message>
+    <message>
+        <source>CoinMixing rounds to use</source>
+        <translation>Rondas de Ofuscación a utilizar</translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off CoinMixing once it's reached.</source>
+        <translation>Esta cantidad actúa como un techo para desactivar la Ofuscación una vez alcanzado.</translation>
+    </message>
+    <message>
+        <source>Amount of Rhenium to keep anonymized</source>
+        <translation>Cantidad de Rhenium a mantener anonimizados</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>Mostrar las características de control de monedas individuales, o no</translation>
     </message>
@@ -1716,6 +2033,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Percentage of incoming XRH which get automatically converted to zXRH via Zerocoin Protocol (min: 10%)</source>
         <translation>Porcentaje de XRHs entrantes que serán automáticamente convertidos a zXRH a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
@@ -1732,6 +2050,8 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Tamaño de billete zXRH preferido en la creación automática de dinero</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Connect to the Rhenium network through a SOCKS5 proxy.</source>
         <translation>Conectar a la red Rhenium mediante un proxy SOCKS5.</translation>
     </message>
@@ -1824,10 +2144,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>I don't care</source>
         <translation>No me preocupa</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>default</source>
         <translation>por defecto</translation>
     </message>
@@ -1863,10 +2186,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Formulario</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>XRH Balances</source>
         <translation>Balances XRH</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Available:</source>
         <translation>Disponible:</translation>
     </message>
@@ -1891,6 +2217,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Balances</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Rhenium después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
@@ -1927,6 +2260,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Disponible:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Combined Balances (including immature coins)</source>
         <translation>Balances Combinados (incluyendo monedas inmaduras)</translation>
     </message>
@@ -2106,12 +2440,77 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
         <translation>Resetear la base de datos del monedero Zerocoin. Esta opción borra transacciones que no consiguieron salir publicadas en la cadena de bloques.</translation>
+=======
+        <source>Status:</source>
+        <translation>Estado:</translation>
+    </message>
+    <message>
+        <source>CoinMixing Balance:</source>
+        <translation>Balance de Ofuscación:</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 XRH / 0 Rondas</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Activado/Desactivado</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a CoinMixing request.</source>
+        <translation>Intentar enviar manualmente una solicitud de Ofuscación.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Reiniciar el estado actual de Ofuscación (puede interrumpir la Ofuscación si está en el proceso de Mezcla, que puede costarle dinero!)</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Ofuscación</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Completado:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Cantidad y Rondas:</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Denominación Enviada:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Transacciones recientes</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Empezar/Parar Mezcla</translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Las denominaciones que enviaste al Nodo Maestro.&lt;br&gt;Para mezclar, otros usuarios deben enviar exactamente las mismas denominaciones.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Último Mensaje)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Intentar Mezclar</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Reset</source>
         <translation>Reiniciar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Coin Control...</source>
         <translation>Control de Monedas...</translation>
     </message>
@@ -2516,6 +2915,195 @@ Por favor tenga paciencia...</translation>
     <message>
         <source>fee: </source>
         <translation>tasa:</translation>
+=======
+        <source>out of sync</source>
+        <translation>desincronizado</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Desactivado</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>No se detectan entradas</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n Rounds</source>
+        <translation><numerusform>%n Ronda</numerusform><numerusform>%n Rondas</numerusform></translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>No hay suficientes entradas compatibles para anonimizar &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;anonimizará &lt;span style='color:red;'&gt;%2&lt;/span&gt; en su lugar
+</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Progreso total</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Nominadas</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonimizadas</translation>
+    </message>
+    <message numerus="yes">
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation><numerusform>La entrada denominada tiene %5 de %n rondas de promedio</numerusform><numerusform>Las entradas seleccionadas tienen %5 de %n rondas de promedio</numerusform></translation>
+    </message>
+    <message>
+        <source>Last CoinMixing message:
+</source>
+        <translation>Último mensaje de Ofuscación:
+</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully reset.</source>
+        <translation>La Ofuscación fue reiniciada satisfactoriamente.</translation>
+    </message>
+    <message>
+        <source>If you don't want to see internal CoinMixing fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Si no quiere ver aquí las operaciones internas de Ofuscación seleccione "Las Más Comunes" como el Tipo en la pestaña de "Transacciones".</translation>
+    </message>
+    <message>
+        <source>CoinMixing requires at least %1 to use.</source>
+        <translation>La Ofuscación requiere como mínimo %1 para usarse.</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
+        <translation>El Monedero está bloqueado y el usuario declinó su desbloqueo. Desactivando Ofuscación.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Se encontraron suficientes entradas compatibles para anonimizar %1</translation>
+    </message>
+    <message>
+        <source>Start CoinMixing</source>
+        <translation>Comenzar Ofuscación</translation>
+    </message>
+    <message>
+        <source>Stop CoinMixing</source>
+        <translation>Parar Ofuscación</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Mezcladas</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Activado</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>Payment request error</source>
+        <translation>Error en la solicitud de pago</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>Manejo de URI</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Solicitud de pago via web inválida: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Manejo del fichero de solicitud de pago</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Dirección de pago inválida %1</translation>
+    </message>
+    <message>
+        <source>Cannot start Rhenium: click-to-pay handler</source>
+        <translation>No se puede iniciar Rhenium: módulo click-to-pay</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Rhenium address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección Rhenium inválida o parámetros del identificador malformados.</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>El fichero de solicitud de pago no se pudo leer! Esto puede estar causado por una solicitud de pago inválida.</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Solicitud de pago rechazada</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>La solicitud de pago no coincide con la red del cliente.</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>La solicitud de pago ha expirado.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>La solicitud de pago no está inicializada.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Solicitudes de pago no verificadas a scripts de pago personalizado no están soportadas.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>La cantidad de pago solicitada de %1 es demasiado pequeña (se considera calderilla).</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Reembolso desde %1</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>La solicitud de pago %1 es demasiado larga (%2 bytes, permitidos %3 bytes).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Protección de Denegación de Servicio para la solicitud de pago</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Error de comunicación con %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>¡La solicitud de pago no se pudo procesar!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Respuesta inadecuada del servidor %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Error de Red</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Pago confirmado</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Address/Hostname</source>
+        <translation>Dirección/Nombre Host</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Intervalo de Ping</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -2549,10 +3137,13 @@ Por favor tenga paciencia...</translation>
         <translation>RED</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>BLOOM</source>
         <translation>BLOOM</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>UNKNOWN</source>
         <translation>DESCONOCIDO</translation>
     </message>
@@ -2664,7 +3255,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Open the Rhenium debug log file from the current data directory. This can take a few seconds for large log files.</source>
+<<<<<<< HEAD
         <translation>Abrir el fichero de depuración Rhenium en el directorio actual de datos. Esto puede llevar uRhenium segundos para ficheros de depuración grandes.</translation>
+=======
+        <translation>Abrir el fichero de depuración Rhenium en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2887,7 +3482,11 @@ Por favor tenga paciencia...</translation>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
+<<<<<<< HEAD
         <translation>Reutilizar una de las direcciones de recepción anteriores.&lt;br&gt;Reutilizar direcciones de recepción tiene implicaciones de seguridad y privacidad.&lt;br&gt;No la utilizar al meRhenium que esté re-generando una solicitud de pago anterior.</translation>
+=======
+        <translation>Reutilizar una de las direcciones de recepción anteriores.&lt;br&gt;Reutilizar direcciones de recepción tiene implicaciones de seguridad y privacidad.&lt;br&gt;No la utilizar al menos que esté re-generando una solicitud de pago anterior.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
@@ -3067,6 +3666,17 @@ Por favor tenga paciencia...</translation>
         <translation>Funciones de Control de Monedas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Inputs...</source>
+        <translation>Entradas...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>seleccionadas automáticamente</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>¡Fondos insuficientes!</translation>
     </message>
@@ -3151,12 +3761,23 @@ Por favor tenga paciencia...</translation>
         <translation>Minimizar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>CoinMixing</source>
+        <translation>Ofuscación</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>por kilobyte</translation>
     </message>
     <message>
         <source>total at least</source>
+<<<<<<< HEAD
         <translation>total por lo meRhenium</translation>
+=======
+        <translation>total por lo menos</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -3168,13 +3789,18 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+<<<<<<< HEAD
         <translation>(La comisión automática no se ha inicializado todavía. Esto normalmente necesita uRhenium cuantos bloques...)</translation>
+=======
+        <translation>(La comisión automática no se ha inicializado todavía. Esto normalmente necesita unos cuantos bloques...)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Confirmation time:</source>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open Coin Control...</source>
         <translation>Abrir Control de Monedas...</translation>
     </message>
@@ -3193,6 +3819,18 @@ Por favor tenga paciencia...</translation>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Rhenium transactions than the network can process.</source>
         <translation>Pagar sólo la comisión mínima está bien mientras haya meRhenium volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Rhenium de las que la red puede procesar.</translation>
+=======
+        <source>If the custom fee is set to 1000 uXRHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXRHs in fee,&lt;br /&gt;while "at least" pays 1000 uXRHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uXRHs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXRHs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXRHs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 uXRHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXRHs in fee,&lt;br /&gt;while "total at least" pays 1000 uXRHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uXRHs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uXRHs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uXRHs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Rhenium transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones Rhenium de las que la red puede procesar.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>normal</source>
@@ -3239,10 +3877,13 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Anonymized XRH</source>
         <translation>XRH anonimizados</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>RhenFAST</source>
         <translation>RhenFAST</translation>
     </message>
@@ -3336,13 +3977,24 @@ Por favor tenga paciencia...</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
+<<<<<<< HEAD
         <translation><numerusform>Estimamos que la confirmación empezará dentro de %n bloque.</numerusform><numerusform>Estimamos que la confirmación empezará dentro de %n bloques.</numerusform></translation>
+=======
+        <translation><numerusform>Estimamos que empezará la confirmación en %n bloque.</numerusform><numerusform>Estimamos que empezará la confirmación en %n bloques.</numerusform></translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>La dirección de destino no es válida, por favor compruébelo de nuevo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>(coinmixing requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(la ofuscación requiere redondear hacia arriba esta cantidad al %1 más cercano).</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source> split into %1 outputs using the UTXO splitter.</source>
         <translation>separado en %1 salidas usando el separador UTXO.</translation>
     </message>
@@ -3379,10 +4031,13 @@ Por favor tenga paciencia...</translation>
         <translation>Error: El monedero se desbloqueó sólo para anonimizar monedas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
         <translation>Error: El monedero ya fue desbloqueado para anonimizar monedas. El desbloqueo total se ha cancelado.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar sólo la comisión mínima de %1</translation>
     </message>
@@ -3411,7 +4066,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
+<<<<<<< HEAD
         <translation>Escoja una dirección usada previamente</translation>
+=======
+        <translation>Escoge una dirección usada previamente</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+A</source>
@@ -3419,7 +4078,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
+<<<<<<< HEAD
         <translation>Pegar dirección desde el portapapeles</translation>
+=======
+        <translation>Pegar dirección desde el clipboard</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+P</source>
@@ -3497,11 +4160,19 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>The Rhenium address to sign the message with</source>
+<<<<<<< HEAD
         <translation>La dirección Rhenium con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
         <translation>Escoja una dirección usada previamente</translation>
+=======
+        <translation>La dirección Rhenium con la que firmar el mensaje</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Escoge una dirección usada previamente</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+A</source>
@@ -3509,7 +4180,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
+<<<<<<< HEAD
         <translation>Pegar dirección desde el portapapeles</translation>
+=======
+        <translation>Pegar dirección desde el clipboard</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+P</source>
@@ -3525,6 +4200,7 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
+<<<<<<< HEAD
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
@@ -3538,6 +4214,21 @@ Por favor tenga paciencia...</translation>
     <message>
         <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
         <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Rhenium especificada</translation>
+=======
+        <translation>Copiar la firma actual al clipboard del sistema</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Rhenium address</source>
+        <translation>Firmar el mensaje para demostrar que eres el propietario de esta dirección Rhenium</translation>
+    </message>
+    <message>
+        <source>The Rhenium address the message was signed with</source>
+        <translation>La dirección Rhenium con la que el mensaje fue firmado</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
+        <translation>Verificar el mensaje para asegurarse que fue firmado con la dirección Rhenium especificada</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3545,7 +4236,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
+<<<<<<< HEAD
         <translation>Limpiar todos los campos de firma de mensaje</translation>
+=======
+        <translation>Resetear todos los campos de firma de mensaje</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -3565,7 +4260,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
+<<<<<<< HEAD
         <translation>Limpiar todos los campos de verificación de mensaje</translation>
+=======
+        <translation>Resetear todos los campos de verificación de mensaje</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -3577,6 +4276,7 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
+<<<<<<< HEAD
         <translation>Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
@@ -3586,6 +4286,17 @@ Por favor tenga paciencia...</translation>
     <message>
         <source>Wallet unlock was cancelled.</source>
         <translation>El desbloqueo del monedero fue cancelado.</translation>
+=======
+        <translation>Por favor comprobar la dirección y probar de nuevo.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>La dirección introducido no se refiere a ninguna clave.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>El desbloqueo de la wallet fue cancelado.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -3766,7 +4477,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
+<<<<<<< HEAD
         <translation><numerusform>madurará dentro de %n bloque</numerusform><numerusform>madurará dentro de %n bloques</numerusform></translation>
+=======
+        <translation><numerusform>madura en %n bloque más</numerusform><numerusform>madura en %n bloques más</numerusform></translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>not accepted</source>
@@ -3782,7 +4497,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Total credit</source>
+<<<<<<< HEAD
         <translation>AboRhenium totales</translation>
+=======
+        <translation>Abonos totales</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Transaction fee</source>
@@ -3868,7 +4587,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
+<<<<<<< HEAD
         <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto por %n bloques más</numerusform></translation>
+=======
+        <translation><numerusform>Abierto para %n bloque más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Open until %1</source>
@@ -3915,6 +4638,7 @@ Por favor tenga paciencia...</translation>
         <translation>Recibido desde</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received via Obfuscation</source>
         <translation>Recibido por medio de Ofuscación</translation>
     </message>
@@ -3933,6 +4657,26 @@ Por favor tenga paciencia...</translation>
     <message>
         <source>Obfuscation Create Denominations</source>
         <translation>Ofuscación Crea Billetes</translation>
+=======
+        <source>Received via CoinMixing</source>
+        <translation>Recibido por medio de Ofuscación</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Ofuscación Denominada</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+        <translation>Pago Colateral de Ofuscación</translation>
+    </message>
+    <message>
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>La Ofuscación Crea Entradas Colaterales</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+        <translation>Ofuscación Crea Denominaciones</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Sent to</source>
@@ -3959,6 +4703,7 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Converted Phr to zPhr</source>
         <translation>Phr convertidos a zPhr</translation>
     </message>
@@ -3979,14 +4724,19 @@ Por favor tenga paciencia...</translation>
         <translation>zPhr convertidos en Phr</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>zPhr Accumulator</source>
         <translation>Acumulador zPhr</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
@@ -4062,6 +4812,7 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Make Collateral Inputs</source>
         <translation>La Ofuscación Crea Entradas Colaterales</translation>
     </message>
@@ -4075,6 +4826,21 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
+=======
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>La Ofuscación Crea Entradas Colaterales</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+        <translation>Ofuscación Crea Denominaciones</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Ofuscación Denominada</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Pago Colateral de Ofuscación</translation>
     </message>
     <message>
@@ -4094,6 +4860,7 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received Phr from zPhr</source>
         <translation>Phr recibidos desde zPhr</translation>
     </message>
@@ -4114,6 +4881,8 @@ Por favor tenga paciencia...</translation>
         <translation>Pago Zerocoin a tí mismo</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Other</source>
         <translation>Otro</translation>
     </message>
@@ -4275,6 +5044,7 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
@@ -4302,6 +5072,8 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -4328,10 +5100,13 @@ Por favor tenga paciencia...</translation>
         <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
         <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Cannot obtain a lock on data directory %s. Rhenium Core is probably already running.</source>
         <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. Rhenium Core esta probablemente en ejecución.</translation>
     </message>
@@ -4352,8 +5127,13 @@ Por favor tenga paciencia...</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
         <translation>Desabilitar toda la funcionalidad especifica Rhenium (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, predeterminado: %u)</translation>
+=======
+        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica Rhenium (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, predeterminado: %u)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4368,6 +5148,13 @@ Por favor tenga paciencia...</translation>
         <translation>Activar rhenfast, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enable use of automated coinmixing for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Activar el uso de ofuscación automatica para fondos guardados en este monedero (0-1, predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Entrar en el modo prueba de regresión, el cual usa una cadena especial en el cual los bloques pueden ser resueltos instantaneamente.</translation>
     </message>
@@ -4408,6 +5195,13 @@ Por favor tenga paciencia...</translation>
         <translation>Se encontró salidas denominadas sin confirmar, se esperará hasta que se confirmen para continuar.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Cuán exhaustiva es la verificación de bloque de -checkblocks (0-4, predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Si paytxfee no esta definido, incluir suficiente comisión de manera que la transacción se vuelva confirmada en promedio dentro de n bloques (predeterminado: %u)</translation>
     </message>
@@ -4417,7 +5211,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+<<<<<<< HEAD
         <translation>Importe inválido para -maxtxfee=&lt;amount&gt;:'%s' (debe ser al meRhenium la comisión minrelay de %s para prevenir transacciones atascadas)</translation>
+=======
+        <translation>Importe inválido para -maxtxfee=&lt;amount&gt;:'%s' (debe ser al menos la comisión minrelay de %s para prevenir transacciones atascadas)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
@@ -4444,7 +5242,11 @@ Por favor tenga paciencia...</translation>
         <translation>Número de segundos a mantener pares con mal comportamiento de reconectarse (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+=======
+        <source>CoinMixing uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>La ofuscación utiliza importes en denominaciones exactas para enviar fondos, puedes simplemente necesitar anonimizar algunas monedas mas. </translation>
     </message>
     <message>
@@ -4452,12 +5254,21 @@ Por favor tenga paciencia...</translation>
         <translation>Saluda de información de depuración (predeterminado: %u, proveyendo &lt;category&gt; es opcional)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consultar por direcciones de pares vía búsqueda en DNS, si cantidad de direcciones esta bajo (predeterminado: 1 a meRhenium que se utilice -connect)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Credenciales aleatorias para cada conexión proxy. Esto habilita el aislamiento del flujos de datos Tor (por defecto: %u)</translation>
+=======
+        <source>Provide liquidity to CoinMixing by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Proporcionar liquidez a la Ofuscación mezclando infrecuentemente las monedas continuamente (0-100, predeterminado: %u, 1=muy frecuente, altas comisiones, 100=muy infrecuente, bajas comisiones)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Consultar por direcciones de pares vía búsqueda en DNS, si cantidad de direcciones esta bajo (predeterminado: 1 a menos que se utilice -connect)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -4489,7 +5300,11 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>RhenFAST requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+<<<<<<< HEAD
         <translation>RhenFAST requiere entradas con hasta 6 confirmaciones, es posible que debas esperar uRhenium minutos e intentar nuevamente.</translation>
+=======
+        <translation>RhenFAST requiere entradas con hasta 6 confirmaciones, es posible que debas esperar unos minutos e intentar nuevamente.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
@@ -4524,11 +5339,19 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Imposible conectar a %s en esta computadora. Es probable que Rhenium Core ya este corriendo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XRH.</source>
+=======
+        <source>Unable to locate enough CoinMixing denominated funds for this transaction.</source>
+        <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough CoinMixing non-denominated funds for this transaction that are not equal 10000 XRH.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 XRH.</translation>
     </message>
     <message>
@@ -4553,7 +5376,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+<<<<<<< HEAD
         <translation>Advertencia: La red parece no estar concordando totalmente! AlguRhenium mineros parecen estar experimentando problemas.</translation>
+=======
+        <translation>Advertencia: La red parece no estar concordando totalmente! Algunos mineros parecen estar experimentando problemas.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -4632,18 +5459,24 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Intentar recuperar claves privadas desde un wallet.dat dañado</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation>Crear automáticamente servicio Tor oculto (por defecto: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Block creation options:</source>
         <translation>Opciones de creación de bloque:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Calculating missing accumulators...</source>
         <translation>Calculando acumuladores pendientes...</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Can't denominate: no compatible inputs left.</source>
         <translation>No se puede denominar: quedaron entradas no compatibles.</translation>
     </message>
@@ -4724,10 +5557,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Opciones de Depuración/Pruebas:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
         <translation>Desactivar notificaciones del sistema para transacciones extrantes (por defecto: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Desactiva modo seguro, invalida un evento modo seguro real (predeterminado: %u)</translation>
     </message>
@@ -4748,10 +5584,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Realizando carga</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
         <translation>Habilitar creación automática de Zerocoin (0-1, por defecto: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Habilitar al cliente para actuar como un nodo maestro (0-1. predeterminado: %u)</translation>
     </message>
@@ -4824,7 +5663,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Error: Billetera bloqueada, imposible crear transacción!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: You already have pending entries in the Obfuscation pool</source>
+=======
+        <source>Error: You already have pending entries in the CoinMixing pool</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Error: Ya tienes entradas pendientes en el pool de Ofuscación</translation>
     </message>
     <message>
@@ -4904,20 +5747,32 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>La entrada no es válida.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds</source>
         <translation>Fondos insuficientes</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds.</source>
         <translation>Fondos insuficientes.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>Dirección o nombre de equipo -onion inválido: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
         <translation>Dirección o nombre de equipo -proxy inválido: '%s'</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Dirección -onion inválida: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy inválida: '%s'</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -4933,7 +5788,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+<<<<<<< HEAD
         <translation>Importe inválido para -paytxfee=&lt;amount&gt;: '%s' (debe ser al meRhenium %s)</translation>
+=======
+        <translation>Importe inválido para -paytxfee=&lt;amount&gt;: '%s' (debe ser al menos %s)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
@@ -4944,10 +5803,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Importe inválido para -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount</source>
         <translation>Cantidad incorrecta</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Valor de masternodeprivkey es inválido. Por favor ver la documentación.</translation>
     </message>
@@ -4972,6 +5834,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Esto es una versión pre-release de prueba - use bajo su propia responsabilidad - ¡No lo utilice para recompensa de participación ni aplicaciones de comercio!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source> mints deleted
 </source>
         <translation>creaciones de moneda borradas
@@ -5004,6 +5867,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Tamaño de Billete Zerocoin Preferido para los Zerocoin creados automáticamente (1/5/10/50/100/500/1000/5000), poner 0 si no tiene preferencias. Por defecto: %u) </translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt;puede ser: </translation>
     </message>
@@ -5048,10 +5913,18 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Keep N XRH anonymized (default: %u)</source>
+        <translation>Mantener N XRH anonimizados (predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Mantener como máximo &lt;n&gt; transacciones no conectables en memoria (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last Obfuscation was too recent.</source>
         <translation>La última Ofuscación fue demasiado reciente.</translation>
     </message>
@@ -5064,6 +5937,16 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>MeRhenium de 3 creaciones de moneda añadidas, no podemos generar pago</translation>
     </message>
     <message>
+=======
+        <source>Last CoinMixing was too recent.</source>
+        <translation>La última Ofuscación fue demasiado reciente.</translation>
+    </message>
+    <message>
+        <source>Last successful CoinMixing action was too recent.</source>
+        <translation>La última acción de Ofuscación exitosa fue demasiado reciente.</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
         <translation>Tamaño límite del cache de firmas a &lt;n&gt; entradas (predeterminado: %u)</translation>
     </message>
@@ -5100,10 +5983,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Cargando cache de pagos de nodos maestros</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Loading sporks...</source>
         <translation>Cargando sporks...</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Cargando monedero: (%3.2f %%)</translation>
     </message>
@@ -5169,7 +6055,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
+<<<<<<< HEAD
         <translation>No hemos encontrado billetes coincidentes para mezclado.</translation>
+=======
+        <translation>No hay denominaciones emparejadas encontradas para mezclado.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Node relay options:</source>
@@ -5196,6 +6086,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Número de Copias de seguridad automáticas de monedero (predeterminado: 10)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation is idle.</source>
         <translation>La Ofuscación está sin uso.</translation>
     </message>
@@ -5205,6 +6096,21 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
+=======
+        <source>CoinMixing is idle.</source>
+        <translation>La Ofuscación está sin uso.</translation>
+    </message>
+    <message>
+        <source>CoinMixing options:</source>
+        <translation>Opciones de Ofuscacion:</translation>
+    </message>
+    <message>
+        <source>CoinMixing request complete:</source>
+        <translation>Pedido de Ofuscacion completado:</translation>
+    </message>
+    <message>
+        <source>CoinMixing request incomplete:</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Pedido de Ofuscación incompleto:</translation>
     </message>
     <message>
@@ -5224,10 +6130,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Contraseña para conexiones JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
         <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Agregar timestamp a la salida de depuración (predeterminado: %u)</translation>
     </message>
@@ -5280,6 +6189,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Reescaneado...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>ResetMintZerocoin finished: </source>
         <translation>ResetMintZerocoin finalizado:</translation>
     </message>
@@ -5288,6 +6198,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>ResetSpentZerocoin finalizado:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Run a thread to flush wallet periodically (default: %u)</source>
         <translation>Ejecutar un hilo de ejecución para nivelar el monedero periódicamente (predeterminado: %u)</translation>
     </message>
@@ -5472,6 +6384,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Limite para desconexión de peers de mal desempeño (predeterminado: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Tor control port password (default: empty)</source>
         <translation>Contraseña del puerto de control Tor (por defecto: vacío)</translation>
     </message>
@@ -5480,6 +6393,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Puerto de control Tor a utilizar si está activada la escucha Onion (por defecto: %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction amount too small</source>
         <translation>El monto de la transacción es demasiado pequeño</translation>
     </message>
@@ -5532,6 +6447,13 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Actualizar el monedero al formato ultimo</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Utilizar N nodos maestros distintos para anonimizar fondos (2-8, predeterminado: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Usar OpenSSL (https) para conexiones JSON-RPC</translation>
     </message>
@@ -5552,7 +6474,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Nombre de usuario para conexiones JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
+=======
+        <source>Value more than CoinMixing pool maximum allows.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Valor mayor al máximo pool de Ofuscación permitido.</translation>
     </message>
     <message>
@@ -5624,6 +6550,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Opciones de notificación ZeroMQ:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Zerocoin options:</source>
         <translation>Opciones Zerocoin:</translation>
     </message>
@@ -5632,6 +6559,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>fallo al validar zerocoin</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>on startup</source>
         <translation>al inicio</translation>
     </message>

@@ -1,6 +1,10 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -66,16 +70,34 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     if (!settings.contains("bUseRhenFAST"))
         settings.setValue("bUseRhenFAST", false);
 
+<<<<<<< HEAD
     bool useRhenFAST = settings.value("bUseRhenFAST").toBool();
     if (fLiteMode) {
+=======
+    bool useObfuScation = settings.value("bUseObfuScation").toBool();
+    bool useRhenFAST = settings.value("bUseRhenFAST").toBool();
+    if (fLiteMode) {
+        ui->checkUseCoinMixing->setChecked(false);
+        ui->checkUseCoinMixing->setVisible(false);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         ui->checkRhenFAST->setVisible(false);
         CoinControlDialog::coinControl->useObfuScation = false;
         CoinControlDialog::coinControl->useRhenFAST = false;
     } else {
+<<<<<<< HEAD
         ui->checkRhenFAST->setChecked(useRhenFAST);
         CoinControlDialog::coinControl->useRhenFAST = useRhenFAST;
     }
 
+=======
+        ui->checkUseCoinMixing->setChecked(useObfuScation);
+        ui->checkRhenFAST->setChecked(useRhenFAST);
+        CoinControlDialog::coinControl->useObfuScation = useObfuScation;
+        CoinControlDialog::coinControl->useRhenFAST = useRhenFAST;
+    }
+
+    connect(ui->checkUseCoinMixing, SIGNAL(stateChanged(int)), this, SLOT(updateDisplayUnit()));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     connect(ui->checkRhenFAST, SIGNAL(stateChanged(int)), this, SLOT(updateRhenFAST()));
 
     // Coin Control: clipboard actions
@@ -134,7 +156,10 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     ui->customFee->setValue(settings.value("nTransactionFee").toLongLong());
     ui->checkBoxMinimumFee->setChecked(settings.value("fPayOnlyMinFee").toBool());
     ui->checkBoxFreeTx->setChecked(settings.value("fSendFreeTransactions").toBool());
+<<<<<<< HEAD
     ui->checkzXRH->hide();
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     minimizeFeeSection(settings.value("fFeeSectionMinimized").toBool());
 }
 
@@ -159,11 +184,17 @@ void SendCoinsDialog::setModel(WalletModel* model)
             }
         }
 
+<<<<<<< HEAD
         setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(),
                    model->getZerocoinBalance (), model->getUnconfirmedZerocoinBalance (), model->getImmatureZerocoinBalance (),
                    model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
         connect(model, SIGNAL(balanceChanged(CAmount, CAmount,  CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)), this, 
                          SLOT(setBalance(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)));
+=======
+        setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(), model->getAnonymizedBalance(),
+            model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
+        connect(model, SIGNAL(balanceChanged(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)), this, SLOT(setBalance(CAmount, CAmount, CAmount, CAmount, CAmount, CAmount, CAmount)));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
         updateDisplayUnit();
 
@@ -264,13 +295,35 @@ void SendCoinsDialog::on_sendButton_clicked()
 
     QString strFunds = tr("using") + " <b>" + tr("anonymous funds") + "</b>";
     QString strFee = "";
+<<<<<<< HEAD
     recipients[0].inputType = ALL_COINS;
     strFunds = tr("using") + " <b>" + tr("any available funds (not recommended)") + "</b>";
+=======
+    recipients[0].inputType = ONLY_DENOMINATED;
+
+    if (ui->checkUseCoinMixing->isChecked()) {
+        recipients[0].inputType = ONLY_DENOMINATED;
+        strFunds = tr("using") + " <b>" + tr("anonymous funds") + "</b>";
+        QString strNearestAmount(
+            BitcoinUnits::formatWithUnit(
+                model->getOptionsModel()->getDisplayUnit(), 0.1 * COIN));
+        strFee = QString(tr(
+            "(coinmixing requires this amount to be rounded up to the nearest %1).")
+                             .arg(strNearestAmount));
+    } else {
+        recipients[0].inputType = ALL_COINS;
+        strFunds = tr("using") + " <b>" + tr("any available funds (not recommended)") + "</b>";
+    }
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     if (ui->checkRhenFAST->isChecked()) {
         recipients[0].useRhenFAST = true;
         strFunds += " ";
+<<<<<<< HEAD
         strFunds += tr("and SwiftX");
+=======
+        strFunds += tr("and RhenFAST");
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     } else {
         recipients[0].useRhenFAST = false;
     }
@@ -283,8 +336,13 @@ void SendCoinsDialog::on_sendButton_clicked()
         QString amount = "<b>" + BitcoinUnits::formatHtmlWithUnit(model->getOptionsModel()->getDisplayUnit(), rcp.amount);
         amount.append("</b> ").append(strFunds);
 
+<<<<<<< HEAD
         // generate moRheniumpace address string
         QString address = "<span style='font-family: moRheniumpace;'>" + rcp.address;
+=======
+        // generate monospace address string
+        QString address = "<span style='font-family: monospace;'>" + rcp.address;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         address.append("</span>");
 
         QString recipientElement;
@@ -544,6 +602,7 @@ bool SendCoinsDialog::handlePaymentRequest(const SendCoinsRecipient& rv)
     return true;
 }
 
+<<<<<<< HEAD
 void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
                                  const CAmount& zerocoinBalance, const CAmount& unconfirmedZerocoinBalance, const CAmount& immatureZerocoinBalance,
                                  const CAmount& watchBalance, const CAmount& watchUnconfirmedBalance, const CAmount& watchImmatureBalance)
@@ -553,13 +612,31 @@ void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfir
     Q_UNUSED(zerocoinBalance);
     Q_UNUSED(unconfirmedZerocoinBalance);
     Q_UNUSED(immatureZerocoinBalance);
+=======
+void SendCoinsDialog::setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance, const CAmount& watchBalance, const CAmount& watchUnconfirmedBalance, const CAmount& watchImmatureBalance)
+{
+    Q_UNUSED(unconfirmedBalance);
+    Q_UNUSED(immatureBalance);
+    Q_UNUSED(anonymizedBalance);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     Q_UNUSED(watchBalance);
     Q_UNUSED(watchUnconfirmedBalance);
     Q_UNUSED(watchImmatureBalance);
 
     if (model && model->getOptionsModel()) {
         uint64_t bal = 0;
+<<<<<<< HEAD
         bal = balance;
+=======
+        QSettings settings;
+        settings.setValue("bUseObfuScation", ui->checkUseCoinMixing->isChecked());
+        if (ui->checkUseCoinMixing->isChecked()) {
+            bal = anonymizedBalance;
+        } else {
+            bal = balance;
+        }
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         ui->labelBalance->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), bal));
     }
 }
@@ -569,9 +646,15 @@ void SendCoinsDialog::updateDisplayUnit()
     TRY_LOCK(cs_main, lockMain);
     if (!lockMain) return;
 
+<<<<<<< HEAD
     setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(), 
                model->getZerocoinBalance (), model->getUnconfirmedZerocoinBalance (), model->getImmatureZerocoinBalance (),
                model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
+=======
+    setBalance(model->getBalance(), model->getUnconfirmedBalance(), model->getImmatureBalance(), model->getAnonymizedBalance(),
+        model->getWatchBalance(), model->getWatchUnconfirmedBalance(), model->getWatchImmatureBalance());
+    CoinControlDialog::coinControl->useObfuScation = ui->checkUseCoinMixing->isChecked();
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     coinControlUpdateLabels();
     ui->customFee->setDisplayUnit(model->getOptionsModel()->getDisplayUnit());
     updateMinFeeLabel();
@@ -924,6 +1007,11 @@ void SendCoinsDialog::coinControlUpdateLabels()
             CoinControlDialog::payAmounts.append(entry->getValue().amount);
     }
 
+<<<<<<< HEAD
+=======
+    ui->checkUseCoinMixing->setChecked(CoinControlDialog::coinControl->useObfuScation);
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (CoinControlDialog::coinControl->HasSelected()) {
         // actual coin control calculation
         CoinControlDialog::updateLabels(model, this);

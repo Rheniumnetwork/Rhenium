@@ -1,5 +1,8 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2017 The Rhenium developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,8 +18,13 @@
  */
 
 //! These need to be macros, as clientversion.cpp's and Rhenium*-res.rc's voodoo requires it
+<<<<<<< HEAD
 #define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 0
+=======
+#define CLIENT_VERSION_MAJOR 2
+#define CLIENT_VERSION_MINOR 3
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #define CLIENT_VERSION_REVISION 0
 #define CLIENT_VERSION_BUILD 0
 
@@ -39,7 +47,11 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
+<<<<<<< HEAD
 #define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Dash Core Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " The PIVX Core Developers, 2017-" STRINGIZE(COPYRIGHT_YEAR) " The Rhenium Core Developers"
+=======
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Dash Core Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " The Rhenium Core Developers"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 /**
  * Rheniumd-res.rc includes this file, but it cannot cope with real c++ code.

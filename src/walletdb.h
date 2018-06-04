@@ -1,7 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2016-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,9 +15,12 @@
 #include "db.h"
 #include "key.h"
 #include "keystore.h"
+<<<<<<< HEAD
 #include "primitives/zerocoin.h"
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <list>
 #include <stdint.h>
@@ -30,8 +36,11 @@ class CMasterKey;
 class CScript;
 class CWallet;
 class CWalletTx;
+<<<<<<< HEAD
 class CZerocoinMint;
 class CZerocoinSpend;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 class uint160;
 class uint256;
 
@@ -105,9 +114,12 @@ public:
     bool WriteWatchOnly(const CScript& script);
     bool EraseWatchOnly(const CScript& script);
 
+<<<<<<< HEAD
     bool WriteMultiSig(const CScript& script);
     bool EraseMultiSig(const CScript& script);
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool WriteBestBlock(const CBlockLocator& locator);
     bool ReadBestBlock(CBlockLocator& locator);
 
@@ -149,6 +161,7 @@ public:
     static bool Recover(CDBEnv& dbenv, std::string filename, bool fOnlyKeys);
     static bool Recover(CDBEnv& dbenv, std::string filename);
 
+<<<<<<< HEAD
     bool WriteZerocoinMint(const CZerocoinMint& zerocoinMint);
     bool EraseZerocoinMint(const CZerocoinMint& zerocoinMint);
     bool ReadZerocoinMint(const CBigNum &bnSerial, CZerocoinMint& zerocoinMint);
@@ -163,6 +176,8 @@ public:
     bool EraseZerocoinSpendSerialEntry(const CBigNum& serialEntry);
     bool ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial);
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 private:
     CWalletDB(const CWalletDB&);
     void operator=(const CWalletDB&);

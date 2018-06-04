@@ -1,8 +1,15 @@
 package=miniupnpc
+<<<<<<< HEAD
 $(package)_version=2.0.20170509
 $(package)_download_path=http://miniupnp.free.fr/files
 $(package)_file_name=$(package)-$($(package)_version).tar.gz
 $(package)_sha256_hash=d3c368627f5cdfb66d3ebd64ca39ba54d6ff14a61966dbecb8dd296b7039f16a
+=======
+$(package)_version=2.0
+$(package)_download_path=http://miniupnp.free.fr/files
+$(package)_file_name=$(package)-$($(package)_version).tar.gz
+$(package)_sha256_hash=d434ceb8986efbe199c5ca53f90ed53eab290b1e6d0530b717eb6fa49d61f93b
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 define $(package)_set_vars
 $(package)_build_opts=CC="$($(package)_cc)"

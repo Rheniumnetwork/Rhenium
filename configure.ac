@@ -1,7 +1,12 @@
 dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
+<<<<<<< HEAD
 define(_CLIENT_VERSION_MAJOR, 1)
 define(_CLIENT_VERSION_MINOR, 0)
+=======
+define(_CLIENT_VERSION_MAJOR, 2)
+define(_CLIENT_VERSION_MINOR, 3)
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
@@ -12,11 +17,14 @@ AC_CONFIG_HEADERS([src/config/Rhenium-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
+<<<<<<< HEAD
 BITCOIN_DAEMON_NAME=Rheniumd
 BITCOIN_GUI_NAME=Rhenium-qt
 BITCOIN_CLI_NAME=Rhenium-cli
 BITCOIN_TX_NAME=Rhenium-tx
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 AC_CANONICAL_HOST
 
 AH_TOP([#ifndef XRH_CONFIG_H])
@@ -64,7 +72,10 @@ if test "x${OBJCXX+set}" = "x"; then
 fi
 AC_PROG_OBJCXX
 ])
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 dnl Libtool init checks.
 LT_INIT([pic-only])
 
@@ -87,6 +98,19 @@ AC_PATH_TOOL(OBJCOPY, objcopy)
 
 AC_ARG_VAR(PYTHONPATH, Augments the default search path for python module files)
 
+<<<<<<< HEAD
+=======
+# This m4 will only be used if a system copy cannot be found. This is helpful
+# on systems where autotools are installed but the pkg-config macros are not in
+# a default location. It is currently used for building on OSX where autotools
+# are preinstalled but pkg-config comes from macports or homebrew. It should
+# probably be removed when building on <= 10.6 is no longer supported.
+m4_include([pkg.m4])
+
+dnl pkg-config check.
+PKG_PROG_PKG_CONFIG
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 # Enable wallet
 AC_ARG_ENABLE([wallet],
   [AS_HELP_STRING([--enable-wallet],
@@ -200,7 +224,11 @@ AC_ARG_WITH([libs],
   [AS_HELP_STRING([--with-libs],
   [build libraries (default=yes)])],
   [build_bitcoin_libs=$withval],
+<<<<<<< HEAD
   [build_bitcoin_libs=no])
+=======
+  [build_bitcoin_libs=yes])
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
@@ -264,7 +292,11 @@ case $host in
      esac
      AC_SUBST(WINDOWS_BITS)
 
+<<<<<<< HEAD
      dnl libtool insists upon adding -Rheniumtdlib and a list of objects/libs to link against.
+=======
+     dnl libtool insists upon adding -nostdlib and a list of objects/libs to link against.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
      dnl That breaks our ability to build dll's with static libgcc/libstdc++/libssp. Override
      dnl its command here, with the predeps/postdeps removed, and -static inserted. Postdeps are
      dnl also overridden to prevent their insertion later.
@@ -346,6 +378,7 @@ case $host in
      ;;
 esac
 
+<<<<<<< HEAD
 if test x$use_pkgconfig = xyes; then
   m4_ifndef([PKG_PROG_PKG_CONFIG], [AC_MSG_ERROR(PKG_PROG_PKG_CONFIG macro not found. Please install pkg-config and re-run autogen.sh.)])
   m4_ifdef([PKG_PROG_PKG_CONFIG], [
@@ -356,6 +389,8 @@ if test x$use_pkgconfig = xyes; then
   ])
 fi
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 if test x$use_comparison_tool != xno; then
   AC_SUBST(JAVA_COMPARISON_TOOL, $use_comparison_tool)
 fi
@@ -489,11 +524,19 @@ AC_CHECK_DECLS([le32toh, le64toh, htole32, htole64, be32toh, be64toh, htobe32, h
                  #include <endian.h>
                  #endif])
 
+<<<<<<< HEAD
 dnl Check for MSG_XRHIGNAL
 AC_MSG_CHECKING(for MSG_XRHIGNAL)
 AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[#include <sys/socket.h>]],
  [[ int f = MSG_XRHIGNAL; ]])],
  [ AC_MSG_RESULT(yes); AC_DEFINE(HAVE_MSG_XRHIGNAL, 1,[Define this symbol if you have MSG_XRHIGNAL]) ],
+=======
+dnl Check for MSG_NOSIGNAL
+AC_MSG_CHECKING(for MSG_NOSIGNAL)
+AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[#include <sys/socket.h>]],
+ [[ int f = MSG_NOSIGNAL; ]])],
+ [ AC_MSG_RESULT(yes); AC_DEFINE(HAVE_MSG_NOSIGNAL, 1,[Define this symbol if you have MSG_NOSIGNAL]) ],
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  [ AC_MSG_RESULT(no)]
 )
 
@@ -659,7 +702,11 @@ if test x$use_boost = xyes; then
 BOOST_LIBS="$BOOST_LDFLAGS $BOOST_SYSTEM_LIB $BOOST_FILESYSTEM_LIB $BOOST_PROGRAM_OPTIONS_LIB $BOOST_THREAD_LIB"
 
 dnl Boost >= 1.50 uses sleep_for rather than the now-deprecated sleep, however
+<<<<<<< HEAD
 dnl it was broken from 1.50 to 1.52 when backed by naRheniumleep. Use sleep_for if
+=======
+dnl it was broken from 1.50 to 1.52 when backed by nanosleep. Use sleep_for if
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 dnl a working version is available, else fall back to sleep. sleep was removed
 dnl after 1.56.
 dnl If neither is available, abort.
@@ -673,7 +720,11 @@ AC_LINK_IFELSE([AC_LANG_PROGRAM([[
   #include <boost/thread/thread.hpp>
   #include <boost/version.hpp>
   ]],[[
+<<<<<<< HEAD
   #if BOOST_VERSION >= 105000 && (!defined(BOOST_HAS_NAXRHLEEP) || BOOST_VERSION >= 105200)
+=======
+  #if BOOST_VERSION >= 105000 && (!defined(BOOST_HAS_NANOSLEEP) || BOOST_VERSION >= 105200)
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
       boost::this_thread::sleep_for(boost::chrono::milliseconds(0));
   #else
    choke me
@@ -715,7 +766,16 @@ fi
 fi
 
 if test x$use_pkgconfig = xyes; then
+<<<<<<< HEAD
   : dnl
+=======
+
+  if test x"$PKG_CONFIG" = "x"; then
+    AC_MSG_ERROR(pkg-config not found.)
+  fi
+
+  : #NOP
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   m4_ifdef(
     [PKG_CHECK_MODULES],
     [
@@ -725,12 +785,16 @@ if test x$use_pkgconfig = xyes; then
       if test x$use_qr != xno; then
         BITCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode], [have_qrencode=yes], [have_qrencode=no])])
       fi
+<<<<<<< HEAD
       if test x$build_bitcoin_utils$build_bitcoind$bitcoin_enable_qt$use_tests != xnononono; then
         PKG_CHECK_MODULES([EVENT], [libevent],, [AC_MSG_ERROR(libevent not found.)])
         if test x$TARGET_OS != xwindows; then
           PKG_CHECK_MODULES([EVENT_PTHREADS], [libevent_pthreads],, [AC_MSG_ERROR(libevent_pthreads not found.)])
         fi
       fi
+=======
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
       if test "x$use_zmq" = "xyes"; then
         PKG_CHECK_MODULES([ZMQ],[libzmq >= 4],
           [AC_DEFINE([ENABLE_ZMQ],[1],[Define to 1 to enable ZMQ functions])],
@@ -750,6 +814,7 @@ else
   AC_CHECK_HEADER([openssl/ssl.h],, AC_MSG_ERROR(libssl headers missing),)
   AC_CHECK_LIB([ssl],         [main],SSL_LIBS=-lssl, AC_MSG_ERROR(libssl missing))
 
+<<<<<<< HEAD
   if test x$build_bitcoin_utils$build_bitcoind$bitcoin_enable_qt$use_tests != xnononono; then
     AC_CHECK_HEADER([event2/event.h],, AC_MSG_ERROR(libevent headers missing),)
     AC_CHECK_LIB([event],[main],EVENT_LIBS=-levent,AC_MSG_ERROR(libevent missing))
@@ -758,6 +823,8 @@ else
     fi
   fi
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   if test "x$use_zmq" = "xyes"; then
     AC_CHECK_HEADER([zmq.h],
       [AC_DEFINE([ENABLE_ZMQ],[1],[Define to 1 to enable ZMQ functions])],
@@ -772,6 +839,7 @@ else
     AC_DEFINE_UNQUOTED([ENABLE_ZMQ],[0],[Define to 1 to enable ZMQ functions])
   fi
 
+<<<<<<< HEAD
   if test "x$use_zmq" = "xyes"; then
     dnl Assume libzmq was built for static linking
     case $host in
@@ -781,6 +849,8 @@ else
     esac
   fi
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   BITCOIN_QT_CHECK(AC_CHECK_LIB([protobuf] ,[main],[PROTOBUF_LIBS=-lprotobuf], BITCOIN_QT_FAIL(libprotobuf not found)))
   if test x$use_qr != xno; then
     BITCOIN_QT_CHECK([AC_CHECK_LIB([qrencode], [main],[QR_LIBS=-lqrencode], [have_qrencode=no])])
@@ -967,10 +1037,13 @@ AC_SUBST(CLIENT_VERSION_REVISION, _CLIENT_VERSION_REVISION)
 AC_SUBST(CLIENT_VERSION_BUILD, _CLIENT_VERSION_BUILD)
 AC_SUBST(CLIENT_VERSION_IS_RELEASE, _CLIENT_VERSION_IS_RELEASE)
 AC_SUBST(COPYRIGHT_YEAR, _COPYRIGHT_YEAR)
+<<<<<<< HEAD
 AC_SUBST(BITCOIN_DAEMON_NAME)
 AC_SUBST(BITCOIN_GUI_NAME)
 AC_SUBST(BITCOIN_CLI_NAME)
 AC_SUBST(BITCOIN_TX_NAME)
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 AC_SUBST(RELDFLAGS)
 AC_SUBST(LIBTOOL_APP_LDFLAGS)
@@ -984,6 +1057,7 @@ AC_SUBST(BUILD_QT)
 AC_SUBST(BUILD_TEST_QT)
 AC_SUBST(MINIUPNPC_CPPFLAGS)
 AC_SUBST(MINIUPNPC_LIBS)
+<<<<<<< HEAD
 AC_SUBST(CRYPTO_LIBS)
 AC_SUBST(SSL_LIBS)
 AC_SUBST(EVENT_LIBS)
@@ -991,6 +1065,8 @@ AC_SUBST(EVENT_PTHREADS_LIBS)
 AC_SUBST(ZMQ_LIBS)
 AC_SUBST(PROTOBUF_LIBS)
 AC_SUBST(QR_LIBS)
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 AC_CONFIG_FILES([Makefile src/Makefile share/setup.nsi share/qt/Info.plist src/test/buildenv.py])
 AC_CONFIG_FILES([qa/pull-tester/run-bitcoind-for-test.sh],[chmod +x qa/pull-tester/run-bitcoind-for-test.sh])
 AC_CONFIG_FILES([qa/pull-tester/tests-config.sh],[chmod +x qa/pull-tester/tests-config.sh])
@@ -1034,6 +1110,7 @@ case $host in
      chmod 755 libtool
    ;;
 esac
+<<<<<<< HEAD
 
 echo
 echo "Options used to compile and link:"
@@ -1059,3 +1136,5 @@ echo "  CXX           = $CXX"
 echo "  CXXFLAGS      = $CXXFLAGS"
 echo "  LDFLAGS       = $LDFLAGS"
 echo
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

@@ -133,7 +133,11 @@
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+<<<<<<< HEAD
         <translation>Slúži na zakázanie obyčajného odoslania peňazí, v prípade, že bol OS účet kompromitovaný. Neposkytuje žiadnu skutočnú bezpečRheniumť.</translation>
+=======
+        <translation>Slúži na zakázanie obyčajného odoslania peňazí, v prípade, že bol OS účet kompromitovaný. Neposkytuje žiadnu skutočnú bezpečnosť.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>For anonymization and staking only</source>
@@ -193,7 +197,11 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+<<<<<<< HEAD
         <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy súboru peňaženky, by mali byť nahradené novo vytvoreným šifrovaným súborom peňaženky. Z bezpečRheniumtných dôvodov sa predchádzajúce zálohy súboru nezašifrovanej peňaženky stanú nepotrebné, akonáhle začnete používať novú zašifrovanú peňaženku.</translation>
+=======
+        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy súboru peňaženky, by mali byť nahradené novo vytvoreným šifrovaným súborom peňaženky. Z bezpečnostných dôvodov sa predchádzajúce zálohy súboru nezašifrovanej peňaženky stanú nepotrebné, akonáhle začnete používať novú zašifrovanú peňaženku.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -443,7 +451,11 @@
     </message>
     <message>
         <source>&amp;Options...</source>
+<<<<<<< HEAD
         <translation>MožRheniumti...</translation>
+=======
+        <translation>Možnosti...</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -502,8 +514,13 @@
         <translation>Informácie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Zobraziť diagRheniumtické informácie</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Zobraziť diagnostické informácie</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -535,7 +552,11 @@
     </message>
     <message>
         <source>Show wallet repair options</source>
+<<<<<<< HEAD
         <translation>Zobraziť možRheniumti opravy peňaženky</translation>
+=======
+        <translation>Zobraziť možnosti opravy peňaženky</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Open configuration file</source>
@@ -571,7 +592,11 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>MožRheniumti príkazového riadku</translation>
+=======
+        <translation>Možnosti príkazového riadku</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -627,7 +652,11 @@
     </message>
     <message>
         <source>Modify configuration options for Rhenium</source>
+<<<<<<< HEAD
         <translation>Zmeňte možRheniumti konfigurácie pre Rhenium</translation>
+=======
+        <translation>Zmeňte možnosti konfigurácie pre Rhenium</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Sign messages with your Rhenium addresses to prove you own them</source>
@@ -679,7 +708,11 @@
     </message>
     <message>
         <source>Show the Rhenium Core help message to get a list with possible Rhenium command-line options</source>
+<<<<<<< HEAD
         <translation>Zobraziť pomocnú správu programu Rhenium Core a získajte zoznam možRheniumtí príkazového riadka Rhenium</translation>
+=======
+        <translation>Zobraziť pomocnú správu programu Rhenium Core a získajte zoznam možností príkazového riadka Rhenium</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Rhenium Core client</source>
@@ -820,6 +853,13 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Sumár: %1 (OBF kompatibilné: %2 / Zapnuté: %3)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Network Alert</source>
         <translation>Upozornenie siete </translation>
     </message>
@@ -942,7 +982,11 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -960,6 +1004,7 @@ MultiSend: %1</translation>
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>Quantity:</source>
@@ -1007,6 +1052,8 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1303,9 +1350,12 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>

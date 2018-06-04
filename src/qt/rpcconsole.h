@@ -69,7 +69,10 @@ public slots:
     void walletZaptxes2();
     void walletUpgrade();
     void walletReindex();
+<<<<<<< HEAD
     void walletResync();
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     void reject();
     void message(int category, const QString& message, bool html = false);

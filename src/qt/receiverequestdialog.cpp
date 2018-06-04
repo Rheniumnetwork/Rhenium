@@ -137,7 +137,11 @@ void ReceiveRequestDialog::update()
     html += "<html><font face='verdana, arial, helvetica, sans-serif'>";
     html += "<b>" + tr("Payment information") + "</b><br>";
     html += "<b>" + tr("URI") + "</b>: ";
+<<<<<<< HEAD
     html += "<a style=\"color:#00CD8D;\" href=\"" + uri + "\">" + GUIUtil::HtmlEscape(uri) + "</a><br>";
+=======
+    html += "<a style=\"color:#5B4C7C;\" href=\"" + uri + "\">" + GUIUtil::HtmlEscape(uri) + "</a><br>";
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     html += "<b>" + tr("Address") + "</b>: " + GUIUtil::HtmlEscape(info.address) + "<br>";
     if (info.amount)
         html += "<b>" + tr("Amount") + "</b>: " + BitcoinUnits::formatWithUnit(model->getDisplayUnit(), info.amount) + "<br>";

@@ -128,6 +128,7 @@
         <translation>Toista uusi salausavain</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
         <translation>Ottaa pois käytöstä tavallisen sendmoneyn kun käyttöjärjestelmä on kompromisoitu. Ei tarjoa todellista turvaa.</translation>
     </message>
@@ -138,6 +139,10 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Syötä uusi salausavain lompakkoon &lt;br/&gt; Käytä salausavaimena &lt;b&gt;yli kymmentä satunnaista merkkiä&lt;/b&gt;, tai &lt;b&gt; kahdeksaa tai useampaa sanaa&lt;/b&gt;.</translation>
+=======
+        <source>For anonymization and staking only</source>
+        <translation>Vain anonymisointiin ja panostukseen</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -296,18 +301,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The Rhenium address the message was signed with</source>
         <translation>Rhenium osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
         <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Rhenium osoitteella.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Decrypt &amp;Key</source>
         <translation>Salauksen avaus &amp;Avain</translation>
     </message>
@@ -499,8 +510,13 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Informaatio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Näytä diagRheniumtiikka informaatio</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Näytä diagnostiikka informaatio</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -753,7 +769,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
+<<<<<<< HEAD
         <translation>PaRheniumtus ei ole aktiivinen MultiSend: %1</translation>
+=======
+        <translation>Panostus ei ole aktiivinen MultiSend: %1</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
@@ -781,6 +801,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Quantity:</source>
         <translation>Määrä:</translation>
     </message>
@@ -789,6 +810,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tavut:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Amount:</source>
         <translation>Määrä:</translation>
     </message>
@@ -797,6 +820,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tärkeys:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fee:</source>
         <translation>Taksa:</translation>
     </message>
@@ -809,6 +833,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Muutos:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Amount</source>
         <translation>Määrä</translation>
     </message>
@@ -849,10 +875,13 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi määrä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Kopioi taksa</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>korkein</translation>
     </message>
@@ -968,10 +997,13 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>MasternodeList</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>Lomake</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address</source>
         <translation>Osoite</translation>
     </message>
@@ -1113,9 +1145,15 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
+=======
+    <name>CoinMixingConfig</name>
+    <message>
+        <source>Configure CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Konfiguroi Hämäys</translation>
     </message>
     <message>
@@ -1163,7 +1201,11 @@ Please check the address and try again.</source>
         <translation>0.1 per 10000 Rhenium, jotka anonymisoit.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
+=======
+        <source>CoinMixing Configuration</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Hämäys konfiguraatio</translation>
     </message>
     </context>
@@ -1217,6 +1259,7 @@ Please check the address and try again.</source>
         <translation>&amp;Aloita Rhenium järjestelmän kirjautumisessa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enable coin &amp;control features</source>
         <translation>Ota käyttöön coin &amp;kontrolli palvelut</translation>
     </message>
@@ -1257,10 +1300,13 @@ Please check the address and try again.</source>
         <translation>Proxyn portti (esim. 9050)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Window</source>
         <translation>&amp;Ikkuna</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Näytä vain tarjotin ikoni pienennettyäsi ikkunan.</translation>
     </message>
@@ -1309,6 +1355,8 @@ Please check the address and try again.</source>
         <translation>&amp;Palauta valinnat</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
@@ -1324,6 +1372,7 @@ Please check the address and try again.</source>
         <source>Confirm options reset</source>
         <translation>Vahvista asetusten nollaus</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Client restart required to activate changes.</source>
         <translation>Uudelleenkäynnistys vaadittu aktivoidaksesi muutokset</translation>
@@ -1383,6 +1432,11 @@ Please check the address and try again.</source>
         <source>Spendable:</source>
         <translation>Käytettävää:</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>OverviewPage</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>PaymentServer</name>
@@ -1393,6 +1447,7 @@ Please check the address and try again.</source>
         <source>Version</source>
         <translation>Versio</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Ping Time</source>
         <translation>Ping aika</translation>
@@ -1480,6 +1535,8 @@ Please check the address and try again.</source>
         <source>Confirm send coins</source>
         <translation>Vahvista kolikoiden lähetys</translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>QObject</name>
@@ -1542,6 +1599,7 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the Rhenium debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa Rhenium debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
@@ -1550,10 +1608,13 @@ Please check the address and try again.</source>
         <translation>Masternodien määrä</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Console</source>
         <translation>&amp;Konsoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>Tyhjennä konsoli</translation>
     </message>
@@ -1562,14 +1623,19 @@ Please check the address and try again.</source>
         <translation>&amp;Verkkoliikenne</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Clear</source>
         <translation>&amp;Tyhjennä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Totals</source>
         <translation>Kokonaismäärät</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Received</source>
         <translation>Vastaanotettu</translation>
     </message>
@@ -1594,6 +1660,7 @@ Please check the address and try again.</source>
         <translation>Palvelut</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connection Time</source>
         <translation>Yhteysaika</translation>
     </message>
@@ -1626,10 +1693,13 @@ Please check the address and try again.</source>
         <translation>Käytössä oleva lompakko:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Salvage wallet</source>
         <translation>Pelasta lompakko</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
         <translation>Yritä pelastaa yksityisavaimet korruptoituneesa wallet.dat tiedostosta</translation>
     </message>
@@ -1642,6 +1712,8 @@ Please check the address and try again.</source>
         <translation>Uudelleenskannaa blockchain puuttuvista rahansiirroista</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Wallet repair options.</source>
         <translation>Lompakon korjausvaihtoehdot</translation>
     </message>
@@ -1673,6 +1745,7 @@ Please check the address and try again.</source>
         <source>Unknown</source>
         <translation>Tuntematon</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Fetching...</source>
         <translation>Haetaan...</translation>
@@ -1689,10 +1762,17 @@ Please check the address and try again.</source>
         <translation>U&amp;udelleenkäytä olemassaoleva vastaanottava osoite (Ei suositeltu)</translation>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Message:</source>
         <translation>&amp;Viesti:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional label to associate with the new receiving address.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
@@ -1709,6 +1789,8 @@ Please check the address and try again.</source>
         <translation>Käytä tätä lomaketta luodaksesi maksupyyntöjä. Kaikki kentät ovat &lt;b&gt; vaihtoehtoisia&lt;/b&gt;.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Label:</source>
         <translation>&amp;Nimike:</translation>
     </message>
@@ -1811,6 +1893,7 @@ Please check the address and try again.</source>
         <source>Message</source>
         <translation>Viesti</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Tuotettu URI liian pitkä, yritä vähentää merkkien määrää nimikkeessä / viestissä.</translation>
@@ -1820,6 +1903,9 @@ Please check the address and try again.</source>
         <translation>Virhe koodetessa URIa QR koodiksi.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -1858,6 +1944,7 @@ Please check the address and try again.</source>
         <translation>Lähetä Kolikot</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds!</source>
         <translation>Puutteelliset varat!</translation>
     </message>
@@ -1868,6 +1955,10 @@ Please check the address and try again.</source>
     <message>
         <source>Bytes:</source>
         <translation>Tavut:</translation>
+=======
+        <source>automatically selected</source>
+        <translation>automaattisesti valittu</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Amount:</source>
@@ -1882,14 +1973,18 @@ Please check the address and try again.</source>
         <translation>kohtalainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fee:</source>
         <translation>Taksa:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>no</source>
         <translation>ei</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>After Fee:</source>
         <translation>Taksan jälkeen:</translation>
     </message>
@@ -1898,6 +1993,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>0 XRH</source>
         <translation>0 XRH</translation>
     </message>
@@ -1926,6 +2023,7 @@ Please check the address and try again.</source>
         <translation>Suositeltu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send as zero-fee transaction if possible</source>
         <translation>Lähetä nolla taksainen rahansiirto jos mahdollista</translation>
     </message>
@@ -1938,6 +2036,8 @@ Please check the address and try again.</source>
         <translation>Vahvista lähetys</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>S&amp;end</source>
         <translation>L&amp;ähetä</translation>
     </message>
@@ -1950,14 +2050,18 @@ Please check the address and try again.</source>
         <translation>Tyhjennä &amp;Kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send to multiple recipients at once</source>
         <translation>Lähetä useammalle vastaanottajalle kerralla</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Add &amp;Recipient</source>
         <translation>Lisää &amp;Vastaanottaja</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>RhenFAST</source>
         <translation>RhenFAST</translation>
     </message>
@@ -1966,6 +2070,8 @@ Please check the address and try again.</source>
         <translation>Saldo:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy quantity</source>
         <translation>Kopioi määrä</translation>
     </message>
@@ -1974,22 +2080,29 @@ Please check the address and try again.</source>
         <translation>Kopioi määrä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Kopioi taksa</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>using</source>
         <translation>käyttää</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Rhenium address</source>
         <translation>Varoitus: Virheellinen Rhenium osoite</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Are you sure you want to send?</source>
         <translation>Oletko varma että tahdot lähettää?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>are added as transaction fee</source>
         <translation>lisätään rahansiirtotaksana</translation>
     </message>
@@ -2002,10 +2115,13 @@ Please check the address and try again.</source>
         <translation>Vastaanottava osoite ei ole kunnollinen, tarkista</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The amount exceeds your balance.</source>
         <translation>Määrä ylittää saldosi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction creation failed!</source>
         <translation>Maksun luonti epäonnistui!</translation>
     </message>
@@ -2018,6 +2134,8 @@ Please check the address and try again.</source>
         <translation>Virhe: Lompakko avattiin vain kolikoiden anonymisointiin. Avaus peruutettu.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(no label)</source>
         <translation>(ei nimikettä)</translation>
     </message>
@@ -2029,10 +2147,13 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Rhenium address to send the payment to</source>
         <translation>Rhenium osoite johon maksu lähetetään</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Choose previously used address</source>
         <translation>Valitse aikaisemmin käytetty osoite</translation>
     </message>
@@ -2056,6 +2177,7 @@ Please check the address and try again.</source>
         <source>&amp;Label:</source>
         <translation>&amp;Nimike:</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Syötä nimike tälle osoittelle lisätäksesi se käytettävien osoitteiden listaan</translation>
@@ -2091,6 +2213,15 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
+=======
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The Rhenium address to sign the message with</source>
         <translation>Rhenium osoite, jolla viesti allekirjoitetaan</translation>
     </message>
@@ -2111,6 +2242,7 @@ Please check the address and try again.</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the message you want to sign here</source>
         <translation>Syötä viesti jonka haluat kirjoittaa tähän</translation>
     </message>
@@ -2119,6 +2251,8 @@ Please check the address and try again.</source>
         <translation>Allekirjoitus</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy the current signature to the system clipboard</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
@@ -2131,6 +2265,7 @@ Please check the address and try again.</source>
         <translation>Rhenium osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
         <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Rhenium osoitteella.</translation>
     </message>
@@ -2139,6 +2274,8 @@ Please check the address and try again.</source>
         <translation>Allekirjoita &amp;Viesti</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Reset all sign message fields</source>
         <translation>Tyhjennä kaikki allekirjoita viesti kentät</translation>
     </message>
@@ -2147,6 +2284,7 @@ Please check the address and try again.</source>
         <translation>Tyhjennä &amp;Kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Verify Message</source>
         <translation>&amp;Vahvista Viesti</translation>
     </message>
@@ -2155,14 +2293,19 @@ Please check the address and try again.</source>
         <translation>Vahvista &amp;Viesti</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Reset all verify message fields</source>
         <translation>Tyhjennä kaikki vahvista viesti kentät</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click "Sign Message" to generate signature</source>
         <translation>Klikkaa "Allekirjoita viesti" generoidaksesi allekirjoituksen</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The entered address is invalid.</source>
         <translation>Syötetty osoite ei ole toimiva.</translation>
     </message>
@@ -2182,6 +2325,7 @@ Please check the address and try again.</source>
         <source>Private key for the entered address is not available.</source>
         <translation>Yksityisavain syötetylle osoitteelle ei ole saatavilla.</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Message signing failed.</source>
         <translation>Viestin allekirjoitus epäonnistui</translation>
@@ -2211,12 +2355,16 @@ Please check the address and try again.</source>
         <translation>Viesti vahvistettu</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Rhenium Core</source>
         <translation>Rhenium Ydin</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Version %1</source>
         <translation>Versio %1</translation>
@@ -2245,6 +2393,12 @@ Please check the address and try again.</source>
         <translation>KB/s</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>TransactionDesc</name>
     <message>
@@ -2338,6 +2492,7 @@ Please check the address and try again.</source>
         <translation>Maksut itsellesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Minted</source>
         <translation>Luotu</translation>
     </message>
@@ -2346,6 +2501,8 @@ Please check the address and try again.</source>
         <translation>Mainattu</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>Rahansiirron status. Liikuta hiiresi tämän kentän päälle nähdäksesi vahvistuksien määrä</translation>
     </message>
@@ -2381,6 +2538,7 @@ Please check the address and try again.</source>
         <translation>Tällä viikolla</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This month</source>
         <translation>Tässä kuussa</translation>
     </message>
@@ -2417,6 +2575,8 @@ Please check the address and try again.</source>
         <translation>Minimi määrä</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy address</source>
         <translation>Kopioi osoite</translation>
     </message>
@@ -2437,6 +2597,7 @@ Please check the address and try again.</source>
         <translation>Muokkaa nimikettä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show transaction details</source>
         <translation>Näytä rahansiirron yksityiskohdat</translation>
     </message>
@@ -2445,6 +2606,8 @@ Please check the address and try again.</source>
         <translation>Vie Rahansiirto historia</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Comma separated file (*.csv)</source>
         <translation>Pilkuilla eroteltu tiedosto (*.csv)</translation>
     </message>
@@ -2476,6 +2639,7 @@ Please check the address and try again.</source>
         <source>Exporting Failed</source>
         <translation>Vienti epäonnistui</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Exporting Successful</source>
         <translation>Vienti onnistui</translation>
@@ -2495,6 +2659,15 @@ Please check the address and try again.</source>
         <translation>Lompakkoa ei ole ladattu.</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>WalletModel</name>
     <message>
@@ -2512,6 +2685,7 @@ Please check the address and try again.</source>
         <source>Export the data in the current tab to a file</source>
         <translation>Vie tiedot nykyisestä välilehdestä tiedostoon</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Selected amount:</source>
         <translation>Valittu määrä:</translation>
@@ -2539,10 +2713,13 @@ Please check the address and try again.</source>
         <source>0</source>
         <translation>0</translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>Rhenium-core</name>
     <message>
+<<<<<<< HEAD
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
     </message>
@@ -2599,10 +2776,13 @@ Please check the address and try again.</source>
         <translation>Virhe lukiessa tietokantaa, sammutetaan.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation>Virhe: Tallennustila vähissä!</translation>
     </message>
@@ -2619,6 +2799,8 @@ Please check the address and try again.</source>
         <translation>Tuodaan...</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Incompatible mode.</source>
         <translation>Yhteensopimaton tila.</translation>
     </message>
@@ -2635,6 +2817,7 @@ Please check the address and try again.</source>
         <translation>Riittämättömät varat.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid private key.</source>
         <translation>Virheellinen yksityisavain.</translation>
     </message>
@@ -2647,6 +2830,8 @@ Please check the address and try again.</source>
         <translation>&lt;category&gt; voi olla:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Loading addresses...</source>
         <translation>Lataa osoitteita...</translation>
     </message>
@@ -2671,10 +2856,13 @@ Please check the address and try again.</source>
         <translation>Skannaa uudelleen...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Session not complete!</source>
         <translation>Sessio ei valmis!</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Session timed out.</source>
         <translation>Istunto päättyi.</translation>
     </message>
@@ -2687,6 +2875,7 @@ Please check the address and try again.</source>
         <translation>Rahansiirron allekirjoitus epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify data directory</source>
         <translation>Määritä tiedostosijainti</translation>
     </message>
@@ -2699,6 +2888,8 @@ Please check the address and try again.</source>
         <translation>PaRheniumtus vaihtoehdot:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Synchronization failed</source>
         <translation>Synkronisointi epäonnistui</translation>
     </message>
@@ -2715,10 +2906,13 @@ Please check the address and try again.</source>
         <translation>Rahansiirron määrä on liian pieni</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction amounts must be positive</source>
         <translation>Rahansiirtojen tulee olla positiivisia</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction created successfully.</source>
         <translation>Rahansiirto luotu onnistuneesti.</translation>
     </message>
@@ -2727,6 +2921,7 @@ Please check the address and try again.</source>
         <translation>Rahansiirron taksat ovat liian korkeat.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction not valid.</source>
         <translation>Rahansiirto ei onnistu</translation>
     </message>
@@ -2735,14 +2930,19 @@ Please check the address and try again.</source>
         <translation>Rahansiirto liian iso taksaan nähden</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction too large</source>
         <translation>Rahansiirto liian suuri</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transmitting final transaction.</source>
         <translation>Lähetetään viimeinen rahansiirto.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Upgrade wallet to latest format</source>
         <translation>Päivitä lompakko viimeisimpään formaattiin.</translation>
     </message>
@@ -2771,10 +2971,13 @@ Please check the address and try again.</source>
         <translation>Varoitus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Varoitus: Tämä versio on vanha, päivitys vaadittu!</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Will retry...</source>
         <translation>Yrittää uudelleen...</translation>
     </message>

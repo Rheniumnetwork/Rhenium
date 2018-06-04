@@ -7,11 +7,19 @@
     </message>
     <message>
         <source>Create a new address</source>
+<<<<<<< HEAD
         <translation>创建新的地址</translation>
     </message>
     <message>
         <source>&amp;New</source>
         <translation>&amp;新地址</translation>
+=======
+        <translation>创建新地址</translation>
+    </message>
+    <message>
+        <source>&amp;New</source>
+        <translation>新</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -19,6 +27,7 @@
     </message>
     <message>
         <source>&amp;Copy</source>
+<<<<<<< HEAD
         <translation>&amp;复制</translation>
     </message>
     <message>
@@ -28,6 +37,17 @@
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;删除</translation>
+=======
+        <translation>复制</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>从列表移除此地址</translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation>删除</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -35,6 +55,7 @@
     </message>
     <message>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation>&amp;导出</translation>
     </message>
     <message>
@@ -1129,6 +1150,61 @@ Address: %4
         <source>Your current balance in watch-only addresses</source>
         <translation>您目前仅在观察地址中的余额</translation>
     </message>
+=======
+        <translation>导出</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
+<context>
+    <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>Bip38ToolDialog</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    </context>
+<context>
+    <name>BlockExplorer</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>MasternodeList</name>
+    </context>
+<context>
+    <name>MultiSendDialog</name>
+    </context>
+<context>
+    <name>CoinMixingConfig</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>PaymentServer</name>
@@ -1137,6 +1213,7 @@ Address: %4
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
@@ -1172,10 +1249,13 @@ Address: %4
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     </context>
 <context>
     <name>QRImageWidget</name>
+<<<<<<< HEAD
     <message>
         <source>&amp;Save Image...</source>
         <translation>&amp;保存图片...</translation>
@@ -1375,11 +1455,33 @@ Address: %4
         <translation>输入此地址的标签，将其添加到您的地址列表中</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>ShutdownWindow</name>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
+<<<<<<< HEAD
     <message>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>签名 - 签署 / 验证消息</translation>
@@ -1511,22 +1613,31 @@ Address: %4
         <source>Rhenium Core</source>
         <translation>Rhenium Core</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>SplashScreen</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>TrafficGraphWidget</name>
     </context>
 <context>
     <name>TransactionDesc</name>
+<<<<<<< HEAD
     <message>
         <source>Message</source>
         <translation>消息 </translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+<<<<<<< HEAD
     <message>
         <source>Address</source>
         <translation>地址</translation>
@@ -1566,6 +1677,11 @@ Address: %4
         <source>Exporting Failed</source>
         <translation>导出失败</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>TransactionView</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1580,7 +1696,11 @@ Address: %4
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
+<<<<<<< HEAD
         <translation>&amp;导出</translation>
+=======
+        <translation>导出</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -1588,6 +1708,7 @@ Address: %4
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
@@ -1632,5 +1753,8 @@ Address: %4
         <source>Your transaction was accepted into the pool!</source>
         <translation>您的交易被矿池接受！</translation>
     </message>
+=======
+    <name>Rhenium-core</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 </TS>

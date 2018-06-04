@@ -155,7 +155,11 @@ class FrameworkInfo(object):
 class ApplicationBundleInfo(object):
     def __init__(self, path):
         self.path = path
+<<<<<<< HEAD
         appName = "Rhenium-Qt"
+=======
+        appName = "PIVX-Qt"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         self.binaryPath = os.path.join(path, "Contents", "MacOS", appName)
         if not os.path.exists(self.binaryPath):
             raise RuntimeError("Could not find bundle binary for " + path)
@@ -352,7 +356,11 @@ def deployFrameworks(frameworks, bundlePath, binaryPath, strip, verbose, deploym
         # install_name_tool it a new id.
         changeIdentification(framework.deployedInstallName, deployedBinaryPath, verbose)
         # Check for framework dependencies
+<<<<<<< HEAD
         dependencies = getFrameworks(framework.sourceFilePath, verbose)
+=======
+        dependencies = getFrameworks(deployedBinaryPath, verbose)
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
         for dependency in dependencies:
             changeInstallName(dependency.installName, dependency.deployedInstallName, deployedBinaryPath, verbose)
@@ -604,7 +612,11 @@ else:
 
 # ------------------------------------------------
 
+<<<<<<< HEAD
 target = os.path.join("dist", "Rhenium-Qt.app")
+=======
+target = os.path.join("dist", "PIVX-Qt.app")
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 if verbose >= 2:
     print("+ Copying source bundle +")

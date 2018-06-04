@@ -365,8 +365,13 @@ bitcoin (0.3.19~dfsg-5) unstable; urgency=low
 bitcoin (0.3.19~dfsg-4) unstable; urgency=low
 
   [ Micah Anderson ]
+<<<<<<< HEAD
   * Provide example Rhenium.conf.
   * Add bitcoind(1) and Rhenium.conf(5) man pages.
+=======
+  * Provide example pivx.conf.
+  * Add bitcoind(1) and pivx.conf(5) man pages.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
   [ Jonas Smedegaard ]
   * Ease backporting:

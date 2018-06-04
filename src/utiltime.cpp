@@ -46,7 +46,11 @@ int64_t GetTimeMicros()
 void MilliSleep(int64_t n)
 {
 /**
+<<<<<<< HEAD
  * Boost's sleep_for was uninterruptable when backed by naRheniumleep from 1.50
+=======
+ * Boost's sleep_for was uninterruptable when backed by nanosleep from 1.50
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * until fixed in 1.52. Use the deprecated sleep method for the broken case.
  * See: https://svn.boost.org/trac/boost/ticket/7238
  */

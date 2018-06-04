@@ -38,7 +38,11 @@ outgoing connections be anonymized, but more is possible.
 An example how to start the client if the Tor proxy is running on local host on
 port 9050 and only allows .onion nodes to connect:
 ```
+<<<<<<< HEAD
 ./Rheniumd -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:888
+=======
+./Rheniumd -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:989
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 ```
 
 In a typical situation, this suffices to run behind a Tor proxy:
@@ -62,7 +66,11 @@ HiddenServiceDir /var/lib/tor/dnet/
 HiddenServicePort 989 127.0.0.1:5110
 HiddenServiceStatistics 0
 ORPort 9001
+<<<<<<< HEAD
 LongLivedPorts 888
+=======
+LongLivedPorts 989
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 ExitPolicy reject *:*
 DisableDebuggerAttachment 0
 NumEntryGuards 8
@@ -92,7 +100,11 @@ your Rheniumd's P2P listen port (5110 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 ```
+<<<<<<< HEAD
 ./Rheniumd -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:888 -listen
+=======
+./Rheniumd -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -listen
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 ```
 
 (obviously, replace the Onion address with your own). If you don't care too much
@@ -107,11 +119,28 @@ and open port 5110 on your firewall (or use -upnp).
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 ```
+<<<<<<< HEAD
 ./Rheniumd -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:888 -discover
+=======
+./Rheniumd -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 ```
 
 List of known Rhenium Tor relays
 ------------------------------------
 ```
+<<<<<<< HEAD
 onion:
+=======
+y5kcscnhpygvvnjn.onion:989
+5bmhtjvn2jvwpiej.onion:989
+pyfdxkazur3iib7y.onion:989
+ok3ym5zy6m5klimk.onion:989
+i6vpvzk2jxuqqs5f.onion:989
+bgdhpb76fkbw5fmg.onion:989
+gtlqzb5zbws5di7g.onion:989
+f7j2m26rptm5f7af.onion:989
+dnetzj6l4cvo2fxy.onion:989
+s3v3n7xhqafg6sb7.onion:989
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 ```

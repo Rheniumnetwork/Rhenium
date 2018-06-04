@@ -94,7 +94,11 @@
     <name>MultiSendDialog</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -112,9 +116,12 @@
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     </context>
 <context>
@@ -183,9 +190,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     </context>
 </TS>

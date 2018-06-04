@@ -299,6 +299,7 @@
         <translation>&amp;BIP 38 Entschlüsseln</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
@@ -323,10 +324,13 @@
         <translation>Entschlüsselter Schlüssel:</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Import Address</source>
         <translation>Adresse importieren</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click "Decrypt Key" to compute key</source>
         <translation>Klicke "Schlüssel entschlüsseln" um den Schlüssel zu berechnen</translation>
     </message>
@@ -337,6 +341,10 @@
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
         <translation>Zulässig: 0-9,a-z,A-Z,</translation>
+=======
+        <source>Allowed: 0-9,a-z,A-Z,</source>
+        <translation>Zulässig: 0-9,a-z,A-Z</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -351,14 +359,18 @@
         <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet unlock was cancelled.</source>
         <translation>Wallet-Entsperrung wurde abgebrochen.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Private key for the entered address is not available.</source>
         <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to decrypt.</source>
         <translation>Entschlüsselung fehlgeschlagen.</translation>
     </message>
@@ -367,6 +379,8 @@
         <translation>Bitte überprüfe den Schlüssel und die Passphrase und versuche es erneut.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Data Not Valid.</source>
         <translation>Daten fehlerhaft</translation>
     </message>
@@ -374,6 +388,7 @@
         <source>Please try again.</source>
         <translation>Bitte versuche es noch einmal</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Please wait while key is imported</source>
         <translation>Bitte warten. Schlüssel wird importiert..</translation>
@@ -391,6 +406,9 @@
         <translation>Erfolgreiches hinzufügen eines privaten Schlüssels zum Wallet</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -502,8 +520,13 @@
         <translation>&amp;Information</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>DiagRheniumeinformation anzeigen</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Diagnoseinformation anzeigen</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -573,10 +596,13 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
@@ -614,6 +640,7 @@
         <translation>Zahlung anfordern (QR-Code Generierung und Rhenium: URIs)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Privacy</source>
         <translation>&amp;Privatsphäre</translation>
     </message>
@@ -622,6 +649,8 @@
         <translation>Privatsphäre Aktion für zXRH und Verschleierung</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation>&amp;Masternodes</translation>
     </message>
@@ -654,14 +683,18 @@
         <translation>&amp;BIP38 Hilfsprogramm</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;MultiSend</source>
         <translation>&amp;MultiSend</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>MultiSend Settings</source>
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open Wallet &amp;Configuration File</source>
         <translation>Öffne Wallet &amp;Einstellungsdatei </translation>
     </message>
@@ -697,6 +730,11 @@
         <source>%n active connection(s) to Rhenium network</source>
         <translation><numerusform>%n aktive Verbindung zum Rhenium Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Rhenium Netzwerk</numerusform></translation>
     </message>
+=======
+        <source>Rhenium Core client</source>
+        <translation>Rhenium Core Client</translation>
+    </message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronisiere mit Netzwerk...</translation>
@@ -717,6 +755,7 @@
         <source>Up to date</source>
         <translation>Auf aktuellem Stand</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
@@ -729,14 +768,19 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 and %2</source>
         <translation>%1 und %2</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
     </message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 behind</source>
         <translation>%1 im Rückstand</translation>
@@ -789,12 +833,15 @@ Typ: %3
 Adresse: %4</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Staking is active
  MultiSend: %1</source>
         <translation>Staking ist aktiviert
  MultiSend: %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Active</source>
         <translation>Aktiv</translation>
     </message>
@@ -803,12 +850,15 @@ Adresse: %4</translation>
         <translation>Nicht Aktiv</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Staking is not active
  MultiSend: %1</source>
         <translation>Staking ist nicht aktiviert
  MultiSend: %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
     </message>
@@ -828,6 +878,7 @@ Adresse: %4</translation>
         <translation>Blockchain Explorer</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Back</source>
         <translation>Zurück</translation>
     </message>
@@ -836,6 +887,8 @@ Adresse: %4</translation>
         <translation>Vor</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation>Addrese / Block / Tansaktion</translation>
     </message>
@@ -844,10 +897,13 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>TextLabel</source>
         <translation>TextEtikett</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Rhenium.conf).</source>
         <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "Rhenium.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
@@ -855,8 +911,13 @@ Adresse: %4</translation>
 <context>
     <name>ClientModel</name>
     <message>
+<<<<<<< HEAD
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unbekannt: %5)</translation>
+=======
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Gesamt: %1 (OBF kompatibel: %2 / Aktiviert: %3)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Network Alert</source>
@@ -886,12 +947,17 @@ Adresse: %4</translation>
         <translation>Gebühr:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Coin Selection</source>
         <translation>Münzenauswahl </translation>
     </message>
     <message>
         <source>Dust:</source>
         <translation>Abzug:</translation>
+=======
+        <source>Dust:</source>
+        <translation>"Dust":</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>After Fee:</source>
@@ -902,6 +968,7 @@ Adresse: %4</translation>
         <translation>Wechselgeld:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>(nicht) alle auswählen</translation>
     </message>
@@ -922,14 +989,19 @@ Adresse: %4</translation>
         <translation>(1 gesperrt)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Amount</source>
         <translation>Betrag</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received with label</source>
         <translation>Empfange mit Bezeichnung</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Received with address</source>
         <translation>Empfangen mit Adresse</translation>
     </message>
@@ -938,10 +1010,13 @@ Adresse: %4</translation>
         <translation>Datum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation>Betätigungen</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Confirmed</source>
         <translation>Bestätigt</translation>
     </message>
@@ -966,6 +1041,7 @@ Adresse: %4</translation>
         <translation>Transaktions-ID kopieren</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Lock unspent</source>
         <translation>Sperre Verwendung</translation>
     </message>
@@ -1006,6 +1082,8 @@ Adresse: %4</translation>
         <translation>Bitte wechsle zur "Listenansicht" um diese Funktion zu verwenden.</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>höchste</translation>
     </message>
@@ -1022,8 +1100,13 @@ Adresse: %4</translation>
         <translation>mittel-hoch</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>Kann um +/- %1 Abzug(s) pro Eingang variieren.</translation>
+=======
+        <source>n/a</source>
+        <translation>k.A.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>medium</source>
@@ -1046,10 +1129,13 @@ Adresse: %4</translation>
         <translation>am niedrigsten</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(%1 locked)</source>
         <translation>(%1 gesperrt)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>none</source>
         <translation>keine</translation>
     </message>
@@ -1062,6 +1148,7 @@ Adresse: %4</translation>
         <translation>nein</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 1000 Bytes ist.</translation>
     </message>
@@ -1098,6 +1185,12 @@ Adresse: %4</translation>
         <translation>(Wechselgeld)</translation>
     </message>
 </context>
+=======
+        <source>(no label)</source>
+        <translation>(keine Bezeichnung)</translation>
+    </message>
+    </context>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -1207,6 +1300,7 @@ Adresse: %4</translation>
         <translation>Kommandozeilenoptionen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>UI Options:</source>
         <translation>UI Optionen:</translation>
     </message>
@@ -1219,6 +1313,8 @@ Adresse: %4</translation>
         <translation>Zeige Startbildschirm beim Start (Standard: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
     </message>
@@ -1384,6 +1480,7 @@ Adresse: %4</translation>
 <context>
     <name>MultiSendDialog</name>
     <message>
+<<<<<<< HEAD
         <source>MultiSend</source>
         <translation>MultiSend</translation>
     </message>
@@ -4119,6 +4216,376 @@ Bitte haben Sie Geduld...</translation>
     <message>
         <source>Copy address</source>
         <translation>Adresse kopieren</translation>
+=======
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Address:</source>
+        <translation>Adresse:</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <source>Activate</source>
+        <translation>Aktivieren</translation>
+    </message>
+    <message>
+        <source>Removed </source>
+        <translation>Gelöscht</translation>
+    </message>
+    </context>
+<context>
+    <name>CoinMixingConfig</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>default</source>
+        <translation>standard</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keine</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>Verfügbar:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>Ihr aktuell verfügbarer Kontostand</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Ausstehend:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuell verfügbaren Kontostand enthalten ist</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Unreif:</translation>
+    </message>
+    <message>
+        <source>Staked or masternode rewards that has not yet matured</source>
+        <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Kontostände</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Unbestätigte Transaktionen  zu beobachteten Adressen</translation>
+    </message>
+    <message>
+        <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
+        <translation>Erarbeiteter Betrag der beobachteten Adressen der noch nicht gereift ist</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>Gesamtbetrag:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Aktueller Gesamtbetrag aus obigen Kategorien</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Kontostand der beobachteten Adressen</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>Beobachtet:</translation>
+    </message>
+    <message>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Aktueller Kontostand der beobachteten Adressen</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Verfügbar:</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation>Status:</translation>
+    </message>
+    <message>
+        <source>CoinMixing Balance:</source>
+        <translation>Verschleierter Betrag:</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 XRH / 0 Runden</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Aktiviert/Deaktiviert</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Verschleierung</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Vollendet:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Betrag und Runden:</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Stückelung des Betrages:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Letzte Transaktionen</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Starte/Stoppe das Mixen</translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Die gestückelten Beträge, die Sie zu dem Masternode gesendet haben.&lt;br&gt; Zum Erfolgreichen Mixen müssen andere Benutzer exakt gleich gestückelte Beträge senden.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Letzte Nachricht)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Versuche zu Mixen</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nicht synchron</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Deaktiviert</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Keine Inputs gefunden</translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>Nicht genug kompatible Inputs zum Anonymisieren von &lt;span style='color:red;'&gt;%1&lt;/span&gt; gefunden,&lt;br/&gt;&lt;span style='color:red;'&gt;%2&lt;/span&gt; wird stattdessen anonymisiert</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Fortschritt</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Gestückelt</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonymisiert</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
+        <translation>Wallet ist gesperrt und der Benutzer verweigert die Entsperrung. Verschleierung deaktiviert.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Genug kompatible Inputs zum Anonymisieren von %1 gefunden</translation>
+    </message>
+    <message>
+        <source>Start CoinMixing</source>
+        <translation>Verschleierung starten</translation>
+    </message>
+    <message>
+        <source>Stop CoinMixing</source>
+        <translation>Verschleierung stoppen</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Gemixt</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Aktiviert</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Address/Hostname</source>
+        <translation>Adresse/Rechnername</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Programmversion</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Latenz (Ping)</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>Enter a Rhenium address (e.g. %1)</source>
+        <translation>Rhenium-Adresse eingeben (z.B. %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 T</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 St.</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 Min.</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1  S</translation>
+    </message>
+    <message>
+        <source>NETWORK</source>
+        <translation>NETZWERK</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>UNBEKANNT</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Keine</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 Ms</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>Grafik &amp;speichern...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>Grafik &amp;kopieren</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>QR-Code speichern</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG-Grafik (*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Information</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
+        <source>Protocol</source>
+        <translation>Protokoll</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Programmversion</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Latenz (Ping)</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 Byte</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>nie</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>Nachricht:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Bezeichnung:</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>Zahlung anfo&amp;rdern</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Alle Formularfelder zurücksetzen.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Copy label</source>
@@ -4128,6 +4595,7 @@ Bitte haben Sie Geduld...</translation>
         <source>Copy amount</source>
         <translation>Betrag kopieren</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Copy transaction ID</source>
         <translation>Transaktions-ID kopieren</translation>
@@ -5257,6 +5725,982 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     <message>
         <source>RhenFAST options:</source>
         <translation>RhenFAST Optionen:</translation>
+=======
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR Code</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>Grafik &amp;speichern...</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(keine Bezeichnung)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>XRHs überweisen</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>"Coin Control"-Funktionen</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automatisch ausgewählt</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Unzureichender Kontostand!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Anzahl:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Byte:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Betrag:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorität:</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>mittel</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Gebühr:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>"Dust":</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nein</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Nach Gebühren:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Wechselgeld:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Benutzerdefinierte Wechselgeld-Adresse</translation>
+    </message>
+    <message>
+        <source>Split UTXO</source>
+        <translation>UTXO aufteilen</translation>
+    </message>
+    <message>
+        <source># of outputs</source>
+        <translation>Anzahl outputs</translation>
+    </message>
+    <message>
+        <source>UTXO Size:</source>
+        <translation>UTXO Größe:</translation>
+    </message>
+    <message>
+        <source>0 XRH</source>
+        <translation>0 XRH</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Transaktionsgebühr:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Auswählen...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>Gebühreneinstellungen reduzieren</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimieren</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Verschleierung</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>pro Kilobyte</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>pro Kilobyte</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(Kurzinfo lesen)</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Benutzerdefiniert:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>("Intelligente" Gebühren sind noch nicht berechnet. Dies dauert normalerweise ein paar Blöcke...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Bestätigungszeit:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>schnell</translation>
+    </message>
+    <message>
+        <source>Recommended</source>
+        <translation>Empfohlen</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>Üb&amp;erweisen</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Alle Formularfelder zurücksetzen.</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Alles zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>An mehrere Empfänger auf einmal überweisen</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Empfänge&amp;r hinzufügen</translation>
+    </message>
+    <message>
+        <source>RhenFAST</source>
+        <translation>RhenFAST</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Kontostand:</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Betrag kopieren</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Warnung: Unbekannte Wechselgeld-Adresse </translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(keine Bezeichnung)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Dies ist eine normale Überweisung.</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>E&amp;mpfänger:</translation>
+    </message>
+    <message>
+        <source>The Rhenium address to send the payment to</source>
+        <translation>Rhenium-Adresse, an die überwiesen werden soll</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Bereits verwendete Adresse auswählen</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Adresse aus der Zwischenablage einfügen</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Diesen Eintrag entfernen</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Bezeichnung:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Adressbezeichnung eingeben, um diese in der Liste der bereits verwendeten Adressen zu speichern</translation>
+    </message>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>Betra&amp;g:</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Nachricht:</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the Rhenium: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Rhenium network.</source>
+        <translation>Eine an die Rhenium-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Rhenium-Netzwerk gesendet.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Dies is eine unverifizierte Zahlungsanforderung.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Empfänger:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memo:</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation>Dies is eine verifizierte Zahlungsanforderung.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Adressbezeichnung eingeben, diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Rhenium Core is shutting down...</source>
+        <translation>Rhenium Core wird beendet...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>Nachricht &amp;signieren</translation>
+    </message>
+    <message>
+        <source>The Rhenium address to sign the message with</source>
+        <translation>Rhenium Adresse mit welcher die Nachricht signiert werden soll</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Bereits verwendete Adresse auswählen</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Adresse aus der Zwischenablage einfügen</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Gehen Sie hier die Nachricht ein, die Sie digital unterschreiben möchten</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Rhenium address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Rhenium Adresse besitzt</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Setze alle signierten Nachrichten Felder zurück</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Alles zurücksetzen</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Die eingegebene Adresse ist falsch</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar</translation>
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Rhenium Core</source>
+        <translation>Rhenium Core</translation>
+    </message>
+    <message>
+        <source>Version %1</source>
+        <translation>Version %1</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Die Bitcoin Core Entwickler</translation>
+    </message>
+    <message>
+        <source>The Dash Core developers</source>
+        <translation>Die Dash Core Entwickler</translation>
+    </message>
+    <message>
+        <source>The Rhenium Core developers</source>
+        <translation>Die Rhenium Core Entwickler</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[Testnetzwerk]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Offen bis %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>in Konflikt stehend</translation>
+    </message>
+    <message>
+        <source>%1/offline (verified via rhenfast)</source>
+        <translation>%1/offline (Überprüft durch RhenFAST)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via rhenfast)</source>
+        <translation>%1/bestätigt (Überprüft durch RhenFAST)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via rhenfast)</source>
+        <translation>%1 Bestätigungen (Überprüft durch RhenFAST)</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/unbestätigt</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 Bestätigungen</translation>
+    </message>
+    <message>
+        <source>%1/offline (RhenFAST verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/offline (Überprüfung durch RhenFAST - %2 von %3 Signaturen)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (RhenFAST verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/bestätigt (Überprüfung durch RhenFAST - %2 von %3 Signaturen)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (RhenFAST verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 Bestätigungen (Überprüfung durch RhenFAST - %2 von %3 Signaturen)</translation>
+    </message>
+    <message>
+        <source>%1/offline (RhenFAST verification failed)</source>
+        <translation>%1/offline (Überprüfung durch RhenFAST fehlgeschlagen)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (RhenFAST verification failed)</source>
+        <translation>%1/bestätigt (Überprüfung durch RhenFAST fehlgeschlagen)</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, wurde noch nicht erfolgreich übertragen</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Quelle</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Erzeugt</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Von</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>unbekannt</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>An</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>eigene Adresse</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>nur beobachtet</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Gutschrift</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>nicht angenommen</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Belastung</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>Gesamtbelastung</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Gesamtgutschrift</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaktionsgebühr</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Nettobetrag</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transaktions-ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Händler</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Erzeugte XRHs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine XRHs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Debuginformationen</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaktion</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Eingänge</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>wahr</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>falsch</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Transaktionsdetails</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Dieser Bereich zeigt eine detaillierte Beschreibung der Transaktion an</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Art</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Offen bis %1</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Unbestätigt</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Bestätigt (%1 Bestätigungen)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Steht in Konflikt</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Unreif (%1 Bestätigungen, wird verfügbar sein nach %2)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Dieser Block wurde von keinem anderen Knoten empfangen und wird wahrscheinlich nicht angenommen werden!</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Empfangen über</translation>
+    </message>
+    <message>
+        <source>Masternode Reward</source>
+        <translation>Masternode Vergütung</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Empfangen von</translation>
+    </message>
+    <message>
+        <source>Received via CoinMixing</source>
+        <translation>über/durch Verschleierung empfangen</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Stückelung der Verschleierung</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+        <translation>Sicherheitspfandzahlung für Verschleierung</translation>
+    </message>
+    <message>
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>Verschleierung Erzeugung des Sicherheitspfand</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+        <translation>Verschleierung Erzeugung der Stückelung</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Überwiesen an</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Erzeugt</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
+        <source>Obfuscated</source>
+        <translation>Verschleiert</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>nur beobachtet</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(k.A.)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transaktionsstatus, fahren Sie mit der Maus über dieses Feld, um die Anzahl der Bestätigungen zu sehen.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum und Uhrzeit zu der die Transaktion empfangen wurde.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Art der Transaktion.</translation>
+    </message>
+    <message>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Zeigt ob eine nur beobachtete Adresse in dieser Transaktion beteiligt ist.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Zieladresse der Transaktion</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Der Betrag, der dem Kontostand abgezogen oder hinzugefügt wurde.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Heute</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Diese Woche</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Diesen Monat</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Letzten Monat</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Dieses Jahr</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Zeitraum...</translation>
+    </message>
+    <message>
+        <source>Most Common</source>
+        <translation>Gängigste</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Empfangen über</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Überwiesen an</translation>
+    </message>
+    <message>
+        <source>Obfuscated</source>
+        <translation>Verschleiert</translation>
+    </message>
+    <message>
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>Verschleierung Erzeugung des Sicherheitspfand</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+        <translation>Verschleierung Erzeugung der Stückelung</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Stückelung der Verschleierung</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+        <translation>Sicherheitspfandzahlung für Verschleierung</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Erzeugt</translation>
+    </message>
+    <message>
+        <source>Masternode Reward</source>
+        <translation>Masternode Vergütung</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Andere</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Minimaler Betrag</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Adresse kopieren</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Bezeichnung kopieren</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Betrag kopieren</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Transaktions-ID kopieren</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Bezeichnung bearbeiten</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Transaktionsdetails anzeigen</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Transaktionsverlauf exportieren</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Kommagetrennte-Datei (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Bestätigt</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>Nur beobachtet</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Art</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Exportieren fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Beim Speichern des Transaktionsverlaufs nach %1 ist ein Fehler aufgetreten.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Exportieren erfolgreich</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Speichern des Transaktionsverlaufs nach %1 war erfolgreich.</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Zeitraum:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>bis</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Angezeigte Einheit. Anklicken Sie, um eine andere Einheit zu wählen.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>Es wurde keine Wallet geladen.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>XRHs überweisen</translation>
+    </message>
+    <message>
+        <source>RhenFAST doesn't support sending values that high yet. Transactions are currently limited to %1 XRH.</source>
+        <translation>RhenFAST unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 XRH begrenzt.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportieren</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Daten der aktuellen Ansicht in eine Datei exportieren</translation>
+    </message>
+    <message>
+        <source>Selected amount:</source>
+        <translation>Ausgewählter Betrag:</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Wallet sichern</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Wallet-Daten (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Sicherung fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Beim Speichern der Wallet-Daten nach %1 ist ein Fehler aufgetreten.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Sicherung erfolgreich</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Speichern der Wallet-Daten nach %1 war erfolgreich.</translation>
+    </message>
+</context>
+<context>
+    <name>Rhenium-core</name>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Hinweis</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -5304,6 +6748,7 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+<<<<<<< HEAD
         <translation>Schwellenwert zum Trennen von sich falsch verhaltenden Gegenstellen (Standard: %u)</translation>
     </message>
     <message>
@@ -5313,6 +6758,9 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Zu verwendender Tor Kontroll-Port, falls onion Überwachung aktiviert ist (Standard %s)</translation>
+=======
+        <translation>Schwellwert zum trennen von sich falsch verhaltenden Gegenstellen (Standard: %u)</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -5387,7 +6835,11 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
+=======
+        <source>Value more than CoinMixing pool maximum allows.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Wert höher als der vom Verschleierungspool maximal erlaubte.</translation>
     </message>
     <message>
@@ -5427,6 +6879,7 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>Warnung: Diese Version is veraltet, Aktualisierung erforderlich!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
         <translation>Warnung: Nicht unterstütztes Argument -benchmark wurde ignoriert, nutzen Sie -debug=bench.</translation>
     </message>
@@ -5463,6 +6916,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>fehlgeschlagen beim Zerocoin validieren</translation>
     </message>
     <message>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>on startup</source>
         <translation>beim Starten</translation>
     </message>

@@ -252,6 +252,7 @@
        </item>
        <item row="10" column="1">
         <widget class="QLabel" name="masternodeCount">
+<<<<<<< HEAD
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
@@ -264,6 +265,11 @@
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
+=======
+         <property name="text">
+          <string>N/A</string>
+         </property>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         </widget>
        </item>
        <item row="11" column="0">
@@ -1077,6 +1083,7 @@
       <attribute name="title">
        <string>&amp;Wallet Repair</string>
       </attribute>
+<<<<<<< HEAD
       <layout class="QGridLayout" name="gridLayout_4" columnstretch="0,0,0,0">
        <property name="horizontalSpacing">
         <number>12</number>
@@ -1094,6 +1101,12 @@
          </property>
         </widget>
        </item>
+=======
+      <layout class="QGridLayout" name="gridLayout_4" columnstretch="0,1,0,2">
+       <property name="horizontalSpacing">
+        <number>12</number>
+       </property>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
        <item row="0" column="0" colspan="4">
         <widget class="QLabel" name="label_repair_header">
          <property name="font">
@@ -1339,7 +1352,11 @@
          </property>
         </widget>
        </item>
+<<<<<<< HEAD
        <item row="11" column="0">
+=======
+       <item row="10" column="0">
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <spacer name="verticalSpacer_repair2">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1352,6 +1369,7 @@
          </property>
         </spacer>
        </item>
+<<<<<<< HEAD
        <item row="10" column="2">
         <widget class="QLabel" name="label_repair_resync_command">
          <property name="text">
@@ -1369,6 +1387,8 @@
          </property>
         </widget>
        </item>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
       </layout>
      </widget>
     </widget>

@@ -486,7 +486,11 @@
         <translation>&amp;資訊</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
+=======
+        <source>Show diagnostic information</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>顯示診斷訊息</translation>
     </message>
     <message>
@@ -726,7 +730,11 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -744,6 +752,7 @@
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>Choose previously used address</source>
@@ -763,6 +772,8 @@
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     </context>
 <context>
@@ -971,9 +982,12 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     </context>
 </TS>

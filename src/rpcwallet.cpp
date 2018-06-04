@@ -1,7 +1,11 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,10 +24,15 @@
 
 #include <stdint.h>
 
+<<<<<<< HEAD
 #include "libzerocoin/Coin.h"
 #include "json/json_spirit_utils.h"
 #include "json/json_spirit_value.h"
 #include "spork.h"
+=======
+#include "json/json_spirit_utils.h"
+#include "json/json_spirit_value.h"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include <boost/assign/list_of.hpp>
 
 using namespace std;
@@ -623,7 +632,11 @@ Value getbalance(const Array& params, bool fHelp)
     if (fHelp || params.size() > 3)
         throw runtime_error(
             "getbalance ( \"account\" minconf includeWatchonly )\n"
+<<<<<<< HEAD
             "\nIf account is not specified, returns the server's total available balance (excluding zerocoins).\n"
+=======
+            "\nIf account is not specified, returns the server's total available balance.\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "If account is specified, returns the balance in the account.\n"
             "Note that the account \"\" is not the same as leaving the parameter out.\n"
             "The server total may be different to the balance in the default \"\" account.\n"
@@ -1600,7 +1613,11 @@ Value walletpassphrase(const Array& params, bool fHelp)
         throw runtime_error(
             "walletpassphrase \"passphrase\" timeout ( anonymizeonly )\n"
             "\nStores the wallet decryption key in memory for 'timeout' seconds.\n"
+<<<<<<< HEAD
             "This is needed prior to performing transactions related to private keys such as sending XRHs\n"
+=======
+            "This is needed prior to performing transactions related to private keys such as sending PIVs\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "\nArguments:\n"
             "1. \"passphrase\"     (string, required) The wallet passphrase\n"
             "2. timeout            (numeric, required) The time to keep the decryption key in seconds.\n"
@@ -1611,7 +1628,11 @@ Value walletpassphrase(const Array& params, bool fHelp)
             "\nExamples:\n"
             "\nUnlock the wallet for 60 seconds\n" +
             HelpExampleCli("walletpassphrase", "\"my pass phrase\" 60") +
+<<<<<<< HEAD
             "\nUnlock the wallet for 60 seconds but allow Obfuscation only\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\" 60 true") +
+=======
+            "\nUnlock the wallet for 60 seconds but allow CoinMixing only\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\" 60 true") +
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "\nLock the wallet again (before 60 seconds)\n" + HelpExampleCli("walletlock", "") +
             "\nAs json rpc call\n" + HelpExampleRpc("walletpassphrase", "\"my pass phrase\", 60"));
 
@@ -1635,7 +1656,11 @@ Value walletpassphrase(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_WALLET_ALREADY_UNLOCKED, "Error: Wallet is already unlocked.");
 
     if (!pwalletMain->Unlock(strWalletPass, anonymizeOnly))
+<<<<<<< HEAD
         throw JSONRPCError(RPC_WALLET_PASSXRHASE_INCORRECT, "Error: The wallet passphrase entered was incorrect.");
+=======
+        throw JSONRPCError(RPC_WALLET_PASSPHRASE_INCORRECT, "Error: The wallet passphrase entered was incorrect.");
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     pwalletMain->TopUpKeyPool();
 
@@ -1685,7 +1710,11 @@ Value walletpassphrasechange(const Array& params, bool fHelp)
             "Changes the wallet passphrase from <oldpassphrase> to <newpassphrase>.");
 
     if (!pwalletMain->ChangeWalletPassphrase(strOldWalletPass, strNewWalletPass))
+<<<<<<< HEAD
         throw JSONRPCError(RPC_WALLET_PASSXRHASE_INCORRECT, "Error: The wallet passphrase entered was incorrect.");
+=======
+        throw JSONRPCError(RPC_WALLET_PASSPHRASE_INCORRECT, "Error: The wallet passphrase entered was incorrect.");
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     return Value::null;
 }
@@ -1737,7 +1766,11 @@ Value encryptwallet(const Array& params, bool fHelp)
             "\nExamples:\n"
             "\nEncrypt you wallet\n" +
             HelpExampleCli("encryptwallet", "\"my pass phrase\"") +
+<<<<<<< HEAD
             "\nNow set the passphrase to use the wallet, such as for signing or sending XRHs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
+=======
+            "\nNow set the passphrase to use the wallet, such as for signing or sending PIVs\n" + HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "\nNow we can so something like sign\n" + HelpExampleCli("signmessage", "\"Rheniumaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" + HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n" + HelpExampleRpc("encryptwallet", "\"my pass phrase\""));
@@ -1775,7 +1808,11 @@ Value lockunspent(const Array& params, bool fHelp)
             "lockunspent unlock [{\"txid\":\"txid\",\"vout\":n},...]\n"
             "\nUpdates list of temporarily unspendable outputs.\n"
             "Temporarily lock (unlock=false) or unlock (unlock=true) specified transaction outputs.\n"
+<<<<<<< HEAD
             "A locked transaction output will not be chosen by automatic coin selection, when spending XRHs.\n"
+=======
+            "A locked transaction output will not be chosen by automatic coin selection, when spending PIVs.\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "Locks are stored in memory only. Nodes start with zero locked outputs, and the locked output list\n"
             "is always cleared (by virtue of process exit) when a node stops or fails.\n"
             "Also see the listunspent call\n"
@@ -1887,7 +1924,11 @@ Value settxfee(const Array& params, bool fHelp)
             "settxfee amount\n"
             "\nSet the transaction fee per kB.\n"
             "\nArguments:\n"
+<<<<<<< HEAD
             "1. amount         (numeric, required) The transaction fee in XRH/kB rounded to the nearest 0.00000001\n"
+=======
+            "1. amount         (numeric, required) The transaction fee in PIV/kB rounded to the nearest 0.00000001\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
             "\nExamples:\n" +
@@ -1911,7 +1952,11 @@ Value getwalletinfo(const Array& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"walletversion\": xxxxx,     (numeric) the wallet version\n"
+<<<<<<< HEAD
             "  \"balance\": xxxxxxx,         (numeric) the total XRH balance of the wallet\n"
+=======
+            "  \"balance\": xxxxxxx,         (numeric) the total PIV balance of the wallet\n"
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "  \"txcount\": xxxxxxx,         (numeric) the total number of transactions in the wallet\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -2267,7 +2312,11 @@ Value multisend(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     CBitcoinAddress address(strAddress);
     if (!address.IsValid())
+<<<<<<< HEAD
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid XRH address");
+=======
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid PIV address");
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (boost::lexical_cast<int>(params[1].get_str()) < 0)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, expected valid percentage");
     if (pwalletMain->IsLocked())
@@ -2304,6 +2353,7 @@ Value multisend(const Array& params, bool fHelp)
         }
     }
     return printMultiSend();
+<<<<<<< HEAD
 }
 Value getzerocoinbalance(const Array& params, bool fHelp)
 {
@@ -2805,3 +2855,6 @@ Value reconsiderzerocoins(const Array& params, bool fHelp)
 
     return arrRet;
 }
+=======
+}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

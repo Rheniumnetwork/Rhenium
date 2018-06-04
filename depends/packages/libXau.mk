@@ -2,7 +2,11 @@ package=libXau
 $(package)_version=1.0.8
 $(package)_download_path=http://xorg.freedesktop.org/releases/individual/lib/
 $(package)_file_name=$(package)-$($(package)_version).tar.bz2
+<<<<<<< HEAD
 $(package)_sha256_hash=fdd477320aeb5cdd65110838722d6b7d544887dfe7de46e1e7cc0c27c2bea4f2
+=======
+$(package)_sha256_hash=fdd477320aeb5cdd67272838722d6b7d544887dfe7de46e1e7cc0c27c2bea4f2
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 $(package)_dependencies=xproto
 
 define $(package)_set_vars

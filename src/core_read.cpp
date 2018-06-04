@@ -1,5 +1,8 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,7 +35,11 @@ CScript ParseScript(std::string s)
     static map<string, opcodetype> mapOpNames;
 
     if (mapOpNames.empty()) {
+<<<<<<< HEAD
         for (int op = 0; op <= OP_ZEROCOINSPEND; op++) {
+=======
+        for (int op = 0; op <= OP_NOP10; op++) {
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             // Allow OP_RESERVED to get into mapOpNames
             if (op < OP_NOP && op != OP_RESERVED)
                 continue;

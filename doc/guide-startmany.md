@@ -95,7 +95,11 @@ Issue the following:
 Make note of the hash (which is your collaterla_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
+<<<<<<< HEAD
 [From the Rhenium github repo](https://github.com/eastcoastcrypto/Rhenium/blob/master/doc/masternode_conf.md)
+=======
+[From the Rhenium github repo](https://github.com/Rhenium-crypto/Rhenium/blob/master/doc/masternode_conf.md)
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -137,7 +141,11 @@ I usually confirm that remote is on the correct block by issuing:
 
 ```Rheniumd getinfo```
 
+<<<<<<< HEAD
 And compare with the official explorer at http://Rheniumcoin.com
+=======
+And compare with the official explorer at http://Rheniumexplorer.coin-server.com <or> dnet.presstab.pw
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 ### Local
 

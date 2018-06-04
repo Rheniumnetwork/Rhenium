@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 // Copyright (c) 2009-2012 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+=======
+
+// Copyright (c) 2009-2012 The Dash developers
+// Copyright (c) 2015-2017 The Rhenium developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifndef RHENFAST_H
 #define RHENFAST_H
 
@@ -16,7 +24,11 @@
 
 /*
     At 15 signatures, 1/2 of the masternode network can be owned by
+<<<<<<< HEAD
     one party without comprimising the security of SwiftX
+=======
+    one party without comprimising the security of RhenFAST
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     (1000/2150.0)**10 = 0.00047382219560689856
     (1000/2900.0)**10 = 2.3769498616783657e-05
 

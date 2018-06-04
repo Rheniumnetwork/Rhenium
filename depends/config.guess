@@ -1,8 +1,14 @@
 #! /bin/sh
 # Attempt to guess a canonical system name.
+<<<<<<< HEAD
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
 timestamp='2017-01-01'
+=======
+#   Copyright 1992-2016 Free Software Foundation, Inc.
+
+timestamp='2016-05-15'
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -50,7 +56,11 @@ version="\
 GNU config.guess ($timestamp)
 
 Originally written by Per Bothner.
+<<<<<<< HEAD
 Copyright 1992-2017 Free Software Foundation, Inc.
+=======
+Copyright 1992-2016 Free Software Foundation, Inc.
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -410,25 +420,43 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 		;;
 	esac
 	# Japanese Language versions have a version number like `4.1.3-JL'.
+<<<<<<< HEAD
 	echo sparc-sun-suRhenium`echo ${UNAME_RELEASE}|sed -e 's/-/_/'`
 	exit ;;
     sun3*:SunOS:*:*)
 	echo m68k-sun-suRhenium${UNAME_RELEASE}
+=======
+	echo sparc-sun-sunos`echo ${UNAME_RELEASE}|sed -e 's/-/_/'`
+	exit ;;
+    sun3*:SunOS:*:*)
+	echo m68k-sun-sunos${UNAME_RELEASE}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	exit ;;
     sun*:*:4.2BSD:*)
 	UNAME_RELEASE=`(sed 1q /etc/motd | awk '{print substr($5,1,3)}') 2>/dev/null`
 	test "x${UNAME_RELEASE}" = x && UNAME_RELEASE=3
 	case "`/bin/arch`" in
 	    sun3)
+<<<<<<< HEAD
 		echo m68k-sun-suRhenium${UNAME_RELEASE}
 		;;
 	    sun4)
 		echo sparc-sun-suRhenium${UNAME_RELEASE}
+=======
+		echo m68k-sun-sunos${UNAME_RELEASE}
+		;;
+	    sun4)
+		echo sparc-sun-sunos${UNAME_RELEASE}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	esac
 	exit ;;
     aushp:SunOS:*:*)
+<<<<<<< HEAD
 	echo sparc-auspex-suRhenium${UNAME_RELEASE}
+=======
+	echo sparc-auspex-sunos${UNAME_RELEASE}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	exit ;;
     # The situation for MiNT is a little confusing.  The machine name
     # can be virtually everything (everything which is not
@@ -1000,9 +1028,12 @@ EOF
 	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep '^CPU'`
 	test x"${CPU}" != x && { echo "${CPU}-unknown-linux-${LIBC}"; exit; }
 	;;
+<<<<<<< HEAD
     mips64el:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-${LIBC}
 	exit ;;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     openrisc*:Linux:*:*)
 	echo or1k-unknown-linux-${LIBC}
 	exit ;;
@@ -1035,9 +1066,12 @@ EOF
     ppcle:Linux:*:*)
 	echo powerpcle-unknown-linux-${LIBC}
 	exit ;;
+<<<<<<< HEAD
     riscv32:Linux:*:* | riscv64:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-${LIBC}
 	exit ;;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     s390:Linux:*:* | s390x:Linux:*:*)
 	echo ${UNAME_MACHINE}-ibm-linux-${LIBC}
 	exit ;;

@@ -20,7 +20,11 @@ Sanity checks:
 
 Once you've got the right hardware and software:
 
+<<<<<<< HEAD
     git clone git://github.com/Rheniumproject/Rhenium.git
+=======
+    git clone git://github.com/Rhenium-project/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     git clone git://github.com/devrandom/gitian-builder.git
     mkdir gitian-builder/inputs
     cd gitian-builder/inputs
@@ -62,5 +66,9 @@ Here's a description of Gavin's setup on OSX 10.6:
 5. Still inside Ubuntu, tell gitian-builder to use LXC, then follow the "Once you've got the right hardware and software" instructions above:
 
 	export USE_LXC=1
+<<<<<<< HEAD
 	git clone git://github.com/Rheniumproject/Rhenium.git
+=======
+	git clone git://github.com/Rhenium-project/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	... etc

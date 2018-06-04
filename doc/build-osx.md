@@ -38,13 +38,21 @@ Instructions: Homebrew
 
 #### Install dependencies using Homebrew
 
+<<<<<<< HEAD
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5 libzmq
+=======
+        brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 ### Building `Rheniumd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
+<<<<<<< HEAD
         git clone https://github.com/eastcoastcrypto/Rhenium.git
+=======
+        git clone https://github.com/Rhenium-Project/Rhenium.git
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         cd Rhenium
 
 2.  Build Rheniumd:

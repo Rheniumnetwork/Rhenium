@@ -1,7 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2016-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -412,10 +415,15 @@ bool CTxMemPool::addUnchecked(const uint256& hash, const CTxMemPoolEntry& entry)
     {
         mapTx[hash] = entry;
         const CTransaction& tx = mapTx[hash].GetTx();
+<<<<<<< HEAD
         if(!tx.IsZerocoinSpend()) {
             for (unsigned int i = 0; i < tx.vin.size(); i++)
                 mapNextTx[tx.vin[i].prevout] = CInPoint(&tx, i);
         }
+=======
+        for (unsigned int i = 0; i < tx.vin.size(); i++)
+            mapNextTx[tx.vin[i].prevout] = CInPoint(&tx, i);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         nTransactionsUpdated++;
         totalTxSize += entry.GetTxSize();
     }
@@ -480,7 +488,11 @@ void CTxMemPool::removeCoinbaseSpends(const CCoinsViewCache* pcoins, unsigned in
                 continue;
             const CCoins* coins = pcoins->AccessCoins(txin.prevout.hash);
             if (fSanityCheck) assert(coins);
+<<<<<<< HEAD
             if (!coins || ((coins->IsCoinBase() || coins->IsCoinStake()) && nMemPoolHeight - coins->nHeight < (unsigned)Params().COINBASE_MATURITY())) {
+=======
+            if (!coins || ((coins->IsCoinBase() || coins->IsCoinStake()) && nMemPoolHeight - coins->nHeight < Params().COINBASE_MATURITY())) {
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 transactionsToRemove.push_back(tx);
                 break;
             }

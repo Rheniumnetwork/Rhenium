@@ -24,8 +24,13 @@ public:
     static const QDateTime MAX_DATE;
     /** Type filter bit field (all types) */
     static const quint32 ALL_TYPES = 0xFFFFFFFF;
+<<<<<<< HEAD
     /** Type filter bit field (all types but Obfuscation-SPAM ... enum 0-13 are common) */
     static const quint32 COMMON_TYPES = 0x000003FFF;
+=======
+    /** Type filter bit field (all types but CoinMixing-SPAM) */
+    static const quint32 COMMON_TYPES = 4479;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     static quint32 TYPE(int type) { return 1 << type; }
 

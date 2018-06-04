@@ -1,6 +1,9 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2016-2017 The PIVX developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,14 +12,20 @@
 #include "main.h"
 #include "pow.h"
 #include "uint256.h"
+<<<<<<< HEAD
 #include "accumulators.h"
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <stdint.h>
 
 #include <boost/thread.hpp>
 
 using namespace std;
+<<<<<<< HEAD
 using namespace libzerocoin;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 void static BatchWriteCoins(CLevelDBBatch& batch, const uint256& hash, const CCoins& coins)
 {
@@ -198,6 +207,7 @@ bool CBlockTreeDB::ReadFlag(const std::string& name, bool& fValue)
     return true;
 }
 
+<<<<<<< HEAD
 bool CBlockTreeDB::WriteInt(const std::string& name, int nValue)
 {
     return Write(std::make_pair('I', name), nValue);
@@ -208,6 +218,8 @@ bool CBlockTreeDB::ReadInt(const std::string& name, int& nValue)
     return Read(std::make_pair('I', name), nValue);
 }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool CBlockTreeDB::LoadBlockIndexGuts()
 {
     boost::scoped_ptr<leveldb::Iterator> pcursor(NewIterator());
@@ -217,7 +229,10 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
     pcursor->Seek(ssKeySet.str());
 
     // Load mapBlockIndex
+<<<<<<< HEAD
     uint256 nPreviousCheckpoint;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     while (pcursor->Valid()) {
         boost::this_thread::interruption_point();
         try {
@@ -247,11 +262,14 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 pindexNew->nStatus = diskindex.nStatus;
                 pindexNew->nTx = diskindex.nTx;
 
+<<<<<<< HEAD
                 //zerocoin
                 pindexNew->nAccumulatorCheckpoint = diskindex.nAccumulatorCheckpoint;
                 pindexNew->mapZerocoinSupply = diskindex.mapZerocoinSupply;
                 pindexNew->vMintDenominationsInBlock = diskindex.vMintDenominationsInBlock;
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 //Proof Of Stake
                 pindexNew->nMint = diskindex.nMint;
                 pindexNew->nMoneySupply = diskindex.nMoneySupply;
@@ -269,6 +287,7 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 if (pindexNew->IsProofOfStake())
                     setStakeSeen.insert(make_pair(pindexNew->prevoutStake, pindexNew->nStakeTime));
 
+<<<<<<< HEAD
                 //populate accumulator checksum map in memory
                 if(pindexNew->nAccumulatorCheckpoint != 0 && pindexNew->nAccumulatorCheckpoint != nPreviousCheckpoint) {
                     //Don't load any invalid checkpoints
@@ -278,6 +297,8 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                     nPreviousCheckpoint = pindexNew->nAccumulatorCheckpoint;
                 }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 pcursor->Next();
             } else {
                 break; // if shutdown requested or finished loading block index
@@ -289,6 +310,7 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
 
     return true;
 }
+<<<<<<< HEAD
 
 CZerocoinDB::CZerocoinDB(size_t nCacheSize, bool fMemory, bool fWipe) : CLevelDBWrapper(GetDataDir() / "zerocoin", nCacheSize, fMemory, fWipe)
 {
@@ -365,3 +387,5 @@ bool CZerocoinDB::EraseAccumulatorValue(const uint32_t& nChecksum)
     LogPrint("zero", "%s : checksum:%d\n", __func__, nChecksum);
     return Erase(make_pair('a', nChecksum));
 }
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 // Copyright (c) 2017 The PIVX Core developers
 // Copyright (c) 2017 The Rhenium developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #pragma once
 #include "arith_uint256.h"
 #include "uint256.h"

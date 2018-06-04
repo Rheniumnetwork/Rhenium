@@ -46,7 +46,11 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active Rhenium
 Core development team as well as posting on the
+<<<<<<< HEAD
 [Rhenium Forum](https://Rheniumcoin.com).
+=======
+[Rhenium Forum](https://forum.Rhenium.org).
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

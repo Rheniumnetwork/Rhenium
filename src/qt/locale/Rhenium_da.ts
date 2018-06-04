@@ -7,7 +7,11 @@
     </message>
     <message>
         <source>Create a new address</source>
+<<<<<<< HEAD
         <translation>opret ny adresse</translation>
+=======
+        <translation>Ny adresse</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;New</source>
@@ -502,8 +506,13 @@
         <translation>&amp;information</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Vis diagRheniumticeringsinformation</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Vis diagnosticeringsinformation</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -820,6 +829,13 @@ Adresse: %4
 <context>
     <name>ClientModel</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>I alt: %1 (OBF kompatible: %2 / Aktiverede: %3)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Network Alert</source>
         <translation>Netværksalarm!</translation>
     </message>
@@ -895,6 +911,13 @@ Adresse: %4
         <translation>Modtaget med adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>DS Rounds</source>
+        <translation>DS gennemløb</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Dato</translation>
     </message>
@@ -967,6 +990,13 @@ Adresse: %4
         <translation>Skift til "listeformat" for at benytte denne funktion</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
+        <translation>Ikke anonymiseret indhold valgt.&lt;b&gt;tilsløring vil være slået fra.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Hvis De ønsker at anvende tilsløring skal De fravælge alt ikke anonymiseret indhold først, derefter afmærke boksen for tilsløring igen.</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>højeste</translation>
     </message>
@@ -987,6 +1017,13 @@ Adresse: %4
         <translation>kan variere +/- %1 duff(s) pr. input</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>Ikke tilgængelig</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>Middel</translation>
     </message>
@@ -1482,9 +1519,15 @@ Kontroller adressen og prøv igen.</translation>
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
+=======
+    <name>CoinMixingConfig</name>
+    <message>
+        <source>Configure CoinMixing</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Konfigurer tilslørin</translation>
     </message>
     <message>
@@ -1532,6 +1575,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>0.1 pr 10000 XRH for at tilsløre.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
         <translation>Tilsløringskonfiguration</translation>
     </message>
@@ -1545,6 +1589,21 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+=======
+        <source>CoinMixing Configuration</source>
+        <translation>Tilsløringskonfiguration</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne Rhenium konfigurationsbillede.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne Rhenium konfigurationsbillede.</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne Rhenium konfigurationsbillede.</translation>
     </message>
 </context>
@@ -1634,6 +1693,25 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;start Rhenium når der logges på systemet</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Denne indstilling bestemmer antallet af individuelle masternoder hvorgennem der tilsløres et input. &lt;br/&gt;Jo flere gennemløb der udføres, jo højere grad af tilsløring, og jo højere gebyrer.</translation>
+    </message>
+    <message>
+        <source>CoinMixing rounds to use</source>
+        <translation>Antal gennemløb der skal benyttes </translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off CoinMixing once it's reached.</source>
+        <translation>når dette antal er nået slås tilsløringsfunktonen fra. </translation>
+    </message>
+    <message>
+        <source>Amount of Rhenium to keep anonymized</source>
+        <translation>Antallet af Rhenium som skal holdes tilslørede</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>Vis eller skjul møntkontrolfeatures</translation>
     </message>
@@ -1823,6 +1901,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Balances</source>
+        <translation>Saldi</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Rhenium netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
@@ -1859,13 +1944,155 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Brugbare:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Status:</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>CoinMixing Balance:</source>
+        <translation>Sløret beløb</translation>
+    </message>
+    <message>
+        <source>0 XRH / 0 Rounds</source>
+        <translation>0 XRH / 0 gennemløb</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Startet/Stoppet</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a CoinMixing request.</source>
+        <translation>Prøv at send en manuel tilsløringsanmodning.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Nulstil den aktuelle status for tilsløringsfunktionen. (Kan forstyrre processen, hvilket kan koste mønter).</translation>
+    </message>
+    <message>
+        <source>CoinMixing</source>
+        <translation>Tilsløring</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Færdiggørelse:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Beløb og gennemløb</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Afsendte midler</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>Ikke tilgængelig</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Recent transactions</source>
         <translation>Nylige transaktioner</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>out of sync</source>
+        <translation>Ude af synk</translation>
+    </message>
+=======
+        <source>Start/Stop Mixing</source>
+        <translation>Start/Stop tilsløring</translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Designerede midler afsendt til masternoden. &lt;br&gt;For at gennemføre tilsløringen må andre brugere afsende tilsvarende designerede midler.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(seneste besked)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Prøv at usynliggøre</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nulstil</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>Ude af synk</translation>
     </message>
+    <message>
+        <source>Disabled</source>
+        <translation>slået fra</translation>
+    </message>
+    <message>
+        <source>No inputs detected</source>
+        <translation>Ingen inputs valgt</translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>Der er ikke tilstrækkelige kompatible inputs tilgængelige for tilsløring &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;vil tilsløre &lt;span style='color:red;'&gt;%2&lt;/span&gt; i stedet</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Samlet status</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Designerede</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Tilsløret</translation>
+    </message>
+    <message>
+        <source>Last CoinMixing message:
+</source>
+        <translation>Seneste besked fra tilsløringsprocessen</translation>
+    </message>
+    <message>
+        <source>CoinMixing was successfully reset.</source>
+        <translation>Tilsløringsfunktionen blev nulstillet </translation>
+    </message>
+    <message>
+        <source>If you don't want to see internal CoinMixing fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Hvis de ikke ønsker at se de interne tilsløringsgebyrer og transaktioner, skal De vælge "Mest fremherskende" som type i transaktionsmenuen.</translation>
+    </message>
+    <message>
+        <source>CoinMixing requires at least %1 to use.</source>
+        <translation>Tilsløring kræver mindst %1 for at kunne anvendes </translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
+        <translation>Tegnebogen er låst, brugeren har afvist at låse den op. Tilsløring slås fra.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Der er fundet nok kompatible inputs for tilsløring af %1</translation>
+    </message>
+    <message>
+        <source>Start CoinMixing</source>
+        <translation>Start tilsløring</translation>
+    </message>
+    <message>
+        <source>Stop CoinMixing</source>
+        <translation>stop tilsløring</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Tilsløret</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Slået til</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Ikke tilgængelig</translation>
+    </message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1974,6 +2201,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
@@ -2089,6 +2317,8 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2633,6 +2863,17 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Møntkontrol, features</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Inputs...</source>
+        <translation>Inputs...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>Automatisk valgte</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>Saldo for lille!</translation>
     </message>
@@ -2717,6 +2958,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Minimer</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>CoinMixing</source>
+        <translation>Tilsløring</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>pr. kilobyte</translation>
     </message>
@@ -2888,11 +3136,25 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
         <translation>Et gebyr %1 gange højere end %2 pr. kilobyte er vanvittigt højt.</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Forventer bekræftelse indenfor %n blokke</numerusform><numerusform>Forventer bekræftelse indenfor %n blokke</numerusform></translation>
+    </message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Modtageradressen er ikke gyldig. Kontroller igen</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>(coinmixing requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(Tilsløring kræver at dette beløb rundes op til nærmeste %1)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source> split into %1 outputs using the UTXO splitter.</source>
         <translation>Split i %1 outputs ved hjælp af UTXO splitteren.</translation>
     </message>
@@ -3445,6 +3707,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Modtaget fra</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received via Obfuscation</source>
         <translation>Modtaget via tilsløring</translation>
     </message>
@@ -3462,6 +3725,25 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
+=======
+        <source>Received via CoinMixing</source>
+        <translation>Modtaget via tilsløring</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Tilslør designerede</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+        <translation>Samlet tilsløret betaling</translation>
+    </message>
+    <message>
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>Tilslørede samlede tilføjelser</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Opret tilsløret designering</translation>
     </message>
     <message>
@@ -3568,6 +3850,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>skjult</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation Make Collateral Inputs</source>
         <translation>Tilslørede samlede tilføjelser</translation>
     </message>
@@ -3581,6 +3864,21 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
+=======
+        <source>CoinMixing Make Collateral Inputs</source>
+        <translation>Tilslørede samlede tilføjelser</translation>
+    </message>
+    <message>
+        <source>CoinMixing Create Denominations</source>
+        <translation>Opret tilsløret designering</translation>
+    </message>
+    <message>
+        <source>CoinMixing Denominate</source>
+        <translation>Tilslør designerede</translation>
+    </message>
+    <message>
+        <source>CoinMixing Collateral Payment</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Samlet tilsløret betaling</translation>
     </message>
     <message>
@@ -3761,6 +4059,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -3768,6 +4067,8 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3814,7 +4115,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
+=======
+        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Slå alle Rhenium funktioner fra (Masternoder, Tilsløring, RhenFAST, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
@@ -3831,6 +4136,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Aktiver rhenfast, vis bekræftelser for låste transaktioner (bool, default: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enable use of automated coinmixing for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Slå automatisk tilsløring til for alle midler i denne tegebog (0-1, default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Opgiv regression test mode, der bruger en særlig kæde, hvor blokke kan løses med det samme</translation>
     </message>
@@ -3871,6 +4183,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Der er fundet ubekræftede designerede outputs. Vent indtil de bekræftes for at fortsætte.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Hvor grundig er blokkens verificeringer af -checkblocks er (0-4, default %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Hvis der ikke fastsættes et betalingsTxgebyr, skal der inkluderes tilstrækkelige midler til gebyret så transaktionens bekræftelsesproces vil begynde indenfor n blokke (default: %u)</translation>
     </message>
@@ -3907,7 +4226,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Det antal sekunder, som peers, der ikke handler korrekt skal afholdes fra at genforbinde (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+=======
+        <source>CoinMixing uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere Rhenium</translation>
     </message>
     <message>
@@ -3915,6 +4238,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Output debug information (default: %u, supplying &lt;category&gt; er valgfri)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Provide liquidity to CoinMixing by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Tilfør tilsløring likviditet  ved at tilføje flere Rhenium løbende (0-100, default:%u, 1=meget hyppigt, høje gebyrer, 100=sjældent, lave gebyrer)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Forespørg peer adresser via DNS opslag, hvis antallet af adresser er laft (default: 1 med mindre -connect)</translation>
     </message>
@@ -3983,11 +4313,19 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Det var ikke muligt at forbinde %s på denne computer. Rhenium kører sandsynligvis allerede.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XRH.</source>
+=======
+        <source>Unable to locate enough CoinMixing denominated funds for this transaction.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough CoinMixing non-denominated funds for this transaction that are not equal 10000 XRH.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 XRH.</translation>
     </message>
     <message>
@@ -4267,7 +4605,11 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Fejl! Tegnebogen er låst. Det er ikke muligt at oprette transaktionen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: You already have pending entries in the Obfuscation pool</source>
+=======
+        <source>Error: You already have pending entries in the CoinMixing pool</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Fejl! De har allerede ventende transaktioner i tilsløringsgruppen</translation>
     </message>
     <message>
@@ -4351,6 +4693,17 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Utilstrækkelige midler</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ugyldig -onion adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ugyldig -proxy adresse: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
         <translation>Ugyldigt beløb til -maxtxfee=&lt;beløb&gt;: '%s'</translation>
     </message>
@@ -4407,15 +4760,30 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Forsøg at gennemtvinge reparation af korrumperet blokkæde</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Keep N XRH anonymized (default: %u)</source>
+        <translation>Behold N XRH anonymiserede (default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Behold højest &lt;n&gt; transaktioner i hukommelsen, der ikke kan forbindes (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last Obfuscation was too recent.</source>
         <translation>Seneste tilsløring var for ny</translation>
     </message>
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
+=======
+        <source>Last CoinMixing was too recent.</source>
+        <translation>Seneste tilsløring var for ny</translation>
+    </message>
+    <message>
+        <source>Last successful CoinMixing action was too recent.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Seneste succesfulde tilsløring var for ny</translation>
     </message>
     <message>
@@ -4547,6 +4915,7 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Antal automatiske sikkerhedskopier af tegnebogen (default: 10)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Obfuscation is idle.</source>
         <translation>Tilsløringssystem ledigt</translation>
     </message>
@@ -4556,6 +4925,21 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
+=======
+        <source>CoinMixing is idle.</source>
+        <translation>Tilsløringssystem ledigt</translation>
+    </message>
+    <message>
+        <source>CoinMixing options:</source>
+        <translation>Tilsløringsmuligheder</translation>
+    </message>
+    <message>
+        <source>CoinMixing request complete:</source>
+        <translation>Tilsløring færdig.</translation>
+    </message>
+    <message>
+        <source>CoinMixing request incomplete:</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Tilsløringsanmodning ikke færdiggjort</translation>
     </message>
     <message>
@@ -4855,6 +5239,13 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Opdater tegnebogen til det nyeste format</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Brug N forskellige masternoder for at anonymisere saldi (2-8, default: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Brug OpenSSL (https) til JSON-RPC forbindelser</translation>
     </message>
@@ -4875,7 +5266,11 @@ For eksempel: alertnotify=Echo %% | mail - s "Rhenium ALARM!" e-mail@administrat
         <translation>Brugernavn til JSON-RPC forbindelser</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
+=======
+        <source>Value more than CoinMixing pool maximum allows.</source>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Værdien er højere end tilsløringsgruppen tillader</translation>
     </message>
     <message>

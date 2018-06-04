@@ -1,7 +1,11 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -113,6 +117,7 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"reservebalance", 1},
         {"setstakesplitthreshold", 0},
         {"autocombinerewards", 0},
+<<<<<<< HEAD
         {"autocombinerewards", 1},
         {"getzerocoinbalance", 0},
         {"listmintedzerocoins", 0},
@@ -128,6 +133,9 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"exportzerocoins", 1},
         {"resetmintzerocoin", 0}
     };
+=======
+        {"autocombinerewards", 1}};
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 class CRPCConvertTable
 {
@@ -179,4 +187,8 @@ Array RPCConvertValues(const std::string& strMethod, const std::vector<std::stri
     }
 
     return params;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

@@ -76,8 +76,13 @@ HEADERS += src/activemasternode.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
+<<<<<<< HEAD
            src/obfuscation-relay.h \
            src/obfuscation.h \
+=======
+           src/coinmixing-relay.h \
+           src/coinmixing.h \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            src/Rhenium-config.h \
            src/db.h \
            src/eccryptoverify.h \
@@ -175,7 +180,11 @@ HEADERS += src/activemasternode.h \
            src/qt/coincontroldialog.h \
            src/qt/coincontroltreewidget.h \
            src/qt/csvmodelwriter.h \
+<<<<<<< HEAD
            src/qt/obfuscationconfig.h \
+=======
+           src/qt/coinmixingconfig.h \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            src/qt/editaddressdialog.h \
            src/qt/guiconstants.h \
            src/qt/guiutil.h \
@@ -341,7 +350,11 @@ HEADERS += src/activemasternode.h \
 FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/askpassphrasedialog.ui \
          src/qt/forms/coincontroldialog.ui \
+<<<<<<< HEAD
          src/qt/forms/obfuscationconfig.ui \
+=======
+         src/qt/forms/coinmixingconfig.ui \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
          src/qt/forms/editaddressdialog.ui \
          src/qt/forms/helpmessagedialog.ui \
          src/qt/forms/intro.ui \
@@ -372,8 +385,13 @@ SOURCES += src/activemasternode.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
+<<<<<<< HEAD
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
+=======
+           src/coinmixing-relay.cpp \
+           src/coinmixing.cpp \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            src/Rhenium-cli.cpp \
            src/Rhenium-tx.cpp \
            src/Rhenium.cpp \
@@ -470,7 +488,11 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
+<<<<<<< HEAD
            src/qt/obfuscationconfig.cpp \
+=======
+           src/qt/coinmixingconfig.cpp \
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
            src/qt/Rhenium.cpp \
            src/qt/Rheniumstrings.cpp \
            src/qt/editaddressdialog.cpp \

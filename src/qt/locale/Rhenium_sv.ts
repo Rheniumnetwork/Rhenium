@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Höger klicka för att redigera adress eller etikett</translation>
+=======
+        <translation>Höger klicka för att ändra adress eller beteckning</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Create a new address</source>
@@ -71,7 +75,11 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
+<<<<<<< HEAD
         <translation>Kopiera &amp; Ettikera</translation>
+=======
+        <translation>Kopiera &amp; Märk</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -224,8 +232,13 @@
     </message>
     <message>
         <source>Enter a Rhenium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+<<<<<<< HEAD
         <translation>Ange en Rhenium adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
+=======
+        <translation>Skriv in en Rhenium adress som du vill kryptera med BIP 38.
+Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Address:</source>
@@ -285,7 +298,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+<<<<<<< HEAD
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
+=======
+        <translation>Ange</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The Rhenium address the message was signed with</source>
@@ -337,7 +354,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
+<<<<<<< HEAD
         <translation>Upplåsningen av plånboken var avbruten.</translation>
+=======
+        <translation>Plånboks upplåsningen var avbruten</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -408,7 +429,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Browse transaction history</source>
+<<<<<<< HEAD
         <translation>Bläddra i transaktions historiken</translation>
+=======
+        <translation>Bläddra i transaktions historien</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -487,8 +512,13 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>information</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Visa diagRheniumtik information</translation>
+=======
+        <source>Show diagnostic information</source>
+        <translation>Visa diagnostik information</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -792,6 +822,13 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>medel-hög</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>n/a</source>
+        <translation>ingen uppgift</translation>
+    </message>
+    <message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>medel</translation>
     </message>
@@ -879,7 +916,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ObfuscationConfig</name>
+=======
+    <name>CoinMixingConfig</name>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -893,6 +934,13 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </context>
 <context>
     <name>OverviewPage</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>n/a</source>
+        <translation>ingen uppgift</translation>
+    </message>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>PaymentServer</name>
@@ -901,6 +949,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>PeerTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>Quantity:</source>
@@ -960,6 +1009,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1218,7 +1269,11 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
+<<<<<<< HEAD
         <translation>Upplåsningen av plånboken var avbruten.</translation>
+=======
+        <translation>Plånboks upplåsningen var avbruten</translation>
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
@@ -1416,9 +1471,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>

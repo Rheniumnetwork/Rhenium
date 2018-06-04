@@ -10,7 +10,10 @@
         <file alias="es">locale/Rhenium_es.qm</file>
         <file alias="fi">locale/Rhenium_fi.qm</file>
         <file alias="fr_FR">locale/Rhenium_fr_FR.qm</file>
+<<<<<<< HEAD
         <file alias="hr">locale/Rhenium_hr.qm</file>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <file alias="it">locale/Rhenium_it.qm</file>
         <file alias="ja">locale/Rhenium_ja.qm</file>
         <file alias="ko_KR">locale/Rhenium_ko_KR.qm</file>
@@ -22,7 +25,10 @@
         <file alias="ru">locale/Rhenium_ru.qm</file>
         <file alias="sk">locale/Rhenium_sk.qm</file>
         <file alias="sv">locale/Rhenium_sv.qm</file>
+<<<<<<< HEAD
         <file alias="tr">locale/Rhenium_tr.qm</file>
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <file alias="uk">locale/Rhenium_uk.qm</file>
         <file alias="zh_CN">locale/Rhenium_zh_CN.qm</file>
         <file alias="zh_TW">locale/Rhenium_zh_TW.qm</file>

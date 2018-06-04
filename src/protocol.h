@@ -20,6 +20,11 @@
 
 #define MESSAGE_START_SIZE 4
 
+<<<<<<< HEAD
+=======
+#define MASTER_NODE_AMOUNT 10000 
+
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /** Message header.
  * (4) message start.
  * (12) command.

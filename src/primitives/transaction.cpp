@@ -1,6 +1,9 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +15,10 @@
 #include "main.h"
 #include "tinyformat.h"
 #include "utilstrencodings.h"
+<<<<<<< HEAD
 #include "transaction.h"
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <boost/foreach.hpp>
 
@@ -53,10 +59,14 @@ std::string CTxIn::ToString() const
     str += "CTxIn(";
     str += prevout.ToString();
     if (prevout.IsNull())
+<<<<<<< HEAD
         if(scriptSig.IsZerocoinSpend())
             str += strprintf(", zerocoinspend %s", HexStr(scriptSig));
         else
             str += strprintf(", coinbase %s", HexStr(scriptSig));
+=======
+        str += strprintf(", coinbase %s", HexStr(scriptSig));
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     else
         str += strprintf(", scriptSig=%s", scriptSig.ToString().substr(0,24));
     if (nSequence != std::numeric_limits<unsigned int>::max())
@@ -150,6 +160,7 @@ CAmount CTransaction::GetValueOut() const
     return nValueOut;
 }
 
+<<<<<<< HEAD
 CAmount CTransaction::GetZerocoinMinted() const
 {
     for (const CTxOut txOut : vout) {
@@ -212,6 +223,8 @@ int CTransaction::GetZerocoinMintCount() const
     return nCount;
 }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 double CTransaction::ComputePriority(double dPriorityInputs, unsigned int nTxSize) const
 {
     nTxSize = CalculateModifiedSize(nTxSize);

@@ -188,7 +188,11 @@ Hardening enables the following features:
     On an Amd64 processor where a library was not compiled with -fPIC, this will cause an error
     such as: "relocation R_X86_64_32 against `......' can not be used when making a shared object;"
 
+<<<<<<< HEAD
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
+=======
+    To test that you have built XRH executable, install scanelf, part of paxutils, and use:
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     	scanelf -e ./Rheniumd
 

@@ -21,8 +21,11 @@ extern bool fNameLookup;
 
 /** -timeout default */
 static const int DEFAULT_CONNECT_TIMEOUT = 5000;
+<<<<<<< HEAD
 //! -dns default
 static const int DEFAULT_NAME_LOOKUP = true;
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #ifdef WIN32
 // In MSVC, this is defined as a macro, undefine it to prevent a compile and link error
@@ -173,6 +176,7 @@ public:
     }
 };
 
+<<<<<<< HEAD
 class proxyType
 {
 public:
@@ -184,14 +188,24 @@ public:
     CService proxy;
     bool randomize_credentials;
 };
+=======
+typedef CService proxyType;
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 enum Network ParseNetwork(std::string net);
 std::string GetNetworkName(enum Network net);
 void SplitHostPort(std::string in, int& portOut, std::string& hostOut);
+<<<<<<< HEAD
 bool SetProxy(enum Network net, const proxyType &addrProxy);
 bool GetProxy(enum Network net, proxyType& proxyInfoOut);
 bool IsProxy(const CNetAddr& addr);
 bool SetNameProxy(const proxyType &addrProxy);
+=======
+bool SetProxy(enum Network net, CService addrProxy);
+bool GetProxy(enum Network net, proxyType& proxyInfoOut);
+bool IsProxy(const CNetAddr& addr);
+bool SetNameProxy(CService addrProxy);
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool HaveNameProxy();
 bool LookupHost(const char* pszName, std::vector<CNetAddr>& vIP, unsigned int nMaxSolutions = 0, bool fAllowLookup = true);
 bool Lookup(const char* pszName, CService& addr, int portDefault = 0, bool fAllowLookup = true);
@@ -205,9 +219,12 @@ std::string NetworkErrorString(int err);
 bool CloseSocket(SOCKET& hSocket);
 /** Disable or enable blocking-mode for a socket */
 bool SetSocketNonBlocking(SOCKET& hSocket, bool fNonBlocking);
+<<<<<<< HEAD
 /**
  * Convert milliseconds to a struct timeval for e.g. select.
  */
 struct timeval MillisToTimeval(int64_t nTimeout);
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #endif // BITCOIN_NETBASE_H

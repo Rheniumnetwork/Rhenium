@@ -1,6 +1,10 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
+<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
+=======
+// Copyright (c) 2015-2017 The Rhenium developers
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,23 +21,34 @@
 
 const QString AddressTableModel::Send = "S";
 const QString AddressTableModel::Receive = "R";
+<<<<<<< HEAD
 const QString AddressTableModel::Zerocoin = "X";
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 struct AddressTableEntry {
     enum Type {
         Sending,
         Receiving,
+<<<<<<< HEAD
         Zerocoin,
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         Hidden /* QSortFilterProxyModel will filter these out */
     };
 
     Type type;
     QString label;
     QString address;
+<<<<<<< HEAD
     QString pubcoin;
 
     AddressTableEntry() {}
     AddressTableEntry(Type type, const QString &pubcoin):    type(type), pubcoin(pubcoin) {}
+=======
+
+    AddressTableEntry() {}
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     AddressTableEntry(Type type, const QString& label, const QString& address) : type(type), label(label), address(address) {}
 };
 
@@ -140,6 +155,7 @@ public:
             break;
         }
     }
+<<<<<<< HEAD
     
     void updateEntry(const QString &pubCoin, const QString &isUsed, int status)
     {
@@ -177,6 +193,8 @@ public:
         
     }
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     int size()
     {
@@ -350,6 +368,7 @@ void AddressTableModel::updateEntry(const QString& address,
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 
+<<<<<<< HEAD
 
 void AddressTableModel::updateEntry(const QString &pubCoin, const QString &isUsed, int status)
 {
@@ -359,6 +378,8 @@ void AddressTableModel::updateEntry(const QString &pubCoin, const QString &isUse
 
 
 
+=======
+>>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 QString AddressTableModel::addRow(const QString& type, const QString& label, const QString& address)
 {
     std::string strLabel = label.toStdString();
