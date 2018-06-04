@@ -7,18 +7,13 @@
     </message>
     <message>
         <source>Create a new address</source>
-<<<<<<< HEAD
         <translation>Crea una nova adreça</translation>
-=======
-        <translation>Crear una nova adreça</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;New</source>
         <translation>&amp;Nou</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Copia l'adreça seleccionada al porta-retalls del sistema</translation>
     </message>
@@ -57,18 +52,6 @@
     <message>
         <source>C&amp;hoose</source>
         <translation>&amp;Tria</translation>
-=======
-        <source>&amp;Copy</source>
-        <translation>&amp;Copiar</translation>
-    </message>
-    <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Eliminar l'adreça seleccionada de la llista</translation>
-    </message>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exportar</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Sending addresses</source>
@@ -79,7 +62,6 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Rhenium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Aquestes són les teves adreces Rhenium per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
@@ -106,32 +88,16 @@
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Fitxer separat per comes (*.csv)</translation>
-=======
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copiar Adreça</translation>
-    </message>
-    <message>
-        <source>&amp;Edit</source>
-        <translation>&amp;Editar</translation>
-    </message>
-    <message>
-        <source>Export Address List</source>
-        <translation>Exportar llista d'Adreces</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>L'exportació ha fallat</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <translation>S'ha produït un error en desar la llista d'adreces a %1. Torneu-ho a provar.</translation>
     </message>
 </context>
-=======
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -150,7 +116,6 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>Diàleg de contrasenya</translation>
     </message>
@@ -241,38 +206,6 @@
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>La contrasenya del moneder ha estat canviada amb èxit.</translation>
-=======
-        <source>Encrypt wallet</source>
-        <translation>Encriptar la cartera</translation>
-    </message>
-    <message>
-        <source>Unlock wallet</source>
-        <translation>Desbloquejar la cartera</translation>
-    </message>
-    <message>
-        <source>Decrypt wallet</source>
-        <translation>Desencriptar la cartera</translation>
-    </message>
-    <message>
-        <source>Change passphrase</source>
-        <translation>Canviar contrasenya</translation>
-    </message>
-    <message>
-        <source>Confirm wallet encryption</source>
-        <translation>Confirmar encriptació de la cartera</translation>
-    </message>
-    <message>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Estàs segur que vols encriptar la cartera?</translation>
-    </message>
-    <message>
-        <source>Wallet encrypted</source>
-        <translation>Cartera encriptada</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed</source>
-        <translation>L'encriptació de la cartera ha fallat</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
@@ -282,13 +215,10 @@
         <translation>Eina BIP 38</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;BIP 38 Encrypt</source>
         <translation>&amp;Encriptació BIP 38</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address:</source>
         <translation>Adreça:</translation>
     </message>
@@ -301,7 +231,6 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Passphrase: </source>
         <translation>Contrasenya:</translation>
     </message>
@@ -328,10 +257,6 @@
     <message>
         <source>The entered passphrase is invalid. </source>
         <translation>La contrasenya introduïda és incorrecta.</translation>
-=======
-        <source>Import Address</source>
-        <translation>Importar Adreça</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -343,37 +268,24 @@
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-<<<<<<< HEAD
         <translation>El desbloqueig del moneder ha estat cancel·lat</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
         <translation>Dades no vàlides.</translation>
-=======
-        <translation>El desbloqueig de la cartera ha estat cancel·lat</translation>
-    </message>
-    <message>
-        <source>Data Not Valid.</source>
-        <translation>Dades No Vàlides.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-<<<<<<< HEAD
         <translation>Moneder</translation>
-=======
-        <translation>Cartera</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Node</source>
         <translation>Node</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;Overview</source>
         <translation>&amp;Vista general</translation>
     </message>
@@ -388,14 +300,6 @@
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Rep</translation>
-=======
-        <source>&amp;Send</source>
-        <translation>&amp;Enviar</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Rebre</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -403,7 +307,6 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-<<<<<<< HEAD
         <translation>Mostra històric de transaccions</translation>
     </message>
     <message>
@@ -413,17 +316,6 @@
     <message>
         <source>Quit application</source>
         <translation>Surt de l'aplicació</translation>
-=======
-        <translation>Veure històric de transaccions</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>&amp;Sortir</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>Sortir de l'aplicació</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -431,11 +323,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-<<<<<<< HEAD
         <translation>Mostra informació sobre el Qt</translation>
-=======
-        <translation>Mostrar informació sobre el Qt</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -447,7 +335,6 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-<<<<<<< HEAD
         <translation>&amp;Encripta el moneder...</translation>
     </message>
     <message>
@@ -477,33 +364,6 @@
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifica un missatge...</translation>
-=======
-        <translation>&amp;Encriptar Cartera...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Còpia de seguretat de la Cartera...</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Desbloquejar Cartera...</translation>
-    </message>
-    <message>
-        <source>Unlock wallet</source>
-        <translation>Desbloquejar la cartera</translation>
-    </message>
-    <message>
-        <source>&amp;Lock Wallet</source>
-        <translation>B&amp;loquejar Cartera</translation>
-    </message>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>Signar &amp;missatge...</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verificar missatge...</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Information</source>
@@ -519,7 +379,6 @@
     </message>
     <message>
         <source>Show network monitor</source>
-<<<<<<< HEAD
         <translation>Mostra el monitor de xarxa</translation>
     </message>
     <message>
@@ -529,17 +388,6 @@
     <message>
         <source>Open configuration file</source>
         <translation>Obre el fitxer de configuració</translation>
-=======
-        <translation>Mostrar monitor de xarxa</translation>
-    </message>
-    <message>
-        <source>Wallet &amp;Repair</source>
-        <translation>&amp;Reparar Cartera</translation>
-    </message>
-    <message>
-        <source>Open configuration file</source>
-        <translation>Obrir fitxer de configuració</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -551,11 +399,7 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-<<<<<<< HEAD
         <translation>Obre l'&amp;URI...</translation>
-=======
-        <translation>Obrir &amp;URI...</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;File</source>
@@ -563,11 +407,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-<<<<<<< HEAD
         <translation>&amp;Configuració</translation>
-=======
-        <translation>&amp;Ajustaments</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Tools</source>
@@ -582,7 +422,6 @@
         <translation>Rhenium Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Rhenium address</source>
         <translation>Envia monedes a una adreça Rhenium</translation>
     </message>
@@ -595,8 +434,6 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;About Rhenium Core</source>
         <translation>&amp;Sobre Rhenium Core</translation>
     </message>
@@ -605,7 +442,6 @@
         <translation>Eina &amp;BIP38</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;MultiSend</source>
         <translation>&amp;MultiSend</translation>
     </message>
@@ -628,18 +464,6 @@
     <message numerus="yes">
         <source>%n active connection(s) to Rhenium network</source>
         <translation><numerusform>%n connexió activa a la xarxa Rhenium</numerusform><numerusform>%n connexions actives a la xarxa Rhenium</numerusform></translation>
-=======
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Obrir el Fitxer de &amp;Configuració de la Cartera</translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Obrir el Fitxer de &amp;Configuració del Node Mestre</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Obrir el fitxer de configuració del Node Mestre</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -649,7 +473,6 @@
         <source>Up to date</source>
         <translation>Actualitzat</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation><numerusform>%n hora</numerusform><numerusform>%n hores</numerusform></translation>
@@ -662,19 +485,14 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n setmana</numerusform><numerusform>%n setmanes</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n any</numerusform><numerusform>%n anys</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Error</source>
         <translation>Error</translation>
@@ -688,7 +506,6 @@
         <translation>Informació</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Staking is active
  MultiSend: %1</source>
         <translation>Staking actiu
@@ -751,22 +568,6 @@
         <translation>Alerta de xarxa</translation>
     </message>
 </context>
-=======
-        <source>Active</source>
-        <translation>Actiu</translation>
-    </message>
-    </context>
-<context>
-    <name>BlockExplorer</name>
-    <message>
-        <source>Address / Block / Transaction</source>
-        <translation>Adreça / Bloc / Transacció</translation>
-    </message>
-    </context>
-<context>
-    <name>ClientModel</name>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -786,7 +587,6 @@
         <translation>Prioritat:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Fee:</source>
         <translation>Comissió:</translation>
     </message>
@@ -799,13 +599,10 @@
         <translation>Amb comissió:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Change:</source>
         <translation>Canvi:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>(De)selecciona tot</translation>
     </message>
@@ -814,8 +611,6 @@
         <translation>Permuta estat de bloqueig</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Tree mode</source>
         <translation>Mode d'arbre</translation>
     </message>
@@ -824,18 +619,14 @@
         <translation>Mode de llista</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>(1 locked)</source>
         <translation>(1 bloquejat)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Amount</source>
         <translation>Import</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Received with label</source>
         <translation>Rebut amb l'etiqueta</translation>
     </message>
@@ -844,8 +635,6 @@
         <translation>Rebut amb l'adreça</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -863,7 +652,6 @@
     </message>
     <message>
         <source>Copy address</source>
-<<<<<<< HEAD
         <translation>Copia l'adreça</translation>
     </message>
     <message>
@@ -949,33 +737,6 @@
     <message>
         <source>none</source>
         <translation>cap</translation>
-=======
-        <translation>Copiar adreça</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Copiar etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar import</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Copiar ID de transacció</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copiar quantitat</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Copiar bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Copiar prioritat</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>yes</source>
@@ -986,7 +747,6 @@
         <translation>no</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Aquesta etiqueta es posa vermella si la mida de la transacció és major que 1000 bytes.</translation>
     </message>
@@ -1007,19 +767,14 @@
         <translation>Aquesta etiqueta es posa vermella si la prioritat és més petita que "mitjana"</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>change from %1 (%2)</source>
         <translation>canvi des de %1 (%2)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(change)</source>
         <translation>(canvi)</translation>
     </message>
@@ -1028,28 +783,21 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-<<<<<<< HEAD
         <translation>Edita l'adreça</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
         <translation>L'etiqueta associada amb aquesta entrada de la llibreta d'adreces</translation>
-=======
-        <translation>Editar Adreça</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Address</source>
         <translation>&amp;Adreça</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
         <translation>L'adreça associada amb aquesta entrada de la llibreta d'adreces. Aquesta només pot ser modificada en les adreces d'enviament.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>New receiving address</source>
         <translation>Nova adreça de recepció</translation>
     </message>
@@ -1059,7 +807,6 @@
     </message>
     <message>
         <source>Edit receiving address</source>
-<<<<<<< HEAD
         <translation>Edita l'adreça de recepció</translation>
     </message>
     <message>
@@ -1106,22 +853,6 @@
         <translation>No és possible crear una carpeta de dades aquí.</translation>
     </message>
 </context>
-=======
-        <translation>Editar adreça de recepció</translation>
-    </message>
-    <message>
-        <source>Edit sending address</source>
-        <translation>Editar adreça d'enviament</translation>
-    </message>
-    </context>
-<context>
-    <name>FreespaceChecker</name>
-    <message>
-        <source>name</source>
-        <translation>nom</translation>
-    </message>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1133,29 +864,22 @@
         <translation>Rhenium Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>About Rhenium Core</source>
         <translation>Sobre Rhenium Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Command-line options</source>
         <translation>Opcions de línia de comandes</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Usage:</source>
         <translation>Ús:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>command-line options</source>
         <translation>opcions de línia de comandes</translation>
     </message>
@@ -1184,12 +908,6 @@
         <translation>Estableix el certificats SSL arrel per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
     </message>
 </context>
-=======
-        <source>Start minimized</source>
-        <translation>Iniciar minimitzat</translation>
-    </message>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>Intro</name>
     <message>
@@ -1201,7 +919,6 @@
         <translation>Benvingut a Rhenium Core.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>As this is the first time the program is launched, you can choose where Rhenium Core will store its data.</source>
         <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Rhenium Core.</translation>
     </message>
@@ -1214,13 +931,10 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Rhenium Core</source>
         <translation>Rhenium Core</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Error: La carpeta de dades introduïda "%1" no pot ser creada.</translation>
     </message>
@@ -1246,17 +960,6 @@
     <message>
         <source>My Masternodes</source>
         <translation>Els meus Masternodes</translation>
-=======
-        <source>Error</source>
-        <translation>Error</translation>
-    </message>
-    </context>
-<context>
-    <name>MasternodeList</name>
-    <message>
-        <source>My Masternodes</source>
-        <translation>Els meus Nodes Mestre</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alias</source>
@@ -1278,7 +981,6 @@
         <source>Active</source>
         <translation>Actiu</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Last Seen (UTC)</source>
         <translation>Vist per últim cop (UTC)</translation>
@@ -1361,35 +1063,16 @@
     <message>
         <source>Choose an address from the address book</source>
         <translation>Tria una adreça de la llibreta d'adreces</translation>
-=======
-    </context>
-<context>
-    <name>MultiSendDialog</name>
-    <message>
-        <source>Add</source>
-        <translation>Afegir</translation>
-    </message>
-    <message>
-        <source>Deactivate</source>
-        <translation>Desactivar</translation>
-    </message>
-    <message>
-        <source>Choose an address from the address book</source>
-        <translation>Escollir una adreça de la llibreta d'adreces</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Percentage of stake to send</source>
         <translation>Percentatge d'stake a enviar</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Percentage:</source>
         <translation>Percentatge:</translation>
     </message>
@@ -1399,7 +1082,6 @@
     </message>
     <message>
         <source>Delete</source>
-<<<<<<< HEAD
         <translation>Elimina</translation>
     </message>
     <message>
@@ -1425,19 +1107,11 @@
 </source>
         <translation>Vector MultiSend
 </translation>
-=======
-        <translation>Eliminar</translation>
-    </message>
-    <message>
-        <source>Activate</source>
-        <translation>Activar</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Removed </source>
         <translation>Eliminat</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Could not locate address
 </source>
@@ -1494,33 +1168,17 @@
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuració de l'ofuscació</translation>
-=======
-    </context>
-<context>
-    <name>CoinMixingConfig</name>
-    <message>
-        <source>Configure CoinMixing</source>
-        <translation>Configurar Ofuscació</translation>
-    </message>
-    <message>
-        <source>CoinMixing Configuration</source>
-        <translation>Configuració d'Ofuscació</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-<<<<<<< HEAD
         <translation>Obre l'URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
         <translation>Obre sol·licitud de pagament des d'URI o fitxer.</translation>
-=======
-        <translation>Obrir URI</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>URI:</source>
@@ -1539,22 +1197,17 @@
     </message>
     <message>
         <source>Allow incoming connections</source>
-<<<<<<< HEAD
         <translation>Permet connexions entrants</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;Connecta a través d'un proxy SOCKS5 (proxy per defecte):</translation>
-=======
-        <translation>Permetre connexions entrants</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Expert</source>
         <translation>Expert</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically start Rhenium after logging in to the system.</source>
         <translation>Inicia Rhenium automàticament després d'identificar-te en el sistema.</translation>
     </message>
@@ -1571,8 +1224,6 @@
         <translation>Mostra la pestanya de Masternodes</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
@@ -1582,7 +1233,6 @@
     </message>
     <message>
         <source>&amp;Reset Options</source>
-<<<<<<< HEAD
         <translation>&amp;Restableix les opcions</translation>
     </message>
     <message>
@@ -1596,25 +1246,15 @@
     <message>
         <source>none</source>
         <translation>cap</translation>
-=======
-        <translation>&amp;Restablir Opcions</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Cancel·lar</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
-<<<<<<< HEAD
         <source>Form</source>
         <translation>Formulari</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Available:</source>
         <translation>Disponible:</translation>
     </message>
@@ -1631,7 +1271,6 @@
         <translation>Total:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>XRH:</source>
         <translation>XRH:</translation>
     </message>
@@ -1642,20 +1281,11 @@
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
-=======
-        <source>Status:</source>
-        <translation>Estat:</translation>
-    </message>
-    <message>
-        <source>CoinMixing</source>
-        <translation>Ofuscació</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transaccions recents</translation>
     </message>
-<<<<<<< HEAD
     </context>
 <context>
     <name>PaymentServer</name>
@@ -1750,43 +1380,6 @@
         <translation>Copia l'import</translation>
     </message>
     </context>
-=======
-    <message>
-        <source>Reset</source>
-        <translation>Restablir</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>Desactivat</translation>
-    </message>
-    <message>
-        <source>Start CoinMixing</source>
-        <translation>Iniciar Ofuscació</translation>
-    </message>
-    <message>
-        <source>Stop CoinMixing</source>
-        <translation>Aturar Ofuscació</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation>Activat</translation>
-    </message>
-    </context>
-<context>
-    <name>PaymentServer</name>
-    </context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <source>Version</source>
-        <translation>Versió</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Temps de Ping</translation>
-    </message>
-</context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>QObject</name>
     <message>
@@ -1822,11 +1415,7 @@
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Copy Image</source>
-<<<<<<< HEAD
         <translation>&amp;Copia la imatge</translation>
-=======
-        <translation>&amp;Copiar Imatge</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
@@ -1853,11 +1442,7 @@
     </message>
     <message>
         <source>&amp;Open</source>
-<<<<<<< HEAD
         <translation>&amp;Obre</translation>
-=======
-        <translation>&amp;Obrir</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Network</source>
@@ -1909,15 +1494,11 @@
     </message>
     <message>
         <source>Rebuild index</source>
-<<<<<<< HEAD
         <translation>Reconstrueix l'index</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Escriu &lt;b&gt;help&lt;/b&gt; per obtenir un llistat de les comandes disponibles.</translation>
-=======
-        <translation>Reconstruir l'index</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>%1 B</source>
@@ -1948,7 +1529,6 @@
     </message>
     <message>
         <source>Remove</source>
-<<<<<<< HEAD
         <translation>Elimina</translation>
     </message>
     <message>
@@ -1962,21 +1542,6 @@
     <message>
         <source>Copy amount</source>
         <translation>Copia l'import</translation>
-=======
-        <translation>Eliminar</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Copiar etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy message</source>
-        <translation>Copiar missatge</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar import</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -1987,11 +1552,7 @@
     </message>
     <message>
         <source>Copy &amp;Address</source>
-<<<<<<< HEAD
         <translation>Copia l'&amp;adreça</translation>
-=======
-        <translation>Copiar &amp;Adreça</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>URI</source>
@@ -2056,7 +1617,6 @@
         <translation>Prioritat:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>medium</source>
         <translation>mitjana</translation>
     </message>
@@ -2065,19 +1625,14 @@
         <translation>Comissió:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>no</source>
         <translation>no</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>After Fee:</source>
         <translation>Després de la comissió:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Change:</source>
         <translation>Canvi:</translation>
     </message>
@@ -2086,13 +1641,6 @@
         <translation>Minimitzar</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>CoinMixing</source>
-        <translation>Ofuscació</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Confirmation time:</source>
         <translation>Temps de Confirmació:</translation>
     </message>
@@ -2109,7 +1657,6 @@
         <translation>Recomanat</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Balance:</source>
         <translation>Balanç:</translation>
     </message>
@@ -2140,22 +1687,6 @@
     <message>
         <source>Copy change</source>
         <translation>Copia canvi</translation>
-=======
-        <source>Copy quantity</source>
-        <translation>Copiar quantitat</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar import</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Copiar bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Copiar prioritat</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>(no label)</source>
@@ -2173,7 +1704,6 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A&amp;mount:</source>
         <translation>I&amp;mport:</translation>
     </message>
@@ -2197,32 +1727,15 @@
         <translation>No apagueu l'ordinador fins que aquesta finestra desaparegui.</translation>
     </message>
 </context>
-=======
-        <source>Message:</source>
-        <translation>Missatge:</translation>
-    </message>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-<<<<<<< HEAD
         <translation>Signatures - Signa / Verifica un Missatge</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Signa un missatge</translation>
-=======
-        <translation>Signatures - Signar / Verificar un Missatge</translation>
-    </message>
-    <message>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Signar Missatge</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Alt+A</source>
@@ -2238,7 +1751,6 @@
     </message>
     <message>
         <source>Sign &amp;Message</source>
-<<<<<<< HEAD
         <translation>Signa un &amp;missatge</translation>
     </message>
     <message>
@@ -2248,17 +1760,6 @@
     <message>
         <source>Verify &amp;Message</source>
         <translation>Verifica un &amp;missatge</translation>
-=======
-        <translation>Signar &amp;Missatge</translation>
-    </message>
-    <message>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verificar Missatge</translation>
-    </message>
-    <message>
-        <source>Verify &amp;Message</source>
-        <translation>Verificar &amp;Missatge</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2266,24 +1767,17 @@
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-<<<<<<< HEAD
         <translation>El desbloqueig del moneder ha estat cancel·lat</translation>
-=======
-        <translation>El desbloqueig de la cartera ha estat cancel·lat</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Message signed.</source>
         <translation>Missatge signat.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Message verification failed.</source>
         <translation>La verificació del missatge ha fallat.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Message verified.</source>
         <translation>Missatge verificat.</translation>
     </message>
@@ -2305,13 +1799,10 @@
 <context>
     <name>TransactionDesc</name>
     <message>
-<<<<<<< HEAD
         <source>%1 confirmations</source>
         <translation>%1 confirmacions</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Status</source>
         <translation>Estat</translation>
     </message>
@@ -2320,13 +1811,10 @@
         <translation>Data</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>label</source>
         <translation>etiqueta</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Message</source>
         <translation>Missatge</translation>
     </message>
@@ -2349,13 +1837,10 @@
 </context>
 <context>
     <name>TransactionDescDialog</name>
-<<<<<<< HEAD
     <message>
         <source>Transaction details</source>
         <translation>Detalls de la transacció</translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>TransactionTableModel</name>
@@ -2375,7 +1860,6 @@
         <source>Obfuscated</source>
         <translation>Ofuscat</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
@@ -2384,8 +1868,6 @@
         <source>Type of transaction.</source>
         <translation>Tipus de transacció.</translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>TransactionView</name>
@@ -2415,7 +1897,6 @@
     </message>
     <message>
         <source>Copy address</source>
-<<<<<<< HEAD
         <translation>Copia l'adreça</translation>
     </message>
     <message>
@@ -2437,25 +1918,6 @@
     <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Fitxer separat per comes (*.csv)</translation>
-=======
-        <translation>Copiar adreça</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Copiar etiqueta</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar import</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Copiar ID de transacció</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Editar etiqueta</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Confirmed</source>
@@ -2478,13 +1940,10 @@
         <translation>Adreça</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Exporting Failed</source>
         <translation>L'exportació ha fallat</translation>
     </message>
@@ -2502,7 +1961,6 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-<<<<<<< HEAD
         <translation>&amp;Exporta</translation>
     </message>
     <message>
@@ -2523,15 +1981,11 @@
     <message>
         <source>zPhr</source>
         <translation>zPhr</translation>
-=======
-        <translation>&amp;Exportar</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     </context>
 <context>
     <name>Rhenium-core</name>
     <message>
-<<<<<<< HEAD
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>
     </message>
@@ -2544,8 +1998,6 @@
         <translation>Error connectant al Masternode.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -2554,7 +2006,6 @@
         <translation>Informació</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Invalid private key.</source>
         <translation>Clau privada no vàlida.</translation>
     </message>
@@ -2585,17 +2036,12 @@
     <message>
         <source>No compatible Masternode found.</source>
         <translation>No s'han trobat masternodes compatibles.</translation>
-=======
-        <source>CoinMixing options:</source>
-        <translation>Opcions d'ofuscació:</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Options:</source>
         <translation>Opcions:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>RPC server options:</source>
         <translation>Opcions del servidor RPC:</translation>
     </message>
@@ -2620,33 +2066,24 @@
         <translation>La sincronització ha fallat</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Synchronization finished</source>
         <translation>Sincronització finalitzada</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Transaction not valid.</source>
         <translation>Transacció no vàlida.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Verifying blocks...</source>
         <translation>Verificant blocs...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-<<<<<<< HEAD
         <translation>Verificant moneder...</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
         <translation>El moneder està bloquejat.</translation>
-=======
-        <translation>Verificant cartera...</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Warning</source>

@@ -20,11 +20,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-<<<<<<< HEAD
 - "url": "https://github.com/eastcoastcrypto/Rhenium"
-=======
-- "url": "https://github.com/Rhenium-project/Rhenium.git"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   "dir": "Rhenium"
 files:
 - "raspberrypi-tools.tar.gz"

@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -56,10 +52,7 @@ const QString ZAPTXES1("-zapwallettxes=1");
 const QString ZAPTXES2("-zapwallettxes=2");
 const QString UPGRADEWALLET("-upgradewallet");
 const QString REINDEX("-reindex");
-<<<<<<< HEAD
 const QString RESYNC("-resync");
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 const struct {
     const char* url;
@@ -252,10 +245,7 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent),
     connect(ui->btn_zapwallettxes2, SIGNAL(clicked()), this, SLOT(walletZaptxes2()));
     connect(ui->btn_upgradewallet, SIGNAL(clicked()), this, SLOT(walletUpgrade()));
     connect(ui->btn_reindex, SIGNAL(clicked()), this, SLOT(walletReindex()));
-<<<<<<< HEAD
     connect(ui->btn_resync, SIGNAL(clicked()), this, SLOT(walletResync()));
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // set library version labels
     ui->openSSLVersion->setText(SSLeay_version(SSLEAY_VERSION));
@@ -441,7 +431,6 @@ void RPCConsole::walletReindex()
     buildParameterlist(REINDEX);
 }
 
-<<<<<<< HEAD
 /** Restart wallet with "-resync" */
 void RPCConsole::walletResync()
 {
@@ -463,8 +452,6 @@ void RPCConsole::walletResync()
     buildParameterlist(RESYNC);
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /** Build command-line parameter list for restart */
 void RPCConsole::buildParameterlist(QString arg)
 {
@@ -508,11 +495,7 @@ void RPCConsole::clear()
     ui->messagesWidget->document()->setDefaultStyleSheet(
         "table { }"
         "td.time { color: #808080; padding-top: 3px; } "
-<<<<<<< HEAD
         "td.message { font-family: Courier, Courier New, Lucida Console, moRheniumpace; font-size: 12px; } " // Todo: Remove fixed font-size
-=======
-        "td.message { font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         "td.cmd-request { color: #006060; } "
         "td.cmd-error { color: red; } "
         "b { color: #006060; } ");

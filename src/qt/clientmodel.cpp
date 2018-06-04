@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -74,15 +70,11 @@ int ClientModel::getNumConnections(unsigned int flags) const
 
 QString ClientModel::getMasternodeCountString() const
 {
-<<<<<<< HEAD
     int ipv4 = 0, ipv6 = 0, onion = 0;
     mnodeman.CountNetworks(ActiveProtocol(), ipv4, ipv6, onion);
     int nUnknown = mnodeman.size() - ipv4 - ipv6 - onion;
     if(nUnknown < 0) nUnknown = 0;
     return tr("Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)").arg(QString::number((int)mnodeman.size())).arg(QString::number((int)ipv4)).arg(QString::number((int)ipv6)).arg(QString::number((int)onion)).arg(QString::number((int)nUnknown));
-=======
-    return tr("Total: %1 (OBF compatible: %2 / Enabled: %3)").arg(QString::number((int)mnodeman.size())).arg(QString::number((int)mnodeman.CountEnabled(ActiveProtocol()))).arg(QString::number((int)mnodeman.CountEnabled()));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 int ClientModel::getNumBlocks() const

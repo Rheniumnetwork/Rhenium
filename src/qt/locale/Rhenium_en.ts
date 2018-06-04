@@ -127,11 +127,7 @@
 <context>
     <name>AddressTableModel</name>
     <message>
-<<<<<<< HEAD
         <location filename="../addresstablemodel.cpp" line="+198"/>
-=======
-        <location filename="../addresstablemodel.cpp" line="+157"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Label</source>
         <translation>Label</translation>
     </message>
@@ -509,11 +505,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-<<<<<<< HEAD
         <location filename="../bitcoingui.cpp" line="+124"/>
-=======
-        <location filename="../bitcoingui.cpp" line="+123"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -523,11 +515,7 @@
         <translation>Node</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+161"/>
-=======
-        <location line="+157"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -557,16 +545,12 @@
         <translation>Browse transaction history</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+11"/>
         <source>Privacy Actions for zXRH</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+42"/>
-=======
-        <location line="+40"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>E&amp;xit</source>
         <translation>E&amp;xit</translation>
     </message>
@@ -663,13 +647,8 @@
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Show diagRheniumtic information</translation>
-=======
-        <source>Show diagnostic information</source>
-        <translation>Show diagnostic information</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <location line="+1"/>
@@ -757,11 +736,7 @@
         <translation>&amp;Command-line options</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <location line="+438"/>
-=======
-        <location line="+428"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Processed %n blocks of transaction history.</source>
         <translation>
             <numerusform>Processed %n block of transaction history.</numerusform>
@@ -774,11 +749,7 @@
         <translation>Synchronizing additional data: %p%</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-431"/>
-=======
-        <location line="-421"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -803,22 +774,13 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-413"/>
         <location line="+858"/>
-=======
-        <location line="-396"/>
-        <location line="+831"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Rhenium Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-675"/>
-=======
-        <location line="-652"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Send coins to a Rhenium address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -828,16 +790,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+21"/>
         <source>&amp;Privacy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-=======
-        <location line="+25"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -847,11 +805,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+31"/>
-=======
-        <location line="+29"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;About Rhenium Core</source>
         <translation type="unfinished"></translation>
     </message>
@@ -931,20 +885,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+204"/>
-=======
-        <location line="+201"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Rhenium Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <location line="+197"/>
-=======
-        <location line="+190"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>%n active connection(s) to Rhenium network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1050,11 +996,7 @@
         <translation>Information</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+69"/>
-=======
-        <location line="+67"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Sent transaction</source>
         <translation>Sent transaction</translation>
     </message>
@@ -1082,11 +1024,7 @@ Address: %4
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+51"/>
-=======
-        <location line="+50"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Staking is active
  MultiSend: %1</source>
         <translation type="unfinished"></translation>
@@ -1133,7 +1071,6 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+18"/>
         <source>Back</source>
         <translation type="unfinished"></translation>
@@ -1145,9 +1082,6 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-=======
-        <location line="+55"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1162,11 +1096,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../blockexplorer.cpp" line="+476"/>
-=======
-        <location filename="../blockexplorer.cpp" line="+473"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Rhenium.conf).</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1174,15 +1104,9 @@ Address: %4
 <context>
     <name>ClientModel</name>
     <message>
-<<<<<<< HEAD
         <location filename="../clientmodel.cpp" line="+77"/>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation type="unfinished"></translation>
-=======
-        <location filename="../clientmodel.cpp" line="+73"/>
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Total: %1 (OBF compatible: %2 / Enabled: %3)</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <location line="+101"/>
@@ -1279,14 +1203,6 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-<<<<<<< HEAD
-=======
-        <source>DS Rounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Date</translation>
     </message>
@@ -1372,25 +1288,12 @@ Address: %4
         <translation>Copy change</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+156"/>
-=======
-        <location line="+157"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Please switch to &quot;List mode&quot; to use this function.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+218"/>
-=======
-        <location line="+196"/>
-        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+31"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>highest</translation>
     </message>
@@ -1410,27 +1313,13 @@ Address: %4
         <translation>medium-high</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+202"/>
-=======
-        <location line="+207"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Can vary +/- %1 duff(s) per input.</source>
         <translation>Can vary +/- %1 duff(s) per input.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../forms/coincontroldialog.ui" line="-329"/>
         <location filename="../coincontroldialog.cpp" line="-200"/>
-=======
-        <location line="+130"/>
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="-334"/>
-        <location filename="../coincontroldialog.cpp" line="-335"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>medium</translation>
     </message>
@@ -1465,11 +1354,7 @@ Address: %4
         <translation>none</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+126"/>
-=======
-        <location line="+131"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>yes</source>
         <translation>yes</translation>
     </message>
@@ -1838,11 +1723,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+189"/>
-=======
-        <location line="+190"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Confirm masternode start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2044,17 +1925,10 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <location filename="../forms/obfuscationconfig.ui" line="+14"/>
         <source>Configure Obfuscation</source>
-=======
-    <name>CoinMixingConfig</name>
-    <message>
-        <location filename="../forms/coinmixingconfig.ui" line="+14"/>
-        <source>Configure CoinMixing</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2113,44 +1987,25 @@ Please check the address and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../obfuscationconfig.cpp" line="+42"/>
         <location line="+14"/>
         <location line="+14"/>
         <source>Obfuscation Configuration</source>
-=======
-        <location filename="../coinmixingconfig.cpp" line="+42"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <source>CoinMixing Configuration</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-27"/>
-<<<<<<< HEAD
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
-=======
-        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-<<<<<<< HEAD
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
-=======
-        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-<<<<<<< HEAD
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
-=======
-        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium&apos;s configuration screen.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2215,11 +2070,7 @@ Please check the address and try again.</source>
         <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+102"/>
-=======
-        <location line="+105"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>W&amp;allet</source>
         <translation>W&amp;allet</translation>
     </message>
@@ -2254,11 +2105,7 @@ Please check the address and try again.</source>
         <translation>Expert</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-176"/>
-=======
-        <location line="-179"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Automatically start Rhenium after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2268,31 +2115,7 @@ Please check the address and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+179"/>
-=======
-        <location line="+102"/>
-        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>CoinMixing rounds to use</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>This amount acts as a threshold to turn off CoinMixing once it&apos;s reached.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Amount of Rhenium to keep anonymized</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+38"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>Whether to show coin control features or not.</translation>
     </message>
@@ -2338,7 +2161,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-133"/>
         <source>Percentage of incoming XRH which get automatically converted to zXRH via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
@@ -2361,9 +2183,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
     </message>
     <message>
         <location line="+114"/>
-=======
-        <location line="+17"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Connect to the Rhenium network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2479,16 +2298,12 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
         <translation>&amp;Cancel</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../optionsdialog.cpp" line="+87"/>
         <source>I don&apos;t care</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-=======
-        <location filename="../optionsdialog.cpp" line="+99"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>default</source>
         <translation>default</translation>
     </message>
@@ -2498,11 +2313,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
         <translation>none</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+88"/>
-=======
-        <location line="+87"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Confirm options reset</source>
         <translation>Confirm options reset</translation>
     </message>
@@ -2536,88 +2347,51 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
         <translation>Form</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+43"/>
         <source>XRH Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+259"/>
-=======
-        <location line="+302"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Available:</source>
         <translation>Available:</translation>
     </message>
     <message>
         <location line="+16"/>
-<<<<<<< HEAD
         <location line="+702"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Your current spendable balance</source>
         <translation>Your current spendable balance</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-661"/>
-=======
-        <location line="+41"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Pending:</source>
         <translation>Pending:</translation>
     </message>
     <message>
         <location line="-236"/>
-<<<<<<< HEAD
         <location line="+820"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-708"/>
         <location line="+1118"/>
-=======
-        <location line="+112"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Immature:</source>
         <translation>Immature:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-1147"/>
-=======
-        <location line="-29"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Staked or masternode rewards that has not yet matured</source>
         <translation>Staked or masternode rewards that has not yet matured</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-153"/>
         <location line="+1393"/>
-=======
-        <location line="-163"/>
-        <source>Balances</source>
-        <translation>Balances</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+1015"/>
-        <location line="+93"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-1348"/>
-=======
-        <location line="-1063"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Unconfirmed transactions to watch-only addresses</source>
         <translation>Unconfirmed transactions to watch-only addresses</translation>
     </message>
@@ -2628,20 +2402,13 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
     </message>
     <message>
         <location line="+42"/>
-<<<<<<< HEAD
         <location line="+807"/>
         <location line="+255"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Total:</source>
         <translation>Total:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-1001"/>
-=======
-        <location line="+61"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Your current total balance</source>
         <translation>Your current total balance</translation>
     </message>
@@ -2666,7 +2433,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
         <translation>Spendable:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+525"/>
         <source>Combined Balances (including unconfirmed and immature coins)</source>
         <translation type="unfinished"></translation>
@@ -2786,163 +2552,10 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <location line="+93"/>
         <source>Current percentage of zXRH.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
-=======
-        <location line="+51"/>
-        <source>Status:</source>
-        <translation>Status:</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>CoinMixing Balance:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>0 XRH / 0 Rounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Enabled/Disabled</source>
-        <translation>Enabled/Disabled</translation>
-    </message>
-    <message>
-        <location line="+516"/>
-        <source>Try to manually submit a CoinMixing request.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it&apos;s in the process of Mixing, which can cost you money!)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <location filename="../overviewpage.cpp" line="+478"/>
-        <location line="+11"/>
-        <location line="+10"/>
-        <location line="+12"/>
-        <source>CoinMixing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-637"/>
-        <source>Completion:</source>
-        <translation>Completion:</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Amount and Rounds:</source>
-        <translation>Amount and Rounds:</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Submitted Denom:</source>
-        <translation>Submitted Denom:</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
-        <location line="+663"/>
-        <source>Recent transactions</source>
-        <translation>Recent transactions</translation>
-    </message>
-    <message>
-        <location line="-197"/>
-        <source>Start/Stop Mixing</source>
-        <translation>Start/Stop Mixing</translation>
-    </message>
-    <message>
-        <location line="-469"/>
-        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</translation>
-    </message>
-    <message>
-        <location line="+501"/>
-        <source>(Last Message)</source>
-        <translation>(Last Message)</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Try Mix</source>
-        <translation>Try Mix</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Reset</source>
-        <translation>Reset</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="-381"/>
-        <location line="+1"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>out of sync</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <location line="+1"/>
-        <location line="+1"/>
-        <location line="+293"/>
-        <source>Disabled</source>
-        <translation>Disabled</translation>
-    </message>
-    <message>
-        <location line="-117"/>
-        <location line="+6"/>
-        <source>No inputs detected</source>
-        <translation>No inputs detected</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-2"/>
-        <location line="+35"/>
-        <location line="+10"/>
-        <source>%n Rounds</source>
-        <translation>
-            <numerusform>%n Round</numerusform>
-            <numerusform>%n Rounds</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="-7"/>
-        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
-        <translation>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>Overall progress</source>
-        <translation>Overall progress</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Denominated</source>
-        <translation>Denominated</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Anonymized</source>
-        <translation>Anonymized</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+1"/>
-        <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation>
-            <numerusform>Denominated inputs have %5 of %n rounds on average</numerusform>
-            <numerusform>Denominated inputs have %5 of %n rounds on average</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Last CoinMixing message:
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+4"/>
         <source>AutoMint is currently enabled and set to </source>
         <translation type="unfinished"></translation>
@@ -2958,60 +2571,6 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
 To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in Rhenium.conf</source>
         <translation type="unfinished"></translation>
     </message>
-=======
-        <location line="+27"/>
-        <source>CoinMixing was successfully reset.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>If you don&apos;t want to see internal CoinMixing fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>CoinMixing requires at least %1 to use.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-160"/>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Found enough compatible inputs to anonymize %1</translation>
-    </message>
-    <message>
-        <location line="-208"/>
-        <location line="+291"/>
-        <location line="+89"/>
-        <source>Start CoinMixing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-378"/>
-        <location line="+381"/>
-        <source>Stop CoinMixing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-121"/>
-        <source>Mixed</source>
-        <translation>Mixed</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Enabled</source>
-        <translation>Enabled</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 </context>
 <context>
     <name>PaymentServer</name>
@@ -3154,7 +2713,6 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
@@ -3204,52 +2762,10 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-622"/>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
-=======
-    <name>QObject</name>
-    <message>
-        <location filename="../bitcoinunits.cpp" line="+252"/>
-        <source>Amount</source>
-        <translation>Amount</translation>
-    </message>
-    <message>
-        <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a Rhenium address (e.g. %1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+762"/>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>NETWORK</source>
-        <translation>NETWORK</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>BLOOM</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
         <source>Available for Minting:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3893,20 +3409,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+5"/>
         <source>N/A</source>
         <translation>N/A</translation>
-=======
-        <source>UNKNOWN</source>
-        <translation>UNKNOWN</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>None</source>
-        <translation>None</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>N/A</source>
-        <translation>N/A</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <location line="+0"/>
@@ -3973,13 +3475,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+23"/>
         <location line="+36"/>
         <location line="+23"/>
-<<<<<<< HEAD
         <location line="+23"/>
         <location line="+36"/>
-=======
-        <location line="+20"/>
-        <location line="+30"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <location line="+23"/>
         <location line="+454"/>
         <location line="+23"/>
@@ -3994,38 +3491,22 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
-<<<<<<< HEAD
         <location line="+91"/>
-=======
-        <location line="+78"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-913"/>
-=======
-        <location line="-891"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Number of connections</source>
         <translation>Number of connections</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+134"/>
-=======
-        <location line="+125"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Open</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-193"/>
-=======
-        <location line="-184"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Startup time</source>
         <translation>Startup time</translation>
     </message>
@@ -4035,11 +3516,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Network</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+112"/>
-=======
-        <location line="+103"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Last block time</source>
         <translation>Last block time</translation>
     </message>
@@ -4049,11 +3526,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Debug log file</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-258"/>
-=======
-        <location line="-249"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Using OpenSSL version</source>
         <translation>Using OpenSSL version</translation>
     </message>
@@ -4063,20 +3536,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Build date</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+141"/>
-=======
-        <location line="+132"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Current number of blocks</source>
         <translation>Current number of blocks</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-216"/>
-=======
-        <location line="-207"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Client version</source>
         <translation>Client version</translation>
     </message>
@@ -4086,11 +3551,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Using BerkeleyDB version</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+160"/>
-=======
-        <location line="+151"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Block chain</source>
         <translation>Block chain</translation>
     </message>
@@ -4100,20 +3561,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-108"/>
-=======
-        <location line="-99"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Number of Masternodes</source>
         <translation>Number of Masternodes</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+122"/>
-=======
-        <location line="+113"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
@@ -4154,13 +3607,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+41"/>
-<<<<<<< HEAD
         <location filename="../rpcconsole.cpp" line="+263"/>
         <location line="+481"/>
-=======
-        <location filename="../rpcconsole.cpp" line="+261"/>
-        <location line="+460"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Select a peer to view detailed information.</source>
         <translation>Select a peer to view detailed information.</translation>
     </message>
@@ -4235,16 +3683,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>&amp;Wallet Repair</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+15"/>
         <source>Delete local Blockchain Folders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+36"/>
-=======
-        <location line="+38"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Wallet In Use:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4299,7 +3743,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+23"/>
         <source>-resync:</source>
         <translation type="unfinished"></translation>
@@ -4311,9 +3754,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-246"/>
-=======
-        <location line="-216"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</translation>
     </message>
@@ -4348,7 +3788,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-66"/>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
         <translation type="unfinished"></translation>
@@ -4375,9 +3814,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+63"/>
-=======
-        <location line="+1"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
     </message>
@@ -4659,15 +4095,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-<<<<<<< HEAD
         <location filename="../sendcoinsdialog.cpp" line="+231"/>
         <location line="+25"/>
         <location line="+397"/>
-=======
-        <location filename="../sendcoinsdialog.cpp" line="+234"/>
-        <location line="+25"/>
-        <location line="+413"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -4677,21 +4107,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Coin Control Features</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+49"/>
-=======
-        <location line="+20"/>
-        <source>Inputs...</source>
-        <translation>Inputs...</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>automatically selected</source>
-        <translation>automatically selected</translation>
-    </message>
-    <message>
-        <location line="+19"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>Insufficient funds!</translation>
     </message>
@@ -4796,16 +4212,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Minimize</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+81"/>
-=======
-        <location line="+582"/>
-        <source>CoinMixing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-501"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>per kilobyte</translation>
     </message>
@@ -4835,7 +4242,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Confirmation time:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-947"/>
         <source>Open Coin Control...</source>
         <translation type="unfinished"></translation>
@@ -4847,9 +4253,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-=======
-        <location line="-165"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If the custom fee is set to 1000 uXRHs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uXRHs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uXRHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4920,16 +4323,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+35"/>
         <source>Anonymized XRH</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-=======
-        <location line="+57"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>RhenFAST</source>
         <translation>RhenFAST</translation>
     </message>
@@ -4939,11 +4338,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Balance:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location filename="../sendcoinsdialog.cpp" line="-571"/>
-=======
-        <location filename="../sendcoinsdialog.cpp" line="-584"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy quantity</source>
         <translation>Copy quantity</translation>
     </message>
@@ -4983,11 +4378,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Copy change</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+143"/>
-=======
-        <location line="+140"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The split block tool does not work when sending to outside addresses. Try again.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4998,49 +4389,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+8"/>
-<<<<<<< HEAD
         <location line="+3"/>
-=======
-        <location line="+6"/>
-        <location line="+9"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>using</source>
         <translation>using</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-3"/>
-=======
-        <location line="-15"/>
-        <location line="+6"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>anonymous funds</source>
         <translation>anonymous funds</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+622"/>
-=======
-        <location line="+632"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Warning: Invalid Rhenium address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-619"/>
-=======
-        <location line="-623"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>any available funds (not recommended)</source>
         <translation>any available funds (not recommended)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+5"/>
-=======
-        <location line="+6"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>and RhenFAST</source>
         <translation>and RhenFAST</translation>
     </message>
@@ -5073,11 +4442,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Confirm send coins</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+230"/>
-=======
-        <location line="+233"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
         <translation>A fee %1 times higher than %2 per kB is considered an insanely high fee.</translation>
     </message>
@@ -5095,16 +4460,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>The recipient address is not valid, please recheck.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-291"/>
-=======
-        <location line="-343"/>
-        <source>(coinmixing requires this amount to be rounded up to the nearest %1).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+49"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source> split into %1 outputs using the UTXO splitter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5114,11 +4470,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+205"/>
-=======
-        <location line="+208"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The amount to pay must be larger than 0.</source>
         <translation>The amount to pay must be larger than 0.</translation>
     </message>
@@ -5863,47 +5215,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Received via Obfuscation</source>
-=======
-        <source>Received via CoinMixing</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-<<<<<<< HEAD
         <source>Obfuscation Denominate</source>
-=======
-        <source>CoinMixing Denominate</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Obfuscation Collateral Payment</source>
-=======
-        <source>CoinMixing Collateral Payment</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Obfuscation Make Collateral Inputs</source>
-=======
-        <source>CoinMixing Make Collateral Inputs</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Obfuscation Create Denominations</source>
-=======
-        <source>CoinMixing Create Denominations</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5937,7 +5269,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Obfuscated</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+2"/>
         <source>Converted Phr to zPhr</source>
         <translation type="unfinished"></translation>
@@ -5964,23 +5295,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+33"/>
-=======
-        <location line="+31"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>watch-only</source>
         <translation>watch-only</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+22"/>
         <source>zPhr Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-=======
-        <location line="+19"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
@@ -6075,38 +5399,22 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation Make Collateral Inputs</source>
-=======
-        <source>CoinMixing Make Collateral Inputs</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation Create Denominations</source>
-=======
-        <source>CoinMixing Create Denominations</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation Denominate</source>
-=======
-        <source>CoinMixing Denominate</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation Collateral Payment</source>
-=======
-        <source>CoinMixing Collateral Payment</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6131,7 +5439,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Received Phr from zPhr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6157,8 +5464,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Other</source>
         <translation>Other</translation>
     </message>
@@ -6203,11 +5508,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Show transaction details</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+195"/>
-=======
-        <location line="+193"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Export Transaction History</source>
         <translation>Export Transaction History</translation>
     </message>
@@ -6217,11 +5518,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+11"/>
-=======
-        <location line="+9"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Confirmed</source>
         <translation>Confirmed</translation>
     </message>
@@ -6256,11 +5553,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>ID</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+10"/>
-=======
-        <location line="+3"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Exporting Failed</source>
         <translation>Exporting Failed</translation>
     </message>
@@ -6270,11 +5563,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>There was an error trying to save the transaction history to %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-4"/>
-=======
-        <location line="+3"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Exporting Successful</source>
         <translation>Exporting Successful</translation>
     </message>
@@ -6284,11 +5573,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>The transaction history was successfully saved to %1.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+121"/>
-=======
-        <location line="+117"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Range:</source>
         <translation>Range:</translation>
     </message>
@@ -6317,11 +5602,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>WalletModel</name>
     <message>
-<<<<<<< HEAD
         <location filename="../walletmodel.cpp" line="+310"/>
-=======
-        <location filename="../walletmodel.cpp" line="+274"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <location line="+9"/>
         <location line="+9"/>
         <source>Send Coins</source>
@@ -6337,11 +5618,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>WalletView</name>
     <message>
-<<<<<<< HEAD
         <location filename="../walletview.cpp" line="+50"/>
-=======
-        <location filename="../walletview.cpp" line="+49"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Export</source>
         <translation>&amp;Export</translation>
     </message>
@@ -6356,11 +5633,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Selected amount:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+249"/>
-=======
-        <location line="+236"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Backup Wallet</source>
         <translation>Backup Wallet</translation>
     </message>
@@ -6391,7 +5664,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <location filename="../forms/zphrcontroldialog.ui" line="+20"/>
@@ -6429,11 +5701,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>Rhenium-core</name>
     <message>
         <location filename="../Rheniumstrings.cpp" line="+15"/>
-=======
-    <name>Rhenium-core</name>
-    <message>
-        <location filename="../Rheniumstrings.cpp" line="+12"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -6464,14 +5731,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Cannot obtain a lock on data directory %s. Rhenium Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6497,11 +5761,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
-=======
-        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6510,11 +5770,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished">Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+6"/>
-=======
-        <location line="+3"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable spork administration functionality with the appropriate private key.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6525,14 +5781,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
-=======
-        <source>Enable use of automated coinmixing for funds stored in this wallet (0-1, default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation type="unfinished">Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
     </message>
@@ -6542,11 +5790,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished">Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+11"/>
-=======
-        <location line="+2"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation type="unfinished">Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</translation>
     </message>
@@ -6587,14 +5831,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-<<<<<<< HEAD
-=======
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation type="unfinished">How thorough the block verification of -checkblocks is (0-4, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation type="unfinished">If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</translation>
     </message>
@@ -6604,11 +5840,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished">In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+6"/>
-=======
-        <location line="+3"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation type="unfinished">Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
@@ -6644,11 +5876,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-=======
-        <source>CoinMixing uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6657,7 +5885,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished">Output debugging information (default: %u, supplying &lt;category&gt; is optional)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+5"/>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation type="unfinished">Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
@@ -6666,16 +5893,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+3"/>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation type="unfinished"></translation>
-=======
-        <location line="+2"/>
-        <source>Provide liquidity to CoinMixing by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation type="unfinished">Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <location line="+3"/>
@@ -6744,20 +5961,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-=======
-        <source>Unable to locate enough CoinMixing denominated funds for this transaction.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-<<<<<<< HEAD
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XRH.</source>
-=======
-        <source>Unable to locate enough CoinMixing non-denominated funds for this transaction that are not equal 10000 XRH.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6887,27 +6096,21 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Block creation options:</source>
         <translation type="unfinished">Block creation options:</translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Calculating missing accumulators...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Can&apos;t denominate: no compatible inputs left.</source>
         <translation type="unfinished">Can&apos;t denominate: no compatible inputs left.</translation>
     </message>
@@ -7007,14 +6210,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished">Debugging/Testing options:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+2"/>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <location line="+1"/>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation type="unfinished">Disable safemode, override a real safe mode event (default: %u)</translation>
@@ -7040,14 +6240,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished">Done loading</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+1"/>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <location line="+8"/>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation type="unfinished">Enable the client to act as a masternode (0-1, default: %u)</translation>
@@ -7139,11 +6336,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Error: You already have pending entries in the Obfuscation pool</source>
-=======
-        <source>Error: You already have pending entries in the CoinMixing pool</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7152,20 +6345,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished">Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+2"/>
-=======
-        <location line="+1"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Failed to read block</source>
         <translation type="unfinished">Failed to read block</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+2"/>
-=======
-        <location line="+1"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Fee (in XRH/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7251,20 +6436,16 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Insufficient funds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds.</source>
         <translation type="unfinished">Insufficient funds.</translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7272,15 +6453,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <location line="+1"/>
         <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
-=======
-        <source>Invalid -onion address: &apos;%s&apos;</source>
-        <translation type="unfinished">Invalid -onion address: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished">Invalid -proxy address: &apos;%s&apos;</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <location line="+1"/>
@@ -7314,14 +6486,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Invalid amount</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation type="unfinished">Invalid masternodeprivkey. Please see documenation.</translation>
     </message>
@@ -7346,16 +6515,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished">Invalid script detected.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-174"/>
-=======
-        <location line="-165"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="-153"/>
         <source> mints deleted
 </source>
@@ -7404,9 +6568,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+97"/>
-=======
-        <location line="+68"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&lt;category&gt; can be:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7417,14 +6578,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+25"/>
-<<<<<<< HEAD
         <source>Delete blockchain folders and resync from scratch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Display the stake modifier calculations in the debug.log file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7434,11 +6592,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+5"/>
-=======
-        <location line="+4"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable publish hash block in &lt;address&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7473,7 +6627,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <location line="+21"/>
         <source>Failed to read block index</source>
         <translation type="unfinished"></translation>
@@ -7485,38 +6638,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+34"/>
-=======
-        <location line="+53"/>
-        <source>Keep N XRH anonymized (default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation type="unfinished">Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Last Obfuscation was too recent.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last successful Obfuscation action was too recent.</source>
-=======
-        <source>Last CoinMixing was too recent.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Less than 3 mints added, unable to create spend</source>
-=======
-        <source>Last successful CoinMixing action was too recent.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7566,14 +6703,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Loading sporks...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Loading wallet... (%3.2f %%)</source>
         <translation type="unfinished">Loading wallet... (%3.2f %%)</translation>
     </message>
@@ -7689,34 +6823,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation is idle.</source>
-=======
-        <source>CoinMixing is idle.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>CoinMixing options:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation request complete:</source>
-=======
-        <source>CoinMixing request complete:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Obfuscation request incomplete:</source>
-=======
-        <source>CoinMixing request incomplete:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7741,7 +6858,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7752,8 +6868,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation type="unfinished">Prepend debug output with timestamp (default: %u)</translation>
     </message>
@@ -7794,7 +6908,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Recalculating coin supply may take 30-60 minutes...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7805,8 +6918,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation type="unfinished">Receive and display P2P network alerts (default: %u)</translation>
     </message>
@@ -7832,7 +6943,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>ResetMintZerocoin finished: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -7843,8 +6953,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Run a thread to flush wallet periodically (default: %u)</source>
         <translation type="unfinished">Run a thread to flush wallet periodically (default: %u)</translation>
     </message>
@@ -7905,14 +7013,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Set the Maximum reorg depth (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Set the masternode private key</source>
         <translation type="unfinished">Set the masternode private key</translation>
     </message>
@@ -8083,7 +7188,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Tor control port password (default: empty)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8094,8 +7198,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction amount too small</source>
         <translation type="unfinished">Transaction amount too small</translation>
     </message>
@@ -8161,14 +7263,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
-=======
-        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation type="unfinished">Use N separate masternodes to anonymize funds  (2-8, default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation type="unfinished">Use OpenSSL (https) for JSON-RPC connections</translation>
     </message>
@@ -8184,14 +7278,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Use a custom max chain reorganization depth (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use the test network</source>
         <translation type="unfinished">Use the test network</translation>
     </message>
@@ -8202,11 +7293,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
-=======
-        <source>Value more than CoinMixing pool maximum allows.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8296,7 +7383,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-<<<<<<< HEAD
         <source>Zerocoin options:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8307,8 +7393,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Rhenium Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>on startup</source>
         <translation type="unfinished">on startup</translation>
     </message>

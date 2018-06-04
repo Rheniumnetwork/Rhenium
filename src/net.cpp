@@ -1,11 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,11 +15,7 @@
 #include "chainparams.h"
 #include "clientversion.h"
 #include "miner.h"
-<<<<<<< HEAD
 #include "obfuscation.h"
-=======
-#include "coinmixing.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "primitives/transaction.h"
 #include "ui_interface.h"
 #include "wallet.h"
@@ -47,13 +39,8 @@
 // Dump addresses to peers.dat every 15 minutes (900s)
 #define DUMP_ADDRESSES_INTERVAL 900
 
-<<<<<<< HEAD
 #if !defined(HAVE_MSG_XRHIGNAL) && !defined(MSG_XRHIGNAL)
 #define MSG_XRHIGNAL 0
-=======
-#if !defined(HAVE_MSG_NOSIGNAL) && !defined(MSG_NOSIGNAL)
-#define MSG_NOSIGNAL 0
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
 
 // Fix for ancient MinGW versions, that don't have defined these in ws2tcpip.h.
@@ -244,10 +231,7 @@ void AdvertizeLocal(CNode* pnode)
             addrLocal.SetIP(pnode->addrLocal);
         }
         if (addrLocal.IsRoutable()) {
-<<<<<<< HEAD
             LogPrintf("AdvertizeLocal: advertizing address %s\n", addrLocal.ToString());
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             pnode->PushAddress(addrLocal);
         }
     }
@@ -294,7 +278,6 @@ bool AddLocal(const CNetAddr& addr, int nScore)
     return AddLocal(CService(addr, GetListenPort()), nScore);
 }
 
-<<<<<<< HEAD
 bool RemoveLocal(const CService& addr)
 {
     LOCK(cs_mapLocalHost);
@@ -303,8 +286,6 @@ bool RemoveLocal(const CService& addr)
     return true;
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /** Make a particular network entirely off-limits (no automatic connects to it) */
 void SetLimited(enum Network net, bool fLimited)
 {
@@ -691,11 +672,7 @@ void SocketSendData(CNode* pnode)
     while (it != pnode->vSendMsg.end()) {
         const CSerializeData& data = *it;
         assert(data.size() > pnode->nSendOffset);
-<<<<<<< HEAD
         int nBytes = send(pnode->hSocket, &data[pnode->nSendOffset], data.size() - pnode->nSendOffset, MSG_XRHIGNAL | MSG_DONTWAIT);
-=======
-        int nBytes = send(pnode->hSocket, &data[pnode->nSendOffset], data.size() - pnode->nSendOffset, MSG_NOSIGNAL | MSG_DONTWAIT);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         if (nBytes > 0) {
             pnode->nLastSend = GetTime();
             pnode->nSendBytes += nBytes;
@@ -787,7 +764,6 @@ void ThreadSocketHandler()
                 }
             }
         }
-<<<<<<< HEAD
         size_t vNodesSize;
         {
             LOCK(cs_vNodes);
@@ -795,10 +771,6 @@ void ThreadSocketHandler()
         }
         if(vNodesSize != nPrevNodeCount) {
             nPrevNodeCount = vNodesSize;
-=======
-        if (vNodes.size() != nPrevNodeCount) {
-            nPrevNodeCount = vNodes.size();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             uiInterface.NotifyNumConnectionsChanged(nPrevNodeCount);
         }
 
@@ -914,13 +886,8 @@ void ThreadSocketHandler()
                     LogPrint("net", "connection from %s dropped (full)\n", addr.ToString());
                     CloseSocket(hSocket);
                 } else if (CNode::IsBanned(addr) && !whitelisted) {
-<<<<<<< HEAD
                     LogPrintf("connection from %s dropped (banned)\n", addr.ToString());
                     CloseSocket(hSocket);
-=======
-                    ///////////LogPrintf("connection from %s dropped (banned)\n", addr.ToString());
-                    ///////////CloseSocket(hSocket);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 } else {
                     CNode* pnode = new CNode(hSocket, addr, "", true);
                     pnode->AddRef();
@@ -1502,15 +1469,9 @@ bool BindListenPort(const CService& addrBind, string& strError, bool fWhiteliste
 
 
 #ifndef WIN32
-<<<<<<< HEAD
 #ifdef SO_XRHIGPIPE
     // Different way of disabling SIGPIPE on BSD
     setsockopt(hListenSocket, SOL_SOCKET, SO_XRHIGPIPE, (void*)&nOne, sizeof(int));
-=======
-#ifdef SO_NOSIGPIPE
-    // Different way of disabling SIGPIPE on BSD
-    setsockopt(hListenSocket, SOL_SOCKET, SO_NOSIGPIPE, (void*)&nOne, sizeof(int));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
     // Allow binding if the port is still in TIME_WAIT state after
     // the program was closed and restarted. Not an issue on windows!

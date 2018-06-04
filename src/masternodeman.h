@@ -1,9 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -76,11 +72,7 @@ public:
     // Keep track of all pings I've seen
     map<uint256, CMasternodePing> mapSeenMasternodePing;
 
-<<<<<<< HEAD
     // keep track of dsq count to prevent masternodes from gaming obfuscation queue
-=======
-    // keep track of dsq count to prevent masternodes from gaming coinmixing queue
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     int64_t nDsqCount;
 
     ADD_SERIALIZE_METHODS;
@@ -119,11 +111,8 @@ public:
 
     int CountEnabled(int protocolVersion = -1);
 
-<<<<<<< HEAD
     void CountNetworks(int protocolVersion, int& ipv4, int& ipv6, int& onion);
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void DsegUpdate(CNode* pnode);
 
     /// Find an entry

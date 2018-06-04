@@ -13,7 +13,6 @@
   <property name="windowTitle">
    <string>Blockchain Explorer</string>
   </property>
-<<<<<<< HEAD
   <property name="styleSheet">
    <string notr="true"/>
   </property>
@@ -21,9 +20,6 @@
    <property name="styleSheet">
     <string notr="true"/>
    </property>
-=======
-  <widget class="QWidget" name="centralwidget">
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -33,17 +29,10 @@
       <item>
        <widget class="QPushButton" name="back">
         <property name="text">
-<<<<<<< HEAD
          <string>Back</string>
         </property>
         <property name="icon">
          <iconset>
-=======
-         <string/>
-        </property>
-        <property name="icon">
-         <iconset resource="../bitcoin.qrc">
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
           <normaloff>:/icons/back</normaloff>:/icons/back</iconset>
         </property>
         <property name="flat">
@@ -54,17 +43,10 @@
       <item>
        <widget class="QPushButton" name="forward">
         <property name="text">
-<<<<<<< HEAD
          <string>Forward</string>
         </property>
         <property name="icon">
          <iconset>
-=======
-         <string/>
-        </property>
-        <property name="icon">
-         <iconset resource="../bitcoin.qrc">
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
           <normaloff>:/icons/forward</normaloff>:/icons/forward</iconset>
         </property>
        </widget>
@@ -141,11 +123,7 @@
          <x>0</x>
          <y>0</y>
          <width>780</width>
-<<<<<<< HEAD
          <height>489</height>
-=======
-         <height>498</height>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -183,22 +161,14 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-<<<<<<< HEAD
      <height>27</height>
-=======
-     <height>25</height>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-<<<<<<< HEAD
   <include location="../Rhenium.qrc"/>
-=======
-  <include location="../bitcoin.qrc"/>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  </resources>
  <connections/>
 </ui>

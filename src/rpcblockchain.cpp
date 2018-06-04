@@ -1,12 +1,8 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2018 The Rhenium developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,11 +15,8 @@
 #include <stdint.h>
 
 #include "json/json_spirit_value.h"
-<<<<<<< HEAD
 #include "utilmoneystr.h"
 #include "base58.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 using namespace json_spirit;
 using namespace std;
@@ -73,10 +66,7 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
     result.push_back(Pair("height", blockindex->nHeight));
     result.push_back(Pair("version", block.nVersion));
     result.push_back(Pair("merkleroot", block.hashMerkleRoot.GetHex()));
-<<<<<<< HEAD
     result.push_back(Pair("acc_checkpoint", block.nAccumulatorCheckpoint.GetHex()));
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     Array txs;
     BOOST_FOREACH (const CTransaction& tx, block.vtx) {
         if (txDetails) {
@@ -98,7 +88,6 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
     CBlockIndex* pnext = chainActive.Next(blockindex);
     if (pnext)
         result.push_back(Pair("nextblockhash", pnext->GetBlockHash().GetHex()));
-<<<<<<< HEAD
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
@@ -110,12 +99,6 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
     result.emplace_back(Pair("zXRHsupply", zRheniumObj));
 
     return result;
-=======
-	
-	result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
-    
-	return result;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 
@@ -295,7 +278,6 @@ Value getblock(const Array& params, bool fHelp)
             "  \"difficulty\" : x.xxx,  (numeric) The difficulty\n"
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
-<<<<<<< HEAD
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
             "  \"zXRHsupply\" :\n"
             "  {\n"
@@ -309,9 +291,6 @@ Value getblock(const Array& params, bool fHelp)
             "     \"5000\" : n,         (numeric) supply of 5000 zXRH denomination\n"
             "     \"total\" : n,        (numeric) The total supply of all zXRH denominations\n"
             "  }\n"
-=======
-			"  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "}\n"
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
@@ -509,34 +488,18 @@ Value verifychain(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 2)
         throw runtime_error(
-<<<<<<< HEAD
             "verifychain ( numblocks )\n"
             "\nVerifies blockchain database.\n"
             "\nArguments:\n"
             "1. numblocks    (numeric, optional, default=288, 0=all) The number of blocks to check.\n"
-=======
-            "verifychain ( checklevel numblocks )\n"
-            "\nVerifies blockchain database.\n"
-            "\nArguments:\n"
-            "1. checklevel   (numeric, optional, 0-4, default=3) How thorough the block verification is.\n"
-            "2. numblocks    (numeric, optional, default=288, 0=all) The number of blocks to check.\n"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             "\nResult:\n"
             "true|false       (boolean) Verified or not\n"
             "\nExamples:\n" +
             HelpExampleCli("verifychain", "") + HelpExampleRpc("verifychain", ""));
 
-<<<<<<< HEAD
     int nCheckLevel = 4;
     int nCheckDepth = GetArg("-checkblocks", 288);
     if (params.size() > 0)
-=======
-    int nCheckLevel = GetArg("-checklevel", 3);
-    int nCheckDepth = GetArg("-checkblocks", 288);
-    if (params.size() > 0)
-        nCheckLevel = params[0].get_int();
-    if (params.size() > 1)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         nCheckDepth = params[1].get_int();
 
     return CVerifyDB().VerifyDB(pcoinsTip, nCheckLevel, nCheckDepth);
@@ -762,8 +725,4 @@ Value reconsiderblock(const Array& params, bool fHelp)
     }
 
     return Value::null;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

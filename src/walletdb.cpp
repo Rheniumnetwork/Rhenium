@@ -1,11 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -133,7 +129,6 @@ bool CWalletDB::EraseWatchOnly(const CScript& dest)
     return Erase(std::make_pair(std::string("watchs"), dest));
 }
 
-<<<<<<< HEAD
 bool CWalletDB::WriteMultiSig(const CScript& dest)
 {
     nWalletDBUpdated++;
@@ -146,8 +141,6 @@ bool CWalletDB::EraseMultiSig(const CScript& dest)
     return Erase(std::make_pair(std::string("multisig"), dest));
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool CWalletDB::WriteBestBlock(const CBlockLocator& locator)
 {
     nWalletDBUpdated++;
@@ -444,12 +437,8 @@ bool ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue, CW
             CWalletTx wtx;
             ssValue >> wtx;
             CValidationState state;
-<<<<<<< HEAD
             // false because there is no reason to go through the zerocoin checks for our own wallet
             if (!(CheckTransaction(wtx, false, false, state) && (wtx.GetHash() == hash) && state.IsValid()))
-=======
-            if (!(CheckTransaction(wtx, state) && (wtx.GetHash() == hash) && state.IsValid()))
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 return false;
 
             // Undo serialize changes in 31600
@@ -497,7 +486,6 @@ bool ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue, CW
             // Watch-only addresses have no birthday information for now,
             // so set the wallet birthday to the beginning of time.
             pwallet->nTimeFirstKey = 1;
-<<<<<<< HEAD
         } else if (strType == "multisig") {
             CScript script;
             ssKey >> script;
@@ -509,8 +497,6 @@ bool ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue, CW
             // MultiSig addresses have no birthday information for now,
             // so set the wallet birthday to the beginning of time.
             pwallet->nTimeFirstKey = 1;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         } else if (strType == "key" || strType == "wkey") {
             CPubKey vchPubKey;
             ssKey >> vchPubKey;
@@ -1039,7 +1025,6 @@ bool CWalletDB::EraseDestData(const std::string& address, const std::string& key
     nWalletDBUpdated++;
     return Erase(std::make_pair(std::string("destdata"), std::make_pair(address, key)));
 }
-<<<<<<< HEAD
 
 bool CWalletDB::WriteZerocoinSpendSerialEntry(const CZerocoinSpend& zerocoinSpend)
 {
@@ -1343,5 +1328,3 @@ std::list<CZerocoinMint> CWalletDB::ListArchivedZerocoins()
     return listMints;
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

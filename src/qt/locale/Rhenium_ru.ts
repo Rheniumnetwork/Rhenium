@@ -498,11 +498,7 @@
         <translation>&amp;Информация</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
-=======
-        <source>Show diagnostic information</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Показать диагностическую информацию</translation>
     </message>
     <message>
@@ -610,7 +606,6 @@
         <translation>Запросить платежи (генерирует QR-код и Rhenium: URI)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;Privacy</source>
         <translation>&amp;Конфиденциальность</translation>
     </message>
@@ -619,8 +614,6 @@
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation>&amp;Мастерноды</translation>
     </message>
@@ -696,13 +689,6 @@
         <source>Rhenium Core client</source>
         <translation>Клиент Rhenium Core</translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message numerus="yes">
-        <source>%n active connection(s) to Rhenium network</source>
-        <translation><numerusform>%n активное подключение к сети Rhenium</numerusform><numerusform>%n активных подключений к сети Rhenium</numerusform><numerusform>%n активных подключений к сети Rhenium</numerusform><numerusform>%n активных подключений к сети Rhenium</numerusform></translation>
-    </message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизация с сетью...</translation>
@@ -723,32 +709,10 @@
         <source>Up to date</source>
         <translation>Обновление не требуется</translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n час</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n день</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n неделя</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
-    </message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 and %2</source>
         <translation>%1 и %2</translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n год</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform></translation>
-    </message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 behind</source>
         <translation>%1 позади</translation>
@@ -841,7 +805,6 @@ MultiSend: %1</translation>
         <translation>Обзор блокчейна</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -850,8 +813,6 @@ MultiSend: %1</translation>
         <translation>вперед</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation>Адрес / Блок / Транзакция</translation>
     </message>
@@ -871,13 +832,6 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Всего: %1 (OBF совместимые: %2 / Включеные: %3)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Network Alert</source>
         <translation>Сетевое предупреждение</translation>
     </message>
@@ -953,13 +907,6 @@ MultiSend: %1</translation>
         <translation>Полученно на адрес</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>DS Rounds</source>
-        <translation>DS циклов</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Дата</translation>
     </message>
@@ -1032,13 +979,6 @@ MultiSend: %1</translation>
         <translation>Для использования этой функции перейдите в "Режим списка"</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
-        <translation>Выбран неанонимизированный ввод. &lt;b&gt;Запутывание будет отключено. &lt;/b&gt; &lt;br&gt;&lt;br&gt;. Если вы всё же хотите использовать запутывание, пожалуйста отмените сначала выбор всех неанонимизированных вводов, затем снова поставте флажок "Запутывание".</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>самый высокий</translation>
     </message>
@@ -1059,13 +999,6 @@ MultiSend: %1</translation>
         <translation>Может вариировать +/- %1 duff(s) к вводу</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>n/a</source>
-        <translation>недоступен</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>промежуточный</translation>
     </message>
@@ -1561,15 +1494,9 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
-=======
-    <name>CoinMixingConfig</name>
-    <message>
-        <source>Configure CoinMixing</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Параметры Перемешивания</translation>
     </message>
     <message>
@@ -1617,7 +1544,6 @@ Please check the address and try again.</source>
         <translation>0.1 XRH за 10000 XRH которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
@@ -1631,21 +1557,6 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-=======
-        <source>CoinMixing Configuration</source>
-        <translation>Настройка Перемешивания</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Rhenium.</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Rhenium.</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Rhenium.</translation>
     </message>
 </context>
@@ -1735,25 +1646,6 @@ Please check the address and try again.</source>
         <translation>&amp;Запускать Rhenium при входе в систему</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Эта настройка определяет количество мастернод, используемых для анонимизации. Чем больше циклов, тем выше уровень конфиденциальности, но не стоит забывать также об увеличивающейся комиссии.</translation>
-    </message>
-    <message>
-        <source>CoinMixing rounds to use</source>
-        <translation>Количество циклов Перемешивания</translation>
-    </message>
-    <message>
-        <source>This amount acts as a threshold to turn off CoinMixing once it's reached.</source>
-        <translation>При достижении этого значения Перемешивание будет отключено.</translation>
-    </message>
-    <message>
-        <source>Amount of Rhenium to keep anonymized</source>
-        <translation>Количество Rhenium, держащихся анонимизированными</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>Показывает или скрывает особенности управления монетами.</translation>
     </message>
@@ -1792,7 +1684,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Percentage of incoming XRH which get automatically converted to zXRH via Zerocoin Protocol (min: 10%)</source>
         <translation>Процент приходящих XRH, которые автоматически конвертируются в zXRH благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
@@ -1805,8 +1696,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Предпочитаемый номинал авточеканной  монеты  zXRH</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Connect to the Rhenium network through a SOCKS5 proxy.</source>
         <translation>Подключиться к сети Rhenium через SOCKS5 прокси.</translation>
     </message>
@@ -1899,13 +1788,10 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>&amp;Отмена</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>I don't care</source>
         <translation>Мне не важно</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>default</source>
         <translation>по-умолчанию</translation>
     </message>
@@ -1941,13 +1827,10 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Вид</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>XRH Balances</source>
         <translation>Баланс XRH</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Available:</source>
         <translation>Доступно:</translation>
     </message>
@@ -1972,13 +1855,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Balances</source>
-        <translation>Балансы</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Rhenium после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
@@ -2015,7 +1891,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Расходуемый:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>XRH:</source>
         <translation>XRH:</translation>
     </message>
@@ -2030,155 +1905,15 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     <message>
         <source>Zerocoin Balance</source>
         <translation>Баланс Zerocoin </translation>
-=======
-        <source>Status:</source>
-        <translation>Статус:</translation>
-    </message>
-    <message>
-        <source>CoinMixing Balance:</source>
-        <translation>Баланс Обфускации</translation>
-    </message>
-    <message>
-        <source>0 XRH / 0 Rounds</source>
-        <translation>0 XRH / 0 Циклов</translation>
-    </message>
-    <message>
-        <source>Enabled/Disabled</source>
-        <translation>Включено/Выключено</translation>
-    </message>
-    <message>
-        <source>Try to manually submit a CoinMixing request.</source>
-        <translation>Попробуюте вручную создать запрос на Обфускацию.</translation>
-    </message>
-    <message>
-        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Сбросить текущий статус Обфускации (может прервать обфускацию, если она уже началась, что может стоить ваших денег!)</translation>
-    </message>
-    <message>
-        <source>CoinMixing</source>
-        <translation>Обфускация</translation>
-    </message>
-    <message>
-        <source>Completion:</source>
-        <translation>Завершение:</translation>
-    </message>
-    <message>
-        <source>Amount and Rounds:</source>
-        <translation>Количесво повторений:</translation>
-    </message>
-    <message>
-        <source>Submitted Denom:</source>
-        <translation>Выбранная единица:</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>недоступен</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Последние транзакции</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>out of sync</source>
         <translation>несинронизировано</translation>
     </message>
-=======
-        <source>Start/Stop Mixing</source>
-        <translation>Запустить/Остановить смешивание </translation>
-    </message>
-    <message>
-        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Деноминации, которые вы отправили на мастерноду. &lt;br&gt;Для смешиваыния, другие пользователи должны отправить точно такие же деноминации.</translation>
-    </message>
-    <message>
-        <source>(Last Message)</source>
-        <translation>(Последнее сообщение)</translation>
-    </message>
-    <message>
-        <source>Try Mix</source>
-        <translation>Попытка смешать</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сброс</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>несинронизировано</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>Выключено</translation>
-    </message>
-    <message>
-        <source>No inputs detected</source>
-        <translation>Нет ввода</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n Rounds</source>
-        <translation><numerusform>%n Цикл</numerusform><numerusform>%n Циклов</numerusform><numerusform>%n Циклов</numerusform><numerusform>%n Циклов</numerusform></translation>
-    </message>
-    <message>
-        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Недостаточно совместимых вводов для анонимизации &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt; вместо этого будет анонимизировано &lt;span style='color:red;'&gt;%2&lt;/span&gt;</translation>
-    </message>
-    <message>
-        <source>Overall progress</source>
-        <translation>Общий ход выполнения</translation>
-    </message>
-    <message>
-        <source>Anonymized</source>
-        <translation>Анонимизировано</translation>
-    </message>
-    <message>
-        <source>Last CoinMixing message:
-</source>
-        <translation>Последнее сообщение Обфускации:
-</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully reset.</source>
-        <translation>Обфускация была успешно сброшена.</translation>
-    </message>
-    <message>
-        <source>If you don't want to see internal CoinMixing fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Если вы не хотите видеть внутреннию плату / трансакции Обфускацци выберите "Наиболее распространненные" как Тип в закладке "Транзакции".</translation>
-    </message>
-    <message>
-        <source>CoinMixing requires at least %1 to use.</source>
-        <translation>Для использования обфускации необходимо как минимум %1</translation>
-    </message>
-    <message>
-        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
-        <translation>Кошелёк заблокирован и пользователь отклонен для разблокировки. Отключение Обфускации.</translation>
-    </message>
-    <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Найдено достаточно совместимых вводов для анонимизации %1</translation>
-    </message>
-    <message>
-        <source>Start CoinMixing</source>
-        <translation>Начать Обфускацию</translation>
-    </message>
-    <message>
-        <source>Stop CoinMixing</source>
-        <translation>Остановить Обфускацию</translation>
-    </message>
-    <message>
-        <source>Mixed</source>
-        <translation>Смешано</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation>Включено</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>Недоступно</translation>
-    </message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 </context>
 <context>
     <name>PaymentServer</name>
@@ -2283,7 +2018,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>XRH which were anonymized via Zerocin Protocol</source>
@@ -2451,8 +2185,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2990,13 +2722,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Свернуть</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>CoinMixing</source>
-        <translation>Обфускация</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>за килобайт</translation>
     </message>
@@ -3473,7 +3198,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -3481,8 +3205,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
     </message>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>RhenFAST requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -3637,11 +3359,7 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Обнаружен неверный сценарий.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Last successful Obfuscation action was too recent.</source>
-=======
-        <source>Last successful CoinMixing action was too recent.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Последняя успешная операция обфускации была совсем недавно.</translation>
     </message>
     <message>
@@ -3705,23 +3423,11 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Недостаточно доступных дескрипторов файлов.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation request complete:</source>
         <translation>Запрос об обфускации завершен:</translation>
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-=======
-        <source>CoinMixing options:</source>
-        <translation>Варианты обфускации:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request complete:</source>
-        <translation>Запрос об обфускации завершен:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request incomplete:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Запрос об обфускации неполный:</translation>
     </message>
     <message>

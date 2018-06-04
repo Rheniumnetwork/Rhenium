@@ -86,7 +86,6 @@ bool CBasicKeyStore::HaveWatchOnly() const
     LOCK(cs_KeyStore);
     return (!setWatchOnly.empty());
 }
-<<<<<<< HEAD
 
 bool CBasicKeyStore::AddMultiSig(const CScript& dest)
 {
@@ -113,5 +112,3 @@ bool CBasicKeyStore::HaveMultiSig() const
     LOCK(cs_KeyStore);
     return (!setMultiSig.empty());
 }
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

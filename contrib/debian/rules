@@ -1,15 +1,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-<<<<<<< HEAD
 #DEB_MAKE_CHECK_TARGET = test_Rhenium
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_Rhenium)
-=======
-#DEB_MAKE_CHECK_TARGET = test_pivx
-#build/bitcoind::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_pivx)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 DEB_INSTALL_EXAMPLES_bitcoind += debian/examples/*
 DEB_INSTALL_MANPAGES_bitcoind += debian/manpages/*
@@ -19,11 +13,7 @@ DEB_INSTALL_MANPAGES_bitcoind += debian/manpages/*
 
 override_dh_auto_clean:
 	if [ -f Makefile ]; then $(MAKE) distclean; fi
-<<<<<<< HEAD
 	rm -rf Makefile.in aclocal.m4 configure src/Makefile.in src/Rhenium-config.h.in src/build-aux src/qt/Makefile.in src/qt/test/Makefile.in src/test/Makefile.in
-=======
-	rm -rf Makefile.in aclocal.m4 configure src/Makefile.in src/pivx-config.h.in src/build-aux src/qt/Makefile.in src/qt/test/Makefile.in src/test/Makefile.in
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 # Yea, autogen should be run on the source archive, but I like doing git archive
 override_dh_auto_configure:

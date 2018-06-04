@@ -454,13 +454,8 @@
         <translation>&amp;Information</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Afficher les informations de digRheniumtique</translation>
-=======
-        <source>Show diagnostic information</source>
-        <translation>Afficher les informations de dignostique</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -1025,11 +1020,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ObfuscationConfig</name>
-=======
-    <name>CoinMixingConfig</name>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Basic Privacy</source>
         <translation>Confidentialité de base</translation>
@@ -1115,7 +1106,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>0</source>
@@ -1183,8 +1173,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1413,13 +1401,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Inputs...</source>
-        <translation>Entrés...</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>Fonds insuffisants!</translation>
     </message>
@@ -1711,7 +1692,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Date and time that the transaction was received.</source>
         <translation>Date et heure a laquelle la transaction fut reçue</translation>
@@ -1756,12 +1736,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Cette année</translation>
     </message>
     <message>
-=======
-    </context>
-<context>
-    <name>TransactionView</name>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy address</source>
         <translation>Copier l'adresse</translation>
     </message>
@@ -1827,7 +1801,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
@@ -1835,8 +1808,6 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Error</source>

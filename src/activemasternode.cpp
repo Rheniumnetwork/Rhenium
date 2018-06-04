@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include "activemasternode.h"
 #include "addrman.h"
@@ -15,11 +12,7 @@
 #include "spork.h"
 
 //
-<<<<<<< HEAD
 // Bootup the Masternode, look for a 10000 XRH input and register on the network
-=======
-// Bootup the Masternode, look for a 10000 Rhenium input and register on the network
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 //
 void CActiveMasternode::ManageStatus()
 {
@@ -238,11 +231,7 @@ bool CActiveMasternode::SendMasternodePing(std::string& errorMessage)
         return true;
     } else {
         // Seems like we are trying to send a ping while the Masternode is not registered in the network
-<<<<<<< HEAD
         errorMessage = "Obfuscation Masternode List doesn't include our Masternode, shutting down Masternode pinging service! " + vin.ToString();
-=======
-        errorMessage = "CoinMixing Masternode List doesn't include our Masternode, shutting down Masternode pinging service! " + vin.ToString();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         status = ACTIVE_MASTERNODE_NOT_CAPABLE;
         notCapableReason = errorMessage;
         return false;
@@ -483,13 +472,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-<<<<<<< HEAD
         if (out.tx->vout[out.i].nValue == 10000 * COIN) { //exactly
-=======
-	
-       if (out.tx->vout[out.i].nValue == MASTER_NODE_AMOUNT * COIN) { //exactly
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             filteredCoins.push_back(out);
         }
     }

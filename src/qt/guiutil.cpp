@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -114,11 +110,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-<<<<<<< HEAD
     widget->setPlaceholderText(QObject::tr("Enter a Rhenium address (e.g. %1)").arg("PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp"));
-=======
-    widget->setPlaceholderText(QObject::tr("Enter a Rhenium address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -718,11 +710,8 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 
 
 #elif defined(Q_OS_MAC)
-<<<<<<< HEAD
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // based on: https://github.com/Mozketo/LaunchAtLoginController/blob/master/LaunchAtLoginController.m
 
 #include <CoreFoundation/CoreFoundation.h>
@@ -737,7 +726,6 @@ LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
         UInt32 resolutionFlags = kLSSharedFileListNoUserInteraction | kLSSharedFileListDoNotMountVolumes;
         CFURLRef currentItemURL = NULL;
-<<<<<<< HEAD
 
 #if defined(MAC_OS_X_VERSION_MAX_ALLOWED) && MAC_OS_X_VERSION_MAX_ALLOWED >= 10100
     if(&LSSharedFileListItemCopyResolvedURL)
@@ -751,10 +739,6 @@ LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef
 #endif
 
         if(currentItemURL && CFEqual(currentItemURL, findUrl)) {
-=======
-        LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, NULL);
-        if (currentItemURL && CFEqual(currentItemURL, findUrl)) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             // found
             CFRelease(currentItemURL);
             return item;
@@ -789,10 +773,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     }
     return true;
 }
-<<<<<<< HEAD
 #pragma GCC diagnostic pop
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #else
 
 bool GetStartOnSystemStartup()

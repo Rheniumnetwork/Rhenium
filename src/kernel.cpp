@@ -1,10 +1,7 @@
 /* @flow */
 // Copyright (c) 2012-2013 The PPCoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -303,13 +300,8 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock blockFrom, const CTra
     if (nTimeTx < nTimeBlockFrom) // Transaction timestamp violation
         return error("CheckStakeKernelHash() : nTime violation");
 
-<<<<<<< HEAD
     /////if (nTimeBlockFrom + nStakeMinAge > nTimeTx) // Min age requirement
         /////return error("CheckStakeKernelHash() : min age violation - nTimeBlockFrom=%d nStakeMinAge=%d nTimeTx=%d", nTimeBlockFrom, nStakeMinAge, nTimeTx);
-=======
-    ////////if (nTimeBlockFrom + nStakeMinAge > nTimeTx) // Min age requirement
-       ////////// return error("CheckStakeKernelHash() : min age violation - nTimeBlockFrom=%d nStakeMinAge=%d nTimeTx=%d", nTimeBlockFrom, nStakeMinAge, nTimeTx);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     //grab difficulty
     uint256 bnTargetPerCoinDay;
@@ -337,7 +329,6 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock blockFrom, const CTra
     bool fSuccess = false;
     unsigned int nTryTime = 0;
     unsigned int i;
-<<<<<<< HEAD
     int nHeightStart = chainActive.Height();
     for (i = 0; i < (nHashDrift); i++) //iterate the hashing
     {
@@ -345,10 +336,6 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock blockFrom, const CTra
         if (chainActive.Height() != nHeightStart)
             break;
 
-=======
-    for (i = 0; i < (nHashDrift); i++) //iterate the hashing
-    {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         //hash this iteration
         nTryTime = nTimeTx + nHashDrift - i;
         hashProofOfStake = stakeHash(nTryTime, ss, prevout.n, prevout.hash, nTimeBlockFrom);

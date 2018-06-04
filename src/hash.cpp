@@ -5,12 +5,9 @@
 #include "hash.h"
 #include "crypto/hmac_sha512.h"
 #include "crypto/scrypt.h"
-<<<<<<< HEAD
 #include "crypto/common.h"
 #include "crypto/hmac_sha512.h"
 #include "pubkey.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 inline uint32_t ROTL32(uint32_t x, int8_t r)
 {

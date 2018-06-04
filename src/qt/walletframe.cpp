@@ -139,7 +139,6 @@ void WalletFrame::gotoReceiveCoinsPage()
         i.value()->gotoReceiveCoinsPage();
 }
 
-<<<<<<< HEAD
 void WalletFrame::gotoPrivacyPage()
 {
     QMap<QString, WalletView*>::const_iterator i;
@@ -147,8 +146,6 @@ void WalletFrame::gotoPrivacyPage()
         i.value()->gotoPrivacyPage();
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void WalletFrame::gotoSendCoinsPage(QString addr)
 {
     QMap<QString, WalletView*>::const_iterator i;
@@ -185,7 +182,6 @@ void WalletFrame::gotoMultiSendDialog()
         walletView->gotoMultiSendDialog();
 }
 
-<<<<<<< HEAD
 void WalletFrame::gotoMultisigDialog(int index)
 {
     WalletView* walletView = currentWalletView();
@@ -193,8 +189,6 @@ void WalletFrame::gotoMultisigDialog(int index)
         walletView->gotoMultisigDialog(index);
     }
 }
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 void WalletFrame::encryptWallet(bool status)
 {
@@ -231,7 +225,6 @@ void WalletFrame::lockWallet()
         walletView->lockWallet();
 }
 
-<<<<<<< HEAD
 void WalletFrame::toggleLockWallet()
 {
     WalletView* walletView = currentWalletView();
@@ -239,8 +232,6 @@ void WalletFrame::toggleLockWallet()
         walletView->toggleLockWallet();
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void WalletFrame::usedSendingAddresses()
 {
     WalletView* walletView = currentWalletView();

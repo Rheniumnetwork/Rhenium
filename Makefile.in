@@ -13,6 +13,11 @@
 # PARTICULAR PURPOSE.
 
 @SET_MAKE@
+
+# Copyright (c) 2013-2016 The Bitcoin Core developers
+# Distributed under the MIT software license, see the accompanying
+# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 VPATH = @srcdir@
 am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
 am__make_running_with_option = \
@@ -86,10 +91,10 @@ DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/src/test/buildenv.py.in \
 	$(top_srcdir)/qa/pull-tester/run-bitcoind-for-test.sh.in \
 	$(top_srcdir)/qa/pull-tester/tests-config.sh.in \
-	$(top_srcdir)/contrib/devtools/split-debug.sh.in COPYING \
-	INSTALL build-aux/compile build-aux/config.guess \
-	build-aux/config.sub build-aux/depcomp build-aux/install-sh \
-	build-aux/missing build-aux/ltmain.sh \
+	$(top_srcdir)/contrib/devtools/split-debug.sh.in \
+	$(dist_noinst_SCRIPTS) COPYING INSTALL build-aux/compile \
+	build-aux/config.guess build-aux/config.sub build-aux/depcomp \
+	build-aux/install-sh build-aux/missing build-aux/ltmain.sh \
 	$(top_srcdir)/build-aux/compile \
 	$(top_srcdir)/build-aux/config.guess \
 	$(top_srcdir)/build-aux/config.sub \
@@ -117,7 +122,7 @@ am__aclocal_m4_deps = $(top_srcdir)/build-aux/m4/ax_boost_base.m4 \
 	$(top_srcdir)/build-aux/m4/ltoptions.m4 \
 	$(top_srcdir)/build-aux/m4/ltsugar.m4 \
 	$(top_srcdir)/build-aux/m4/ltversion.m4 \
-	$(top_srcdir)/build-aux/m4/lt~obsolete.m4 $(top_srcdir)/pkg.m4 \
+	$(top_srcdir)/build-aux/m4/lt~obsolete.m4 \
 	$(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
@@ -129,6 +134,7 @@ CONFIG_CLEAN_FILES = share/setup.nsi share/qt/Info.plist \
 	src/test/buildenv.py qa/pull-tester/run-bitcoind-for-test.sh \
 	qa/pull-tester/tests-config.sh contrib/devtools/split-debug.sh
 CONFIG_CLEAN_VPATH_FILES =
+SCRIPTS = $(dist_noinst_SCRIPTS)
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -236,6 +242,10 @@ AUTOMAKE = @AUTOMAKE@
 AWK = @AWK@
 BDB_CPPFLAGS = @BDB_CPPFLAGS@
 BDB_LIBS = @BDB_LIBS@
+BITCOIN_CLI_NAME = @BITCOIN_CLI_NAME@
+BITCOIN_DAEMON_NAME = @BITCOIN_DAEMON_NAME@
+BITCOIN_GUI_NAME = @BITCOIN_GUI_NAME@
+BITCOIN_TX_NAME = @BITCOIN_TX_NAME@
 BOOST_CHRONO_LIB = @BOOST_CHRONO_LIB@
 BOOST_CPPFLAGS = @BOOST_CPPFLAGS@
 BOOST_FILESYSTEM_LIB = @BOOST_FILESYSTEM_LIB@
@@ -279,6 +289,10 @@ ECHO_C = @ECHO_C@
 ECHO_N = @ECHO_N@
 ECHO_T = @ECHO_T@
 EGREP = @EGREP@
+EVENT_CFLAGS = @EVENT_CFLAGS@
+EVENT_LIBS = @EVENT_LIBS@
+EVENT_PTHREADS_CFLAGS = @EVENT_PTHREADS_CFLAGS@
+EVENT_PTHREADS_LIBS = @EVENT_PTHREADS_LIBS@
 EXEEXT = @EXEEXT@
 FGREP = @FGREP@
 GCOV = @GCOV@
@@ -367,12 +381,12 @@ QT_DBUS_LIBS = @QT_DBUS_LIBS@
 QT_INCLUDES = @QT_INCLUDES@
 QT_LDFLAGS = @QT_LDFLAGS@
 QT_LIBS = @QT_LIBS@
+QT_PIE_FLAGS = @QT_PIE_FLAGS@
 QT_SELECT = @QT_SELECT@
 QT_TEST_CFLAGS = @QT_TEST_CFLAGS@
 QT_TEST_INCLUDES = @QT_TEST_INCLUDES@
 QT_TEST_LIBS = @QT_TEST_LIBS@
 QT_TRANSLATION_DIR = @QT_TRANSLATION_DIR@
-QT_XRH_FLAGS = @QT_XRH_FLAGS@
 RANLIB = @RANLIB@
 RCC = @RCC@
 READELF = @READELF@
@@ -456,13 +470,13 @@ top_srcdir = @top_srcdir@
 ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
 GZIP_ENV = "-9n"
-BITCOIND_BIN = $(top_builddir)/src/Rheniumd$(EXEEXT)
-BITCOIN_QT_BIN = $(top_builddir)/src/qt/Rhenium-qt$(EXEEXT)
-BITCOIN_CLI_BIN = $(top_builddir)/src/Rhenium-cli$(EXEEXT)
+BITCOIND_BIN = $(top_builddir)/src/$(BITCOIN_DAEMON_NAME)$(EXEEXT)
+BITCOIN_QT_BIN = $(top_builddir)/src/qt/$(BITCOIN_GUI_NAME)$(EXEEXT)
+BITCOIN_CLI_BIN = $(top_builddir)/src/$(BITCOIN_CLI_NAME)$(EXEEXT)
 BITCOIN_WIN_INSTALLER = $(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 empty := 
 space := $(empty) $(empty)
-OSX_APP = Rhenium-Qt.app
+OSX_APP = XRH-Qt.app
 OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG = background.svg
@@ -472,7 +486,7 @@ OSX_DSSTORE_GEN = $(top_srcdir)/contrib/macdeploy/custom_dsstore.py
 OSX_DEPLOY_SCRIPT = $(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST = $(top_srcdir)/contrib/macdeploy/fancy.plist
 OSX_INSTALLER_ICONS = $(top_srcdir)/src/qt/res/icons/bitcoin.icns
-OSX_PLIST = $(top_srcdir)/share/qt/Info.plist #not installed
+OSX_PLIST = $(top_builddir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 DIST_DOCS = $(wildcard doc/*.md) $(wildcard doc/release-notes/*.md)
 WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoin.ico \
@@ -493,11 +507,12 @@ COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
 
 OSX_APP_BUILT = $(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/Rhenium-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
+  $(OSX_APP)/Contents/MacOS/XRH-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
 
 @BUILD_DARWIN_FALSE@APP_DIST_DIR = $(top_builddir)/dist
 @BUILD_DARWIN_FALSE@APP_DIST_EXTRAS = $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE) $(APP_DIST_DIR)/.DS_Store $(APP_DIST_DIR)/Applications
 @BUILD_DARWIN_FALSE@OSX_BACKGROUND_IMAGE_DPIFILES := $(foreach dpi,$(OSX_BACKGROUND_IMAGE_DPIS),dpi$(dpi).$(OSX_BACKGROUND_IMAGE))
+dist_noinst_SCRIPTS = autogen.sh
 EXTRA_DIST = $(top_srcdir)/share/genbuild.sh qa/pull-tester/rpc-tests.sh qa/pull-tester/run-bitcoin-cli qa/rpc-tests $(DIST_DOCS) $(WINDOWS_PACKAGING) $(OSX_PACKAGING)
 CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 all: all-recursive
@@ -863,11 +878,9 @@ distuninstallcheck:
 	        fi ; \
 	        $(distuninstallcheck_listfiles) ; \
 	        exit 1; } >&2
-@USE_COMPARISON_TOOL_FALSE@check-local:
 check-am: all-am
-	$(MAKE) $(AM_MAKEFLAGS) check-local
 check: check-recursive
-all-am: Makefile
+all-am: Makefile $(SCRIPTS)
 installdirs: installdirs-recursive
 installdirs-am:
 install: install-recursive
@@ -971,14 +984,14 @@ ps-am:
 
 uninstall-am:
 
-.MAKE: $(am__recursive_targets) check-am install-am install-strip
+.MAKE: $(am__recursive_targets) install-am install-strip
 
 .PHONY: $(am__recursive_targets) CTAGS GTAGS TAGS all all-am \
-	am--refresh check check-am check-local clean clean-cscope \
-	clean-generic clean-libtool clean-local cscope cscopelist-am \
-	ctags ctags-am dist dist-all dist-bzip2 dist-gzip dist-hook \
-	dist-lzip dist-shar dist-tarZ dist-xz dist-zip distcheck \
-	distclean distclean-generic distclean-hdr distclean-libtool \
+	am--refresh check check-am clean clean-cscope clean-generic \
+	clean-libtool clean-local cscope cscopelist-am ctags ctags-am \
+	dist dist-all dist-bzip2 dist-gzip dist-hook dist-lzip \
+	dist-shar dist-tarZ dist-xz dist-zip distcheck distclean \
+	distclean-generic distclean-hdr distclean-libtool \
 	distclean-tags distcleancheck distdir distuninstallcheck dvi \
 	dvi-am html html-am info info-am install install-am \
 	install-data install-data-am install-dvi install-dvi-am \
@@ -1011,11 +1024,9 @@ $(BITCOIN_WIN_INSTALLER): all-recursive
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIND_BIN) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_QT_BIN) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_CLI_BIN) $(top_builddir)/release
-	@test -f $(MAKENSIS) && $(MAKENSIS) $(top_builddir)/share/setup.nsi || \
+	@test -f $(MAKENSIS) && $(MAKENSIS) -V2 $(top_builddir)/share/setup.nsi || \
 	  echo error: could not build $@
-
-$(if $(findstring src/,$(MAKECMDGOALS)),$(MAKECMDGOALS), none): FORCE
-	$(MAKE) -C src $(patsubst src/%,%,$@)
+	@echo built $@
 
 $(OSX_APP)/Contents/PkgInfo:
 	$(MKDIR_P) $(@D)
@@ -1033,7 +1044,7 @@ $(OSX_APP)/Contents/Resources/bitcoin.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/Rhenium-Qt: $(BITCOIN_QT_BIN)
+$(OSX_APP)/Contents/MacOS/XRH-Qt: $(BITCOIN_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
@@ -1060,7 +1071,7 @@ osx_volname:
 @BUILD_DARWIN_FALSE@	@rm -f $@
 @BUILD_DARWIN_FALSE@	@cd $(@D); $(LN_S) /Applications $(@F)
 
-@BUILD_DARWIN_FALSE@$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Rhenium-Qt
+@BUILD_DARWIN_FALSE@$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/XRH-Qt
 
 @BUILD_DARWIN_FALSE@$(OSX_DMG): $(APP_DIST_EXTRAS)
 @BUILD_DARWIN_FALSE@	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "$(OSX_VOLNAME)" -no-pad -r -dir-mode 0755 -apple -o $@ dist
@@ -1074,7 +1085,7 @@ osx_volname:
 @BUILD_DARWIN_FALSE@$(APP_DIST_DIR)/.DS_Store: $(OSX_DSSTORE_GEN)
 @BUILD_DARWIN_FALSE@	$(PYTHON) $< "$@" "$(OSX_VOLNAME)"
 
-@BUILD_DARWIN_FALSE@$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Rhenium-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
+@BUILD_DARWIN_FALSE@$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/XRH-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
 @BUILD_DARWIN_FALSE@	INSTALLNAMETOOL=$(INSTALLNAMETOOL)  OTOOL=$(OTOOL) STRIP=$(STRIP) $(PYTHON) $(OSX_DEPLOY_SCRIPT) $(OSX_APP) -translations-dir=$(QT_TRANSLATION_DIR) -add-qt-tr $(OSX_QT_TRANSLATIONS) -verbose 2
 
 @BUILD_DARWIN_FALSE@deploydir: $(APP_DIST_EXTRAS)
@@ -1141,10 +1152,6 @@ $(BITCOIN_CLI_BIN): FORCE
 @USE_LCOV_TRUE@	@touch $@
 
 @USE_LCOV_TRUE@cov: test_Rhenium.coverage/.dirstamp total.coverage/.dirstamp
-
-# Rhenium: disable the outdated comparison tool test
-# Ref https://github.com/bitcoin/bitcoin/issues/4545
-@USE_COMPARISON_TOOL_TRUE@check-local:
 
 .INTERMEDIATE: $(COVERAGE_INFO)
 

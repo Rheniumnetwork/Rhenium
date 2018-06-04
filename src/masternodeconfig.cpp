@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // clang-format off
 #include "net.h"
 #include "masternodeconfig.h"
@@ -33,11 +30,7 @@ bool CMasternodeConfig::read(std::string& strErr)
         if (configFile != NULL) {
             std::string strHeader = "# Masternode config file\n"
                                     "# Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index\n"
-<<<<<<< HEAD
                                     "# Example: mn1 127.0.0.2:5110 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0\n";
-=======
-                                    "# Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0\n";
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
         }
@@ -101,8 +94,4 @@ bool CMasternodeConfig::CMasternodeEntry::castOutputIndex(int &n)
     }
 
     return true;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

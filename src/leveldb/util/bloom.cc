@@ -47,11 +47,7 @@ class BloomFilterPolicy : public FilterPolicy {
     dst->resize(init_size + bytes, 0);
     dst->push_back(static_cast<char>(k_));  // Remember # of probes in filter
     char* array = &(*dst)[init_size];
-<<<<<<< HEAD
     for (size_t i = 0; i < (size_t)n; i++) {
-=======
-    for (size_t i = 0; i < n; i++) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
       // Use double-hashing to generate a sequence of hash values.
       // See analysis in [Kirsch,Mitzenmacher 2006].
       uint32_t h = BloomHash(keys[i]);

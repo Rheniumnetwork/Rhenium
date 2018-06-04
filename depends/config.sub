@@ -1,14 +1,8 @@
 #! /bin/sh
 # Configuration validation subroutine script.
-<<<<<<< HEAD
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
 timestamp='2017-01-01'
-=======
-#   Copyright 1992-2016 Free Software Foundation, Inc.
-
-timestamp='2016-05-10'
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -73,11 +67,7 @@ Report bugs and patches to <config-patches@gnu.org>."
 version="\
 GNU config.sub ($timestamp)
 
-<<<<<<< HEAD
 Copyright 1992-2017 Free Software Foundation, Inc.
-=======
-Copyright 1992-2016 Free Software Foundation, Inc.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
@@ -127,11 +117,7 @@ case $maybe_os in
   nto-qnx* | linux-gnu* | linux-android* | linux-dietlibc | linux-newlib* | \
   linux-musl* | linux-uclibc* | uclinux-uclibc* | uclinux-gnu* | kfreebsd*-gnu* | \
   knetbsd*-gnu* | netbsd*-gnu* | netbsd*-eabi* | \
-<<<<<<< HEAD
   kopensolaris*-gnu* | cloudabi*-eabi* | \
-=======
-  kopensolaris*-gnu* | \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   storm-chaos* | os2-emx* | rtmk-nova*)
     os=-$maybe_os
     basic_machine=`echo $1 | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`
@@ -315,10 +301,7 @@ case $basic_machine in
 	| open8 | or1k | or1knd | or32 \
 	| pdp10 | pdp11 | pj | pjl \
 	| powerpc | powerpc64 | powerpc64le | powerpcle \
-<<<<<<< HEAD
 	| pru \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	| pyramid \
 	| riscv32 | riscv64 \
 	| rl78 | rx \
@@ -446,10 +429,7 @@ case $basic_machine in
 	| orion-* \
 	| pdp10-* | pdp11-* | pj-* | pjl-* | pn-* | power-* \
 	| powerpc-* | powerpc64-* | powerpc64le-* | powerpcle-* \
-<<<<<<< HEAD
 	| pru-* \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	| pyramid-* \
 	| riscv32-* | riscv64-* \
 	| rl78-* | romp-* | rs6000-* | rx-* \
@@ -614,11 +594,7 @@ case $basic_machine in
 		basic_machine=cr16-unknown
 		os=-elf
 		;;
-<<<<<<< HEAD
 	crds | uRhenium)
-=======
-	crds | unos)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		basic_machine=m68k-crds
 		;;
 	crisv32 | crisv32-* | etraxfs*)
@@ -669,7 +645,6 @@ case $basic_machine in
 		basic_machine=m68k-bull
 		os=-sysv3
 		;;
-<<<<<<< HEAD
 	e500v[12])
 		basic_machine=powerpc-unknown
 		os=$os"spe"
@@ -678,8 +653,6 @@ case $basic_machine in
 		basic_machine=powerpc-`echo $basic_machine | sed 's/^[^-]*-//'`
 		os=$os"spe"
 		;;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	ebmon29k)
 		basic_machine=a29k-amd
 		os=-ebmon
@@ -1059,11 +1032,7 @@ case $basic_machine in
 	ppc-* | ppcbe-*)
 		basic_machine=powerpc-`echo $basic_machine | sed 's/^[^-]*-//'`
 		;;
-<<<<<<< HEAD
 	ppcle | powerpclittle)
-=======
-	ppcle | powerpclittle | ppc-le | powerpc-little)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		basic_machine=powerpcle-unknown
 		;;
 	ppcle-* | powerpclittle-*)
@@ -1073,11 +1042,7 @@ case $basic_machine in
 		;;
 	ppc64-*) basic_machine=powerpc64-`echo $basic_machine | sed 's/^[^-]*-//'`
 		;;
-<<<<<<< HEAD
 	ppc64le | powerpc64little)
-=======
-	ppc64le | powerpc64little | ppc64-le | powerpc64-little)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		basic_machine=powerpc64le-unknown
 		;;
 	ppc64le-* | powerpc64little-*)
@@ -1171,7 +1136,6 @@ case $basic_machine in
 		;;
 	sun2os3)
 		basic_machine=m68000-sun
-<<<<<<< HEAD
 		os=-suRhenium3
 		;;
 	sun2os4)
@@ -1193,29 +1157,6 @@ case $basic_machine in
 	sun4os4)
 		basic_machine=sparc-sun
 		os=-suRhenium4
-=======
-		os=-sunos3
-		;;
-	sun2os4)
-		basic_machine=m68000-sun
-		os=-sunos4
-		;;
-	sun3os3)
-		basic_machine=m68k-sun
-		os=-sunos3
-		;;
-	sun3os4)
-		basic_machine=m68k-sun
-		os=-sunos4
-		;;
-	sun4os3)
-		basic_machine=sparc-sun
-		os=-sunos3
-		;;
-	sun4os4)
-		basic_machine=sparc-sun
-		os=-sunos4
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	sun4sol2)
 		basic_machine=sparc-sun
@@ -1424,11 +1365,7 @@ case $os in
 		os=-auroraux
 		;;
 	-solaris1 | -solaris1.*)
-<<<<<<< HEAD
 		os=`echo $os | sed -e 's|solaris1|suRhenium4|'`
-=======
-		os=`echo $os | sed -e 's|solaris1|sunos4|'`
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	-solaris)
 		os=-solaris2
@@ -1447,13 +1384,8 @@ case $os in
 	# Each alternative MUST END IN A *, to match a version number.
 	# -sysv* is not here because it comes later, after sysvr4.
 	-gnu* | -bsd* | -mach* | -minix* | -genix* | -ultrix* | -irix* \
-<<<<<<< HEAD
 	      | -*vms* | -sco* | -esix* | -isc* | -aix* | -cnk* | -suRhenium | -suRhenium[34]*\
 	      | -hpux* | -uRhenium* | -osf* | -luna* | -dgux* | -auroraux* | -solaris* \
-=======
-	      | -*vms* | -sco* | -esix* | -isc* | -aix* | -cnk* | -sunos | -sunos[34]*\
-	      | -hpux* | -unos* | -osf* | -luna* | -dgux* | -auroraux* | -solaris* \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	      | -sym* | -kopensolaris* | -plan9* \
 	      | -amigaos* | -amigados* | -msdos* | -newsos* | -unicos* | -aof* \
 	      | -aos* | -aros* | -cloudabi* | -sortix* \
@@ -1465,15 +1397,9 @@ case $os in
 	      | -bosx* | -nextstep* | -cxux* | -aout* | -elf* | -oabi* \
 	      | -ptx* | -coff* | -ecoff* | -winnt* | -domain* | -vsta* \
 	      | -udi* | -eabi* | -lites* | -ieee* | -go32* | -aux* \
-<<<<<<< HEAD
 	      | -chorusos* | -chorusrdb* | -cegcc* | -glidix* \
 	      | -cygwin* | -msys* | -pe* | -psos* | -moss* | -proelf* | -rtems* \
 	      | -midipix* | -mingw32* | -mingw64* | -linux-gnu* | -linux-android* \
-=======
-	      | -chorusos* | -chorusrdb* | -cegcc* \
-	      | -cygwin* | -msys* | -pe* | -psos* | -moss* | -proelf* | -rtems* \
-	      | -mingw32* | -mingw64* | -linux-gnu* | -linux-android* \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	      | -linux-newlib* | -linux-musl* | -linux-uclibc* \
 	      | -uxpv* | -beos* | -mpeix* | -udk* | -moxiebox* \
 	      | -interix* | -uwin* | -mks* | -rhapsody* | -darwin* | -opened* \
@@ -1483,11 +1409,7 @@ case $os in
 	      | -morphos* | -superux* | -rtmk* | -rtmk-nova* | -windiss* \
 	      | -powermax* | -dnix* | -nx6 | -nx7 | -sei* | -dragonfly* \
 	      | -skyos* | -haiku* | -rdos* | -toppers* | -drops* | -es* \
-<<<<<<< HEAD
 	      | -onefs* | -tirtos* | -phoenix* | -fuchsia* | -redox*)
-=======
-	      | -onefs* | -tirtos* | -phoenix*)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 	# Remember, each alternative MUST END IN *, to match a version number.
 		;;
 	-qnx*)
@@ -1517,19 +1439,11 @@ case $os in
 	-linux*)
 		os=`echo $os | sed -e 's|linux|linux-gnu|'`
 		;;
-<<<<<<< HEAD
 	-suRhenium5*)
 		os=`echo $os | sed -e 's|suRhenium5|solaris2|'`
 		;;
 	-suRhenium6*)
 		os=`echo $os | sed -e 's|suRhenium6|solaris3|'`
-=======
-	-sunos5*)
-		os=`echo $os | sed -e 's|sunos5|solaris2|'`
-		;;
-	-sunos6*)
-		os=`echo $os | sed -e 's|sunos6|solaris3|'`
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	-opened*)
 		os=-openedition
@@ -1698,17 +1612,10 @@ case $basic_machine in
 		os=-domain
 		;;
 	i386-sun)
-<<<<<<< HEAD
 		os=-suRhenium4.0.2
 		;;
 	m68000-sun)
 		os=-suRhenium3
-=======
-		os=-sunos4.0.2
-		;;
-	m68000-sun)
-		os=-sunos3
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	m68*-cisco)
 		os=-aout
@@ -1729,14 +1636,10 @@ case $basic_machine in
 		os=-sysv3
 		;;
 	sparc-* | *-sun)
-<<<<<<< HEAD
 		os=-suRhenium4.1.1
 		;;
 	pru-*)
 		os=-elf
-=======
-		os=-sunos4.1.1
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	*-be)
 		os=-beos
@@ -1790,11 +1693,7 @@ case $basic_machine in
 		os=-ptx
 		;;
 	*-crds)
-<<<<<<< HEAD
 		os=-uRhenium
-=======
-		os=-unos
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 		;;
 	*-ns)
 		os=-genix
@@ -1853,11 +1752,7 @@ case $basic_machine in
 			-riscix*)
 				vendor=acorn
 				;;
-<<<<<<< HEAD
 			-suRhenium*)
-=======
-			-sunos*)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 				vendor=sun
 				;;
 			-cnk*|-aix*)
@@ -1875,11 +1770,7 @@ case $basic_machine in
 			-hiux*)
 				vendor=hitachi
 				;;
-<<<<<<< HEAD
 			-uRhenium*)
-=======
-			-unos*)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 				vendor=crds
 				;;
 			-dgux*)

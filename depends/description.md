@@ -1,11 +1,7 @@
 This is a system of building and caching dependencies necessary for building Bitcoin. 
 There are several features that make it different from most similar systems:
 
-<<<<<<< HEAD
 ### It is designed to be builder and host agRheniumtic
-=======
-### It is designed to be builder and host agnostic
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 In theory, binaries for any target OS/architecture can be created, from a
 builder running any OS/architecture. In practice, build-side tools must be

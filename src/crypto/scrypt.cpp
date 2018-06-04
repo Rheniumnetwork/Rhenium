@@ -1,9 +1,5 @@
 /*
-<<<<<<< HEAD
  * Copyright 2009 Colin Pernodiumal, 2011 ArtForz, 2012-2013 pooler
-=======
- * Copyright 2009 Colin Percival, 2011 ArtForz, 2012-2013 pooler
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -27,11 +23,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
-<<<<<<< HEAD
  * This file was originally written by Colin Pernodiumal as part of the Tarsnap
-=======
- * This file was originally written by Colin Percival as part of the Tarsnap
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * online backup system.
  */
 

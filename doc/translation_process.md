@@ -8,21 +8,13 @@ Transifex is setup to monitor the GitHub repo for updates, and when code contain
 
 Multiple language support is critical in assisting Rhenium's global adoption, and growth. One of Rhenium's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-<<<<<<< HEAD
 See the [Transifex Rhenium project](https://www.transifex.com/) to assist in translations.
-=======
-See the [Transifex Rhenium project](https://www.transifex.com/Rhenium-project/Rhenium-project-translations/) to assist in translations.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
 `Rhenium_xx_YY.ts or Rhenium_xx.ts`
 
-<<<<<<< HEAD
 `src/qt/locale/Rhenium_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `Rhenium_en.ts`.
-=======
-`src/qt/locale/Rhenium_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `XRHdate` (included in the Qt SDK) is used to update `Rhenium_en.ts`.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 To automatically regenerate the `Rhenium_en.ts` file, run the following commands:
 ```sh
@@ -51,11 +43,7 @@ git commit
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-<<<<<<< HEAD
 You can find the Rhenium translation project at [https://www.transifex.com/](https://www.transifex.com/).
-=======
-You can find the Rhenium translation project at [https://www.transifex.com/Rhenium-project/Rhenium-project-translations/](https://www.transifex.com/Rhenium-project/Rhenium-project-translations/).
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 ### Installing the Transifex client command-line tool
 The client it used to fetch updated translations. If you are having problems, or need more details, see [http://docs.transifex.com/developer/client/setup](http://docs.transifex.com/developer/client/setup)
@@ -118,10 +106,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-<<<<<<< HEAD
 The Rhenium Core translation maintainers include *GOAT*. You can find them, and others, in the [Rhenium Discord](https://discord.gg/YcnvMqt).
-=======
-The Rhenium Core translation maintainers include *Fuzzbawls and s3v3nh4cks*. You can find them, and others, in the [Rhenium Slack](https://Rhenium.slack.com).
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.

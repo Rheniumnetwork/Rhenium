@@ -48,11 +48,7 @@ private:
 public Q_SLOTS:
     void updateMyMasternodeInfo(QString strAlias, QString strAddr, CMasternode* pmn);
     void updateMyNodeList(bool fForce = false);
-<<<<<<< HEAD
     void updateNodeList();
-=======
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 Q_SIGNALS:
 
 private:
@@ -65,10 +61,7 @@ private:
 
 private Q_SLOTS:
     void showContextMenu(const QPoint&);
-<<<<<<< HEAD
     void on_filterLineEdit_textChanged(const QString& strFilterIn);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void on_startButton_clicked();
     void on_startAllButton_clicked();
     void on_startMissingButton_clicked();

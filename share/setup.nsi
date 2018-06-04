@@ -1,34 +1,34 @@
-Name "Rhenium Core (64-bit)"
+Name "Rhenium Core (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 2.3.0
+!define VERSION 1.0.0
 !define COMPANY "Rhenium Core project"
 !define URL https://www.Rhenium.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/root/Rhenium-src/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/Rhenium-src/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/root/zRhenium/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/zRhenium/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/root/Rhenium-src/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/root/zRhenium/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Rhenium Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\Rhenium-qt.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\Rhenium-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/Rhenium-src/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/zRhenium/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
 !include Sections.nsh
 !include MUI2.nsh
-!if "64" == "64"
+!if "" == "64"
 !include x64.nsh
 !endif
 
@@ -48,8 +48,8 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /root/Rhenium-src/Rhenium-${VERSION}-win64-setup.exe
-!if "64" == "64"
+OutFile /root/zRhenium/Rhenium-${VERSION}-win-setup.exe
+!if "" == "64"
 InstallDir $PROGRAMFILES64\Rhenium
 !else
 InstallDir $PROGRAMFILES\Rhenium
@@ -73,20 +73,16 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /root/Rhenium-src/release/Rhenium-qt.exe
-    File /oname=COPYING.txt /root/Rhenium-src/COPYING
-    File /oname=readme.txt /root/Rhenium-src/doc/README_windows.txt
+    File /root/zRhenium/release/Rhenium-qt
+    File /oname=COPYING.txt /root/zRhenium/COPYING
+    File /oname=readme.txt /root/zRhenium/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /root/Rhenium-src/release/Rheniumd.exe
-    File /root/Rhenium-src/release/Rhenium-cli.exe
+    File /root/zRhenium/release/Rheniumd
+    File /root/zRhenium/release/Rhenium-cli
     SetOutPath $INSTDIR\doc
-    File /r /root/Rhenium-src/doc\*.*
+    File /r /root/zRhenium/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
-
-    # Remove old wxwidgets-based-Rhenium executable and locales:
-    Delete /REBOOTOK $INSTDIR\Rhenium.exe
-    RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
 Section -post SEC0001
@@ -95,7 +91,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\Rhenium-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\Rhenium-qt
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Rhenium Core (testnet, -bit).lnk" "$INSTDIR\Rhenium-qt" "-testnet" "$INSTDIR\Rhenium-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -108,8 +105,8 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "Rhenium" "URL Protocol" ""
     WriteRegStr HKCR "Rhenium" "" "URL:Rhenium"
-    WriteRegStr HKCR "Rhenium\DefaultIcon" "" $INSTDIR\Rhenium-qt.exe
-    WriteRegStr HKCR "Rhenium\shell\open\command" "" '"$INSTDIR\Rhenium-qt.exe" "%1"'
+    WriteRegStr HKCR "Rhenium\DefaultIcon" "" $INSTDIR\Rhenium-qt
+    WriteRegStr HKCR "Rhenium\shell\open\command" "" '"$INSTDIR\Rhenium-qt" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +124,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\Rhenium-qt.exe
+    Delete /REBOOTOK $INSTDIR\Rhenium-qt
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -139,6 +136,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Rhenium Core (testnet, -bit).lnk"
     Delete /REBOOTOK "$SMSTARTUP\Rhenium.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
@@ -160,7 +158,7 @@ SectionEnd
 # Installer functions
 Function .onInit
     InitPluginsDir
-!if "64" == "64"
+!if "" == "64"
     ${If} ${RunningX64}
       ; disable registry redirection (enable access to 64-bit portion of registry)
       SetRegView 64

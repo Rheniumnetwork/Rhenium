@@ -1,9 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,12 +13,8 @@
 #include "uint256.h"
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
-<<<<<<< HEAD
 static const unsigned int MAX_BLOCK_SIZE_CURRENT = 2000000;
 static const unsigned int MAX_BLOCK_SIZE_LEGACY = 1000000;
-=======
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 /** Nodes collect new transactions into a block, hash them into a hash tree,
  * and scan through nonce values to make the block's hash satisfy proof-of-work
@@ -34,21 +27,14 @@ class CBlockHeader
 {
 public:
     // header
-<<<<<<< HEAD
     static const int32_t CURRENT_VERSION=4;
-=======
-    static const int32_t CURRENT_VERSION=3;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     int32_t nVersion;
     uint256 hashPrevBlock;
     uint256 hashMerkleRoot;
     uint32_t nTime;
     uint32_t nBits;
     uint32_t nNonce;
-<<<<<<< HEAD
     uint256 nAccumulatorCheckpoint;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     CBlockHeader()
     {
@@ -66,13 +52,10 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
-<<<<<<< HEAD
 
         //zerocoin active, header changes to include accumulator checksum
         if(nVersion > 3)
             READWRITE(nAccumulatorCheckpoint);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     void SetNull()
@@ -83,10 +66,7 @@ public:
         nTime = 0;
         nBits = 0;
         nNonce = 0;
-<<<<<<< HEAD
         nAccumulatorCheckpoint = 0;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     bool IsNull() const
@@ -155,10 +135,7 @@ public:
         block.nTime          = nTime;
         block.nBits          = nBits;
         block.nNonce         = nNonce;
-<<<<<<< HEAD
         block.nAccumulatorCheckpoint = nAccumulatorCheckpoint;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         return block;
     }
 

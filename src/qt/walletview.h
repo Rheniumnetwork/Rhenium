@@ -14,10 +14,7 @@ class BitcoinGUI;
 class ClientModel;
 class OverviewPage;
 class ReceiveCoinsDialog;
-<<<<<<< HEAD
 class PrivacyDialog;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 class SendCoinsDialog;
 class SendCoinsRecipient;
 class TransactionView;
@@ -46,11 +43,7 @@ public:
 
     void setBitcoinGUI(BitcoinGUI* gui);
     /** Set the client model.
-<<<<<<< HEAD
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agRheniumtic.
-=======
-        The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     */
     void setClientModel(ClientModel* clientModel);
     /** Set the wallet model.
@@ -70,10 +63,7 @@ private:
     OverviewPage* overviewPage;
     QWidget* transactionsPage;
     ReceiveCoinsDialog* receiveCoinsPage;
-<<<<<<< HEAD
     PrivacyDialog* privacyPage;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     SendCoinsDialog* sendCoinsPage;
     BlockExplorer* explorerWindow;
     MasternodeList* masternodeListPage;
@@ -92,11 +82,8 @@ public slots:
     void gotoMasternodePage();
     /** Switch to explorer page */
     void gotoBlockExplorerPage();
-<<<<<<< HEAD
     /** Switch to privacy page */
     void gotoPrivacyPage();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Switch to receive coins page */
     void gotoReceiveCoinsPage();
     /** Switch to send coins page */
@@ -108,12 +95,8 @@ public slots:
     void gotoVerifyMessageTab(QString addr = "");
     /** Show MultiSend Dialog */
     void gotoMultiSendDialog();
-<<<<<<< HEAD
     /** Show a multisig tab **/
     void gotoMultisigDialog(int index);
-=======
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Show BIP 38 tool - default to Encryption tab */
     void gotoBip38Tool();
 
@@ -132,11 +115,8 @@ public slots:
     void unlockWallet();
     /** Lock wallet */
     void lockWallet();
-<<<<<<< HEAD
     /** Toggle wallet lock state */
     void toggleLockWallet();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     /** Show used sending addresses */
     void usedSendingAddresses();

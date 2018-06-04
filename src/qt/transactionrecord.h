@@ -81,7 +81,6 @@ public:
         MNReward,
         RecvFromOther,
         SendToSelf,
-<<<<<<< HEAD
         ZerocoinMint,
         ZerocoinSpend,
         RecvFromZerocoinSpend,
@@ -92,13 +91,6 @@ public:
         ObfuscationCollateralPayment,
         ObfuscationMakeCollaterals,
         ObfuscationCreateDenominations,
-=======
-        RecvWithCoinMixing,
-        CoinMixingDenominate,
-        CoinMixingCollateralPayment,
-        CoinMixingMakeCollaterals,
-        CoinMixingCreateDenominations,
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         Obfuscated
     };
 

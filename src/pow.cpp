@@ -1,10 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,12 +16,7 @@
 
 #include <math.h>
 
-<<<<<<< HEAD
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast) 
-=======
-
-unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     /* current difficulty formula, Rhenium - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
     const CBlockIndex* BlockLastSolved = pindexLast;
@@ -113,16 +105,12 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         bnNew = Params().ProofOfWorkLimit();
     }
 
-<<<<<<< HEAD
     return bnNew.GetCompact();	
 }
 	
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
 {
 	return DarkGravityWave(pindexLast);
-=======
-    return bnNew.GetCompact();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)
@@ -141,13 +129,8 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
         return error("CheckProofOfWork() : nBits below minimum work");
 
     // Check proof of work matches claimed amount
-<<<<<<< HEAD
     // if (hash > bnTarget)
     //     return error("CheckProofOfWork() : hash doesn't match nBits");
-=======
-    ///////////if (hash > bnTarget)
-        //////////////return error("CheckProofOfWork() : hash doesn't match nBits");
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     return true;
 }

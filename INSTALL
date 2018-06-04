@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Building Rhenium
-=======
-Building PieX
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Use the autogen script to prepare the build environment.
 
@@ -14,8 +10,4 @@ Always verify the signatures and checksums.
 
 See doc/build-*.md for instructions on building Rheniumd,
 the intended-for-services, no-graphical-interface, reference
-<<<<<<< HEAD
 implementation of Rhenium.
-=======
-implementation of PieX.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

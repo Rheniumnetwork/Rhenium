@@ -360,11 +360,7 @@ public:
 
     //check to see if we should vote on this
     void AutoCheck();
-<<<<<<< HEAD
     //total Rhenium paid out by this budget
-=======
-    //total pivx paid out by this budget
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount GetTotalPayout();
     //vote on this finalized budget as a masternode
     void SubmitVote();

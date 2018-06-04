@@ -34,11 +34,7 @@ PROJECT_NAME           = Rhenium
 # This could be handy for archiving the generated documentation or
 # if some version control system is used.
 
-<<<<<<< HEAD
 PROJECT_NUMBER         = 2.3.99
-=======
-PROJECT_NUMBER         = 2.2.99
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer
@@ -289,11 +285,7 @@ DISTRIBUTE_GROUP_DOC   = NO
 # the same type (for instance a group of public functions) to be put as a
 # subgroup of that type (e.g. under the Public Functions section). Set it to
 # NO to prevent subgrouping. Alternatively, this can be done per class using
-<<<<<<< HEAD
 # the \Rheniumubgrouping command.
-=======
-# the \nosubgrouping command.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 SUBGROUPING            = YES
 

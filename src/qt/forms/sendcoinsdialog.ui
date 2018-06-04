@@ -107,11 +107,7 @@
              <string notr="true"/>
             </property>
             <property name="text">
-<<<<<<< HEAD
              <string>Open Coin Control...</string>
-=======
-             <string>Inputs...</string>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             </property>
             <property name="autoDefault">
              <bool>false</bool>
@@ -121,11 +117,7 @@
           <item>
            <widget class="QLabel" name="labelCoinControlAutomaticallySelected">
             <property name="text">
-<<<<<<< HEAD
              <string>Coins automatically selected</string>
-=======
-             <string>automatically selected</string>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             </property>
             <property name="margin">
              <number>5</number>
@@ -659,11 +651,7 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
-<<<<<<< HEAD
         <height>113</height>
-=======
-        <height>95</height>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -1397,27 +1385,12 @@
         <number>3</number>
        </property>
        <item>
-<<<<<<< HEAD
         <widget class="QCheckBox" name="checkzXRH">
          <property name="enabled">
           <bool>false</bool>
          </property>
          <property name="text">
           <string>Anonymized XRH</string>
-=======
-        <widget class="QCheckBox" name="checkUseCoinMixing">
-         <property name="minimumSize">
-          <size>
-           <width>95</width>
-           <height>0</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>CoinMixing</string>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
          </property>
         </widget>
        </item>
@@ -1433,11 +1406,7 @@
           </size>
          </property>
          <property name="text">
-<<<<<<< HEAD
           <string>SwiftX</string>
-=======
-          <string>RhenFAST</string>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
          </property>
         </widget>
        </item>

@@ -58,11 +58,8 @@ public slots:
     void gotoMasternodePage();
     /** Switch to receive coins page */
     void gotoReceiveCoinsPage();
-<<<<<<< HEAD
     /** Switch to privacy page */
     void gotoPrivacyPage();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
     /** Switch to explorer page */
@@ -73,12 +70,8 @@ public slots:
     void gotoVerifyMessageTab(QString addr = "");
     /** Show MultiSend Dialog **/
     void gotoMultiSendDialog();
-<<<<<<< HEAD
     /** show a multisig tab **/
     void gotoMultisigDialog(int index);
-=======
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Show BIP 38 tool - default to Encryption tab */
     void gotoBip38Tool();
 
@@ -92,11 +85,8 @@ public slots:
     void unlockWallet();
     /** Lock wallet */
     void lockWallet();
-<<<<<<< HEAD
     /** Toggle Wallet Lock State */
     void toggleLockWallet();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     /** Show used sending addresses */
     void usedSendingAddresses();

@@ -2,13 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-<<<<<<< HEAD
 #ifndef BITCOIN_QT_ASKPASSXRHASEDIALOG_H
 #define BITCOIN_QT_ASKPASSXRHASEDIALOG_H
-=======
-#ifndef BITCOIN_QT_ASKPASSPHRASEDIALOG_H
-#define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <QDialog>
 
@@ -53,8 +48,4 @@ protected:
     bool eventFilter(QObject* object, QEvent* event);
 };
 
-<<<<<<< HEAD
 #endif // BITCOIN_QT_ASKPASSXRHASEDIALOG_H
-=======
-#endif // BITCOIN_QT_ASKPASSPHRASEDIALOG_H
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

@@ -30,10 +30,7 @@ const char* GetTxnOutputType(txnouttype t)
     case TX_SCRIPTHASH: return "scripthash";
     case TX_MULTISIG: return "multisig";
     case TX_NULL_DATA: return "nulldata";
-<<<<<<< HEAD
     case TX_ZEROCOINMINT: return "zerocoinmint";
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
     return NULL;
 }
@@ -67,7 +64,6 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
         return true;
     }
 
-<<<<<<< HEAD
     // Zerocoin
     if (scriptPubKey.IsZerocoinMint()){
         typeRet = TX_ZEROCOINMINT;
@@ -77,8 +73,6 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
         return true;
     }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     // Provably prunable, data-carrying output
     //
     // So long as script passes the IsUnspendable() test and all but the first
@@ -180,10 +174,7 @@ int ScriptSigArgsExpected(txnouttype t, const std::vector<std::vector<unsigned c
     {
     case TX_NONSTANDARD:
     case TX_NULL_DATA:
-<<<<<<< HEAD
     case TX_ZEROCOINMINT:
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         return -1;
     case TX_PUBKEY:
         return 1;

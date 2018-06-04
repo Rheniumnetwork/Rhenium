@@ -1,11 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -39,19 +35,12 @@ extern bool fMasterNode;
 extern bool fLiteMode;
 extern bool fEnableRhenFAST;
 extern int nRhenFASTDepth;
-<<<<<<< HEAD
 extern int nZeromintPercentage;
 extern const int64_t AUTOMINT_DELAY;
 extern int nPreferredDenom;
 extern int nAnonymizeRheniumAmount;
 extern int nLiquidityProvider;
 extern bool fEnableZeromint;
-=======
-extern int nCoinMixingRounds;
-extern int nAnonymizeRheniumAmount;
-extern int nLiquidityProvider;
-extern bool fEnableCoinMixing;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 extern int64_t enforceMasternodePaymentsTime;
 extern std::string strMasterNodeAddr;
 extern int keysLoaded;
@@ -95,11 +84,7 @@ int LogPrintStr(const std::string& str);
     template <TINYFORMAT_ARGTYPES(n)>                                                           \
     static inline bool error(const char* format, TINYFORMAT_VARARGS(n))                         \
     {                                                                                           \
-<<<<<<< HEAD
         LogPrintStr(std::string("ERROR: ") + tfm::format(format, TINYFORMAT_PASSARGS(n)) + "\n");            \
-=======
-        LogPrintStr("ERROR: " + tfm::format(format, TINYFORMAT_PASSARGS(n)) + "\n");            \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         return false;                                                                           \
     }
 

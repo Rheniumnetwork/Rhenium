@@ -12,10 +12,7 @@
 #include "hash.h"
 #include "sync.h"
 #include "uint256.h"
-<<<<<<< HEAD
 #include "random.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "util.h"
 #include "utilstrencodings.h"
 
@@ -34,24 +31,15 @@
 #include <boost/algorithm/string/predicate.hpp> // for startswith() and endswith()
 #include <boost/thread.hpp>
 
-<<<<<<< HEAD
 #if !defined(HAVE_MSG_XRHIGNAL) && !defined(MSG_XRHIGNAL)
 #define MSG_XRHIGNAL 0
-=======
-#if !defined(HAVE_MSG_NOSIGNAL) && !defined(MSG_NOSIGNAL)
-#define MSG_NOSIGNAL 0
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
 
 using namespace std;
 
 // Settings
 static proxyType proxyInfo[NET_MAX];
-<<<<<<< HEAD
 static proxyType nameProxy;
-=======
-static CService nameProxy;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 static CCriticalSection cs_proxyInfos;
 int nConnectTimeout = DEFAULT_CONNECT_TIMEOUT;
 bool fNameLookup = false;
@@ -243,14 +231,7 @@ bool LookupNumeric(const char* pszName, CService& addr, int portDefault)
     return Lookup(pszName, addr, portDefault, false);
 }
 
-<<<<<<< HEAD
 struct timeval MillisToTimeval(int64_t nTimeout)
-=======
-/**
- * Convert milliseconds to a struct timeval for select.
- */
-struct timeval static MillisToTimeval(int64_t nTimeout)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     struct timeval timeout;
     timeout.tv_sec = nTimeout / 1000;
@@ -307,7 +288,6 @@ bool static InterruptibleRecv(char* data, size_t len, int timeout, SOCKET& hSock
     return len == 0;
 }
 
-<<<<<<< HEAD
 struct ProxyCredentials
 {
     std::string username;
@@ -316,16 +296,12 @@ struct ProxyCredentials
 
 /** Connect using SOCKS5 (as described in RFC1928) */
 bool static Socks5(string strDest, int port, const ProxyCredentials *auth, SOCKET& hSocket)
-=======
-bool static Socks5(string strDest, int port, SOCKET& hSocket)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     LogPrintf("SOCKS5 connecting %s\n", strDest);
     if (strDest.size() > 255) {
         CloseSocket(hSocket);
         return error("Hostname too long");
     }
-<<<<<<< HEAD
     // Accepted authentication methods
     std::vector<uint8_t> vSocks5Init;
     vSocks5Init.push_back(0x05);
@@ -339,13 +315,6 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
     }
     ssize_t ret = send(hSocket, (const char*)begin_ptr(vSocks5Init), vSocks5Init.size(), MSG_XRHIGNAL);
     if (ret != (ssize_t)vSocks5Init.size()) {
-=======
-    char pszSocks5Init[] = "\5\1\0";
-    ssize_t nSize = sizeof(pszSocks5Init) - 1;
-
-    ssize_t ret = send(hSocket, pszSocks5Init, nSize, MSG_NOSIGNAL);
-    if (ret != nSize) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         CloseSocket(hSocket);
         return error("Error sending to proxy");
     }
@@ -354,7 +323,6 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
         CloseSocket(hSocket);
         return error("Error reading proxy response");
     }
-<<<<<<< HEAD
     if (pchRet1[0] != 0x05) {
         CloseSocket(hSocket);
         return error("Proxy failed to initialize");
@@ -401,21 +369,6 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
     vSocks5.push_back((port >> 0) & 0xFF);
     ret = send(hSocket, (const char*)begin_ptr(vSocks5), vSocks5.size(), MSG_XRHIGNAL);
     if (ret != (ssize_t)vSocks5.size()) {
-=======
-    if (pchRet1[0] != 0x05 || pchRet1[1] != 0x00) {
-        CloseSocket(hSocket);
-        return error("Proxy failed to initialize");
-    }
-    string strSocks5("\5\1");
-    strSocks5 += '\000';
-    strSocks5 += '\003';
-    strSocks5 += static_cast<char>(std::min((int)strDest.size(), 255));
-    strSocks5 += strDest;
-    strSocks5 += static_cast<char>((port >> 8) & 0xFF);
-    strSocks5 += static_cast<char>((port >> 0) & 0xFF);
-    ret = send(hSocket, strSocks5.data(), strSocks5.size(), MSG_NOSIGNAL);
-    if (ret != (ssize_t)strSocks5.size()) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         CloseSocket(hSocket);
         return error("Error sending to proxy");
     }
@@ -504,17 +457,10 @@ bool static ConnectSocketDirectly(const CService& addrConnect, SOCKET& hSocketRe
     if (hSocket == INVALID_SOCKET)
         return false;
 
-<<<<<<< HEAD
 #ifdef SO_XRHIGPIPE
     int set = 1;
     // Different way of disabling SIGPIPE on BSD
     setsockopt(hSocket, SOL_SOCKET, SO_XRHIGPIPE, (void*)&set, sizeof(int));
-=======
-#ifdef SO_NOSIGPIPE
-    int set = 1;
-    // Different way of disabling SIGPIPE on BSD
-    setsockopt(hSocket, SOL_SOCKET, SO_NOSIGPIPE, (void*)&set, sizeof(int));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif
 
     // Set to non-blocking
@@ -573,11 +519,7 @@ bool static ConnectSocketDirectly(const CService& addrConnect, SOCKET& hSocketRe
     return true;
 }
 
-<<<<<<< HEAD
 bool SetProxy(enum Network net, const proxyType &addrProxy)
-=======
-bool SetProxy(enum Network net, CService addrProxy)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     assert(net >= 0 && net < NET_MAX);
     if (!addrProxy.IsValid())
@@ -597,11 +539,7 @@ bool GetProxy(enum Network net, proxyType& proxyInfoOut)
     return true;
 }
 
-<<<<<<< HEAD
 bool SetNameProxy(const proxyType &addrProxy)
-=======
-bool SetNameProxy(CService addrProxy)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     if (!addrProxy.IsValid())
         return false;
@@ -610,11 +548,7 @@ bool SetNameProxy(CService addrProxy)
     return true;
 }
 
-<<<<<<< HEAD
 bool GetNameProxy(proxyType &nameProxyOut)
-=======
-bool GetNameProxy(CService& nameProxyOut)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     LOCK(cs_proxyInfos);
     if (!nameProxy.IsValid())
@@ -633,43 +567,22 @@ bool IsProxy(const CNetAddr& addr)
 {
     LOCK(cs_proxyInfos);
     for (int i = 0; i < NET_MAX; i++) {
-<<<<<<< HEAD
         if (addr == (CNetAddr)proxyInfo[i].proxy)
-=======
-        if (addr == (CNetAddr)proxyInfo[i])
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             return true;
     }
     return false;
 }
 
-<<<<<<< HEAD
 static bool ConnectThroughProxy(const proxyType &proxy, const std::string strDest, int port, SOCKET& hSocketRet, int nTimeout, bool *outProxyConnectionFailed)
 {
     SOCKET hSocket = INVALID_SOCKET;
     // first connect to proxy server
     if (!ConnectSocketDirectly(proxy.proxy, hSocket, nTimeout)) {
-=======
-bool ConnectSocket(const CService& addrDest, SOCKET& hSocketRet, int nTimeout, bool* outProxyConnectionFailed)
-{
-    proxyType proxy;
-    if (outProxyConnectionFailed)
-        *outProxyConnectionFailed = false;
-    // no proxy needed (none set for target network)
-    if (!GetProxy(addrDest.GetNetwork(), proxy))
-        return ConnectSocketDirectly(addrDest, hSocketRet, nTimeout);
-
-    SOCKET hSocket = INVALID_SOCKET;
-
-    // first connect to proxy server
-    if (!ConnectSocketDirectly(proxy, hSocket, nTimeout)) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         if (outProxyConnectionFailed)
             *outProxyConnectionFailed = true;
         return false;
     }
     // do socks negotiation
-<<<<<<< HEAD
     if (proxy.randomize_credentials) {
         ProxyCredentials random_auth;
         random_auth.username = strprintf("%i", insecure_rand());
@@ -680,16 +593,11 @@ bool ConnectSocket(const CService& addrDest, SOCKET& hSocketRet, int nTimeout, b
         if (!Socks5(strDest, (unsigned short)port, 0, hSocket))
             return false;
     }
-=======
-    if (!Socks5(addrDest.ToStringIP(), addrDest.GetPort(), hSocket))
-        return false;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     hSocketRet = hSocket;
     return true;
 }
 
-<<<<<<< HEAD
 bool ConnectSocket(const CService &addrDest, SOCKET& hSocketRet, int nTimeout, bool *outProxyConnectionFailed)
 {
     proxyType proxy;
@@ -702,8 +610,6 @@ bool ConnectSocket(const CService &addrDest, SOCKET& hSocketRet, int nTimeout, b
         return ConnectSocketDirectly(addrDest, hSocketRet, nTimeout);
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool ConnectSocketByName(CService& addr, SOCKET& hSocketRet, const char* pszDest, int portDefault, int nTimeout, bool* outProxyConnectionFailed)
 {
     string strDest;
@@ -714,13 +620,7 @@ bool ConnectSocketByName(CService& addr, SOCKET& hSocketRet, const char* pszDest
 
     SplitHostPort(string(pszDest), port, strDest);
 
-<<<<<<< HEAD
     proxyType nameProxy;
-=======
-    SOCKET hSocket = INVALID_SOCKET;
-
-    CService nameProxy;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     GetNameProxy(nameProxy);
 
     CService addrResolved(CNetAddr(strDest, fNameLookup && !HaveNameProxy()), port);
@@ -733,22 +633,7 @@ bool ConnectSocketByName(CService& addr, SOCKET& hSocketRet, const char* pszDest
 
     if (!HaveNameProxy())
         return false;
-<<<<<<< HEAD
     return ConnectThroughProxy(nameProxy, strDest, port, hSocketRet, nTimeout, outProxyConnectionFailed);
-=======
-    // first connect to name proxy server
-    if (!ConnectSocketDirectly(nameProxy, hSocket, nTimeout)) {
-        if (outProxyConnectionFailed)
-            *outProxyConnectionFailed = true;
-        return false;
-    }
-    // do socks negotiation
-    if (!Socks5(strDest, (unsigned short)port, hSocket))
-        return false;
-
-    hSocketRet = hSocket;
-    return true;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 void CNetAddr::Init()

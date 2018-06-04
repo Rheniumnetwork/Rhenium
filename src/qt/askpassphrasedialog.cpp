@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,15 +28,9 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
     ui->passEdit2->setMinimumSize(ui->passEdit2->sizeHint());
     ui->passEdit3->setMinimumSize(ui->passEdit3->sizeHint());
 
-<<<<<<< HEAD
     ui->passEdit1->setMaxLength(MAX_PASSXRHASE_SIZE);
     ui->passEdit2->setMaxLength(MAX_PASSXRHASE_SIZE);
     ui->passEdit3->setMaxLength(MAX_PASSXRHASE_SIZE);
-=======
-    ui->passEdit1->setMaxLength(MAX_PASSPHRASE_SIZE);
-    ui->passEdit2->setMaxLength(MAX_PASSPHRASE_SIZE);
-    ui->passEdit3->setMaxLength(MAX_PASSPHRASE_SIZE);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // Setup Caps Lock detection.
     ui->passEdit1->installEventFilter(this);
@@ -103,15 +93,9 @@ void AskPassphraseDialog::accept()
     SecureString oldpass, newpass1, newpass2;
     if (!model)
         return;
-<<<<<<< HEAD
     oldpass.reserve(MAX_PASSXRHASE_SIZE);
     newpass1.reserve(MAX_PASSXRHASE_SIZE);
     newpass2.reserve(MAX_PASSXRHASE_SIZE);
-=======
-    oldpass.reserve(MAX_PASSPHRASE_SIZE);
-    newpass1.reserve(MAX_PASSPHRASE_SIZE);
-    newpass2.reserve(MAX_PASSPHRASE_SIZE);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     // TODO: get rid of this .c_str() by implementing SecureString::operator=(std::string)
     // Alternately, find a way to make this input mlock()'d to begin with.
     oldpass.assign(ui->passEdit1->text().toStdString().c_str());

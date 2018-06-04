@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-=======
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2015-2016 The Dash developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifndef ACTIVEMASTERNODE_H
 #define ACTIVEMASTERNODE_H
 
@@ -18,11 +10,7 @@
 #include "key.h"
 #include "masternode.h"
 #include "net.h"
-<<<<<<< HEAD
 #include "obfuscation.h"
-=======
-#include "coinmixing.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "sync.h"
 #include "wallet.h"
 

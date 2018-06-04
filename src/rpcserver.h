@@ -1,9 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -137,11 +134,8 @@ extern uint256 ParseHashV(const json_spirit::Value& v, std::string strName);
 extern uint256 ParseHashO(const json_spirit::Object& o, std::string strKey);
 extern std::vector<unsigned char> ParseHexV(const json_spirit::Value& v, std::string strName);
 extern std::vector<unsigned char> ParseHexO(const json_spirit::Object& o, std::string strKey);
-<<<<<<< HEAD
 extern int ParseInt(const json_spirit::Object& o, std::string strKey);
 extern bool ParseBool(const json_spirit::Object& o, std::string strKey);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 extern void InitRPCMining();
 extern void ShutdownRPCMining();
@@ -220,7 +214,6 @@ extern json_spirit::Value setstakesplitthreshold(const json_spirit::Array& param
 extern json_spirit::Value getstakesplitthreshold(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value multisend(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value autocombinerewards(const json_spirit::Array& params, bool fHelp);
-<<<<<<< HEAD
 extern json_spirit::Value getzerocoinbalance(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value listmintedzerocoins(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value listspentzerocoins(const json_spirit::Array& params, bool fHelp);
@@ -233,8 +226,6 @@ extern json_spirit::Value getarchivedzerocoin(const json_spirit::Array& params, 
 extern json_spirit::Value importzerocoins(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value exportzerocoins(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value reconsiderzerocoins(const json_spirit::Array& params, bool fHelp);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 extern json_spirit::Value getrawtransaction(const json_spirit::Array& params, bool fHelp); // in rcprawtransaction.cpp
 extern json_spirit::Value listunspent(const json_spirit::Array& params, bool fHelp);
@@ -262,11 +253,7 @@ extern json_spirit::Value getchaintips(const json_spirit::Array& params, bool fH
 extern json_spirit::Value invalidateblock(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value reconsiderblock(const json_spirit::Array& params, bool fHelp);
 
-<<<<<<< HEAD
 extern json_spirit::Value obfuscation(const json_spirit::Array& params, bool fHelp); // in rpcmasternode.cpp
-=======
-extern json_spirit::Value coinmixing(const json_spirit::Array& params, bool fHelp); // in rpcmasternode.cpp
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 extern json_spirit::Value getpoolinfo(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value masternode(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value listmasternodes(const json_spirit::Array& params, bool fHelp);
@@ -309,8 +296,4 @@ extern bool HTTPReq_REST(AcceptedConnection* conn,
     std::map<std::string, std::string>& mapHeaders,
     bool fRun);
 
-<<<<<<< HEAD
 #endif // BITCOIN_RPCSERVER_H
-=======
-#endif // BITCOIN_RPCSERVER_H
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

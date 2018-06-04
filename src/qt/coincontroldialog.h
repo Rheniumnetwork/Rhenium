@@ -18,10 +18,7 @@
 
 class WalletModel;
 
-<<<<<<< HEAD
 class MultisigDialog;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 class CCoinControl;
 class CTxMemPool;
 
@@ -35,18 +32,11 @@ class CoinControlDialog : public QDialog
     Q_OBJECT
 
 public:
-<<<<<<< HEAD
     explicit CoinControlDialog(QWidget* parent = nullptr, bool fMultisigEnabled = false);
     ~CoinControlDialog();
 
     void setModel(WalletModel* model);
     void updateDialogLabels();
-=======
-    explicit CoinControlDialog(QWidget* parent = 0);
-    ~CoinControlDialog();
-
-    void setModel(WalletModel* model);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // static because also called from sendcoinsdialog
     static void updateLabels(WalletModel*, QDialog*);
@@ -61,10 +51,7 @@ private:
     WalletModel* model;
     int sortColumn;
     Qt::SortOrder sortOrder;
-<<<<<<< HEAD
     bool fMultisigEnabled;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     QMenu* contextMenu;
     QTreeWidgetItem* contextMenuItem;
@@ -81,11 +68,7 @@ private:
         COLUMN_AMOUNT,
         COLUMN_LABEL,
         COLUMN_ADDRESS,
-<<<<<<< HEAD
         COLUMN_TYPE,
-=======
-        COLUMN_COINMIXING_ROUNDS,
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         COLUMN_DATE,
         COLUMN_CONFIRMATIONS,
         COLUMN_PRIORITY,

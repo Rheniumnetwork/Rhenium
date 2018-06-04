@@ -271,11 +271,7 @@ public:
     //! check whether a particular output is still available
     bool IsAvailable(unsigned int nPos) const
     {
-<<<<<<< HEAD
         return (nPos < vout.size() && !vout[nPos].IsNull() && !vout[nPos].scriptPubKey.IsZerocoinMint());
-=======
-        return (nPos < vout.size() && !vout[nPos].IsNull());
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 
     //! check whether the entire CCoins is spent

@@ -3,10 +3,7 @@
 #include "chainparams.h"
 #include "clientmodel.h"
 #include "core_io.h"
-<<<<<<< HEAD
 #include "guiutil.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "main.h"
 #include "net.h"
 #include "txdb.h"
@@ -31,30 +28,18 @@ static std::string makeHRef(const std::string& Str)
     return "<a href=\"" + Str + "\">" + Str + "</a>";
 }
 
-<<<<<<< HEAD
 static CAmount getTxIn(const CTransaction& tx)
-=======
-static int64_t getTxIn(const CTransaction& tx)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     if (tx.IsCoinBase())
         return 0;
 
-<<<<<<< HEAD
     CAmount Sum = 0;
-=======
-    int64_t Sum = 0;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     for (unsigned int i = 0; i < tx.vin.size(); i++)
         Sum += getPrevOut(tx.vin[i].prevout).nValue;
     return Sum;
 }
 
-<<<<<<< HEAD
 static std::string ValueToString(CAmount nValue, bool AllowNegative = false)
-=======
-static std::string ValueToString(int64_t nValue, bool AllowNegative = false)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 {
     if (nValue < 0 && !AllowNegative)
         return "<span>" + _("unknown") + "</span>";
@@ -212,15 +197,9 @@ std::string BlockToString(CBlockIndex* pBlock)
     CBlock block;
     ReadBlockFromDisk(block, pBlock);
 
-<<<<<<< HEAD
     CAmount Fees = 0;
     CAmount OutVolume = 0;
     CAmount Reward = 0;
-=======
-    int64_t Fees = 0;
-    int64_t OutVolume = 0;
-    int64_t Reward = 0;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     std::string TxLabels[] = {_("Hash"), _("From"), _("Amount"), _("To"), _("Amount")};
 
@@ -229,13 +208,8 @@ std::string BlockToString(CBlockIndex* pBlock)
         const CTransaction& tx = block.vtx[i];
         TxContent += TxToRow(tx);
 
-<<<<<<< HEAD
         CAmount In = getTxIn(tx);
         CAmount Out = tx.GetValueOut();
-=======
-        int64_t In = getTxIn(tx);
-        int64_t Out = tx.GetValueOut();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         if (tx.IsCoinBase())
             Reward += Out;
         else if (In < 0)
@@ -247,11 +221,7 @@ std::string BlockToString(CBlockIndex* pBlock)
     }
     TxContent += "</table>";
 
-<<<<<<< HEAD
     CAmount Generated;
-=======
-    int64_t Generated;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (pBlock->nHeight == 0)
         Generated = OutVolume;
     else
@@ -317,13 +287,8 @@ std::string BlockToString(CBlockIndex* pBlock)
 
 std::string TxToString(uint256 BlockHash, const CTransaction& tx)
 {
-<<<<<<< HEAD
     CAmount Input = 0;
     CAmount Output = tx.GetValueOut();
-=======
-    int64_t Input = 0;
-    int64_t Output = tx.GetValueOut();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     std::string InputsContentCells[] = {_("#"), _("Taken from"), _("Address"), _("Amount")};
     std::string InputsContent = makeHTMLTableRow(InputsContentCells, sizeof(InputsContentCells) / sizeof(std::string));
@@ -426,15 +391,8 @@ std::string AddressToString(const CBitcoinAddress& Address)
     /*
     CScript AddressScript;
     AddressScript.SetDestination(Address.Get());
-<<<<<<< HEAD
     CAmount Sum = 0;
     bool fAddrIndex = false;
-=======
-
-    int64_t Sum = 0;
-    bool fAddrIndex = false;
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (!fAddrIndex)
         return ""; // it will take too long to find transactions by address
     else
@@ -473,11 +431,8 @@ BlockExplorer::BlockExplorer(QWidget* parent) : QMainWindow(parent),
 {
     ui->setupUi(this);
 
-<<<<<<< HEAD
     this->setStyleSheet(GUIUtil::loadStyleSheet());
     
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     connect(ui->pushSearch, SIGNAL(released()), this, SLOT(onSearch()));
     connect(ui->content, SIGNAL(linkActivated(const QString&)), this, SLOT(goTo(const QString&)));
     connect(ui->back, SIGNAL(released()), this, SLOT(back()));
@@ -593,16 +548,10 @@ void BlockExplorer::setBlock(CBlockIndex* pBlock)
 
 void BlockExplorer::setContent(const std::string& Content)
 {
-<<<<<<< HEAD
     QString CSS = "body {font-size:12px; color:#f8f6f6; bgcolor:#F38F10;}\n a, span { font-family: moRheniumpace; }\n span.addr {color:#F38F10; font-weight: bold;}\n table tr td {padding: 3px; border: 1px solid black; background-color: #F38F10;}\n td.d0 {font-weight: bold; color:#f8f6f6;}\n h2, h3 { white-space:nowrap; color:#F38F10;}\n a { color:#FFFC00; text-decoration:none; }\n a.nav {color:#F38F10;}\n";
     QString FullContent = "<html><head><style type=\"text/css\">" + CSS + "</style></head>" + "<body>" + Content.c_str() + "</body></html>";
     // printf(FullContent.toUtf8());
 
-=======
-    QString CSS = "body {font-size:12px; background-color: #C8E5E2; color:#444;}\n a, span { font-family: monospace; }\n span.addr {color:#13BE5D; font-weight: bold;}\n table tr td {padding: 3px; border: none; background-color: #A1CDC8;}\n td.d0 {font-weight: bold; color:#f8f8f8;}\n h2, h3 { white-space:nowrap; color:#1B7884;}\n a { text-decoration:none; }\n a.nav {color:green;}\n";
-    QString FullContent = "<html><head><style type=\"text/css\">" + CSS + "</style></head>" + "<body>" + Content.c_str() + "</body></html>";
-    // printf(FullContent.toUtf8());
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     ui->content->setText(FullContent);
 }
 

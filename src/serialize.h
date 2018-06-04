@@ -1,9 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,10 +18,7 @@
 #include <string>
 #include <utility>
 #include <vector>
-<<<<<<< HEAD
 #include "libzerocoin/Denominations.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 class CScript;
 
@@ -281,11 +275,8 @@ inline void Serialize(Stream& s, bool a, int, int = 0)
     char f = a;
     WRITEDATA(s, f);
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 template <typename Stream>
 inline void Unserialize(Stream& s, bool& a, int, int = 0)
 {
@@ -293,7 +284,6 @@ inline void Unserialize(Stream& s, bool& a, int, int = 0)
     READDATA(s, f);
     a = f;
 }
-<<<<<<< HEAD
 // Serializatin for libzerocoin::CoinDenomination
 inline unsigned int GetSerializeSize(libzerocoin::CoinDenomination a, int, int = 0) { return sizeof(libzerocoin::CoinDenomination); }
 template <typename Stream>
@@ -311,8 +301,6 @@ inline void Unserialize(Stream& s, libzerocoin::CoinDenomination& a, int, int = 
     a = libzerocoin::IntToZerocoinDenomination(f);
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 
 /**

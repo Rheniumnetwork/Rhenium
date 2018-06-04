@@ -35,19 +35,11 @@ public:
     void setClientModel(ClientModel* clientModel);
     void setWalletModel(WalletModel* walletModel);
     void showOutOfSyncWarning(bool fShow);
-<<<<<<< HEAD
 
 public slots:
     void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
                     const CAmount& zerocoinBalance, const CAmount& unconfirmedZerocoinBalance, const CAmount& immatureZerocoinBalance,
                     const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
-=======
-    void updateCoinMixingProgress();
-
-public slots:
-    void obfuScationStatus();
-    void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, const CAmount& anonymizedBalance, const CAmount& watchOnlyBalance, const CAmount& watchUnconfBalance, const CAmount& watchImmatureBalance);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 signals:
     void transactionClicked(const QModelIndex& index);
@@ -60,32 +52,19 @@ private:
     CAmount currentBalance;
     CAmount currentUnconfirmedBalance;
     CAmount currentImmatureBalance;
-<<<<<<< HEAD
     CAmount currentZerocoinBalance;
     CAmount currentUnconfirmedZerocoinBalance;
     CAmount currentimmatureZerocoinBalance;
-=======
-    CAmount currentAnonymizedBalance;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount currentWatchOnlyBalance;
     CAmount currentWatchUnconfBalance;
     CAmount currentWatchImmatureBalance;
     int nDisplayUnit;
-<<<<<<< HEAD
     void getPercentage(CAmount nTotalBalance, CAmount nZerocoinBalance, QString& sXRHPercentage, QString& szXRHPercentage);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     TxViewDelegate* txdelegate;
     TransactionFilterProxy* filter;
 
 private slots:
-<<<<<<< HEAD
-=======
-    void toggleCoinMixing();
-    void coinmixingAuto();
-    void coinmixingReset();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex& index);
     void updateAlerts(const QString& warnings);

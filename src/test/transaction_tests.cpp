@@ -132,11 +132,7 @@ BOOST_AUTO_TEST_CASE(tx_valid)
             stream >> tx;
 
             CValidationState state;
-<<<<<<< HEAD
             BOOST_CHECK_MESSAGE(CheckTransaction(tx, false, false, state), strTest);
-=======
-            BOOST_CHECK_MESSAGE(CheckTransaction(tx, state), strTest);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             BOOST_CHECK(state.IsValid());
 
             for (unsigned int i = 0; i < tx.vin.size(); i++)
@@ -212,11 +208,7 @@ BOOST_AUTO_TEST_CASE(tx_invalid)
             stream >> tx;
 
             CValidationState state;
-<<<<<<< HEAD
             fValid = CheckTransaction(tx, false, false, state) && state.IsValid();
-=======
-            fValid = CheckTransaction(tx, state) && state.IsValid();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
             for (unsigned int i = 0; i < tx.vin.size() && fValid; i++)
             {
@@ -245,19 +237,11 @@ BOOST_AUTO_TEST_CASE(basic_transaction_tests)
     CMutableTransaction tx;
     stream >> tx;
     CValidationState state;
-<<<<<<< HEAD
     BOOST_CHECK_MESSAGE(CheckTransaction(tx, false, false, state) && state.IsValid(), "Simple deserialized transaction should be valid.");
 
     // Check that duplicate txins fail
     tx.vin.push_back(tx.vin[0]);
     BOOST_CHECK_MESSAGE(!CheckTransaction(tx, false, false, state) || !state.IsValid(), "Transaction with duplicate txins should be invalid.");
-=======
-    BOOST_CHECK_MESSAGE(CheckTransaction(tx, state) && state.IsValid(), "Simple deserialized transaction should be valid.");
-
-    // Check that duplicate txins fail
-    tx.vin.push_back(tx.vin[0]);
-    BOOST_CHECK_MESSAGE(!CheckTransaction(tx, state) || !state.IsValid(), "Transaction with duplicate txins should be invalid.");
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 //

@@ -1,9 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,14 +15,10 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-<<<<<<< HEAD
 	if(nVersion < 4)
         return HashQuark(BEGIN(nVersion), END(nNonce));
 
     return Hash(BEGIN(nVersion), END(nAccumulatorCheckpoint));
-=======
-    return HashQuark(BEGIN(nVersion), END(nNonce));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 uint256 CBlock::BuildMerkleTree(bool* fMutated) const
@@ -269,7 +262,3 @@ bool CBlock::CheckBlockSignature() const
 
     return false;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e

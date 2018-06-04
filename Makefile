@@ -14,6 +14,11 @@
 
 
 
+# Copyright (c) 2013-2016 The Bitcoin Core developers
+# Distributed under the MIT software license, see the accompanying
+# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+
 am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
 am__make_running_with_option = \
   case $${target_option-} in \
@@ -76,7 +81,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-unknown-linux-gnu
-host_triplet = x86_64-w64-mingw32
+host_triplet = x86_64-unknown-linux-gnu
 subdir = .
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) \
@@ -86,10 +91,10 @@ DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/src/test/buildenv.py.in \
 	$(top_srcdir)/qa/pull-tester/run-bitcoind-for-test.sh.in \
 	$(top_srcdir)/qa/pull-tester/tests-config.sh.in \
-	$(top_srcdir)/contrib/devtools/split-debug.sh.in COPYING \
-	INSTALL build-aux/compile build-aux/config.guess \
-	build-aux/config.sub build-aux/depcomp build-aux/install-sh \
-	build-aux/missing build-aux/ltmain.sh \
+	$(top_srcdir)/contrib/devtools/split-debug.sh.in \
+	$(dist_noinst_SCRIPTS) COPYING INSTALL build-aux/compile \
+	build-aux/config.guess build-aux/config.sub build-aux/depcomp \
+	build-aux/install-sh build-aux/missing build-aux/ltmain.sh \
 	$(top_srcdir)/build-aux/compile \
 	$(top_srcdir)/build-aux/config.guess \
 	$(top_srcdir)/build-aux/config.sub \
@@ -117,7 +122,7 @@ am__aclocal_m4_deps = $(top_srcdir)/build-aux/m4/ax_boost_base.m4 \
 	$(top_srcdir)/build-aux/m4/ltoptions.m4 \
 	$(top_srcdir)/build-aux/m4/ltsugar.m4 \
 	$(top_srcdir)/build-aux/m4/ltversion.m4 \
-	$(top_srcdir)/build-aux/m4/lt~obsolete.m4 $(top_srcdir)/pkg.m4 \
+	$(top_srcdir)/build-aux/m4/lt~obsolete.m4 \
 	$(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
@@ -129,6 +134,7 @@ CONFIG_CLEAN_FILES = share/setup.nsi share/qt/Info.plist \
 	src/test/buildenv.py qa/pull-tester/run-bitcoind-for-test.sh \
 	qa/pull-tester/tests-config.sh contrib/devtools/split-debug.sh
 CONFIG_CLEAN_VPATH_FILES =
+SCRIPTS = $(dist_noinst_SCRIPTS)
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -226,62 +232,70 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /root/Rhenium-src/build-aux/missing aclocal-1.14
+ACLOCAL = ${SHELL} /root/zRhenium/build-aux/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /usr/bin/x86_64-w64-mingw32-ar
-AUTOCONF = ${SHELL} /root/Rhenium-src/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /root/Rhenium-src/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /root/Rhenium-src/build-aux/missing automake-1.14
+AR = /usr/bin/ar
+AUTOCONF = ${SHELL} /root/zRhenium/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /root/zRhenium/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /root/zRhenium/build-aux/missing automake-1.14
 AWK = mawk
 BDB_CPPFLAGS = 
 BDB_LIBS = -ldb_cxx-4.8
-BOOST_CHRONO_LIB = -lboost_chrono-mt-s
-BOOST_CPPFLAGS = -mthreads -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include
-BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt-s
-BOOST_LDFLAGS = -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib
-BOOST_LIBS = -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib -lboost_system-mt-s -lboost_filesystem-mt-s -lboost_program_options-mt-s -lboost_thread_win32-mt-s -lboost_chrono-mt-s
-BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt-s
-BOOST_SYSTEM_LIB = -lboost_system-mt-s
-BOOST_THREAD_LIB = -lboost_thread_win32-mt-s
-BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework-mt-s
+BITCOIN_CLI_NAME = Rhenium-cli
+BITCOIN_DAEMON_NAME = Rheniumd
+BITCOIN_GUI_NAME = Rhenium-qt
+BITCOIN_TX_NAME = Rhenium-tx
+BOOST_CHRONO_LIB = -lboost_chrono
+BOOST_CPPFLAGS = -pthread -I/usr/include
+BOOST_FILESYSTEM_LIB = -lboost_filesystem
+BOOST_LDFLAGS = -L/usr/lib/x86_64-linux-gnu
+BOOST_LIBS = -L/usr/lib/x86_64-linux-gnu -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lboost_chrono
+BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options
+BOOST_SYSTEM_LIB = -lboost_system
+BOOST_THREAD_LIB = -lboost_thread
+BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework
 BREW = 
 BUILD_QT = qt
 BUILD_TEST = test
 BUILD_TEST_QT = test
-CC = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/ccache x86_64-w64-mingw32-gcc
-CCACHE = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/ccache
+CC = gcc
+CCACHE = 
 CCDEPMODE = depmode=gcc3
-CFLAGS = -pipe -O2 
+CFLAGS = -g -O2
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
-CLIENT_VERSION_MAJOR = 2
-CLIENT_VERSION_MINOR = 3
+CLIENT_VERSION_MAJOR = 1
+CLIENT_VERSION_MINOR = 0
 CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2017
-CPP = x86_64-w64-mingw32-gcc -E
-CPPFILT = /usr/bin/x86_64-w64-mingw32-c++filt
-CPPFLAGS = -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
-CRYPTO_CFLAGS = 
-CRYPTO_LIBS = -lcrypto
-CXX = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/ccache x86_64-w64-mingw32-g++ -std=c++11
-CXXCPP = x86_64-w64-mingw32-g++ -std=c++11 -E
+CPP = gcc -E
+CPPFILT = /usr/bin/c++filt
+CPPFLAGS =  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
+CRYPTO_CFLAGS =  
+CRYPTO_LIBS = -lcrypto  
+CXX = g++ -std=c++11
+CXXCPP = g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -pipe -O2   -Wstack-protector -fstack-protector-all -fvisibility=hidden
+CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC -fvisibility=hidden
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = x86_64-w64-mingw32-dlltool
+DLLTOOL = false
 DSYMUTIL = 
 DUMPBIN = 
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
-EXEEXT = .exe
+EVENT_CFLAGS =  
+EVENT_LIBS = -levent  
+EVENT_PTHREADS_CFLAGS = -pthread  
+EVENT_PTHREADS_LIBS = -levent_pthreads -levent  
+EXEEXT = 
 FGREP = /bin/grep -F
-GCOV = /usr/bin/x86_64-w64-mingw32-gcov
+GCOV = /usr/bin/gcov
 GENHTML = 
 GENISOIMAGE = 
 GIT = /usr/bin/git
@@ -296,114 +310,114 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JAVA = 
-JAVA_COMPARISON_TOOL = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/share/BitcoindComparisonTool_jar/BitcoindComparisonTool.jar
+JAVA_COMPARISON_TOOL = 
 LCOV = 
-LD = /usr/bin/x86_64-w64-mingw32-ld
-LDFLAGS = -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib   -Wl,--dynamicbase -Wl,--nxcompat
+LD = /usr/bin/ld -m elf_x86_64
+LDFLAGS =   -Wl,-z,relro -Wl,-z,now
 LEVELDB_CPPFLAGS = 
-LEVELDB_TARGET_FLAGS = TARGET_OS=OS_WINDOWS_CROSSCOMPILE
+LEVELDB_TARGET_FLAGS = 
 LIBLEVELDB = 
 LIBMEMENV = 
 LIBOBJS = 
-LIBS = -lcrypto -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd 
+LIBS = -lcrypto -lanl 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS =  -all-static
+LIBTOOL_APP_LDFLAGS = 
 LIPO = 
 LN_S = ln -s
-LRELEASE = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/lrelease
+LRELEASE = /usr/lib/x86_64-linux-gnu/qt5/bin/lrelease
 LTLIBOBJS = 
-LUPDATE = 
+LUPDATE = /usr/lib/x86_64-linux-gnu/qt5/bin/lupdate
 MAINT = 
-MAKEINFO = ${SHELL} /root/Rhenium-src/build-aux/missing makeinfo
-MAKENSIS = none
+MAKEINFO = ${SHELL} /root/zRhenium/build-aux/missing makeinfo
+MAKENSIS = 
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = -DSTATICLIB -DMINIUPNP_STATICLIB
+MINIUPNPC_CPPFLAGS = 
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/moc
+MOC = /usr/lib/x86_64-linux-gnu/qt5/bin/moc
 MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
-NM = x86_64-w64-mingw32-nm
+NM = /usr/bin/nm -B
 NMEDIT = 
-OBJCOPY = /usr/bin/x86_64-w64-mingw32-objcopy
-OBJCXX = x86_64-w64-mingw32-g++
+OBJCOPY = /usr/bin/objcopy
+OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
-OBJCXXFLAGS = -pipe -O2   -Wstack-protector -fstack-protector-all
-OBJDUMP = x86_64-w64-mingw32-objdump
+OBJCXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter  -Wstack-protector -fstack-protector-all -fPIC
+OBJDUMP = objdump
 OBJEXT = o
 OTOOL = 
 OTOOL64 = 
 PACKAGE = Rhenium
 PACKAGE_BUGREPORT = www.Rhenium.org
 PACKAGE_NAME = Rhenium Core
-PACKAGE_STRING = Rhenium Core 2.3.0
+PACKAGE_STRING = Rhenium Core 1.0.0
 PACKAGE_TARNAME = Rhenium
 PACKAGE_URL = 
-PACKAGE_VERSION = 2.3.0
+PACKAGE_VERSION = 1.0.0
 PATH_SEPARATOR = :
-PKG_CONFIG = /usr/bin/pkg-config --static
-PKG_CONFIG_LIBDIR = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib/pkgconfig
-PKG_CONFIG_PATH = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../share/pkgconfig
+PKG_CONFIG = /usr/bin/pkg-config
+PKG_CONFIG_LIBDIR = 
+PKG_CONFIG_PATH = 
 PORT = 
-PROTOBUF_CFLAGS = 
-PROTOBUF_LIBS = -lprotobuf
-PROTOC = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/protoc
-PTHREAD_CC = x86_64-w64-mingw32-gcc
-PTHREAD_CFLAGS = 
+PROTOBUF_CFLAGS = -pthread  
+PROTOBUF_LIBS = -pthread -lprotobuf -lpthread  
+PROTOC = /usr/bin/protoc
+PTHREAD_CC = gcc
+PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3
-PYTHONPATH = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/lib/python/dist-packages:
-QR_CFLAGS = 
-QR_LIBS = -lqrencode
+PYTHONPATH = 
+QR_CFLAGS =  
+QR_LIBS = -lqrencode  
 QTPLATFORM_CFLAGS = 
 QTPLATFORM_LIBS = 
 QTPRINT_CFLAGS = 
 QTPRINT_LIBS = 
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_CFLAGS = 
-QT_DBUS_CFLAGS = 
-QT_DBUS_INCLUDES = 
-QT_DBUS_LIBS = -lQt5DBus -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib
-QT_INCLUDES = -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtCore -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtGui -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtWidgets -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtNetwork -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtTest -I/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../include/QtDBus
-QT_LDFLAGS =  -mwindows
-QT_LIBS = -lqwindows -lQt5PlatformSupport -lQt5Widgets -lQt5Network -lQt5Gui     -lQt5Core    -lqtharfbuzzng -lqtpcre -limm32  -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../plugins/platforms
+QT_CFLAGS = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets  
+QT_DBUS_CFLAGS = -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -I/usr/include/qt5/QtCore  
+QT_DBUS_INCLUDES = -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -I/usr/include/qt5/QtCore  
+QT_DBUS_LIBS = -lQt5DBus -lQt5Core  
+QT_INCLUDES = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets  
+QT_LDFLAGS = 
+QT_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core  
+QT_PIE_FLAGS = 
 QT_SELECT = qt5
-QT_TEST_CFLAGS = 
-QT_TEST_INCLUDES = 
-QT_TEST_LIBS = -lQt5Test -L/root/Rhenium-src/depends/x86_64-w64-mingw32/share/../lib
-QT_TRANSLATION_DIR = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../translations
-QT_XRH_FLAGS = 
-RANLIB = /usr/bin/x86_64-w64-mingw32-ranlib
-RCC = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/rcc
-READELF = /usr/bin/x86_64-w64-mingw32-readelf
+QT_TEST_CFLAGS = -I/usr/include/qt5/QtTest -I/usr/include/qt5 -I/usr/include/qt5/QtCore  
+QT_TEST_INCLUDES = -I/usr/include/qt5/QtTest -I/usr/include/qt5 -I/usr/include/qt5/QtCore  
+QT_TEST_LIBS = -lQt5Test -lQt5Core  
+QT_TRANSLATION_DIR = 
+RANLIB = /usr/bin/ranlib
+RCC = /usr/lib/x86_64-linux-gnu/qt5/bin/rcc
+READELF = /usr/bin/readelf
 RELDFLAGS = -Wl,--exclude-libs,ALL
 RSVG_CONVERT = 
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
-SSL_CFLAGS = 
-SSL_LIBS = -lssl
-STRIP = /usr/bin/x86_64-w64-mingw32-strip
-TESTDEFS = 
+SSL_CFLAGS =  
+SSL_LIBS = -lssl -lcrypto  
+STRIP = /usr/bin/strip
+TESTDEFS =  -DBOOST_TEST_DYN_LINK
 TIFFCP = 
-UIC = /root/Rhenium-src/depends/x86_64-w64-mingw32/share/../native/bin/uic
+UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 2.3.0
-WINDOWS_BITS = 64
-WINDRES = /usr/bin/x86_64-w64-mingw32-windres
+VERSION = 1.0.0
+WINDOWS_BITS = 
+WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
 XGETTEXT = 
-ZMQ_CFLAGS = 
-ZMQ_LIBS = 
-abs_builddir = /root/Rhenium-src
-abs_srcdir = /root/Rhenium-src
-abs_top_builddir = /root/Rhenium-src
-abs_top_srcdir = /root/Rhenium-src
-ac_ct_AR = 
-ac_ct_CC = 
-ac_ct_CXX = 
+ZMQ_CFLAGS =  
+ZMQ_LIBS = -lzmq  
+abs_builddir = /root/zRhenium
+abs_srcdir = /root/zRhenium
+abs_top_builddir = /root/zRhenium
+abs_top_srcdir = /root/zRhenium
+ac_ct_AR = ar
+ac_ct_CC = gcc
+ac_ct_CXX = g++
 ac_ct_DUMPBIN = 
 ac_ct_OBJCXX = 
 am__include = include
@@ -424,15 +438,15 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-w64-mingw32
-host_alias = x86_64-w64-mingw32
+host = x86_64-unknown-linux-gnu
+host_alias = 
 host_cpu = x86_64
-host_os = mingw32
-host_vendor = w64
+host_os = linux-gnu
+host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /root/Rhenium-src/build-aux/install-sh
+install_sh = ${SHELL} /root/zRhenium/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -441,7 +455,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /root/Rhenium-src/depends/x86_64-w64-mingw32
+prefix = /usr/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
@@ -456,13 +470,13 @@ top_srcdir = .
 ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
 GZIP_ENV = "-9n"
-BITCOIND_BIN = $(top_builddir)/src/Rheniumd$(EXEEXT)
-BITCOIN_QT_BIN = $(top_builddir)/src/qt/Rhenium-qt$(EXEEXT)
-BITCOIN_CLI_BIN = $(top_builddir)/src/Rhenium-cli$(EXEEXT)
+BITCOIND_BIN = $(top_builddir)/src/$(BITCOIN_DAEMON_NAME)$(EXEEXT)
+BITCOIN_QT_BIN = $(top_builddir)/src/qt/$(BITCOIN_GUI_NAME)$(EXEEXT)
+BITCOIN_CLI_BIN = $(top_builddir)/src/$(BITCOIN_CLI_NAME)$(EXEEXT)
 BITCOIN_WIN_INSTALLER = $(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 empty := 
 space := $(empty) $(empty)
-OSX_APP = Rhenium-Qt.app
+OSX_APP = XRH-Qt.app
 OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG = background.svg
@@ -472,7 +486,7 @@ OSX_DSSTORE_GEN = $(top_srcdir)/contrib/macdeploy/custom_dsstore.py
 OSX_DEPLOY_SCRIPT = $(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST = $(top_srcdir)/contrib/macdeploy/fancy.plist
 OSX_INSTALLER_ICONS = $(top_srcdir)/src/qt/res/icons/bitcoin.icns
-OSX_PLIST = $(top_srcdir)/share/qt/Info.plist #not installed
+OSX_PLIST = $(top_builddir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 DIST_DOCS = $(wildcard doc/*.md) $(wildcard doc/release-notes/*.md)
 WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/bitcoin.ico \
@@ -493,11 +507,12 @@ COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
 
 OSX_APP_BUILT = $(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/Rhenium-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
+  $(OSX_APP)/Contents/MacOS/XRH-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
 
 APP_DIST_DIR = $(top_builddir)/dist
 APP_DIST_EXTRAS = $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE) $(APP_DIST_DIR)/.DS_Store $(APP_DIST_DIR)/Applications
 OSX_BACKGROUND_IMAGE_DPIFILES := $(foreach dpi,$(OSX_BACKGROUND_IMAGE_DPIS),dpi$(dpi).$(OSX_BACKGROUND_IMAGE))
+dist_noinst_SCRIPTS = autogen.sh
 EXTRA_DIST = $(top_srcdir)/share/genbuild.sh qa/pull-tester/rpc-tests.sh qa/pull-tester/run-bitcoin-cli qa/rpc-tests $(DIST_DOCS) $(WINDOWS_PACKAGING) $(OSX_PACKAGING)
 CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 all: all-recursive
@@ -863,11 +878,9 @@ distuninstallcheck:
 	        fi ; \
 	        $(distuninstallcheck_listfiles) ; \
 	        exit 1; } >&2
-#check-local:
 check-am: all-am
-	$(MAKE) $(AM_MAKEFLAGS) check-local
 check: check-recursive
-all-am: Makefile
+all-am: Makefile $(SCRIPTS)
 installdirs: installdirs-recursive
 installdirs-am:
 install: install-recursive
@@ -971,14 +984,14 @@ ps-am:
 
 uninstall-am:
 
-.MAKE: $(am__recursive_targets) check-am install-am install-strip
+.MAKE: $(am__recursive_targets) install-am install-strip
 
 .PHONY: $(am__recursive_targets) CTAGS GTAGS TAGS all all-am \
-	am--refresh check check-am check-local clean clean-cscope \
-	clean-generic clean-libtool clean-local cscope cscopelist-am \
-	ctags ctags-am dist dist-all dist-bzip2 dist-gzip dist-hook \
-	dist-lzip dist-shar dist-tarZ dist-xz dist-zip distcheck \
-	distclean distclean-generic distclean-hdr distclean-libtool \
+	am--refresh check check-am clean clean-cscope clean-generic \
+	clean-libtool clean-local cscope cscopelist-am ctags ctags-am \
+	dist dist-all dist-bzip2 dist-gzip dist-hook dist-lzip \
+	dist-shar dist-tarZ dist-xz dist-zip distcheck distclean \
+	distclean-generic distclean-hdr distclean-libtool \
 	distclean-tags distcleancheck distdir distuninstallcheck dvi \
 	dvi-am html html-am info info-am install install-am \
 	install-data install-data-am install-dvi install-dvi-am \
@@ -1011,11 +1024,9 @@ $(BITCOIN_WIN_INSTALLER): all-recursive
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIND_BIN) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_QT_BIN) $(top_builddir)/release
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM) $(BITCOIN_CLI_BIN) $(top_builddir)/release
-	@test -f $(MAKENSIS) && $(MAKENSIS) $(top_builddir)/share/setup.nsi || \
+	@test -f $(MAKENSIS) && $(MAKENSIS) -V2 $(top_builddir)/share/setup.nsi || \
 	  echo error: could not build $@
-
-$(if $(findstring src/,$(MAKECMDGOALS)),$(MAKECMDGOALS), none): FORCE
-	$(MAKE) -C src $(patsubst src/%,%,$@)
+	@echo built $@
 
 $(OSX_APP)/Contents/PkgInfo:
 	$(MKDIR_P) $(@D)
@@ -1033,7 +1044,7 @@ $(OSX_APP)/Contents/Resources/bitcoin.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/Rhenium-Qt: $(BITCOIN_QT_BIN)
+$(OSX_APP)/Contents/MacOS/XRH-Qt: $(BITCOIN_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
@@ -1060,7 +1071,7 @@ $(APP_DIST_DIR)/Applications:
 	@rm -f $@
 	@cd $(@D); $(LN_S) /Applications $(@F)
 
-$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Rhenium-Qt
+$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/XRH-Qt
 
 $(OSX_DMG): $(APP_DIST_EXTRAS)
 	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "$(OSX_VOLNAME)" -no-pad -r -dir-mode 0755 -apple -o $@ dist
@@ -1074,14 +1085,14 @@ $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE): $(OSX_BACKGROUND_IMAGE_DPIF
 $(APP_DIST_DIR)/.DS_Store: $(OSX_DSSTORE_GEN)
 	$(PYTHON) $< "$@" "$(OSX_VOLNAME)"
 
-$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Rhenium-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
+$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/XRH-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
 	INSTALLNAMETOOL=$(INSTALLNAMETOOL)  OTOOL=$(OTOOL) STRIP=$(STRIP) $(PYTHON) $(OSX_DEPLOY_SCRIPT) $(OSX_APP) -translations-dir=$(QT_TRANSLATION_DIR) -add-qt-tr $(OSX_QT_TRANSLATIONS) -verbose 2
 
 deploydir: $(APP_DIST_EXTRAS)
 
 #appbundle: $(OSX_APP_BUILT)
 #deploy: $(OSX_DMG)
-deploy: $(BITCOIN_WIN_INSTALLER)
+#deploy: $(BITCOIN_WIN_INSTALLER)
 
 $(BITCOIN_QT_BIN): FORCE
 	$(MAKE) -C src qt/$(@F)
@@ -1141,10 +1152,6 @@ $(BITCOIN_CLI_BIN): FORCE
 #	@touch $@
 
 #cov: test_Rhenium.coverage/.dirstamp total.coverage/.dirstamp
-
-# Rhenium: disable the outdated comparison tool test
-# Ref https://github.com/bitcoin/bitcoin/issues/4545
-check-local:
 
 .INTERMEDIATE: $(COVERAGE_INFO)
 

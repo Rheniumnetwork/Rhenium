@@ -1,11 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,10 +17,7 @@
 #include "main.h"
 #include "primitives/block.h"
 #include "primitives/transaction.h"
-<<<<<<< HEAD
 #include "primitives/zerocoin.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "ui_interface.h"
 #include "util.h"
 #include "validationinterface.h"
@@ -47,10 +40,7 @@ extern CFeeRate payTxFee;
 extern CAmount maxTxFee;
 extern unsigned int nTxConfirmTarget;
 extern bool bSpendZeroConfChange;
-<<<<<<< HEAD
 extern bool bdisableSystemnotifications;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 extern bool fSendFreeTransactions;
 extern bool fPayAtLeastCustomFee;
 
@@ -65,13 +55,10 @@ static const CAmount nHighTransactionMaxFeeWarning = 100 * nHighTransactionFeeWa
 //! Largest (in bytes) free transaction we're willing to create
 static const unsigned int MAX_FREE_TRANSACTION_CREATE_SIZE = 1000;
 
-<<<<<<< HEAD
 // Zerocoin denomination which creates exactly one of each denominations:
 // 6110 = 1*5000 + 1*1000 + 1*500 + 1*100 + 1*50 + 1*10 + 1*5 + 1
 static const int ZQ_6110 = 6110;
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 class CAccountingEntry;
 class CCoinControl;
 class COutput;
@@ -94,7 +81,6 @@ enum AvailableCoinsType {
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
     ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 XRH at the same time
-<<<<<<< HEAD
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
@@ -116,9 +102,6 @@ enum ZerocoinSpendStatus {
     ZXRH_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
     ZXRH_BAD_SERIALIZATION = 13,                    // Transaction verification failed
     ZXRH_SPENT_USED_ZXRH = 14                       // Coin has already been spend
-=======
-    ONLY_10000 = 5                        // find masternode outputs including locked ones (use with caution)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 };
 
 struct CompactTallyItem {
@@ -169,11 +152,7 @@ public:
     StringMap destdata;
 };
 
-<<<<<<< HEAD
 /**
-=======
-/** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * A CWallet is an extension of a keystore, which also maintains a set of transactions and balances,
  * and provides the ability to create new transactions.
  */
@@ -208,7 +187,6 @@ private:
 
 public:
     bool MintableCoins();
-<<<<<<< HEAD
     bool SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int> >& setCoins, CAmount nTargetAmount) const;
     bool SelectCoinsDark(CAmount nValueMin, CAmount nValueMax, std::vector<CTxIn>& setCoinsRet, CAmount& nValueRet, int nObfuscationRoundsMin, int nObfuscationRoundsMax) const;
     bool SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount nValueMax, std::vector<CTxIn>& vCoinsRet, std::vector<COutput>& vCoinsRet2, CAmount& nValueRet, int nObfuscationRoundsMin, int nObfuscationRoundsMax);
@@ -234,18 +212,6 @@ public:
     * @note called with lock cs_wallet held.
     */
     boost::signals2::signal<void(CWallet* wallet, const std::string& pubCoin, const std::string& isUsed, ChangeType status)> NotifyZerocoinChanged;
-=======
-    bool SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int> >& setCoins, int64_t nTargetAmount) const;
-    bool SelectCoinsDark(int64_t nValueMin, int64_t nValueMax, std::vector<CTxIn>& setCoinsRet, int64_t& nValueRet, int nCoinMixingRoundsMin, int nCoinMixingRoundsMax) const;
-    bool SelectCoinsByDenominations(int nDenom, int64_t nValueMin, int64_t nValueMax, std::vector<CTxIn>& vCoinsRet, std::vector<COutput>& vCoinsRet2, int64_t& nValueRet, int nCoinMixingRoundsMin, int nCoinMixingRoundsMax);
-    bool SelectCoinsDarkDenominated(int64_t nTargetValue, std::vector<CTxIn>& setCoinsRet, int64_t& nValueRet) const;
-    bool HasCollateralInputs(bool fOnlyConfirmed = true) const;
-    bool IsCollateralAmount(int64_t nInputAmount) const;
-    int CountInputsWithAmount(int64_t nInputAmount);
-
-    bool SelectCoinsCollateral(std::vector<CTxIn>& setCoinsRet, int64_t& nValueRet) const;
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /*
      * Main wallet lock.
      * This lock protects all the fields added by CWallet
@@ -258,10 +224,7 @@ public:
     bool fFileBacked;
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
-<<<<<<< HEAD
     bool fBackupMints;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -319,18 +282,11 @@ public:
         nLastResend = 0;
         nTimeFirstKey = 0;
         fWalletUnlockAnonymizeOnly = false;
-<<<<<<< HEAD
         fBackupMints = false;
 
         // Stake Settings
         nHashDrift = 45;
         nStakeSplitThreshold = 500;
-=======
-
-        // Stake Settings
-        nHashDrift = 45;
-        nStakeSplitThreshold = 2000;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         nHashInterval = 22;
         nStakeSetUpdateTime = 300; // 5 minutes
 
@@ -348,7 +304,6 @@ public:
         nAutoCombineThreshold = 0;
     }
 
-<<<<<<< HEAD
     bool isZeromintEnabled()
     {
         return fEnableZeromint;
@@ -359,8 +314,6 @@ public:
         fBackupMints = fEnabled;
     }
     
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool isMultiSendEnabled()
     {
         return fMultiSendMasternodeReward || fMultiSendStake;
@@ -410,11 +363,7 @@ public:
     void UnlockCoin(COutPoint& output);
     void UnlockAllCoins();
     void ListLockedCoins(std::vector<COutPoint>& vOutpts);
-<<<<<<< HEAD
     CAmount GetTotalValue(std::vector<CTxIn> vCoins);
-=======
-    int64_t GetTotalValue(std::vector<CTxIn> vCoins);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     //  keystore implementation
     // Generate a new key
@@ -457,26 +406,19 @@ public:
     //! Adds a watch-only address to the store, without saving it to disk (used by LoadWallet)
     bool LoadWatchOnly(const CScript& dest);
 
-<<<<<<< HEAD
     //! Adds a MultiSig address to the store, and saves it to disk.
     bool AddMultiSig(const CScript& dest);
     bool RemoveMultiSig(const CScript& dest);
     //! Adds a MultiSig address to the store, without saving it to disk (used by LoadWallet)
     bool LoadMultiSig(const CScript& dest);
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool Unlock(const SecureString& strWalletPassphrase, bool anonimizeOnly = false);
     bool ChangeWalletPassphrase(const SecureString& strOldWalletPassphrase, const SecureString& strNewWalletPassphrase);
     bool EncryptWallet(const SecureString& strWalletPassphrase);
 
     void GetKeyBirthTimes(std::map<CKeyID, int64_t>& mapKeyBirth) const;
 
-<<<<<<< HEAD
     /**
-=======
-    /** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
      * Increment the next transaction order id
      * @return next transaction order id
      */
@@ -501,15 +443,12 @@ public:
     void ReacceptWalletTransactions();
     void ResendWalletTransactions();
     CAmount GetBalance() const;
-<<<<<<< HEAD
     CAmount GetZerocoinBalance(bool fMatureOnly) const;
     CAmount GetUnconfirmedZerocoinBalance() const;
     CAmount GetImmatureZerocoinBalance() const;
     CAmount GetLockedCoins() const;
     CAmount GetUnlockedCoins() const;
     std::map<libzerocoin::CoinDenomination, CAmount> GetMyZerocoinDistribution() const;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount GetUnconfirmedBalance() const;
     CAmount GetImmatureBalance() const;
     CAmount GetAnonymizableBalance() const;
@@ -520,10 +459,7 @@ public:
     CAmount GetWatchOnlyBalance() const;
     CAmount GetUnconfirmedWatchOnlyBalance() const;
     CAmount GetImmatureWatchOnlyBalance() const;
-<<<<<<< HEAD
     bool CreateTransaction(CScript scriptPubKey, int64_t nValue, CWalletTx& wtxNew, CReserveKey& reservekey, int64_t& nFeeRet, std::string& strFailReason, const CCoinControl* coinControl);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool CreateTransaction(const std::vector<std::pair<CScript, CAmount> >& vecSend,
         CWalletTx& wtxNew,
         CReserveKey& reservekey,
@@ -535,22 +471,14 @@ public:
         CAmount nFeePay = 0);
     bool CreateTransaction(CScript scriptPubKey, const CAmount& nValue, CWalletTx& wtxNew, CReserveKey& reservekey, CAmount& nFeeRet, std::string& strFailReason, const CCoinControl* coinControl = NULL, AvailableCoinsType coin_type = ALL_COINS, bool useIX = false, CAmount nFeePay = 0);
     bool CommitTransaction(CWalletTx& wtxNew, CReserveKey& reservekey, std::string strCommand = "tx");
-<<<<<<< HEAD
     std::string PrepareObfuscationDenominate(int minRounds, int maxRounds);
     int GenerateObfuscationOutputs(int nTotalValue, std::vector<CTxOut>& vout);
-=======
-    std::string PrepareCoinMixingDenominate(int minRounds, int maxRounds);
-    int GenerateCoinMixingOutputs(int nTotalValue, std::vector<CTxOut>& vout);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     bool CreateCollateralTransaction(CMutableTransaction& txCollateral, std::string& strReason);
     bool ConvertList(std::vector<CTxIn> vCoins, std::vector<int64_t>& vecAmounts);
     bool CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64_t nSearchInterval, CMutableTransaction& txNew, unsigned int& nTxNewTime);
     bool MultiSend();
     void AutoCombineDust();
-<<<<<<< HEAD
     void AutoZeromint();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     static CFeeRate minTxFee;
     static CAmount GetMinimumFee(unsigned int nTxBytes, unsigned int nConfirmTarget, const CTxMemPool& pool);
@@ -572,26 +500,15 @@ public:
     bool GetBudgetSystemCollateralTX(CTransaction& tx, uint256 hash, bool useIX);
     bool GetBudgetSystemCollateralTX(CWalletTx& tx, uint256 hash, bool useIX);
 
-<<<<<<< HEAD
     // get the Obfuscation chain depth for a given input
     int GetRealInputObfuscationRounds(CTxIn in, int rounds) const;
     // respect current settings
     int GetInputObfuscationRounds(CTxIn in) const;
-=======
-    // get the CoinMixing chain depth for a given input
-    int GetRealInputCoinMixingRounds(CTxIn in, int rounds) const;
-    // respect current settings
-    int GetInputCoinMixingRounds(CTxIn in) const;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     bool IsDenominated(const CTxIn& txin) const;
     bool IsDenominated(const CTransaction& tx) const;
 
-<<<<<<< HEAD
     bool IsDenominatedAmount(CAmount nInputAmount) const;
-=======
-    bool IsDenominatedAmount(int64_t nInputAmount) const;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     isminetype IsMine(const CTxIn& txin) const;
     CAmount GetDebit(const CTxIn& txin, const isminefilter& filter) const;
@@ -599,10 +516,7 @@ public:
     {
         return ::IsMine(*this, txout.scriptPubKey);
     }
-<<<<<<< HEAD
     bool IsMyZerocoinSpend(const CBigNum& bnSerial) const;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount GetCredit(const CTxOut& txout, const isminefilter& filter) const
     {
         if (!MoneyRange(txout.nValue))
@@ -703,21 +617,13 @@ public:
     //! Get wallet transactions that conflict with given transaction (spend same outputs)
     std::set<uint256> GetConflicts(const uint256& txid) const;
 
-<<<<<<< HEAD
     /**
-=======
-    /** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
      * Address book entry changed.
      * @note called with lock cs_wallet held.
      */
     boost::signals2::signal<void(CWallet* wallet, const CTxDestination& address, const std::string& label, bool isMine, const std::string& purpose, ChangeType status)> NotifyAddressBookChanged;
 
-<<<<<<< HEAD
     /**
-=======
-    /** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
      * Wallet transaction added, removed or updated.
      * @note called with lock cs_wallet held.
      */
@@ -728,17 +634,12 @@ public:
 
     /** Watch-only address added */
     boost::signals2::signal<void(bool fHaveWatchOnly)> NotifyWatchonlyChanged;
-<<<<<<< HEAD
 
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 };
 
 
-=======
-};
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /** A key allocated from the key pool. */
 class CReserveKey
 {
@@ -861,11 +762,7 @@ public:
     bool IsTransactionLockTimedOut() const;
 };
 
-<<<<<<< HEAD
 /**
-=======
-/** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * A transaction with a bunch of additional info that only the owner cares about.
  * It includes any unrecorded transactions needed to link it back to the block chain.
  */
@@ -1071,11 +968,7 @@ public:
         if (IsCoinBase() && GetBlocksToMaturity() > 0)
             return 0;
 
-<<<<<<< HEAD
         CAmount credit = 0;
-=======
-        int64_t credit = 0;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         if (filter & ISMINE_SPENDABLE) {
             // GetBalance can assume transactions in mapWallet won't change
             if (fCreditCached)
@@ -1160,13 +1053,8 @@ public:
             if (pwallet->IsSpent(hashTx, i) || pwallet->IsLockedCoin(hashTx, i)) continue;
             if (fMasterNode && vout[i].nValue == 10000 * COIN) continue; // do not count MN-like outputs
 
-<<<<<<< HEAD
             const int rounds = pwallet->GetInputObfuscationRounds(vin);
             if (rounds >= -2 && rounds < nZeromintPercentage) {
-=======
-            const int rounds = pwallet->GetInputCoinMixingRounds(vin);
-            if (rounds >= -2 && rounds < nCoinMixingRounds) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 nCredit += pwallet->GetCredit(txout, ISMINE_SPENDABLE);
                 if (!MoneyRange(nCredit))
                     throw std::runtime_error("CWalletTx::GetAnonamizableCredit() : value out of range");
@@ -1198,13 +1086,8 @@ public:
 
             if (pwallet->IsSpent(hashTx, i) || !pwallet->IsDenominated(vin)) continue;
 
-<<<<<<< HEAD
             const int rounds = pwallet->GetInputObfuscationRounds(vin);
             if (rounds >= nZeromintPercentage) {
-=======
-            const int rounds = pwallet->GetInputCoinMixingRounds(vin);
-            if (rounds >= nCoinMixingRounds) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 nCredit += pwallet->GetCredit(txout, ISMINE_SPENDABLE);
                 if (!MoneyRange(nCredit))
                     throw std::runtime_error("CWalletTx::GetAnonymizedCredit() : value out of range");
@@ -1216,7 +1099,6 @@ public:
         return nCredit;
     }
 
-<<<<<<< HEAD
     // Return sum of unlocked coins
     CAmount GetUnlockedCredit() const
     {
@@ -1278,8 +1160,6 @@ public:
         return nCredit;
     }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount GetDenominatedCredit(bool unconfirmed, bool fUseCache = true) const
     {
         if (pwallet == 0)
@@ -1417,13 +1297,8 @@ public:
     bool WriteToDisk();
 
     int64_t GetTxTime() const;
-<<<<<<< HEAD
     int64_t GetComputedTxTime() const;
     int GetRequestCount() const;
-=======
-    int GetRequestCount() const;
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void RelayWalletTransaction(std::string strCommand = "tx");
 
     std::set<uint256> GetConflicts() const;
@@ -1446,17 +1321,10 @@ public:
         fSpendable = fSpendableIn;
     }
 
-<<<<<<< HEAD
     //Used with Obfuscation. Will return largest nondenom, then denominations, then very small inputs
     int Priority() const
     {
         BOOST_FOREACH (CAmount d, obfuScationDenominations)
-=======
-    //Used with CoinMixing. Will return largest nondenom, then denominations, then very small inputs
-    int Priority() const
-    {
-        BOOST_FOREACH (int64_t d, obfuScationDenominations)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             if (tx->vout[i].nValue == d) return 10000;
         if (tx->vout[i].nValue < 1 * COIN) return 20000;
 
@@ -1501,11 +1369,7 @@ public:
 };
 
 
-<<<<<<< HEAD
 /**
-=======
-/** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * Account information.
  * Stored in wallet with key "acc"+string account name.
  */
@@ -1536,11 +1400,7 @@ public:
 };
 
 
-<<<<<<< HEAD
 /**
-=======
-/** 
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
  * Internal transfers.
  * Database key is acentry<account><counter>.
  */

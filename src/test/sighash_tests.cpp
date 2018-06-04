@@ -197,11 +197,7 @@ BOOST_AUTO_TEST_CASE(sighash_from_data)
           stream >> tx;
 
           CValidationState state;
-<<<<<<< HEAD
           BOOST_CHECK_MESSAGE(CheckTransaction(tx, false, false, state), strTest);
-=======
-          BOOST_CHECK_MESSAGE(CheckTransaction(tx, state), strTest);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
           BOOST_CHECK(state.IsValid());
 
           std::vector<unsigned char> raw = ParseHex(raw_script);

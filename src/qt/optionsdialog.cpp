@@ -11,11 +11,7 @@
 
 #include "bitcoinunits.h"
 #include "guiutil.h"
-<<<<<<< HEAD
 #include "obfuscation.h"
-=======
-#include "coinmixing.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "optionsmodel.h"
 
 #include "main.h" // for MAX_SCRIPTCHECK_THREADS
@@ -83,7 +79,6 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
         digits.setNum(index);
         ui->digits->addItem(digits, digits);
     }
-<<<<<<< HEAD
     
     /* Theme selector static themes */
     ui->theme->addItem(QString("Default"), QVariant("default"));
@@ -99,12 +94,6 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     ui->preferredDenom->addItem(QString("1000"), QVariant("1000"));
     ui->preferredDenom->addItem(QString("5000"), QVariant("5000"));
 
-=======
-
-    /* Theme selector static themes */
-    ui->theme->addItem(QString("Default"), QVariant("default"));
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /* Theme selector external themes */
     boost::filesystem::path pathAddr = GetDataDir() / "themes";
     QDir dir(pathAddr.string().c_str());
@@ -205,13 +194,10 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->bitcoinAtStartup, OptionsModel::StartAtStartup);
     mapper->addMapping(ui->threadsScriptVerif, OptionsModel::ThreadsScriptVerif);
     mapper->addMapping(ui->databaseCache, OptionsModel::DatabaseCache);
-<<<<<<< HEAD
     // Zerocoin mint percentage
     mapper->addMapping(ui->zeromintPercentage, OptionsModel::ZeromintPercentage);
     // Zerocoin preferred denomination
     mapper->addMapping(ui->preferredDenom, OptionsModel::ZeromintPrefDenom);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     /* Wallet */
     mapper->addMapping(ui->spendZeroConfChange, OptionsModel::SpendZeroConfChange);
@@ -225,11 +211,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->proxyIp, OptionsModel::ProxyIP);
     mapper->addMapping(ui->proxyPort, OptionsModel::ProxyPort);
 
-<<<<<<< HEAD
     /* Window */
-=======
-/* Window */
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #ifndef Q_OS_MAC
     mapper->addMapping(ui->minimizeToTray, OptionsModel::MinimizeToTray);
     mapper->addMapping(ui->minimizeOnClose, OptionsModel::MinimizeOnClose);
@@ -243,14 +225,7 @@ void OptionsDialog::setMapper()
     mapper->addMapping(ui->unit, OptionsModel::DisplayUnit);
     mapper->addMapping(ui->thirdPartyTxUrls, OptionsModel::ThirdPartyTxUrls);
 
-<<<<<<< HEAD
     /* Masternode Tab */
-=======
-
-    /* CoinMixing Rounds */
-    mapper->addMapping(ui->coinmixingRounds, OptionsModel::CoinMixingRounds);
-    mapper->addMapping(ui->anonymizeRhenium, OptionsModel::AnonymizeRheniumAmount);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     mapper->addMapping(ui->showMasternodesTab, OptionsModel::ShowMasternodesTab);
 }
 

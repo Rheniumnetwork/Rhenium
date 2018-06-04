@@ -1,10 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2016-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,10 +10,7 @@
 
 #include "leveldbwrapper.h"
 #include "main.h"
-<<<<<<< HEAD
 #include "primitives/zerocoin.h"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <map>
 #include <string>
@@ -71,7 +65,6 @@ public:
     bool WriteTxIndex(const std::vector<std::pair<uint256, CDiskTxPos> >& list);
     bool WriteFlag(const std::string& name, bool fValue);
     bool ReadFlag(const std::string& name, bool& fValue);
-<<<<<<< HEAD
     bool WriteInt(const std::string& name, int nValue);
     bool ReadInt(const std::string& name, int& nValue);
     bool LoadBlockIndexGuts();
@@ -98,9 +91,4 @@ public:
     bool EraseAccumulatorValue(const uint32_t& nChecksum);
 };
 
-=======
-    bool LoadBlockIndexGuts();
-};
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #endif // BITCOIN_TXDB_H

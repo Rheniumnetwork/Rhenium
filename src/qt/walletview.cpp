@@ -13,17 +13,11 @@
 #include "guiutil.h"
 #include "masternodeconfig.h"
 #include "multisenddialog.h"
-<<<<<<< HEAD
 #include "multisigdialog.h"
 #include "optionsmodel.h"
 #include "overviewpage.h"
 #include "receivecoinsdialog.h"
 #include "privacydialog.h"
-=======
-#include "optionsmodel.h"
-#include "overviewpage.h"
-#include "receivecoinsdialog.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "sendcoinsdialog.h"
 #include "signverifymessagedialog.h"
 #include "transactiontablemodel.h"
@@ -77,19 +71,13 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
     vbox->addLayout(hbox_buttons);
     transactionsPage->setLayout(vbox);
 
-<<<<<<< HEAD
     privacyPage = new PrivacyDialog();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     receiveCoinsPage = new ReceiveCoinsDialog();
     sendCoinsPage = new SendCoinsDialog();
 
     addWidget(overviewPage);
     addWidget(transactionsPage);
-<<<<<<< HEAD
     addWidget(privacyPage);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
     addWidget(explorerWindow);
@@ -163,10 +151,7 @@ void WalletView::setWalletModel(WalletModel* walletModel)
     if (settings.value("fShowMasternodesTab").toBool()) {
         masternodeListPage->setWalletModel(walletModel);
     }
-<<<<<<< HEAD
     privacyPage->setModel(walletModel);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     receiveCoinsPage->setModel(walletModel);
     sendCoinsPage->setModel(walletModel);
 
@@ -211,11 +196,8 @@ void WalletView::processNewTransaction(const QModelIndex& parent, int start, int
 void WalletView::gotoOverviewPage()
 {
     setCurrentWidget(overviewPage);
-<<<<<<< HEAD
     // Refresh UI-elements in case coins were locked/unlocked in CoinControl
     walletModel->emitBalanceChanged();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 void WalletView::gotoHistoryPage()
@@ -242,7 +224,6 @@ void WalletView::gotoReceiveCoinsPage()
     setCurrentWidget(receiveCoinsPage);
 }
 
-<<<<<<< HEAD
 void WalletView::gotoPrivacyPage()
 {
     setCurrentWidget(privacyPage);
@@ -250,8 +231,6 @@ void WalletView::gotoPrivacyPage()
     walletModel->emitBalanceChanged();
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void WalletView::gotoSendCoinsPage(QString addr)
 {
     setCurrentWidget(sendCoinsPage);
@@ -299,7 +278,6 @@ void WalletView::gotoMultiSendDialog()
     multiSendDialog->show();
 }
 
-<<<<<<< HEAD
 void WalletView::gotoMultisigDialog(int index)
 {
     MultisigDialog* multisig = new MultisigDialog(this);
@@ -307,8 +285,6 @@ void WalletView::gotoMultisigDialog(int index)
     multisig->showTab(index);
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool WalletView::handlePaymentRequest(const SendCoinsRecipient& recipient)
 {
     return sendCoinsPage->handlePaymentRequest(recipient);
@@ -317,10 +293,7 @@ bool WalletView::handlePaymentRequest(const SendCoinsRecipient& recipient)
 void WalletView::showOutOfSyncWarning(bool fShow)
 {
     overviewPage->showOutOfSyncWarning(fShow);
-<<<<<<< HEAD
     privacyPage->showOutOfSyncWarning(fShow);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 void WalletView::updateEncryptionStatus()
@@ -382,7 +355,6 @@ void WalletView::lockWallet()
     walletModel->setWalletLocked(true);
 }
 
-<<<<<<< HEAD
 void WalletView::toggleLockWallet()
 {
     if (!walletModel)
@@ -401,8 +373,6 @@ void WalletView::toggleLockWallet()
     }
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void WalletView::usedSendingAddresses()
 {
     if (!walletModel)

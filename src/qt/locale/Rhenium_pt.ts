@@ -434,11 +434,7 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>ObfuscationConfig</name>
-=======
-    <name>CoinMixingConfig</name>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -456,7 +452,6 @@
     <name>PeerTableModel</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>PrivacyDialog</name>
     <message>
         <source>Amount:</source>
@@ -492,8 +487,6 @@
     </message>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -910,23 +903,16 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
-=======
-        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Desabilitar todas as funcionacilidades específicas da Rhenium (Masternodes, Ofuscação, RhenFAST, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
@@ -982,23 +968,11 @@
         <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation request complete:</source>
         <translation>Requisição de ofuscação completa:</translation>
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-=======
-        <source>CoinMixing options:</source>
-        <translation>Opções de ofuscação:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request complete:</source>
-        <translation>Requisição de ofuscação completa:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request incomplete:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Requisição de ofuscação incompleta:</translation>
     </message>
     <message>
@@ -1258,13 +1232,6 @@
         <translation>Atualizar a carteira para a ultimo formato</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>Use N masternodes separados para anonimizar fundos (2-8, padrão: %u)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Use o OpenSSL(https) para conexões JSON-RPC</translation>
     </message>
@@ -1285,11 +1252,7 @@
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
-=======
-        <source>Value more than CoinMixing pool maximum allows.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Valor maior do que o máximo permitido pela pool.</translation>
     </message>
     <message>

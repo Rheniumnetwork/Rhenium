@@ -1,9 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,14 +49,11 @@ bool CMasternodeSync::IsBlockchainSynced()
     if (!lockMain) return false;
 
     CBlockIndex* pindex = chainActive.Tip();
-<<<<<<< HEAD
 
     if (chainActive.Height() == 472) {
         return true;
     }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (pindex == NULL) return false;
 
 
@@ -245,10 +238,7 @@ void CMasternodeSync::ClearFulfilledRequest()
 void CMasternodeSync::Process()
 {
     static int tick = 0;
-<<<<<<< HEAD
     static int syncCount = 0;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     if (tick++ % MASTERNODE_SYNC_TIMEOUT != 0) return;
 
@@ -256,16 +246,11 @@ void CMasternodeSync::Process()
         /* 
             Resync if we lose all masternodes from sleep/wake or failure to sync originally
         */
-<<<<<<< HEAD
         if (mnodeman.CountEnabled() == 0 ) {
 			if(syncCount < 2){
 				Reset();
 				syncCount++;
 			}
-=======
-        if (mnodeman.CountEnabled() == 0) {
-            Reset();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         } else
             return;
     }
@@ -390,7 +375,6 @@ void CMasternodeSync::Process()
 
         if (pnode->nVersion >= ActiveProtocol()) {
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_BUDGET) {
-<<<<<<< HEAD
                 
                 // We'll start rejecting votes if we accidentally get set as synced too soon
                 if (lastBudgetItem > 0 && lastBudgetItem < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { 
@@ -401,23 +385,6 @@ void CMasternodeSync::Process()
                     // Try to activate our masternode if possible
                     activeMasternode.ManageStatus();
 
-=======
-                //we'll start rejecting votes if we accidentally get set as synced too soon
-                if (lastBudgetItem > 0 && lastBudgetItem < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
-                                                                                                                                                                 //LogPrintf("CMasternodeSync::Process - HasNextFinalizedBudget %d nCountFailures %d IsBudgetPropEmpty %d\n", budget.HasNextFinalizedBudget(), nCountFailures, IsBudgetPropEmpty());
-                                                                                                                                                                 //if(budget.HasNextFinalizedBudget() || nCountFailures >= 2 || IsBudgetPropEmpty()) {
-                    GetNextAsset();
-
-                    //try to activate our masternode if possible
-                    activeMasternode.ManageStatus();
-                    // } else { //we've failed to sync, this state will reject the next budget block
-                    //     LogPrintf("CMasternodeSync::Process - ERROR - Sync has failed, will retry later\n");
-                    //     RequestedMasternodeAssets = MASTERNODE_SYNC_FAILED;
-                    //     RequestedMasternodeAttempt = 0;
-                    //     lastFailure = GetTime();
-                    //     nCountFailures++;
-                    // }
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                     return;
                 }
 

@@ -40,15 +40,12 @@ MasternodeList::MasternodeList(QWidget* parent) : QWidget(parent),
     ui->tableWidgetMyMasternodes->setColumnWidth(4, columnActiveWidth);
     ui->tableWidgetMyMasternodes->setColumnWidth(5, columnLastSeenWidth);
 
-<<<<<<< HEAD
     ui->tableWidgetMasternodes->setColumnWidth(0, columnAddressWidth);
     ui->tableWidgetMasternodes->setColumnWidth(1, columnProtocolWidth);
     ui->tableWidgetMasternodes->setColumnWidth(2, columnStatusWidth);
     ui->tableWidgetMasternodes->setColumnWidth(3, columnActiveWidth);
     ui->tableWidgetMasternodes->setColumnWidth(4, columnLastSeenWidth);
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     ui->tableWidgetMyMasternodes->setContextMenuPolicy(Qt::CustomContextMenu);
 
     QAction* startAliasAction = new QAction(tr("Start alias"), this);
@@ -58,20 +55,14 @@ MasternodeList::MasternodeList(QWidget* parent) : QWidget(parent),
     connect(startAliasAction, SIGNAL(triggered()), this, SLOT(on_startButton_clicked()));
 
     timer = new QTimer(this);
-<<<<<<< HEAD
     connect(timer, SIGNAL(timeout()), this, SLOT(updateNodeList()));
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     connect(timer, SIGNAL(timeout()), this, SLOT(updateMyNodeList()));
     timer->start(1000);
 
     // Fill MN list
     fFilterUpdated = true;
     nTimeFilterUpdated = GetTime();
-<<<<<<< HEAD
     updateNodeList();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 MasternodeList::~MasternodeList()
@@ -219,11 +210,7 @@ void MasternodeList::updateMyNodeList(bool fForce)
     if (nSecondsTillUpdate > 0 && !fForce) return;
     nTimeMyListUpdated = GetTime();
 
-<<<<<<< HEAD
     ui->tableWidgetMasternodes->setSortingEnabled(false);
-=======
-    ui->tableWidgetMyMasternodes->setSortingEnabled(false);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
         int nIndex;
         if(!mne.castOutputIndex(nIndex))
@@ -231,23 +218,15 @@ void MasternodeList::updateMyNodeList(bool fForce)
 
         CTxIn txin = CTxIn(uint256S(mne.getTxHash()), uint32_t(nIndex));
         CMasternode* pmn = mnodeman.Find(txin);
-<<<<<<< HEAD
 	updateMyMasternodeInfo(QString::fromStdString(mne.getAlias()), QString::fromStdString(mne.getIp()), pmn);
 
     }
     ui->tableWidgetMasternodes->setSortingEnabled(true);
-=======
-
-        updateMyMasternodeInfo(QString::fromStdString(mne.getAlias()), QString::fromStdString(mne.getIp()), pmn);
-    }
-    ui->tableWidgetMyMasternodes->setSortingEnabled(true);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     // reset "timer"
     ui->secondsLabel->setText("0");
 }
 
-<<<<<<< HEAD
 
 void MasternodeList::updateNodeList()
 {
@@ -315,8 +294,6 @@ void MasternodeList::on_filterLineEdit_textChanged(const QString& strFilterIn)
     ui->countLabel->setText(QString::fromStdString(strprintf("Please wait... %d", MASTERNODELIST_FILTER_COOLDOWN_SECONDS)));
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void MasternodeList::on_startButton_clicked()
 {
     // Find selected node alias

@@ -1,21 +1,13 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "transactionrecord.h"
 
 #include "base58.h"
-<<<<<<< HEAD
 #include "obfuscation.h"
-=======
-#include "coinmixing.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #include "rhenfast.h"
 #include "timedata.h"
 #include "wallet.h"
@@ -41,11 +33,7 @@ bool TransactionRecord::showTransaction(const CWalletTx& wtx)
 QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* wallet, const CWalletTx& wtx)
 {
     QList<TransactionRecord> parts;
-<<<<<<< HEAD
     int64_t nTime = wtx.GetComputedTxTime();
-=======
-    int64_t nTime = wtx.GetTxTime();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CAmount nCredit = wtx.GetCredit(ISMINE_ALL);
     CAmount nDebit = wtx.GetDebit(ISMINE_ALL);
     CAmount nNet = nCredit - nDebit;
@@ -81,7 +69,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             sub.credit = nNet;
         }
         parts.append(sub);
-<<<<<<< HEAD
     } else if (wtx.IsZerocoinSpend()) {
         // a zerocoin spend that was created by this wallet
         libzerocoin::CoinSpend zcspend = TxInToZerocoinSpend(wtx.vin[0]);
@@ -142,8 +129,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
             sub.idx = parts.size();
             parts.append(sub);
         }
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     } else if (nNet > 0 || wtx.IsCoinBase()) {
         //
         // Credit
@@ -202,11 +187,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
         }
 
         if (fAllFromMeDenom && fAllToMeDenom && nFromMe * nToMe) {
-<<<<<<< HEAD
             parts.append(TransactionRecord(hash, nTime, TransactionRecord::ObfuscationDenominate, "", -nDebit, nCredit));
-=======
-            parts.append(TransactionRecord(hash, nTime, TransactionRecord::CoinMixingDenominate, "", -nDebit, nCredit));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             parts.last().involvesWatchAddress = false; // maybe pass to TransactionRecord as constructor argument
         } else if (fAllFromMe && fAllToMe) {
             // Payment to self
@@ -233,15 +214,9 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                     const CTxOut& txout = wtx.vout[nOut];
                     sub.idx = parts.size();
 
-<<<<<<< HEAD
                     if (wallet->IsCollateralAmount(txout.nValue)) sub.type = TransactionRecord::ObfuscationMakeCollaterals;
                     if (wallet->IsDenominatedAmount(txout.nValue)) sub.type = TransactionRecord::ObfuscationCreateDenominations;
                     if (nDebit - wtx.GetValueOut() == OBFUSCATION_COLLATERAL) sub.type = TransactionRecord::ObfuscationCollateralPayment;
-=======
-                    if (wallet->IsCollateralAmount(txout.nValue)) sub.type = TransactionRecord::CoinMixingMakeCollaterals;
-                    if (wallet->IsDenominatedAmount(txout.nValue)) sub.type = TransactionRecord::CoinMixingCreateDenominations;
-                    if (nDebit - wtx.GetValueOut() == COINMIXING_COLLATERAL) sub.type = TransactionRecord::CoinMixingCollateralPayment;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 }
             }
 
@@ -274,12 +249,9 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                     // Sent to Rhenium Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
-<<<<<<< HEAD
                 } else if (txout.IsZerocoinMint()){
                     sub.type = TransactionRecord::ZerocoinMint;
                     sub.address = mapValue["zerocoinmint"];
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
                     sub.type = TransactionRecord::SendToOther;

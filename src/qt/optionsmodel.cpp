@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -76,25 +72,16 @@ void OptionsModel::Init()
         settings.setValue("fCoinControlFeatures", false);
     fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
 
-<<<<<<< HEAD
     if (!settings.contains("nPreferredDenom"))
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
     if (!settings.contains("nZeromintPercentage"))
         settings.setValue("nZeromintPercentage", 10);
     nZeromintPercentage = settings.value("nZeromintPercentage").toLongLong();
-=======
-    if (!settings.contains("nCoinMixingRounds"))
-        settings.setValue("nCoinMixingRounds", 2);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     if (!settings.contains("nAnonymizeRheniumAmount"))
         settings.setValue("nAnonymizeRheniumAmount", 1000);
 
-<<<<<<< HEAD
-=======
-    nCoinMixingRounds = settings.value("nCoinMixingRounds").toLongLong();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     nAnonymizeRheniumAmount = settings.value("nAnonymizeRheniumAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
@@ -122,11 +109,7 @@ void OptionsModel::Init()
 // Wallet
 #ifdef ENABLE_WALLET
     if (!settings.contains("bSpendZeroConfChange"))
-<<<<<<< HEAD
         settings.setValue("bSpendZeroConfChange", false);
-=======
-        settings.setValue("bSpendZeroConfChange", true);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (!SoftSetBoolArg("-spendzeroconfchange", settings.value("bSpendZeroConfChange").toBool()))
         addOverriddenOption("-spendzeroconfchange");
 #endif
@@ -164,15 +147,10 @@ void OptionsModel::Init()
     if (!SoftSetArg("-lang", settings.value("language").toString().toStdString()))
         addOverriddenOption("-lang");
 
-<<<<<<< HEAD
     if (settings.contains("nZeromintPercentage"))
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-=======
-    if (settings.contains("nCoinMixingRounds"))
-        SoftSetArg("-coinmixingrounds", settings.value("nCoinMixingRounds").toString().toStdString());
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     if (settings.contains("nAnonymizeRheniumAmount"))
         SoftSetArg("-anonymizeRheniumamount", settings.value("nAnonymizeRheniumAmount").toString().toStdString());
 
@@ -252,15 +230,10 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nDatabaseCache");
         case ThreadsScriptVerif:
             return settings.value("nThreadsScriptVerif");
-<<<<<<< HEAD
         case ZeromintPercentage:
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-=======
-        case CoinMixingRounds:
-            return QVariant(nCoinMixingRounds);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         case AnonymizeRheniumAmount:
             return QVariant(nAnonymizeRheniumAmount);
         case Listen:
@@ -366,7 +339,6 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
                 setRestartRequired(true);
             }
             break;
-<<<<<<< HEAD
         case ZeromintPercentage:
             nZeromintPercentage = value.toInt();
             settings.setValue("nZeromintPercentage", nZeromintPercentage);
@@ -378,13 +350,6 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit preferredDenomChanged(nPreferredDenom);
             break;
 
-=======
-        case CoinMixingRounds:
-            nCoinMixingRounds = value.toInt();
-            settings.setValue("nCoinMixingRounds", nCoinMixingRounds);
-            emit coinmixingRoundsChanged(nCoinMixingRounds);
-            break;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         case AnonymizeRheniumAmount:
             nAnonymizeRheniumAmount = value.toInt();
             settings.setValue("nAnonymizeRheniumAmount", nAnonymizeRheniumAmount);
@@ -441,13 +406,8 @@ bool OptionsModel::getProxySettings(QNetworkProxy& proxy) const
     proxyType curProxy;
     if (GetProxy(NET_IPV4, curProxy)) {
         proxy.setType(QNetworkProxy::Socks5Proxy);
-<<<<<<< HEAD
         proxy.setHostName(QString::fromStdString(curProxy.proxy.ToStringIP()));
         proxy.setPort(curProxy.proxy.GetPort());
-=======
-        proxy.setHostName(QString::fromStdString(curProxy.ToStringIP()));
-        proxy.setPort(curProxy.GetPort());
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
         return true;
     } else

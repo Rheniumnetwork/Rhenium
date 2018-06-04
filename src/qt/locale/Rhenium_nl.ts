@@ -132,7 +132,6 @@
         <translation>Herhaal nieuw wachtwoord</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
         <translation>Dient om de triviale sendmoney uit te schakelen wanneer het OS account in gevaar is gebracht. Geeft geen echte veiligheid.</translation>
     </message>
@@ -141,8 +140,6 @@
         <translation>Alleen voor anonimisering en staking</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Voer een nieuw wachtwoord in voor uw portemonnee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
     </message>
@@ -505,13 +502,8 @@
         <translation>&amp;Informatie</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
         <translation>Toon diagRheniumtische informatie</translation>
-=======
-        <source>Show diagnostic information</source>
-        <translation>Toon diagnostische informatie</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -581,13 +573,10 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Opdrachtregelopties</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n blok van transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken van transactiegeschiedenis verwerkt.</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchroniseren aanvullende gegevens: %p%</translation>
@@ -625,7 +614,6 @@
         <translation>Vraag betaling aan (genereert QR-codes en Rhenium: URI's)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;Privacy</source>
         <translation>&amp;Privacy</translation>
     </message>
@@ -634,8 +622,6 @@
         <translation>Privacy Actie voor zXRH en verduistering</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation>&amp;Masternodes</translation>
     </message>
@@ -692,13 +678,10 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a Rhenium: URI or payment request</source>
         <translation>Open een Rhenium: URI of betaalverzoek</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Blockchain explorer</source>
         <translation>&amp;Blockchain verkenner</translation>
     </message>
@@ -707,7 +690,6 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the Rhenium Core help message to get a list with possible Rhenium command-line options</source>
         <translation>Toon het Rhenium Core help bericht om een ​​lijst te krijgen met mogelijke Rhenium command line opties</translation>
     </message>
@@ -720,8 +702,6 @@
         <translation><numerusform>%n actieve verbinding(en) naar het Rhenium netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Rhenium netwerk</numerusform></translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Synchronizing with network...</source>
         <translation>Synchroniseren met het netwerk...</translation>
     </message>
@@ -741,7 +721,6 @@
         <source>Up to date</source>
         <translation>Bijgewerkt</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
@@ -750,31 +729,23 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 and %2</source>
         <translation>%1 en%2</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>%1 behind</source>
         <translation>%1 achter</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Catching up...</source>
         <translation>Aan het bijwerken...</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Last received block was generated %1 ago.</source>
         <translation>Het laatst ontvangen block was %1 geleden gegenereerd.</translation>
     </message>
@@ -803,7 +774,6 @@
         <translation>Inkomende transactie</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sent MultiSend transaction</source>
         <translation>Verzend MultiSend transactie</translation>
     </message>
@@ -826,8 +796,6 @@ Adres: %4
 Multisend: %1</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Active</source>
         <translation>Actief</translation>
     </message>
@@ -836,15 +804,12 @@ Multisend: %1</translation>
         <translation>Niet actief</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Staking is not active
  MultiSend: %1</source>
         <translation>Staking is niet actief
 MultiSend: %1</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
     </message>
@@ -852,15 +817,11 @@ MultiSend: %1</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;alleen voor anonimiteit en staking </translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;geëncrypteerd &lt;/b&gt;en momentel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
     </message>
 </context>
-=======
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>BlockExplorer</name>
     <message>
@@ -868,7 +829,6 @@ MultiSend: %1</translation>
         <translation>Blockchain Verkenner</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Back</source>
         <translation>Terug</translation>
     </message>
@@ -877,8 +837,6 @@ MultiSend: %1</translation>
         <translation>Volgende</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation>Adres / Block / Transactie</translation>
     </message>
@@ -898,13 +856,8 @@ MultiSend: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
-<<<<<<< HEAD
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Totaal: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Onbekend: %5)</translation>
-=======
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Totaal: %1 (OBF compatibel: %2 / Ingeschakeld: %3)</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Network Alert</source>
@@ -954,7 +907,6 @@ MultiSend: %1</translation>
         <translation>(on)selecteer alles</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>toggle lock state</source>
         <translation>Schakel lock state</translation>
     </message>
@@ -971,13 +923,10 @@ MultiSend: %1</translation>
         <translation>(1 opgesloten)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Amount</source>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Received with label</source>
         <translation>Ontvangen met label</translation>
     </message>
@@ -986,8 +935,6 @@ MultiSend: %1</translation>
         <translation>Ontvangen met adres</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>Datum</translation>
     </message>
@@ -1020,7 +967,6 @@ MultiSend: %1</translation>
         <translation>Kopier transactie ID</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Lock unspent</source>
         <translation>Lock niet besteed</translation>
     </message>
@@ -1029,8 +975,6 @@ MultiSend: %1</translation>
         <translation>Unlock niet besteed</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Copy quantity</source>
         <translation>Kopieer kwanititeit</translation>
     </message>
@@ -1043,7 +987,6 @@ MultiSend: %1</translation>
         <translation>Kopiëer na kost</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Copy bytes</source>
         <translation>Kopieer bytes</translation>
     </message>
@@ -1064,8 +1007,6 @@ MultiSend: %1</translation>
         <translation>Ga alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>hoogste</translation>
     </message>
@@ -1078,7 +1019,6 @@ MultiSend: %1</translation>
         <translation>hoog</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>medium-high</source>
         <translation>medium-hoog</translation>
     </message>
@@ -1093,10 +1033,6 @@ MultiSend: %1</translation>
     <message>
         <source>low-medium</source>
         <translation>laag-medium</translation>
-=======
-        <source>n/a</source>
-        <translation>N/B</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>low</source>
@@ -1123,7 +1059,6 @@ MultiSend: %1</translation>
         <translation>nee</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
         <translation>Dit label wordt rood, als de transactiegrootte groter is dan 1000 bytes.</translation>
     </message>
@@ -1148,19 +1083,14 @@ MultiSend: %1</translation>
         <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>change from %1 (%2)</source>
         <translation>wijzig van %1 (%2)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(change)</source>
         <translation>(wijzig)</translation>
     </message>
@@ -1176,24 +1106,18 @@ MultiSend: %1</translation>
         <translation>&amp;Label</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The label associated with this address list entry</source>
         <translation>Het label dat geassocieerd wordt met deze adreslijstinvoer</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
         <translation>Het adres geassocieerd met deze adreslijst vermelding. Dit kan alleen worden gewijzigd voor het verzenden van adressen.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>New receiving address</source>
         <translation>Nieuw ontvangst adres</translation>
     </message>
@@ -1217,7 +1141,6 @@ MultiSend: %1</translation>
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Het ingevoerde adres: "%1" staat al in uw adresboek.</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Could not unlock wallet.</source>
         <translation>Kan portemonnee niet ontgrendelen.</translation>
@@ -1250,16 +1173,6 @@ MultiSend: %1</translation>
         <translation>Kan de data directory hier niet aanmaken.</translation>
     </message>
 </context>
-=======
-    </context>
-<context>
-    <name>FreespaceChecker</name>
-    <message>
-        <source>name</source>
-        <translation>naam</translation>
-    </message>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1271,7 +1184,6 @@ MultiSend: %1</translation>
         <translation>Rhenium Kern</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
@@ -1308,12 +1220,6 @@ MultiSend: %1</translation>
         <translation>Stel SSL root certificaten in voor betalingsverzoek (standaard: -systeem-)</translation>
     </message>
 </context>
-=======
-        <source>Usage:</source>
-        <translation>Gebruik:</translation>
-    </message>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 <context>
     <name>Intro</name>
     <message>
@@ -1321,7 +1227,6 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Welcome to Rhenium Core.</source>
         <translation>Welkom bij Rhenium Core</translation>
     </message>
@@ -1342,19 +1247,14 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Rhenium Core</source>
         <translation>Rhenium Kern</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Fout: opgegeven data directory "%1" kan niet worden gemaakt.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -1378,13 +1278,10 @@ MultiSend: %1</translation>
         <translation>Mijn Masternodes</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
         <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het veld 'Status'.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Alias</source>
         <translation>Alias</translation>
     </message>
@@ -1409,7 +1306,6 @@ MultiSend: %1</translation>
         <translation>Laatst gezien (UTC)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Pubkey</source>
         <translation>Pubkey</translation>
     </message>
@@ -1507,75 +1403,50 @@ MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translatio
         <translation>Aan MultiSend Vector toevoegen</translation>
     </message>
     <message>
-=======
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
-    <name>MultiSendDialog</name>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Add</source>
         <translation>Toevoegen</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Deactivate MultiSend</source>
         <translation>Deactiveer MultiSend</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Deactivate</source>
         <translation>Deactiveren</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Choose an address from the address book</source>
         <translation>Kies een adres uit het adresgids</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Percentage of stake to send</source>
         <translation>Stakingspercentage om te verzenden</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Percentage:</source>
         <translation>Percentage:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Address to send portion of stake to</source>
         <translation>Adres om een ​​deel van inzet te verzenden naar</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Delete Address From MultiSend Vector</source>
         <translation>Verwijder adres van MultiSend Vector</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Delete</source>
         <translation>Wissen</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Activate MultiSend</source>
         <translation>Activeer MultiSend</translation>
     </message>
@@ -5749,619 +5620,4 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Rhenium Alert" admin@foo.com
         <translation>wallet.dat corrupt, redding mislukt</translation>
     </message>
 </context>
-=======
-        <source>Activate</source>
-        <translation>Activeren</translation>
-    </message>
-    </context>
-<context>
-    <name>CoinMixingConfig</name>
-    </context>
-<context>
-    <name>OpenURIDialog</name>
-    </context>
-<context>
-    <name>OptionsDialog</name>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Venster</translation>
-    </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Annuleren</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>geen</translation>
-    </message>
-    </context>
-<context>
-    <name>OverviewPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulier</translation>
-    </message>
-    <message>
-        <source>Available:</source>
-        <translation>Beschikbaar:</translation>
-    </message>
-    <message>
-        <source>Your current spendable balance</source>
-        <translation>Uw huidige bestedingsruimte</translation>
-    </message>
-    <message>
-        <source>Enabled/Disabled</source>
-        <translation>Ingeschakeld/Uitgeschakeld</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>N/B</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>Uitgeschakeld</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation>Ingeschakeld</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>NB</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Uw betalingsverzoek kan niet worden gelezen! Dit kan worden veroorzaakt door een ongeldig betalingsverzoek bestand.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Betalingsverzoek afgewezen</translation>
-    </message>
-    <message>
-        <source>Payment request has expired.</source>
-        <translation>Betalingsverzoek is verlopen.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Betalingsverzoek is niet geïnitialiseerd. </translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>Terugbetaling van %1</translation>
-    </message>
-    </context>
-<context>
-    <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Hoeveelheid</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>NETWORK</source>
-        <translation>NETWERK</translation>
-    </message>
-    <message>
-        <source>UNKNOWN</source>
-        <translation>ONBEKEND</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>NB</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Kopieer afbeelding</translation>
-    </message>
-    <message>
-        <source>Save QR Code</source>
-        <translation>QR code opslaan</translation>
-    </message>
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG Afbeelding(*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-    <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>NB</translation>
-    </message>
-    <message>
-        <source>Block chain</source>
-        <translation>Blockchain</translation>
-    </message>
-    <message>
-        <source>Number of Masternodes</source>
-        <translation>Aantal Masternodes</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Ontvangen</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Verstuurd</translation>
-    </message>
-    <message>
-        <source>Protocol</source>
-        <translation>Protocol</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    </context>
-<context>
-    <name>ReceiveCoinsDialog</name>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiëer label</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
-    </message>
-</context>
-<context>
-    <name>ReceiveRequestDialog</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Hoeveelheid</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Hoeveelheid</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-    </context>
-<context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Kost:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nee</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Na de kost:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Wijzig:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transactiekosten: </translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normaal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>snel</translation>
-    </message>
-    <message>
-        <source>Recommended</source>
-        <translation>Aanbevolen</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopiëer kost</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopiëer na kost</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>Betaal aan:</translation>
-    </message>
-    </context>
-<context>
-    <name>ShutdownWindow</name>
-    <message>
-        <source>Rhenium Core is shutting down...</source>
-        <translation>Rhenium Core is aan het afsluiten...</translation>
-    </message>
-    </context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    <message>
-        <source>The Rhenium address to sign the message with</source>
-        <translation>Het Rhenium adres om het bericht met te ondertekenen</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Enter the message you want to sign here</source>
-        <translation>Voer hier het bericht in dat u wilt ondertekenen</translation>
-    </message>
-    <message>
-        <source>Signature</source>
-        <translation>Handtekening</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
-    </message>
-    <message>
-        <source>Sign the message to prove you own this Rhenium address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Rhenium adres bezit</translation>
-    </message>
-    <message>
-        <source>The Rhenium address the message was signed with</source>
-        <translation>Het Rhenium adres waarmee het bericht was ondertekend</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Rhenium address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Rhenium adres</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Maak alle ondertekenvelden leeg</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
-    </message>
-    </context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <source>Rhenium Core</source>
-        <translation>Rhenium Kern</translation>
-    </message>
-    <message>
-        <source>Version %1</source>
-        <translation>Versie %1</translation>
-    </message>
-    <message>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-</context>
-<context>
-    <name>TrafficGraphWidget</name>
-    <message>
-        <source>KB/s</source>
-        <translation>KB/s</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDesc</name>
-    <message>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>niet geaccepteerd</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Transactiekosten</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Reactie</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Hoeveelheid</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionDescDialog</name>
-    </context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    </context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <source>Today</source>
-        <translation>Vandaag</translation>
-    </message>
-    <message>
-        <source>This week</source>
-        <translation>Deze week</translation>
-    </message>
-    <message>
-        <source>This month</source>
-        <translation>Deze maand</translation>
-    </message>
-    <message>
-        <source>Last month</source>
-        <translation>Afgelopen maand</translation>
-    </message>
-    <message>
-        <source>This year</source>
-        <translation>Dit jaar</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopieer adres</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiëer label</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopier transactie ID</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Bevestigd</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
-    </message>
-    </context>
-<context>
-    <name>UnitDisplayStatusBarControl</name>
-    </context>
-<context>
-    <name>WalletFrame</name>
-    </context>
-<context>
-    <name>WalletModel</name>
-    </context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
-    </message>
-    </context>
-<context>
-    <name>Rhenium-core</name>
-    <message>
-        <source>Error</source>
-        <translation>Error</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informatie</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Waarschuwing</translation>
-    </message>
-    </context>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 </TS>

@@ -67,11 +67,7 @@ def connect_JSON(config):
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
-<<<<<<< HEAD
         config['rpcport'] = 38843 if testnet else 6110
-=======
-        config['rpcport'] = 51475 if testnet else 6110
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     connect = "http://%s:%s@127.0.0.1:%s"%(config['rpcuser'], config['rpcpassword'], config['rpcport'])
     try:
         result = ServiceProxy(connect)

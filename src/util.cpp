@@ -1,11 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -109,17 +105,12 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-<<<<<<< HEAD
 // Rhenium only features
 // Masternode
-=======
-//Rhenium only features
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
 bool fLiteMode = false;
-<<<<<<< HEAD
 // SwiftX
 bool fEnableRhenFAST = true;
 int nRhenFASTDepth = 5;
@@ -129,22 +120,12 @@ int nZeromintPercentage = 10;
 int nPreferredDenom = 0;
 const int64_t AUTOMINT_DELAY = (60 * 5); // Wait at least 5 minutes until Automint starts
 
-=======
-bool fEnableRhenFAST = true;
-int nRhenFASTDepth = 5;
-int nCoinMixingRounds = 2;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 int nAnonymizeRheniumAmount = 1000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
 bool fSucessfullyLoaded = false;
-<<<<<<< HEAD
 /** All denominations used by obfuscation */
-=======
-bool fEnableCoinMixing = false;
-/** All denominations used by coinmixing */
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 std::vector<int64_t> obfuScationDenominations;
 string strBudgetMode = "";
 
@@ -258,18 +239,11 @@ bool LogAcceptCategory(const char* category)
             // thread_specific_ptr automatically deletes the set when the thread ends.
             // "Rhenium" is a composite category enabling all Rhenium-related debug output
             if (ptrCategory->count(string("Rhenium"))) {
-<<<<<<< HEAD
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swiftx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
                 ptrCategory->insert(string("zero"));
-=======
-                ptrCategory->insert(string("coinmixing"));
-                ptrCategory->insert(string("rhenfast"));
-                ptrCategory->insert(string("masternode"));
-                ptrCategory->insert(string("mnpayments"));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                 ptrCategory->insert(string("mnbudget"));
             }
         }

@@ -157,11 +157,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-<<<<<<< HEAD
         <translation>이 작업은 지갑 암호화 해제를 하셔야 가능합니다.</translation>
-=======
-        <translation>이 작업은 지갑 암호화 해제를 위해 지갑 암호가 필요합니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -217,11 +213,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-<<<<<<< HEAD
         <translation>입력한 지갑 암호가 올바르지 않습니다.</translation>
-=======
-        <translation>지갑 암호화 해제를 위해 입력한 지갑 암호가 올바르지 않습니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -240,11 +232,7 @@
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-<<<<<<< HEAD
         <translation>BIP 38 도구</translation>
-=======
-        <translation>BIP 38 Tool</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
@@ -514,11 +502,7 @@
         <translation>&amp;정보</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show diagRheniumtic information</source>
-=======
-        <source>Show diagnostic information</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>진단 정보 표시</translation>
     </message>
     <message>
@@ -559,11 +543,7 @@
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-<<<<<<< HEAD
         <translation>자동 &amp;백업 폴더 열기</translation>
-=======
-        <translation>자동 &amp;백업 표시</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
@@ -595,11 +575,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-<<<<<<< HEAD
         <translation><numerusform>트랜잭션 기록의 %n 블록을 처리함</numerusform></translation>
-=======
-        <translation><numerusform>%n 블록의 거래내역을 처리함</numerusform></translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -638,7 +614,6 @@
         <translation>결제 요청 (QR 코드 및 Rhenium: URI 생성)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>&amp;Privacy</source>
         <translation>&amp;프라이버시</translation>
     </message>
@@ -647,8 +622,6 @@
         <translation>zXRH와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>&amp;Masternodes</source>
         <translation>&amp;마스터노드</translation>
     </message>
@@ -726,11 +699,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Rhenium network</source>
-<<<<<<< HEAD
         <translation><numerusform>%n 개 Rhenium 네트웍에 연결</numerusform></translation>
-=======
-        <translation><numerusform>Rhenium 네트워크에  %n 연결</numerusform></translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -774,19 +743,11 @@
     </message>
     <message>
         <source>%1 behind</source>
-<<<<<<< HEAD
         <translation>%1 남음</translation>
     </message>
     <message>
         <source>Catching up...</source>
         <translation>동기화 중...</translation>
-=======
-        <translation>%1 뒤</translation>
-    </message>
-    <message>
-        <source>Catching up...</source>
-        <translation>동기화중...</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -810,11 +771,7 @@
     </message>
     <message>
         <source>Sent transaction</source>
-<<<<<<< HEAD
         <translation>보낸 트랜잭션</translation>
-=======
-        <translation>트랜잭션 전송</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Incoming transaction</source>
@@ -858,11 +815,7 @@ Address: %4
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-<<<<<<< HEAD
         <translation>현재 지갑은 &lt;b&gt;암호화되어 &lt;b&gt;잠금해제되었습니다.</translation>
-=======
-        <translation>지갑은 &lt;b&gt;암호화&lt;/ b&gt;되어 있으며 현재 &lt;b&gt;잠금해제&lt;/ b&gt;되었습니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
@@ -880,7 +833,6 @@ Address: %4
         <translation>블록체인 탐색기</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Back</source>
         <translation>뒤로</translation>
     </message>
@@ -889,8 +841,6 @@ Address: %4
         <translation>앞으로</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Address / Block / Transaction</source>
         <translation>주소 / 블록 / 트랜잭션</translation>
     </message>
@@ -910,13 +860,8 @@ Address: %4
 <context>
     <name>ClientModel</name>
     <message>
-<<<<<<< HEAD
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</translation>
-=======
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>총: %1 (OBF 호환: %2 / 사용됨: %3)</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Network Alert</source>
@@ -959,11 +904,7 @@ Address: %4
     </message>
     <message>
         <source>Change:</source>
-<<<<<<< HEAD
         <translation>잔돈:</translation>
-=======
-        <translation>변경:</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>(un)select all</source>
@@ -998,13 +939,6 @@ Address: %4
         <translation>수신 된 주소</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>DS Rounds</source>
-        <translation>DS 라운드</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Date</source>
         <translation>날짜</translation>
     </message>
@@ -1058,11 +992,7 @@ Address: %4
     </message>
     <message>
         <source>Copy bytes</source>
-<<<<<<< HEAD
         <translation>Bytes 복사</translation>
-=======
-        <translation>bytes 복사</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Copy priority</source>
@@ -1081,13 +1011,6 @@ Address: %4
         <translation>이 기능을 사용하려면 "목록 모드"로 전환하십시오.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Non-anonymized input selected. &lt;b&gt;CoinMixing will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again.</source>
-        <translation>익명화되지 않은 입력이 선택되었습니다. &lt;b&gt;난독화가 비활성화 되었습니다.&lt;b&gt;&lt;br&gt;&lt;br&gt;난독화를 계속 사용하려면 먼저 익명화 되지 않은 모든 입력을 먼저 선택 취소한 뒤 다시 선택해주세요.</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>highest</source>
         <translation>최고</translation>
     </message>
@@ -1108,13 +1031,6 @@ Address: %4
         <translation>입력당 +/- %1 금액(s)을 변경할 수 있습니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>medium</source>
         <translation>중간</translation>
     </message>
@@ -1184,11 +1100,7 @@ Address: %4
     </message>
     <message>
         <source>(change)</source>
-<<<<<<< HEAD
         <translation>(잔돈)</translation>
-=======
-        <translation>(변경)</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -1211,11 +1123,7 @@ Address: %4
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-<<<<<<< HEAD
         <translation>이 주소 목록과 관련된 주소입니다. 주소를 보낼 때만 수정할 수 있습니다.</translation>
-=======
-        <translation>이 주소 목록과 관련된 주소입니다. 주소를 보낼때만 수정할 수 있습니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>New receiving address</source>
@@ -1336,11 +1244,7 @@ Address: %4
     </message>
     <message>
         <source>Welcome to Rhenium Core.</source>
-<<<<<<< HEAD
         <translation>Rhenium Core에 오신 것을 환영합니다.</translation>
-=======
-        <translation>Rhenium Core 환영합니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Rhenium Core will store its data.</source>
@@ -1622,15 +1526,9 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
-=======
-    <name>CoinMixingConfig</name>
-    <message>
-        <source>Configure CoinMixing</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화 구성</translation>
     </message>
     <message>
@@ -1678,7 +1576,6 @@ Please check the address and try again.</source>
         <translation>10000 XRH 익명화에 0.1 XRH 가 듭니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation Configuration</source>
         <translation>난독화 구성</translation>
     </message>
@@ -1692,21 +1589,6 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-=======
-        <source>CoinMixing Configuration</source>
-        <translation>난독화 구성</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Rhenium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Rhenium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Rhenium's configuration screen.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Rhenium의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
@@ -1796,25 +1678,6 @@ Please check the address and try again.</source>
         <translation>&amp;시스템 로그인시 Rhenium 시작</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>이 설정은 익명화 할 입력 값의 개별 마스터노드의 수량을 결정합니다.&lt;br/&gt;더 많은 익명화할 액수는 높은 수준의 익명성을 제공하지만 수수료가 많이 듭니다.</translation>
-    </message>
-    <message>
-        <source>CoinMixing rounds to use</source>
-        <translation>난독화를 사용할 영역</translation>
-    </message>
-    <message>
-        <source>This amount acts as a threshold to turn off CoinMixing once it's reached.</source>
-        <translation>이 금액에 도달하면 난독화를 끌 수 있는 임계 값 역할을 합니다.</translation>
-    </message>
-    <message>
-        <source>Amount of Rhenium to keep anonymized</source>
-        <translation>익명화할 Rhenium 수량</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Whether to show coin control features or not.</source>
         <translation>동전 제어 기능을 표시할지 여부를 나타냅니다.</translation>
     </message>
@@ -1845,11 +1708,7 @@ Please check the address and try again.</source>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/Rhenium-project/Rhenium-project-translations</source>
-<<<<<<< HEAD
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
-=======
-        <translation>지원 언어가 없거나 번역이 불완전한가요? 번역 기여 도움말:
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translation>
     </message>
     <message>
@@ -1857,7 +1716,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Percentage of incoming XRH which get automatically converted to zXRH via Zerocoin Protocol (min: 10%)</source>
         <translation>XRH수신시 자동변환 zXRH 퍼센트 (최소값:10%)</translation>
     </message>
@@ -1874,8 +1732,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>선호하는 자동생성 zXRH 디노미네이션 </translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Connect to the Rhenium network through a SOCKS5 proxy.</source>
         <translation>SOCKS5 프록시를 통해 Rhenium 네트워크에 연결해주세요.</translation>
     </message>
@@ -1968,13 +1824,10 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>&amp;취소</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>I don't care</source>
         <translation>없음</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>default</source>
         <translation>기본값</translation>
     </message>
@@ -2010,13 +1863,10 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>Form</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>XRH Balances</source>
         <translation>XRH 잔액</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Available:</source>
         <translation>사용가능:</translation>
     </message>
@@ -2041,13 +1891,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>아직 완료되지 않은 스테이크 및 마스터노드 보상</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Balances</source>
-        <translation>잔액</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rhenium network after a connection is established, but this process has not completed yet.</source>
         <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Rhenium 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
@@ -2084,7 +1927,6 @@ https://www.transifex.com/Rhenium-project/Rhenium-project-translations</translat
         <translation>출금 가능 액수:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Combined Balances (including immature coins)</source>
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
@@ -2674,262 +2516,6 @@ Please be patient...</source>
     <message>
         <source>fee: </source>
         <translation>수수료:</translation>
-=======
-        <source>Status:</source>
-        <translation>상태:</translation>
-    </message>
-    <message>
-        <source>CoinMixing Balance:</source>
-        <translation>난독화 된 잔액:</translation>
-    </message>
-    <message>
-        <source>0 XRH / 0 Rounds</source>
-        <translation>0 XRH / 0 수량</translation>
-    </message>
-    <message>
-        <source>Enabled/Disabled</source>
-        <translation>활성화/비활성화</translation>
-    </message>
-    <message>
-        <source>Try to manually submit a CoinMixing request.</source>
-        <translation>난독화 요청을 수동으로 제출해주세요.</translation>
-    </message>
-    <message>
-        <source>Reset the current status of CoinMixing (can interrupt CoinMixing if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>현재 난독화 상태를 초기화 합니다. (난독화가 믹스 중일 경우에 간섭으로 비용이 발생할 수 있습니다!)</translation>
-    </message>
-    <message>
-        <source>CoinMixing</source>
-        <translation>난독화</translation>
-    </message>
-    <message>
-        <source>Completion:</source>
-        <translation>완료:</translation>
-    </message>
-    <message>
-        <source>Amount and Rounds:</source>
-        <translation>금액 및 수량:</translation>
-    </message>
-    <message>
-        <source>Submitted Denom:</source>
-        <translation>제출된 단위:</translation>
-    </message>
-    <message>
-        <source>n/a</source>
-        <translation>n/a</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>최근 트랜잭션</translation>
-    </message>
-    <message>
-        <source>Start/Stop Mixing</source>
-        <translation>믹싱 시작/종료</translation>
-    </message>
-    <message>
-        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>당신이 마스터노드에 제출한 단위.&lt;br&gt;믹스하려면 다른 유저들은 반드시 정확한 단위를 제출해야 합니다.</translation>
-    </message>
-    <message>
-        <source>(Last Message)</source>
-        <translation>(최근 메시지)</translation>
-    </message>
-    <message>
-        <source>Try Mix</source>
-        <translation>믹스 시도</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>초기화</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>동기화되지 않음</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <translation>비활성됨</translation>
-    </message>
-    <message>
-        <source>No inputs detected</source>
-        <translation>값이 입력되지 않음</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n Rounds</source>
-        <translation><numerusform>%n 라운드</numerusform></translation>
-    </message>
-    <message>
-        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>익명화를 위한 값이 충분하지 않아 &lt;span style='color:red;'&gt;%1/span&gt;,&lt;br&gt;대신 &lt;span style='color:red;'&gt;%2&lt;/span&gt;가 익명화 됩니다.</translation>
-    </message>
-    <message>
-        <source>Overall progress</source>
-        <translation>전체 내역</translation>
-    </message>
-    <message>
-        <source>Denominated</source>
-        <translation>표기된</translation>
-    </message>
-    <message>
-        <source>Anonymized</source>
-        <translation>익명화된</translation>
-    </message>
-    <message numerus="yes">
-        <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>지정된 입력값은  평균 %n 라운드중 %5입니다.</numerusform></translation>
-    </message>
-    <message>
-        <source>Last CoinMixing message:
-</source>
-        <translation>최근 Obfuscate한 메시지:
-</translation>
-    </message>
-    <message>
-        <source>CoinMixing was successfully reset.</source>
-        <translation>난독화가 성공적으로 초기화 되었습니다.</translation>
-    </message>
-    <message>
-        <source>If you don't want to see internal CoinMixing fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>내부 난독화 수수료/트랜잭션를 보고 싶지 않으면 "트랜잭션" 탭에서 '기본적인'을 선택하십시오.</translation>
-    </message>
-    <message>
-        <source>CoinMixing requires at least %1 to use.</source>
-        <translation>난독화를 사용하기 위해선 적어도 %1이 필요합니다.</translation>
-    </message>
-    <message>
-        <source>Wallet is locked and user declined to unlock. Disabling CoinMixing.</source>
-        <translation>지갑이 잠겼으며 사용자가 잠금 해제를 거부했습니다. 난독화 중단.</translation>
-    </message>
-    <message>
-        <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>%1 익명화를 진행하기 위해서는 충분한 값이 필요합니다</translation>
-    </message>
-    <message>
-        <source>Start CoinMixing</source>
-        <translation>난독화 시작</translation>
-    </message>
-    <message>
-        <source>Stop CoinMixing</source>
-        <translation>난독화 중지</translation>
-    </message>
-    <message>
-        <source>Mixed</source>
-        <translation>믹스됨</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation>활성화됨</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <source>Payment request error</source>
-        <translation>결제 요청 오류</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>URI 처리</translation>
-    </message>
-    <message>
-        <source>Payment request fetch URL is invalid: %1</source>
-        <translation>결제 요청을 불러오기 위한 URL이 잘못 되었습니다: %1</translation>
-    </message>
-    <message>
-        <source>Payment request file handling</source>
-        <translation>결제 요청 파일 처리 중</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>잘못된 결제 주소 %1</translation>
-    </message>
-    <message>
-        <source>Cannot start Rhenium: click-to-pay handler</source>
-        <translation>Rhenium을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Rhenium address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Rhenium 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>결제 요청 파일을 읽어 올 수 없습니다! 이는 결제 요청 파일이 잘못되었을 때 발생할 수 있습니다.</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>결제 요청 거부</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>결제가 요청된 네트워크와 클라이언트의 네트워크가 일치하지 않습니다.</translation>
-    </message>
-    <message>
-        <source>Payment request has expired.</source>
-        <translation>결제 요청 기간이 만료되었습니다.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>결제 요청 값이 초기화 되지 않았습니다.</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>커스텀 결제 스크립트에 대한 확인되지 않은 결제 요청은 지원되지 않습니다.</translation>
-    </message>
-    <message>
-        <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>%1 이하의 결제 요청 금액은 너무 적습니다(현금으로 간주됨).</translation>
-    </message>
-    <message>
-        <source>Refund from %1</source>
-        <translation>%1로 부터 환불 되었습니다.</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>결제 요청 금액 %1은 너무 큽니다 (%2 바이트, %3 바이트 허용).</translation>
-    </message>
-    <message>
-        <source>Payment request DoS protection</source>
-        <translation>결제 요청 DoS 보호</translation>
-    </message>
-    <message>
-        <source>Error communicating with %1: %2</source>
-        <translation>%1 과 통신하는 중 오류 발생: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>결제 요청을 확인할 수 없습니다!</translation>
-    </message>
-    <message>
-        <source>Bad response from server %1</source>
-        <translation>%1 서버로 부터 응답 없음</translation>
-    </message>
-    <message>
-        <source>Network request error</source>
-        <translation>네트워크 요청 오류</translation>
-    </message>
-    <message>
-        <source>Payment acknowledged</source>
-        <translation>결제 확인 됨</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <source>Address/Hostname</source>
-        <translation>주소/사용자 이름</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>버전</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>응답 시간</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
 </context>
 <context>
@@ -2963,13 +2549,10 @@ Please be patient...</source>
         <translation>네트워크</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>BLOOM</source>
         <translation>BLOOM</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>UNKNOWN</source>
         <translation>UNKNOWN</translation>
     </message>
@@ -3485,17 +3068,6 @@ Please be patient...</source>
         <translation>코인 제어 기능</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Inputs...</source>
-        <translation>입력...</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>자동 선택됨</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds!</source>
         <translation>자금이 충분하지 않습니다!</translation>
     </message>
@@ -3580,13 +3152,6 @@ Please be patient...</source>
         <translation>최소화</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>CoinMixing</source>
-        <translation>난독화</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>per kilobyte</source>
         <translation>킬로바이트당</translation>
     </message>
@@ -3611,7 +3176,6 @@ Please be patient...</source>
         <translation>승인 시간:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open Coin Control...</source>
         <translation>코인 설정 열기...</translation>
     </message>
@@ -3620,8 +3184,6 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If the custom fee is set to 1000 uXRHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXRHs in fee,&lt;br /&gt;while "at least" pays 1000 uXRHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXRHs로 설정되고,&lt;br /&gt;1000 uXRHs 안에는 최소 "킬로바이트당" 250 uXRHs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
@@ -3678,13 +3240,10 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Anonymized XRH</source>
         <translation>익명화 XRH</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>RhenFAST</source>
         <translation>RhenFAST</translation>
     </message>
@@ -3776,25 +3335,15 @@ Please be patient...</source>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
         <translation>KB당 %1보다 %2배 많은 수수료는 너무 높은 수수료입니다.</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>%n 블록이내에서 컨펌이 시작될것 같습니다.</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>수신자 주소가 유효하지 않습니다. 다시 확인해주세요.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>(coinmixing requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(난독화로 이 금액을 가장 가까운 %1로 반올림 해야됩니다)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source> split into %1 outputs using the UTXO splitter.</source>
         <translation>UTXO 스플리터를 사용하여 %1 출력으로 분할하십시오.</translation>
     </message>
@@ -3828,15 +3377,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-<<<<<<< HEAD
         <translation>오류: 현재 지갑이 익명 처리를 위해 잠금해제 되어 있습니다. 익명화 및 스테이킹 전용을 해제하시고 다시 시도하세요.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
         <translation>에러 : 현재 지갑은 코인 익명화를 위해서만 잠금해제되었습니다. 잠금해제가 취소됩니다.</translation>
-=======
-        <translation>오류: 지갑이 코인 익명 처리를 위해 잠금해제 되었습니다.</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -4112,13 +3657,10 @@ Please be patient...</source>
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>%n 이상의 블록 열기</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Open until %1</source>
         <translation>%1까지 열기</translation>
@@ -4180,13 +3722,10 @@ Please be patient...</source>
         <source>, has not been successfully broadcast yet</source>
         <translation>, 아직 성공적으로 브로드캐스트되지 않았습니다</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation><numerusform>, %n 개 노드를 통해 브로드캐스트됩니다.</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Date</source>
         <translation>날짜</translation>
@@ -4227,13 +3766,10 @@ Please be patient...</source>
         <source>Credit</source>
         <translation>크레딧</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>%n 개 이상의 블록에서 생성됩니다.</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>not accepted</source>
         <translation>허용되지 않음</translation>
@@ -4332,13 +3868,10 @@ Please be patient...</source>
         <source>Address</source>
         <translation>주소</translation>
     </message>
-<<<<<<< HEAD
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation><numerusform>%n 이상의 블록 열기</numerusform></translation>
     </message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <message>
         <source>Open until %1</source>
         <translation>%1까지 열기</translation>
@@ -4381,7 +3914,6 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received from</source>
-<<<<<<< HEAD
         <translation>수신됨</translation>
     </message>
     <message>
@@ -4402,28 +3934,6 @@ Please be patient...</source>
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
-=======
-        <translation>발신원</translation>
-    </message>
-    <message>
-        <source>Received via CoinMixing</source>
-        <translation>난독화를 통해 수신 됨</translation>
-    </message>
-    <message>
-        <source>CoinMixing Denominate</source>
-        <translation>난독화 표시</translation>
-    </message>
-    <message>
-        <source>CoinMixing Collateral Payment</source>
-        <translation>난독화 보증 결제 </translation>
-    </message>
-    <message>
-        <source>CoinMixing Make Collateral Inputs</source>
-        <translation>난독화로 보증 입력</translation>
-    </message>
-    <message>
-        <source>CoinMixing Create Denominations</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화 표시 만들기</translation>
     </message>
     <message>
@@ -4451,7 +3961,6 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Converted Phr to zPhr</source>
         <translation>zXRH로 변환된 XRH</translation>
     </message>
@@ -4472,19 +3981,14 @@ Please be patient...</source>
         <translation>zPhr에서 Phr로 변환됨</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>watch-only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>zPhr Accumulator</source>
         <translation>zPhr 누산기</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
@@ -4560,7 +4064,6 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation Make Collateral Inputs</source>
         <translation>난독화로 보증 입력</translation>
     </message>
@@ -4574,21 +4077,6 @@ Please be patient...</source>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
-=======
-        <source>CoinMixing Make Collateral Inputs</source>
-        <translation>난독화로 보증 입력</translation>
-    </message>
-    <message>
-        <source>CoinMixing Create Denominations</source>
-        <translation>난독화 표시 만들기</translation>
-    </message>
-    <message>
-        <source>CoinMixing Denominate</source>
-        <translation>난독화 표시</translation>
-    </message>
-    <message>
-        <source>CoinMixing Collateral Payment</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화 보증 결제 </translation>
     </message>
     <message>
@@ -4608,7 +4096,6 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Received Phr from zPhr</source>
         <translation>zXRH로 전송받은 XRH</translation>
     </message>
@@ -4629,8 +4116,6 @@ Please be patient...</source>
         <translation>자신에게 제로코인 전송</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Other</source>
         <translation>기타</translation>
     </message>
@@ -4792,7 +4277,6 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
@@ -4820,8 +4304,6 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     <name>Rhenium-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -4848,13 +4330,10 @@ Please be patient...</source>
         <translation>JSON-RPC연결 수신을 위해 주어진 주소를 지정합니다. [host]: IPv6 포트 표기법 사용. 이 옵션은 여러번 지정할 수 있습니다. (기본값 : 모든 인터페이스에 지정)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
         <translation>계산된 누산기 체크포인트는 블록 인덱스에 의해 기록되는 것이 아닙니다.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Cannot obtain a lock on data directory %s. Rhenium Core is probably already running.</source>
         <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Rhenium Core는 이미 실행 중입니다.</translation>
     </message>
@@ -4875,11 +4354,7 @@ Please be patient...</source>
         <translation>지갑의 모든 트랜잭션들을 삭제하고 오직 블록체인을 통한 트랜잭션 부분들만 복구합니다 -시작 시 다시 스캔</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Disable all Rhenium specific functionality (Masternodes, Obfuscation, RhenFAST, Budgeting) (0-1, default: %u)</source>
-=======
-        <source>Disable all Rhenium specific functionality (Masternodes, CoinMixing, RhenFAST, Budgeting) (0-1, default: %u)</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>Rhenium의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, RhenFAST, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
@@ -4887,24 +4362,14 @@ Please be patient...</source>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Enable spork administration functionality with the appropriate private key.</source>
         <translation>올바른 개인키로 spork 관리 기능을 사용 가능</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable rhenfast, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>swiftTX 활성화, 잠긴 트랜잭션들에 대한 확인 표시 (bool, 기본값: %s)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Enable use of automated coinmixing for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>이 지갑에 저장된 금액에 대해 자동 난독화 사용을 활성화 합니다 (0-1, 기본값: %u)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>리그레션 테스트에 들어갑니다. 특수 체인을 사용하며 블록들을 바로 푸는 것이 가능합니다.</translation>
     </message>
@@ -4945,13 +4410,6 @@ Please be patient...</source>
         <translation>미확인 표시된 출력들을 찾고 계속하기 위한 확인을 받기 전까지 기다립니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>-checkblocks의 블록 검증이 얼마나 철저한 정도 (0-4, 기본값: %u)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>paytxfee가 설정되어 있지 않는 경우 충분한 수수료를 넣어야만 평균이내 n블록들을 확인하고 트랜잭션를 시작합니다 (기본값: %u)</translation>
     </message>
@@ -4964,13 +4422,10 @@ Please be patient...</source>
         <translation>-maxtxfee=&lt;amount&gt;에 대한 잘못된 금액: '%s' (트랜잭션 정지를 막을려면 적어도 %s의 minrelay 수수료가 있어야 합니다)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
         <translation>항상 송금할수 있도록 지정된 수량 유지 (기본값 : 0)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
         <translation>블록을 채굴 할 때 트랜잭션 우선 순위 및 kB 당 수수료를 기록합니다 (기본값: %u)</translation>
     </message>
@@ -4991,11 +4446,7 @@ Please be patient...</source>
         <translation>재연결로 인해 피어가 오작동을 유지하는 초 단위 시간 (기본값: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-=======
-        <source>CoinMixing uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화는 정확한 금액을 사용하여 자금을 송금하기 때문에 더 많은 코인을 익명화해야 할 수도 있습니다.</translation>
     </message>
     <message>
@@ -5003,13 +4454,6 @@ Please be patient...</source>
         <translation>디버깅 정보 출력 (기본값: %u, &lt;category&gt; 공급은 선택입니다)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Provide liquidity to CoinMixing by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>자주 사용하지 않는 코인을 믹싱하여 난독화에 유동성을 제공합니다 (0-100, 기본값: %u, 1=매우 잦음, 높은 수수료, 100=매운 드문, 낮은 수수료)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>DNS 검색을 통한 피어 주소 쿼리, 주소가 부족할 경우 (-connect 아닌 이상 기본값:1)</translation>
     </message>
@@ -5038,13 +4482,10 @@ Please be patient...</source>
         <translation>성공적으로 잠긴 트랜잭션에 대한 확인을 N으로 나타냅니다 (0-9999, 기본값: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
         <translation>bloom필터를 사용한 블록 및 트랜잭션 필터링 지원 (기본값 : %u)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>RhenFAST requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>RhenFAST는 최소 6회 확인이 필요한 입력으로 몇 분 후에 다시 시도해야 할 수 있습니다.</translation>
     </message>
@@ -5081,19 +4522,11 @@ rpcpassword=%s
         <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Rhenium Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XRH.</source>
-=======
-        <source>Unable to locate enough CoinMixing denominated funds for this transaction.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough CoinMixing non-denominated funds for this transaction that are not equal 10000 XRH.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 XRH과 일치하지 않음.</translation>
     </message>
     <message>
@@ -5161,13 +4594,10 @@ rpcpassword=%s
         <translation>(메인넷 일경우 5110)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Accept command line and JSON-RPC commands</source>
         <translation> command line 과 JSON-RPC 적용</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>외부에서의 접속을 허용 (1 -프록시 또는 -연결이 없을 경우 기본값)</translation>
     </message>
@@ -5200,24 +4630,18 @@ rpcpassword=%s
         <translation>손상된 wallet.dat으로 부터 개인 키 복구를 시도합니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation>자동 Tor 히든 서버스 생성 (기본값: %d)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Block creation options:</source>
         <translation>블록 생성 옵션:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Calculating missing accumulators...</source>
         <translation>누락된 누산기 계산중...</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Can't denominate: no compatible inputs left.</source>
         <translation>표시할 수 없음: 남아있는 호환된 연결이 없습니다.</translation>
     </message>
@@ -5298,13 +4722,10 @@ rpcpassword=%s
         <translation>디버깅/테스팅 옵션:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
         <translation>거래시 수신 알림창 해제  (기본값: %u)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>안전모드 비활성화, 실시간 안전모드 이벤트 중단 (기본값: %u)</translation>
     </message>
@@ -5325,13 +4746,10 @@ rpcpassword=%s
         <translation>로딩 완료</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
         <translation>자동 제로코인 생성 (0-1, 기본값: %u)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>클라이언트가 마스터노드로 작동하는 것을 활성화 (0-1, 기본값: %u)</translation>
     </message>
@@ -5404,11 +4822,7 @@ rpcpassword=%s
         <translation>오류 : 지갑이 잠겼습니다, 트랜잭션을 생성할 수 없습니다!</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Error: You already have pending entries in the Obfuscation pool</source>
-=======
-        <source>Error: You already have pending entries in the CoinMixing pool</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>오류 : 이미 난독화 그룹에 보류중인 항목들이 있습니다.</translation>
     </message>
     <message>
@@ -5488,32 +4902,20 @@ rpcpassword=%s
         <translation>입력이 올바르지 않습니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Insufficient funds</source>
         <translation>잔액이 충분하지 않음</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Insufficient funds.</source>
         <translation>충분하지 않은 금액.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>잘못된 -onion 주소거나 호스트네임 : '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
         <translation>잘못된 -proxy 주소거나 호스트네입 : '%s'</translation>
-=======
-        <source>Invalid -onion address: '%s'</source>
-        <translation>유효하지 않은 -onion 주소: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>유효하지 않은 -proxy 주소: '%s'</translation>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -5540,13 +4942,10 @@ rpcpassword=%s
         <translation>-reservebalance=&lt;amount&gt;에 대한 금액이 유효하지 않은 값</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Invalid amount</source>
         <translation>잘못된 수량</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>마스터노드 개인 키가 잘못되었습니다. 설명서를 참조하십시오.</translation>
     </message>
@@ -5567,7 +4966,6 @@ rpcpassword=%s
         <translation>유효하지 않은 스크립트가 발견되었습니다.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation>이것은 사전 릴리스 테스트 빌드입니다 - 사용상 책임은 귀하에게 있습니다. - staking이나 상업적인 용도로는 절대 사용하지 마십시오!</translation>
     </message>
@@ -5644,24 +5042,14 @@ rpcpassword=%s
         <translation>&lt;address&gt; 에서 Raw 트랜잭션 게시 지원</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Enable staking functionality (0-1, default: %u)</source>
         <translation>스테이킹 기능 사용 (0-1, 기본값: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Keep N XRH anonymized (default: %u)</source>
-        <translation>N XRH 익명으로 유지 (기본값: %u)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>메모리에서 연결 불가능한 트랜잭션을 &lt;n&gt;개까지 유지하십시오. (기본값: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Last Obfuscation was too recent.</source>
         <translation>최근에 마지막으로 난독화를 진행했습니다.</translation>
     </message>
@@ -5674,16 +5062,6 @@ rpcpassword=%s
         <translation>3 미만 추가, 송금 불가능함</translation>
     </message>
     <message>
-=======
-        <source>Last CoinMixing was too recent.</source>
-        <translation>최근에 마지막으로 난독화를 진행했습니다.</translation>
-    </message>
-    <message>
-        <source>Last successful CoinMixing action was too recent.</source>
-        <translation>최근에 마지막으로 성공한 난독화 작업이 있습니다.</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
         <translation>시그니처 캐시의 크기 제한을 &lt;n&gt; 항목으로 합니다 (기본값: %u)</translation>
     </message>
@@ -5720,13 +5098,10 @@ rpcpassword=%s
         <translation>마스터노드 결제 캐시를 불러오는 중...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Loading sporks...</source>
         <translation>sporks 로딩중...</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>지갑을 불러오는 중… (%3.2f %%)</translation>
     </message>
@@ -5819,7 +5194,6 @@ rpcpassword=%s
         <translation>자동 지갑 백업 횟수 (기본값: 10)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Obfuscation is idle.</source>
         <translation>난독화는 유휴상태입니다.</translation>
     </message>
@@ -5829,21 +5203,6 @@ rpcpassword=%s
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-=======
-        <source>CoinMixing is idle.</source>
-        <translation>난독화는 유휴상태입니다.</translation>
-    </message>
-    <message>
-        <source>CoinMixing options:</source>
-        <translation>난독화 옵션:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request complete:</source>
-        <translation>난독화 요청 완료:</translation>
-    </message>
-    <message>
-        <source>CoinMixing request incomplete:</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화 요청 미완료:</translation>
     </message>
     <message>
@@ -5863,13 +5222,10 @@ rpcpassword=%s
         <translation>JSON-RPC 연결 비밀번호</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
         <translation>자동 생성 제로코인 퍼센트 (10-100, 기본값: %u)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>디버그 출력 앞에 타임스탬프를 추가합니다. (기본값: %u)</translation>
     </message>
@@ -5922,7 +5278,6 @@ rpcpassword=%s
         <translation>다시 스캔하는 중...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>ResetMintZerocoin finished: </source>
         <translation>생성된 제로코인 초기화 완료:</translation>
     </message>
@@ -5931,8 +5286,6 @@ rpcpassword=%s
         <translation>사용된 제로코인 초기화 완료:</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Run a thread to flush wallet periodically (default: %u)</source>
         <translation>주기적으로 지갑을 플러쉬하는 스레드를 실행합니다 (기본값: %u)</translation>
     </message>
@@ -6117,7 +5470,6 @@ rpcpassword=%s
         <translation>제대로 동작하지 않는 피어와 연결을 끊을 임계값 (기본값: %u)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Tor control port password (default: empty)</source>
         <translation>Tor 컨트롤 포트 암호 (기본값: 공백)</translation>
     </message>
@@ -6126,8 +5478,6 @@ rpcpassword=%s
         <translation>onion 활성화되었을 경우 사용할 Tor 코트롤 포트 (기본값: %s)</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Transaction amount too small</source>
         <translation>트랜잭션 금액이 너무 적습니다</translation>
     </message>
@@ -6180,13 +5530,6 @@ rpcpassword=%s
         <translation>지갑을 최신 포맷으로 업그레이드합니다</translation>
     </message>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>N개의 각각의 마스터노드를 이용하여 자금 익명화 (2-8, 기본값: %u)</translation>
-    </message>
-    <message>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>JSON-RPC 연결에 OpenSSL (https)를 사용합니다</translation>
     </message>
@@ -6207,11 +5550,7 @@ rpcpassword=%s
         <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Value more than Obfuscation pool maximum allows.</source>
-=======
-        <source>Value more than CoinMixing pool maximum allows.</source>
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <translation>난독화 풀의 최대 허용 값보다 높습니다.</translation>
     </message>
     <message>
@@ -6283,7 +5622,6 @@ rpcpassword=%s
         <translation>ZeroMQ 알림 옵션:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Zerocoin options:</source>
         <translation>제로코인 옵션:</translation>
     </message>
@@ -6292,8 +5630,6 @@ rpcpassword=%s
         <translation>제로코인 검증을 못했습니다.</translation>
     </message>
     <message>
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         <source>on startup</source>
         <translation>시작 시</translation>
     </message>

@@ -1,10 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,14 +16,9 @@
 
 #include "coincontrol.h"
 #include "main.h"
-<<<<<<< HEAD
 #include "obfuscation.h"
 #include "wallet.h"
 #include "multisigdialog.h"
-=======
-#include "coinmixing.h"
-#include "wallet.h"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 #include <boost/assign/list_of.hpp> // for 'map_list_of()'
 
@@ -47,19 +38,12 @@ QList<CAmount> CoinControlDialog::payAmounts;
 int CoinControlDialog::nSplitBlockDummy;
 CCoinControl* CoinControlDialog::coinControl = new CCoinControl();
 
-<<<<<<< HEAD
 CoinControlDialog::CoinControlDialog(QWidget* parent, bool fMultisigEnabled) : QDialog(parent),
-=======
-CoinControlDialog::CoinControlDialog(QWidget* parent) : QDialog(parent),
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
                                                         ui(new Ui::CoinControlDialog),
                                                         model(0)
 {
     ui->setupUi(this);
-<<<<<<< HEAD
     this->fMultisigEnabled = fMultisigEnabled;
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     /* Open CSS when configured */
     this->setStyleSheet(GUIUtil::loadStyleSheet());
@@ -151,10 +135,6 @@ CoinControlDialog::CoinControlDialog(QWidget* parent) : QDialog(parent),
     ui->treeWidget->setColumnWidth(COLUMN_AMOUNT, 100);
     ui->treeWidget->setColumnWidth(COLUMN_LABEL, 170);
     ui->treeWidget->setColumnWidth(COLUMN_ADDRESS, 190);
-<<<<<<< HEAD
-=======
-    ui->treeWidget->setColumnWidth(COLUMN_COINMIXING_ROUNDS, 88);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     ui->treeWidget->setColumnWidth(COLUMN_DATE, 80);
     ui->treeWidget->setColumnWidth(COLUMN_CONFIRMATIONS, 100);
     ui->treeWidget->setColumnWidth(COLUMN_PRIORITY, 100);
@@ -193,10 +173,7 @@ void CoinControlDialog::setModel(WalletModel* model)
         updateView();
         updateLabelLocked();
         CoinControlDialog::updateLabels(model, this);
-<<<<<<< HEAD
         updateDialogLabels();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 }
 
@@ -234,10 +211,7 @@ void CoinControlDialog::buttonSelectAllClicked()
     if (state == Qt::Unchecked)
         coinControl->UnSelectAll(); // just to be sure
     CoinControlDialog::updateLabels(model, this);
-<<<<<<< HEAD
     updateDialogLabels();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 }
 
 // Toggle lock state
@@ -249,13 +223,10 @@ void CoinControlDialog::buttonToggleLockClicked()
         ui->treeWidget->setEnabled(false);
         for (int i = 0; i < ui->treeWidget->topLevelItemCount(); i++) {
             item = ui->treeWidget->topLevelItem(i);
-<<<<<<< HEAD
 
             if (item->text(COLUMN_TYPE) == "MultiSig")
                 continue;
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             COutPoint outpt(uint256(item->text(COLUMN_TXHASH).toStdString()), item->text(COLUMN_VOUT_INDEX).toUInt());
             if (model->isLockedCoin(uint256(item->text(COLUMN_TXHASH).toStdString()), item->text(COLUMN_VOUT_INDEX).toUInt())) {
                 model->unlockCoin(outpt);
@@ -270,10 +241,7 @@ void CoinControlDialog::buttonToggleLockClicked()
         }
         ui->treeWidget->setEnabled(true);
         CoinControlDialog::updateLabels(model, this);
-<<<<<<< HEAD
         updateDialogLabels();
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     } else {
         QMessageBox msgBox;
         msgBox.setObjectName("lockMessageBox");
@@ -468,7 +436,6 @@ void CoinControlDialog::viewItemChanged(QTreeWidgetItem* item, int column)
             coinControl->UnSelect(outpt);
         else if (item->isDisabled()) // locked (this happens if "check all" through parent node)
             item->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
-<<<<<<< HEAD
         else
             coinControl->Select(outpt);
 
@@ -477,23 +444,6 @@ void CoinControlDialog::viewItemChanged(QTreeWidgetItem* item, int column)
             CoinControlDialog::updateLabels(model, this);
             updateDialogLabels();
         }
-=======
-        else {
-            coinControl->Select(outpt);
-            CTxIn vin(outpt);
-            int rounds = pwalletMain->GetInputCoinMixingRounds(vin);
-            if (coinControl->useObfuScation && rounds < nCoinMixingRounds) {
-                QMessageBox::warning(this, windowTitle(),
-                    tr("Non-anonymized input selected. <b>CoinMixing will be disabled.</b><br><br>If you still want to use CoinMixing, please deselect all non-nonymized inputs first and then check CoinMixing checkbox again."),
-                    QMessageBox::Ok, QMessageBox::Ok);
-                coinControl->useObfuScation = false;
-            }
-        }
-
-        // selection changed -> update labels
-        if (ui->treeWidget->isEnabled()) // do not update on every click for (un)select all
-            CoinControlDialog::updateLabels(model, this);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     }
 // todo: this is a temporary qt5 fix: when clicking a parent node in tree mode, the parent node
 //       including all childs are partially selected. But the parent node should be fully selected
@@ -547,7 +497,6 @@ void CoinControlDialog::updateLabelLocked()
         ui->labelLocked->setVisible(false);
 }
 
-<<<<<<< HEAD
 void CoinControlDialog::updateDialogLabels()
 {
 
@@ -584,8 +533,6 @@ void CoinControlDialog::updateDialogLabels()
     multisigDialog->updateCoinControl(nAmount, nQuantity);
 }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 void CoinControlDialog::updateLabels(WalletModel* model, QDialog* dialog)
 {
     if (!model)
@@ -686,14 +633,6 @@ void CoinControlDialog::updateLabels(WalletModel* model, QDialog* dialog)
         if (nPayAmount > 0) {
             nChange = nAmount - nPayFee - nPayAmount;
 
-<<<<<<< HEAD
-=======
-            // DS Fee = overpay
-            if (coinControl->useObfuScation && nChange > 0) {
-                nPayFee += nChange;
-                nChange = 0;
-            }
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             // Never create dust outputs; if we would, just add the dust to the fee.
             if (nChange > 0 && nChange < CENT) {
                 CTxOut txout(nChange, (CScript)vector<unsigned char>(24, 0));
@@ -808,11 +747,7 @@ void CoinControlDialog::updateView()
     int nDisplayUnit = model->getOptionsModel()->getDisplayUnit();
     double mempoolEstimatePriority = mempool.estimatePriority(nTxConfirmTarget);
 
-<<<<<<< HEAD
     map<QString, vector<COutput>> mapCoins;
-=======
-    map<QString, vector<COutput> > mapCoins;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     model->listCoins(mapCoins);
 
     BOOST_FOREACH (PAIRTYPE(QString, vector<COutput>) coins, mapCoins) {
@@ -843,16 +778,12 @@ void CoinControlDialog::updateView()
         double dPrioritySum = 0;
         int nChildren = 0;
         int nInputSum = 0;
-<<<<<<< HEAD
         for(const COutput& out: coins.second) {
             isminetype mine = pwalletMain->IsMine(out.tx->vout[out.i]);
             bool fMultiSigUTXO = (mine & ISMINE_MULTISIG);
             // when multisig is enabled, it will only display outputs from multisig addresses
             if (fMultisigEnabled && !fMultiSigUTXO)
                 continue;
-=======
-        BOOST_FOREACH (const COutput& out, coins.second) {
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             int nInputSize = 0;
             nSum += out.tx->vout[out.i].nValue;
             nChildren++;
@@ -865,7 +796,6 @@ void CoinControlDialog::updateView()
             itemOutput->setFlags(flgCheckbox);
             itemOutput->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
 
-<<<<<<< HEAD
             //MultiSig
             if (fMultiSigUTXO) {
                 itemOutput->setText(COLUMN_TYPE, "MultiSig");
@@ -880,8 +810,6 @@ void CoinControlDialog::updateView()
                 itemOutput->setText(COLUMN_TYPE, "Personal");
             }
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             // address
             CTxDestination outputAddress;
             QString sAddress = "";
@@ -923,20 +851,6 @@ void CoinControlDialog::updateView()
             itemOutput->setToolTip(COLUMN_DATE, GUIUtil::dateTimeStr(out.tx->GetTxTime()));
             itemOutput->setText(COLUMN_DATE_INT64, strPad(QString::number(out.tx->GetTxTime()), 20, " "));
 
-<<<<<<< HEAD
-=======
-
-            // ds+ rounds
-            CTxIn vin = CTxIn(out.tx->GetHash(), out.i);
-            int rounds = pwalletMain->GetInputCoinMixingRounds(vin);
-
-            if (rounds >= 0)
-                itemOutput->setText(COLUMN_COINMIXING_ROUNDS, strPad(QString::number(rounds), 11, " "));
-            else
-                itemOutput->setText(COLUMN_COINMIXING_ROUNDS, strPad(QString(tr("n/a")), 11, " "));
-
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             // confirmations
             itemOutput->setText(COLUMN_CONFIRMATIONS, strPad(QString::number(out.nDepth), 8, " "));
 

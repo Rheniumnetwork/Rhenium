@@ -1,10 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2016-2017 The PIVX developers
 // Copyright (c) 2017 The Rhenium developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,11 +28,7 @@ string SanitizeString(const string& str)
      * safeChars chosen to allow simple messages/URLs/email addresses, but avoid anything
      * even possibly remotely dangerous like & or >
      */
-<<<<<<< HEAD
     static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890 .,;_-/:?@()");
-=======
-    static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890 .,;_/:?@()");
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     string strResult;
     for (std::string::size_type i = 0; i < str.size(); i++) {
         if (safeChars.find(str[i]) != std::string::npos)

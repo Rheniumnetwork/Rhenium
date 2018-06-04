@@ -38,11 +38,7 @@ namespace GUIUtil
 QString dateTimeStr(const QDateTime& datetime);
 QString dateTimeStr(qint64 nTime);
 
-<<<<<<< HEAD
 // Render Rhenium addresses in moRheniumpace font
-=======
-// Render Rhenium addresses in monospace font
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 QFont bitcoinAddressFont();
 
 // Set up widgets for address and amounts

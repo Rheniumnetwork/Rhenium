@@ -1,42 +1,42 @@
 compat/libbitcoin_util_a-strnlen.o: compat/strnlen.cpp \
- config/Rhenium-config.h /usr/include/c++/4.8/cstring \
- /usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++config.h \
- /usr/include/c++/4.8/x86_64-w64-mingw32/bits/os_defines.h \
- /usr/include/c++/4.8/x86_64-w64-mingw32/bits/cpu_defines.h \
- /usr/share/mingw-w64/include/string.h \
- /usr/share/mingw-w64/include/crtdefs.h \
- /usr/share/mingw-w64/include/_mingw.h \
- /usr/share/mingw-w64/include/_mingw_mac.h \
- /usr/share/mingw-w64/include/_mingw_secapi.h \
- /usr/share/mingw-w64/include/vadefs.h \
- /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
- /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
- /usr/share/mingw-w64/include/sec_api/string_s.h
+ /usr/include/stdc-predef.h config/Rhenium-config.h \
+ /usr/include/c++/4.8/cstring \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string3.h
+
+/usr/include/stdc-predef.h:
 
 config/Rhenium-config.h:
 
 /usr/include/c++/4.8/cstring:
 
-/usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++config.h:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:
 
-/usr/include/c++/4.8/x86_64-w64-mingw32/bits/os_defines.h:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h:
 
-/usr/include/c++/4.8/x86_64-w64-mingw32/bits/cpu_defines.h:
+/usr/include/features.h:
 
-/usr/share/mingw-w64/include/string.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/share/mingw-w64/include/crtdefs.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/share/mingw-w64/include/_mingw.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/share/mingw-w64/include/_mingw_mac.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/share/mingw-w64/include/_mingw_secapi.h:
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h:
 
-/usr/share/mingw-w64/include/vadefs.h:
+/usr/include/string.h:
 
-/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
 
-/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+/usr/include/xlocale.h:
 
-/usr/share/mingw-w64/include/sec_api/string_s.h:
+/usr/include/x86_64-linux-gnu/bits/string3.h:

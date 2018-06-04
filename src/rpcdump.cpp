@@ -1,10 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -425,11 +421,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_WALLET_ERROR, "Private key for address " + strAddress + " is not known");
 
     uint256 privKey = vchSecret.GetPrivKey_256();
-<<<<<<< HEAD
     string encryptedOut = BIP38_Encrypt(strAddress, strPassphrase, privKey, vchSecret.IsCompressed());
-=======
-    string encryptedOut = BIP38_Encrypt(strAddress, strPassphrase, privKey);
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     Object result;
     result.push_back(Pair("Addess", strAddress));
@@ -445,13 +437,8 @@ Value bip38decrypt(const Array& params, bool fHelp)
             "bip38decrypt \"Rheniumaddress\"\n"
             "\nDecrypts and then imports password protected private key.\n"
             "\nArguments:\n"
-<<<<<<< HEAD
             "1. \"encryptedkey\"   (string, required) The encrypted private key\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with\n"
-=======
-            "1. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with\n"
-            "2. \"encryptedkey\"   (string, required) The encrypted private key\n"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
             "\nResult:\n"
             "\"key\"                (string) The decrypted private key\n"
@@ -460,13 +447,8 @@ Value bip38decrypt(const Array& params, bool fHelp)
     EnsureWalletIsUnlocked();
 
     /** Collect private key and passphrase **/
-<<<<<<< HEAD
     string strKey = params[0].get_str();
     string strPassphrase = params[1].get_str();
-=======
-    string strPassphrase = params[0].get_str();
-    string strKey = params[1].get_str();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     uint256 privKey;
     bool fCompressed;

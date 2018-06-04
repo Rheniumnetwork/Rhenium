@@ -54,11 +54,7 @@ public:
     ~BitcoinGUI();
 
     /** Set the client model.
-<<<<<<< HEAD
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agRheniumtic.
-=======
-        The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     */
     void setClientModel(ClientModel* clientModel);
 
@@ -87,11 +83,7 @@ private:
 
     UnitDisplayStatusBarControl* unitDisplayControl;
     QLabel* labelStakingIcon;
-<<<<<<< HEAD
     QPushButton* labelEncryptionIcon;
-=======
-    QLabel* labelEncryptionIcon;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     QPushButton* labelConnectionsIcon;
     QLabel* labelBlocksIcon;
     QLabel* progressBarLabel;
@@ -109,17 +101,12 @@ private:
     QAction* signMessageAction;
     QAction* verifyMessageAction;
     QAction* bip38ToolAction;
-<<<<<<< HEAD
     QAction* multisigCreateAction;
     QAction* multisigSpendAction;
     QAction* multisigSignAction;
     QAction* aboutAction;
     QAction* receiveCoinsAction;
     QAction* privacyAction;
-=======
-    QAction* aboutAction;
-    QAction* receiveCoinsAction;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     QAction* optionsAction;
     QAction* toggleHideAction;
     QAction* encryptWalletAction;
@@ -218,15 +205,10 @@ private slots:
     void gotoBlockExplorerPage();
     /** Switch to masternode page */
     void gotoMasternodePage();
-<<<<<<< HEAD
     /** Switch to privacy page */
     void gotoReceiveCoinsPage();
     /** Switch to receive coins page */
     void gotoPrivacyPage();
-=======
-    /** Switch to receive coins page */
-    void gotoReceiveCoinsPage();
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
 
@@ -236,14 +218,10 @@ private slots:
     void gotoVerifyMessageTab(QString addr = "");
     /** Show MultiSend Dialog */
     void gotoMultiSendDialog();
-<<<<<<< HEAD
     /** Show MultiSig Dialog */
     void gotoMultisigCreate();
     void gotoMultisigSpend();
     void gotoMultisigSign();
-=======
-
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     /** Show BIP 38 tool - default to Encryption tab */
     void gotoBip38Tool();
 
@@ -293,11 +271,7 @@ private:
 
     /** Shows context menu with Display Unit options by the mouse coordinates */
     void onDisplayUnitsClicked(const QPoint& point);
-<<<<<<< HEAD
     /** Creates context menu, its actions, and Rheniums up all the relevant signals for mouse events. */
-=======
-    /** Creates context menu, its actions, and wires up all the relevant signals for mouse events. */
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     void createContextMenu();
 
 private slots:

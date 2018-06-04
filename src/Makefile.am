@@ -29,10 +29,7 @@ LIBBITCOIN_CLI=libbitcoin_cli.a
 LIBBITCOIN_UTIL=libbitcoin_util.a
 LIBBITCOIN_CRYPTO=crypto/libbitcoin_crypto.a
 LIBBITCOIN_UNIVALUE=univalue/libbitcoin_univalue.a
-<<<<<<< HEAD
 LIBBITCOIN_ZEROCOIN=libzerocoin/libbitcoin_zerocoin.a
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 LIBBITCOINQT=qt/libbitcoinqt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
@@ -46,10 +43,7 @@ EXTRA_LIBRARIES = \
   libbitcoin_util.a \
   libbitcoin_common.a \
   univalue/libbitcoin_univalue.a \
-<<<<<<< HEAD
   libzerocoin/libbitcoin_zerocoin.a \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   libbitcoin_server.a \
   libbitcoin_cli.a
 if ENABLE_WALLET
@@ -83,11 +77,8 @@ endif
 # Rhenium core #
 BITCOIN_CORE_H = \
   activemasternode.h \
-<<<<<<< HEAD
   accumulators.h \
   accumulatormap.h \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   addrman.h \
   alert.h \
   allocators.h \
@@ -109,19 +100,12 @@ BITCOIN_CORE_H = \
   compressor.h \
   primitives/block.h \
   primitives/transaction.h \
-<<<<<<< HEAD
   primitives/zerocoin.h \
   core_io.h \
   crypter.h \
   denomination_functions.h \
   obfuscation.h \
   obfuscation-relay.h \
-=======
-  core_io.h \
-  crypter.h \
-  coinmixing.h \
-  coinmixing-relay.h \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   db.h \
   eccryptoverify.h \
   ecwrapper.h \
@@ -150,10 +134,7 @@ BITCOIN_CORE_H = \
   protocol.h \
   pubkey.h \
   random.h \
-<<<<<<< HEAD
   reverse_iterate.h \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   rpcclient.h \
   rpcprotocol.h \
   rpcserver.h \
@@ -165,19 +146,13 @@ BITCOIN_CORE_H = \
   script/script_error.h \
   serialize.h \
   spork.h \
-<<<<<<< HEAD
   sporkdb.h \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   streams.h \
   sync.h \
   threadsafety.h \
   timedata.h \
   tinyformat.h \
-<<<<<<< HEAD
   torcontrol.h \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   txdb.h \
   txmempool.h \
   ui_interface.h \
@@ -195,12 +170,8 @@ BITCOIN_CORE_H = \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
-<<<<<<< HEAD
   zmq/zmqpublishnotifier.h \
   compat/sanity.h
-=======
-  zmq/zmqpublishnotifier.h
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 JSON_H = \
   json/json_spirit.h \
@@ -220,11 +191,7 @@ obj/build.h: FORCE
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
 # server: shared between Rheniumd and Rhenium-qt
-<<<<<<< HEAD
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
-=======
-libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
@@ -249,13 +216,9 @@ libbitcoin_server_a_SOURCES = \
   rpcrawtransaction.cpp \
   rpcserver.cpp \
   script/sigcache.cpp \
-<<<<<<< HEAD
   sporkdb.cpp \
   timedata.cpp \
   torcontrol.cpp \
-=======
-  timedata.cpp \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   txdb.cpp \
   txmempool.cpp \
   validationinterface.cpp \
@@ -266,11 +229,7 @@ if ENABLE_ZMQ
 LIBBITCOIN_ZMQ=libbitcoin_zmq.a
 
 libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-<<<<<<< HEAD
 libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-=======
-libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(XRH_FLAGS)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 libbitcoin_zmq_a_SOURCES = \
   zmq/zmqabstractnotifier.cpp \
   zmq/zmqnotificationinterface.cpp \
@@ -285,14 +244,9 @@ libbitcoin_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_SOURCES = \
   activemasternode.cpp \
   bip38.cpp \
-<<<<<<< HEAD
   denomination_functions.cpp \
   obfuscation.cpp \
   obfuscation-relay.cpp \
-=======
-  coinmixing.cpp \
-  coinmixing-relay.cpp \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   db.cpp \
   crypter.cpp \
   rhenfast.cpp \
@@ -303,10 +257,7 @@ libbitcoin_wallet_a_SOURCES = \
   masternodeconfig.cpp \
   masternodeman.cpp \
   rpcdump.cpp \
-<<<<<<< HEAD
   primitives/zerocoin.cpp \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   rpcwallet.cpp \
   kernel.cpp \
   wallet.cpp \
@@ -326,17 +277,13 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/scrypt.cpp \
   crypto/ripemd160.cpp \
-<<<<<<< HEAD
   crypto/sph_md_helper.c \
   crypto/sph_sha2big.c \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   crypto/aes_helper.c \
   crypto/blake.c \
   crypto/bmw.c \
   crypto/groestl.c \
   crypto/jh.c \
-<<<<<<< HEAD
   crypto/luffa.c \
   crypto/keccak.c \
   crypto/skein.c \
@@ -350,10 +297,6 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/hamsi.c \
   crypto/fugue.c \
   crypto/sha2.c \
-=======
-  crypto/keccak.c \
-  crypto/skein.c \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   crypto/common.h \
   crypto/sha256.h \
   crypto/sha512.h \
@@ -368,7 +311,6 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_groestl.h \
   crypto/sph_jh.h \
   crypto/sph_keccak.h \
-<<<<<<< HEAD
   crypto/sph_luffa.h \
   crypto/sph_shavite.h \
   crypto/sph_hamsi.h \
@@ -381,9 +323,6 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_whirlpool.h \
   crypto/sph_sha2.h \
   crypto/sph_haval.h \
-=======
-  crypto/sph_skein.h \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   crypto/sph_types.h
 
 # univalue JSON library
@@ -394,7 +333,6 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-<<<<<<< HEAD
 # libzerocoin library
 libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Accumulator.h \
@@ -423,11 +361,6 @@ libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
   accumulatormap.cpp \
-=======
-# common: shared between Rheniumd, and Rhenium-qt and non-server tools
-libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
-libbitcoin_common_a_SOURCES = \
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   allocators.cpp \
   amount.cpp \
   base58.cpp \
@@ -437,10 +370,7 @@ libbitcoin_common_a_SOURCES = \
   compressor.cpp \
   primitives/block.cpp \
   primitives/transaction.cpp \
-<<<<<<< HEAD
   primitives/zerocoin.cpp \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   core_read.cpp \
   core_write.cpp \
   eccryptoverify.cpp \
@@ -457,10 +387,7 @@ libbitcoin_common_a_SOURCES = \
   script/standard.cpp \
   script/script_error.cpp \
   spork.cpp \
-<<<<<<< HEAD
   sporkdb.cpp \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   $(BITCOIN_CORE_H)
 
 # util: shared between all executables.
@@ -503,10 +430,7 @@ Rheniumd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
-<<<<<<< HEAD
   $(LIBBITCOIN_ZEROCOIN) \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBLEVELDB) \
@@ -527,11 +451,7 @@ if TARGET_WINDOWS
 Rheniumd_SOURCES += Rheniumd-res.rc
 endif
 
-<<<<<<< HEAD
 Rheniumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-=======
-Rheniumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 Rheniumd_CPPFLAGS = $(BITCOIN_INCLUDES)
 Rheniumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
@@ -542,31 +462,20 @@ Rhenium_cli_LDADD = \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
-<<<<<<< HEAD
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
-=======
-  $(CRYPTO_LIBS)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 Rhenium_cli_SOURCES = \
   Rhenium-cli.cpp
 
-<<<<<<< HEAD
 Rhenium_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-=======
-Rhenium_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 #
 
 # Rhenium-tx binary #
 Rhenium_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
-<<<<<<< HEAD
   $(LIBBITCOIN_ZEROCOIN) \
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1) \

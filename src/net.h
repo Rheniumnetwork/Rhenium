@@ -1,9 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -114,10 +111,7 @@ bool IsLimited(enum Network net);
 bool IsLimited(const CNetAddr& addr);
 bool AddLocal(const CService& addr, int nScore = LOCAL_NONE);
 bool AddLocal(const CNetAddr& addr, int nScore = LOCAL_NONE);
-<<<<<<< HEAD
 bool RemoveLocal(const CService& addr);
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 bool SeenLocal(const CService& addr);
 bool IsLocal(const CService& addr);
 bool GetLocal(CService& addr, const CNetAddr* paddrPeer = NULL);
@@ -245,17 +239,10 @@ public:
     std::string addrName;
     CService addrLocal;
     int nVersion;
-<<<<<<< HEAD
     // strSubVer is whatever byte array we read from the Rhenium. However, this field is intended
     // to be printed out, displayed to humans in various forms and so on. So we sanitize it and
     // store the sanitized version in cleanSubVer. The original should be used when dealing with
     // the network or Rhenium types and the cleaned string used when displayed or logged.
-=======
-    // strSubVer is whatever byte array we read from the wire. However, this field is intended
-    // to be printed out, displayed to humans in various forms and so on. So we sanitize it and
-    // store the sanitized version in cleanSubVer. The original should be used when dealing with
-    // the network or wire types and the cleaned string used when displayed or logged.
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     std::string strSubVer, cleanSubVer;
     bool fWhitelisted; // This peer can bypass DoS banning.
     bool fOneShot;

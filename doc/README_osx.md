@@ -92,10 +92,6 @@ build process to remain somewhat deterministic. Here's how it works:
   that have been previously (deterministically) built in order to create a
   final dmg.
 - **TODO** The Apple keyholder uses this unsigned app to create a detached signature,
-<<<<<<< HEAD
   using the script that is also included there. Detached signatures are available from this [repository](https://github.com/eastcoastcrypto/Rhenium-detached-sigs).
-=======
-  using the script that is also included there. Detached signatures are available from this [repository](https://github.com/Rhenium-Project/Rhenium-detached-sigs).
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 - Builders feed the unsigned app + detached signature back into Gitian. It
   uses the pre-built tools to recombine the pieces into a deterministic dmg.

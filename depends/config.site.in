@@ -19,12 +19,6 @@ fi
 if test -z $with_protoc_bindir; then
   with_protoc_bindir=$depends_prefix/native/bin
 fi
-<<<<<<< HEAD
-=======
-if test -z $with_comparison_tool; then
-  with_comparison_tool=$depends_prefix/native/share/BitcoindComparisonTool_jar/BitcoindComparisonTool.jar
-fi
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
 
 if test -z $enable_wallet && test -n "@no_wallet@"; then
@@ -69,10 +63,6 @@ LDFLAGS="-L$depends_prefix/lib $LDFLAGS"
 CC="@CC@"
 CXX="@CXX@"
 OBJC="${CC}"
-<<<<<<< HEAD
-=======
-OBJCXX="${CXX}"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 CCACHE=$depends_prefix/native/bin/ccache
 PYTHONPATH=$depends_prefix/native/lib/python/dist-packages:$PYTHONPATH
 

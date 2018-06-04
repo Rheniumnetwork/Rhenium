@@ -6,11 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-<<<<<<< HEAD
 !define COMPANY "@PACKAGE_NAME@ project"
-=======
-!define COMPANY "Rhenium Core project"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 !define URL https://www.Rhenium.org
 
 # MUI Symbol Definitions
@@ -24,11 +20,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "@PACKAGE_NAME@"
-<<<<<<< HEAD
 !define MUI_FINISHPAGE_RUN $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
-=======
-!define MUI_FINISHPAGE_RUN $INSTDIR\Rhenium-qt.exe
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "@abs_top_srcdir@/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -56,11 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-<<<<<<< HEAD
 OutFile @abs_top_srcdir@/@PACKAGE_TARNAME@-${VERSION}-win@WINDOWS_BITS@-setup.exe
-=======
-OutFile @abs_top_srcdir@/Rhenium-${VERSION}-win@WINDOWS_BITS@-setup.exe
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 !if "@WINDOWS_BITS@" == "64"
 InstallDir $PROGRAMFILES64\Rhenium
 !else
@@ -71,11 +59,7 @@ XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-<<<<<<< HEAD
 VIAddVersionKey ProductName "@PACKAGE_NAME@"
-=======
-VIAddVersionKey ProductName "Rhenium Core"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -89,32 +73,16 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-<<<<<<< HEAD
     File @abs_top_srcdir@/release/@BITCOIN_GUI_NAME@@EXEEXT@
     File /oname=COPYING.txt @abs_top_srcdir@/COPYING
     File /oname=readme.txt @abs_top_srcdir@/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
     File @abs_top_srcdir@/release/@BITCOIN_DAEMON_NAME@@EXEEXT@
     File @abs_top_srcdir@/release/@BITCOIN_CLI_NAME@@EXEEXT@
-=======
-    File @abs_top_srcdir@/release/Rhenium-qt.exe
-    File /oname=COPYING.txt @abs_top_srcdir@/COPYING
-    File /oname=readme.txt @abs_top_srcdir@/doc/README_windows.txt
-    SetOutPath $INSTDIR\daemon
-    File @abs_top_srcdir@/release/Rheniumd.exe
-    File @abs_top_srcdir@/release/Rhenium-cli.exe
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     SetOutPath $INSTDIR\doc
     File /r @abs_top_srcdir@/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
-<<<<<<< HEAD
-=======
-
-    # Remove old wxwidgets-based-Rhenium executable and locales:
-    Delete /REBOOTOK $INSTDIR\Rhenium.exe
-    RMDir /r /REBOOTOK $INSTDIR\locale
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 SectionEnd
 
 Section -post SEC0001
@@ -123,12 +91,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-<<<<<<< HEAD
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_NAME@ (testnet, @WINDOWS_BITS@-bit).lnk" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" "-testnet" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" 1
-=======
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\Rhenium-qt.exe
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -139,17 +103,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-<<<<<<< HEAD
     WriteRegStr HKCR "@PACKAGE_TARNAME@" "URL Protocol" ""
     WriteRegStr HKCR "@PACKAGE_TARNAME@" "" "URL:Rhenium"
     WriteRegStr HKCR "@PACKAGE_TARNAME@\DefaultIcon" "" $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
     WriteRegStr HKCR "@PACKAGE_TARNAME@\shell\open\command" "" '"$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" "%1"'
-=======
-    WriteRegStr HKCR "Rhenium" "URL Protocol" ""
-    WriteRegStr HKCR "Rhenium" "" "URL:Rhenium"
-    WriteRegStr HKCR "Rhenium\DefaultIcon" "" $INSTDIR\Rhenium-qt.exe
-    WriteRegStr HKCR "Rhenium\shell\open\command" "" '"$INSTDIR\Rhenium-qt.exe" "%1"'
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -167,11 +124,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-<<<<<<< HEAD
     Delete /REBOOTOK $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
-=======
-    Delete /REBOOTOK $INSTDIR\Rhenium-qt.exe
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -183,10 +136,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-<<<<<<< HEAD
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_NAME@ (testnet, @WINDOWS_BITS@-bit).lnk"
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     Delete /REBOOTOK "$SMSTARTUP\Rhenium.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
@@ -195,11 +145,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-<<<<<<< HEAD
     DeleteRegKey HKCR "@PACKAGE_TARNAME@"
-=======
-    DeleteRegKey HKCR "Rhenium"
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

@@ -1,11 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-<<<<<<< HEAD
 // Copyright (c) 2015-2017 The PIVX developers
-=======
-// Copyright (c) 2015-2017 The Rhenium developers
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +31,6 @@
 using namespace json_spirit;
 using namespace std;
 
-<<<<<<< HEAD
 #ifdef ENABLE_WALLET
 // Key used by getwork miners.
 // Allocated in InitRPCMining, free'd in ShutdownRPCMining
@@ -66,8 +61,6 @@ void ShutdownRPCMining()
 }
 #endif
 
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 /**
  * Return average network hashes per second based on the last 'lookup' blocks,
  * or from the last difficulty change if 'lookup' is nonpositive.
@@ -200,11 +193,7 @@ Value setgenerate(const Array& params, bool fHelp)
         unsigned int nExtraNonce = 0;
         Array blockHashes;
         while (nHeight < nHeightEnd) {
-<<<<<<< HEAD
             unique_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey, pwalletMain, false));
-=======
-            auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey, pwalletMain, false));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
             if (!pblocktemplate.get())
                 throw JSONRPCError(RPC_INTERNAL_ERROR, "Wallet keypool empty");
             CBlock* pblock = &pblocktemplate->block;
@@ -531,7 +520,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
             delete pblocktemplate;
             pblocktemplate = NULL;
         }
-<<<<<<< HEAD
 		
 		/* TODO-- too poor as per performance, but only way */
 		
@@ -540,9 +528,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 			return Value::null;
 		
         CScript scriptDummy = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
-=======
-        CScript scriptDummy = CScript() << OP_TRUE;
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
         pblocktemplate = CreateNewBlock(scriptDummy, pwalletMain, false);
         if (!pblocktemplate)
             throw JSONRPCError(RPC_OUT_OF_MEMORY, "Out of memory");
@@ -587,7 +572,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 
         transactions.push_back(entry);
     }
-<<<<<<< HEAD
 	
 	Array coinbasetxn;
     map<uint256, int64_t> setTxIndex1;
@@ -620,8 +604,6 @@ Value getblocktemplate(const Array& params, bool fHelp)
 			coinbasetxn.push_back(entry);
 		}
     }
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
 
     Object aux;
     aux.push_back(Pair("flags", HexStr(COINBASE_FLAGS.begin(), COINBASE_FLAGS.end())));
@@ -644,22 +626,14 @@ Value getblocktemplate(const Array& params, bool fHelp)
     result.push_back(Pair("transactions", transactions));
     result.push_back(Pair("coinbaseaux", aux));
     result.push_back(Pair("coinbasevalue", (int64_t)pblock->vtx[0].GetValueOut()));
-<<<<<<< HEAD
 	result.push_back(Pair("coinbasetxn", coinbasetxn[0]));
-=======
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     result.push_back(Pair("longpollid", chainActive.Tip()->GetBlockHash().GetHex() + i64tostr(nTransactionsUpdatedLast)));
     result.push_back(Pair("target", hashTarget.GetHex()));
     result.push_back(Pair("mintime", (int64_t)pindexPrev->GetMedianTimePast() + 1));
     result.push_back(Pair("mutable", aMutable));
     result.push_back(Pair("noncerange", "00000000ffffffff"));
-<<<<<<< HEAD
 //    result.push_back(Pair("sigoplimit", (int64_t)MAX_BLOCK_SIGOPS));
 //    result.push_back(Pair("sizelimit", (int64_t)MAX_BLOCK_SIZE));
-=======
-    result.push_back(Pair("sigoplimit", (int64_t)MAX_BLOCK_SIGOPS));
-    result.push_back(Pair("sizelimit", (int64_t)MAX_BLOCK_SIZE));
->>>>>>> 3cb3aa92098e45afdbb5a3121b74b2ebf7e1705e
     result.push_back(Pair("curtime", pblock->GetBlockTime()));
     result.push_back(Pair("bits", strprintf("%08x", pblock->nBits)));
     result.push_back(Pair("height", (int64_t)(pindexPrev->nHeight + 1)));
